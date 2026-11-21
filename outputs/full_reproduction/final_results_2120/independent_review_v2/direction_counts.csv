@@ -1,0 +1,13 @@
+﻿family,loss_variant,metric,cohorts,lower_both_mean,lower_MLP_mean,lower_CNN_mean,lower_both_SD_ddof0,lower_both_SD_ddof1
+regular,published_label_monotonicity,MAE,11,9,9,9,10,10
+regular,published_label_monotonicity,MAPE,11,9,9,9,10,10
+regular,published_label_monotonicity,RMSE,11,9,9,9,11,11
+regular,paper_prediction_monotonicity,MAE,11,0,0,2,11,11
+regular,paper_prediction_monotonicity,MAPE,11,0,0,2,11,11
+regular,paper_prediction_monotonicity,RMSE,11,0,0,2,11,11
+small_sample,published_label_monotonicity,MAE,28,25,25,28,26,26
+small_sample,published_label_monotonicity,MAPE,28,25,25,28,26,26
+small_sample,published_label_monotonicity,RMSE,28,25,25,28,26,26
+small_sample,paper_prediction_monotonicity,MAE,28,4,4,15,27,27
+small_sample,paper_prediction_monotonicity,MAPE,28,5,5,15,27,27
+small_sample,paper_prediction_monotonicity,RMSE,28,5,5,21,27,27

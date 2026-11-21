@@ -1,0 +1,640 @@
+{
+  "format": "pinn4soh-rendered-paper-results-v1",
+  "created_at": "2026-11-10T10:57:06.430814+00:00",
+  "synthetic_layout_fixture": false,
+  "training_performed": false,
+  "script_sha256": "d0b96b6d21d81bc8087806576cdafc3bd99896372ca100840164a86738d10328",
+  "input_sha256": {
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\suite_report.json": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\suite_evidence_index.json": "783a0ea8e2fb887b54c452191d255212c605204a12918f62c56cc3d4d2979f2c",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\tasks.part001.json": "c6bb147a59a37b1438b25bcbd4616147abf32f8b877ae9942777722997ce79ff",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\training_histories.part001.json": "87791d741bdfc7f67292b191184f42e0b67a4dd36c8b0ba3af4f69427ee47229",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\curve_truth.part001.json": "2000add7be5b63f909ab40949672b8d826c7db8a0cb6cd44c7cc69565782695d",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\curve_predictions.part001.json": "9be0308f9f4a529ab24bc9053f2b25e5197c9b03289a3e64081fb2ff9f462f48",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\task_audit.csv": "bb52f5fce5a2523f2cf04c15eb0574461cb227b9c0028f4d346e38240e3eceed",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_task_audit.part001.json": "3752fb4542e2731b248bdbabf9e4bf1416ca02e96b4cb6cd6a9643348a9a4319",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\per_repeat.csv": "8cb70e001c4c3d4b1b001f6159d8e6e748ef1d549f95e8a76c4fec4723ca7e02",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_per_repeat.part001.json": "8fbaa60039d51980df78f1fad607f88933fae324c5ad2ff8fdba0a1a0723f852",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\per_battery.csv": "0e256e83be1066b9806b30810d9f72d0a65bd67581bc087aeb275764712a9eef",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_per_battery.part001.json": "22096c37c99482880e45a4d7625fc27108476a14958c6187ba5a2cb3c2212179",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_per_battery.part002.json": "b07ea14c51e0e48c000734a0b2ce3d03c3ce7e5cc8f5bc1a74b3e8226949ebf1",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\repeat_summaries.csv": "05ef029a36b2521576636990a6bae9424d97dea37ea2b8f0c264c37006c716f5",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_repeat_summaries.part001.json": "acb0b0379b0396ddffae372baa1bfdb3733f093b50cea6eb5eeb24da236e13a5",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\per_battery_summaries.csv": "8f351fef9013e09e7d08fd69e039ee9fb3ca21a8d3e88a1833230a2aaeab2849",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_per_battery_summaries.part001.json": "d9c4f1ce67205798654e4a021d03ba5e67e339c2716d25df7836d58e3a7caf97",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\published_comparisons.csv": "87c37a3f84b5dbb02aefa8a163f7595b1e60a9ab32d3592cbba3121cfa4be2eb",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_published_comparisons.part001.json": "028607607729f5a26be1a8fde725cdcf63dc8f39f67df8747ec7928749286d4e",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\comparison_effects.csv": "68fb08e571e23db89c1a6658cd4bd26e88cd648d0bb2aa6e08267f65dfeedca8",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_comparison_effects.part001.json": "c07b0aaf8775a1fd953bd0bb6c75883059fff0b8625c131d62f2630eaa32c590",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\figure_table_coverage.csv": "87126868e9ba191ff3a8955d03fd1fbb6af6842d64b781880075c36eff4f3fc6",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_figure_table_coverage.part001.json": "be81d416c3c264fc058c6179e11f9e0b3fa2d7d42fd024e8e130eeff4c9350cd",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\claim_assessments.csv": "31716fc6ef1035f5082ecd37bfaa0f30b2b3f033b9c94bd325f90b92acfefacc",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\table_claim_assessments.part001.json": "dbea79de1d79f3fe39868830cc921e1c88884769b357a095a8e309e60dbca7a5",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_evidence_20261110\\json_nodes.part001.json": "a2fcf29fbf05ed60d2c2d81f5cd218b50e1be89315c82d866bb9d4b7b2d4705f",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\repeat_summaries.csv": "05ef029a36b2521576636990a6bae9424d97dea37ea2b8f0c264c37006c716f5",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\per_repeat.csv": "8cb70e001c4c3d4b1b001f6159d8e6e748ef1d549f95e8a76c4fec4723ca7e02",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\per_battery_summaries.csv": "8f351fef9013e09e7d08fd69e039ee9fb3ca21a8d3e88a1833230a2aaeab2849",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\published_comparisons.csv": "87c37a3f84b5dbb02aefa8a163f7595b1e60a9ab32d3592cbba3121cfa4be2eb",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\comparison_effects.csv": "68fb08e571e23db89c1a6658cd4bd26e88cd648d0bb2aa6e08267f65dfeedca8",
+    "outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_full_report_20261110\\task_audit.csv": "bb52f5fce5a2523f2cf04c15eb0574461cb227b9c0028f4d346e38240e3eceed",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\paper_protocol.json": "a7a3ae32aefadc413401e9b579e74da4abf0dc81cbb97a6cd182adb3c0e34471",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\source_data\\paper_per_battery_tables.csv": "275f43da9cd1576be26f2078acdb88f03f12f5f5833b2027a97747cbb208da81",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\source_data\\paper_table_s7.json": "3388c5c0dae5d179073b58f2bb24f27bec198cd7c566ae0b1ec2b8d19ee16ad2",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\efficiency_formal_20261110\\summary.json": "4772dce08f33bd38bc8a3f4fd7ebb8aea162530725cc1cd9c489a74a4854fd43"
+  },
+  "figures": [
+    {
+      "name": "Fig4a_published",
+      "kind": "figure",
+      "png": "figures\\Fig4a_published.png",
+      "pdf": "figures\\Fig4a_published.pdf"
+    },
+    {
+      "name": "Fig4b_published",
+      "kind": "figure",
+      "png": "figures\\Fig4b_published.png",
+      "pdf": "figures\\Fig4b_published.pdf"
+    },
+    {
+      "name": "Fig5_published",
+      "kind": "figure",
+      "png": "figures\\Fig5_published.png",
+      "pdf": "figures\\Fig5_published.pdf"
+    },
+    {
+      "name": "FigS5_published",
+      "kind": "figure",
+      "png": "figures\\FigS5_published.png",
+      "pdf": "figures\\FigS5_published.pdf"
+    },
+    {
+      "name": "Table_2_published",
+      "kind": "table",
+      "png": "tables\\Table_2_published.png",
+      "pdf": "tables\\Table_2_published.pdf"
+    },
+    {
+      "name": "Table_2_published_difference",
+      "kind": "table",
+      "png": "tables\\Table_2_published_difference.png",
+      "pdf": "tables\\Table_2_published_difference.pdf"
+    },
+    {
+      "name": "Table_3_published",
+      "kind": "table",
+      "png": "tables\\Table_3_published.png",
+      "pdf": "tables\\Table_3_published.pdf"
+    },
+    {
+      "name": "Table_3_published_difference",
+      "kind": "table",
+      "png": "tables\\Table_3_published_difference.png",
+      "pdf": "tables\\Table_3_published_difference.pdf"
+    },
+    {
+      "name": "Table_S7_published_p1",
+      "kind": "table",
+      "png": "tables\\Table_S7_published_p1.png",
+      "pdf": "tables\\Table_S7_published_p1.pdf"
+    },
+    {
+      "name": "Table_S7_published_p2",
+      "kind": "table",
+      "png": "tables\\Table_S7_published_p2.png",
+      "pdf": "tables\\Table_S7_published_p2.pdf"
+    },
+    {
+      "name": "Table_S7_published_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S7_published_difference_p1.png",
+      "pdf": "tables\\Table_S7_published_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S7_published_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S7_published_difference_p2.png",
+      "pdf": "tables\\Table_S7_published_difference_p2.pdf"
+    },
+    {
+      "name": "Table_S3_published",
+      "kind": "table",
+      "png": "tables\\Table_S3_published.png",
+      "pdf": "tables\\Table_S3_published.pdf"
+    },
+    {
+      "name": "Table_S3_published_difference",
+      "kind": "table",
+      "png": "tables\\Table_S3_published_difference.png",
+      "pdf": "tables\\Table_S3_published_difference.pdf"
+    },
+    {
+      "name": "Table_S4_published_p1",
+      "kind": "table",
+      "png": "tables\\Table_S4_published_p1.png",
+      "pdf": "tables\\Table_S4_published_p1.pdf"
+    },
+    {
+      "name": "Table_S4_published_p2",
+      "kind": "table",
+      "png": "tables\\Table_S4_published_p2.png",
+      "pdf": "tables\\Table_S4_published_p2.pdf"
+    },
+    {
+      "name": "Table_S4_published_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S4_published_difference_p1.png",
+      "pdf": "tables\\Table_S4_published_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S4_published_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S4_published_difference_p2.png",
+      "pdf": "tables\\Table_S4_published_difference_p2.pdf"
+    },
+    {
+      "name": "Table_S5_published_p1",
+      "kind": "table",
+      "png": "tables\\Table_S5_published_p1.png",
+      "pdf": "tables\\Table_S5_published_p1.pdf"
+    },
+    {
+      "name": "Table_S5_published_p2",
+      "kind": "table",
+      "png": "tables\\Table_S5_published_p2.png",
+      "pdf": "tables\\Table_S5_published_p2.pdf"
+    },
+    {
+      "name": "Table_S5_published_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S5_published_difference_p1.png",
+      "pdf": "tables\\Table_S5_published_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S5_published_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S5_published_difference_p2.png",
+      "pdf": "tables\\Table_S5_published_difference_p2.pdf"
+    },
+    {
+      "name": "Table_S6_published_p1",
+      "kind": "table",
+      "png": "tables\\Table_S6_published_p1.png",
+      "pdf": "tables\\Table_S6_published_p1.pdf"
+    },
+    {
+      "name": "Table_S6_published_p2",
+      "kind": "table",
+      "png": "tables\\Table_S6_published_p2.png",
+      "pdf": "tables\\Table_S6_published_p2.pdf"
+    },
+    {
+      "name": "Table_S6_published_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S6_published_difference_p1.png",
+      "pdf": "tables\\Table_S6_published_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S6_published_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S6_published_difference_p2.png",
+      "pdf": "tables\\Table_S6_published_difference_p2.pdf"
+    },
+    {
+      "name": "Table_4_published_supplied_author_checkpoint_final",
+      "kind": "table",
+      "png": "tables\\Table_4_published_supplied_author_checkpoint_final.png",
+      "pdf": "tables\\Table_4_published_supplied_author_checkpoint_final.pdf"
+    },
+    {
+      "name": "Table_4_published_supplied_author_checkpoint_final_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_published_supplied_author_checkpoint_final_difference.png",
+      "pdf": "tables\\Table_4_published_supplied_author_checkpoint_final_difference.pdf"
+    },
+    {
+      "name": "Table_4_published_supplied_author_checkpoint_source_only",
+      "kind": "table",
+      "png": "tables\\Table_4_published_supplied_author_checkpoint_source_only.png",
+      "pdf": "tables\\Table_4_published_supplied_author_checkpoint_source_only.pdf"
+    },
+    {
+      "name": "Table_4_published_supplied_author_checkpoint_source_only_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_published_supplied_author_checkpoint_source_only_difference.png",
+      "pdf": "tables\\Table_4_published_supplied_author_checkpoint_source_only_difference.pdf"
+    },
+    {
+      "name": "Table_4_published_reproduced_checkpoint_final",
+      "kind": "table",
+      "png": "tables\\Table_4_published_reproduced_checkpoint_final.png",
+      "pdf": "tables\\Table_4_published_reproduced_checkpoint_final.pdf"
+    },
+    {
+      "name": "Table_4_published_reproduced_checkpoint_final_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_published_reproduced_checkpoint_final_difference.png",
+      "pdf": "tables\\Table_4_published_reproduced_checkpoint_final_difference.pdf"
+    },
+    {
+      "name": "Table_4_published_reproduced_checkpoint_source_only",
+      "kind": "table",
+      "png": "tables\\Table_4_published_reproduced_checkpoint_source_only.png",
+      "pdf": "tables\\Table_4_published_reproduced_checkpoint_source_only.pdf"
+    },
+    {
+      "name": "Table_4_published_reproduced_checkpoint_source_only_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_published_reproduced_checkpoint_source_only_difference.png",
+      "pdf": "tables\\Table_4_published_reproduced_checkpoint_source_only_difference.pdf"
+    },
+    {
+      "name": "Fig4a_paperloss",
+      "kind": "figure",
+      "png": "figures\\Fig4a_paperloss.png",
+      "pdf": "figures\\Fig4a_paperloss.pdf"
+    },
+    {
+      "name": "Fig4b_paperloss",
+      "kind": "figure",
+      "png": "figures\\Fig4b_paperloss.png",
+      "pdf": "figures\\Fig4b_paperloss.pdf"
+    },
+    {
+      "name": "Fig5_paperloss",
+      "kind": "figure",
+      "png": "figures\\Fig5_paperloss.png",
+      "pdf": "figures\\Fig5_paperloss.pdf"
+    },
+    {
+      "name": "FigS5_paperloss",
+      "kind": "figure",
+      "png": "figures\\FigS5_paperloss.png",
+      "pdf": "figures\\FigS5_paperloss.pdf"
+    },
+    {
+      "name": "Table_2_paperloss",
+      "kind": "table",
+      "png": "tables\\Table_2_paperloss.png",
+      "pdf": "tables\\Table_2_paperloss.pdf"
+    },
+    {
+      "name": "Table_2_paperloss_difference",
+      "kind": "table",
+      "png": "tables\\Table_2_paperloss_difference.png",
+      "pdf": "tables\\Table_2_paperloss_difference.pdf"
+    },
+    {
+      "name": "Table_3_paperloss",
+      "kind": "table",
+      "png": "tables\\Table_3_paperloss.png",
+      "pdf": "tables\\Table_3_paperloss.pdf"
+    },
+    {
+      "name": "Table_3_paperloss_difference",
+      "kind": "table",
+      "png": "tables\\Table_3_paperloss_difference.png",
+      "pdf": "tables\\Table_3_paperloss_difference.pdf"
+    },
+    {
+      "name": "Table_S7_paperloss_p1",
+      "kind": "table",
+      "png": "tables\\Table_S7_paperloss_p1.png",
+      "pdf": "tables\\Table_S7_paperloss_p1.pdf"
+    },
+    {
+      "name": "Table_S7_paperloss_p2",
+      "kind": "table",
+      "png": "tables\\Table_S7_paperloss_p2.png",
+      "pdf": "tables\\Table_S7_paperloss_p2.pdf"
+    },
+    {
+      "name": "Table_S7_paperloss_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S7_paperloss_difference_p1.png",
+      "pdf": "tables\\Table_S7_paperloss_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S7_paperloss_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S7_paperloss_difference_p2.png",
+      "pdf": "tables\\Table_S7_paperloss_difference_p2.pdf"
+    },
+    {
+      "name": "Table_S3_paperloss",
+      "kind": "table",
+      "png": "tables\\Table_S3_paperloss.png",
+      "pdf": "tables\\Table_S3_paperloss.pdf"
+    },
+    {
+      "name": "Table_S3_paperloss_difference",
+      "kind": "table",
+      "png": "tables\\Table_S3_paperloss_difference.png",
+      "pdf": "tables\\Table_S3_paperloss_difference.pdf"
+    },
+    {
+      "name": "Table_S4_paperloss_p1",
+      "kind": "table",
+      "png": "tables\\Table_S4_paperloss_p1.png",
+      "pdf": "tables\\Table_S4_paperloss_p1.pdf"
+    },
+    {
+      "name": "Table_S4_paperloss_p2",
+      "kind": "table",
+      "png": "tables\\Table_S4_paperloss_p2.png",
+      "pdf": "tables\\Table_S4_paperloss_p2.pdf"
+    },
+    {
+      "name": "Table_S4_paperloss_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S4_paperloss_difference_p1.png",
+      "pdf": "tables\\Table_S4_paperloss_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S4_paperloss_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S4_paperloss_difference_p2.png",
+      "pdf": "tables\\Table_S4_paperloss_difference_p2.pdf"
+    },
+    {
+      "name": "Table_S5_paperloss_p1",
+      "kind": "table",
+      "png": "tables\\Table_S5_paperloss_p1.png",
+      "pdf": "tables\\Table_S5_paperloss_p1.pdf"
+    },
+    {
+      "name": "Table_S5_paperloss_p2",
+      "kind": "table",
+      "png": "tables\\Table_S5_paperloss_p2.png",
+      "pdf": "tables\\Table_S5_paperloss_p2.pdf"
+    },
+    {
+      "name": "Table_S5_paperloss_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S5_paperloss_difference_p1.png",
+      "pdf": "tables\\Table_S5_paperloss_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S5_paperloss_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S5_paperloss_difference_p2.png",
+      "pdf": "tables\\Table_S5_paperloss_difference_p2.pdf"
+    },
+    {
+      "name": "Table_S6_paperloss_p1",
+      "kind": "table",
+      "png": "tables\\Table_S6_paperloss_p1.png",
+      "pdf": "tables\\Table_S6_paperloss_p1.pdf"
+    },
+    {
+      "name": "Table_S6_paperloss_p2",
+      "kind": "table",
+      "png": "tables\\Table_S6_paperloss_p2.png",
+      "pdf": "tables\\Table_S6_paperloss_p2.pdf"
+    },
+    {
+      "name": "Table_S6_paperloss_difference_p1",
+      "kind": "table",
+      "png": "tables\\Table_S6_paperloss_difference_p1.png",
+      "pdf": "tables\\Table_S6_paperloss_difference_p1.pdf"
+    },
+    {
+      "name": "Table_S6_paperloss_difference_p2",
+      "kind": "table",
+      "png": "tables\\Table_S6_paperloss_difference_p2.png",
+      "pdf": "tables\\Table_S6_paperloss_difference_p2.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_supplied_author_checkpoint_final",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_supplied_author_checkpoint_final.png",
+      "pdf": "tables\\Table_4_paperloss_supplied_author_checkpoint_final.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_supplied_author_checkpoint_final_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_supplied_author_checkpoint_final_difference.png",
+      "pdf": "tables\\Table_4_paperloss_supplied_author_checkpoint_final_difference.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_supplied_author_checkpoint_source_only",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only.png",
+      "pdf": "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_supplied_author_checkpoint_source_only_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only_difference.png",
+      "pdf": "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only_difference.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_reproduced_checkpoint_final",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_reproduced_checkpoint_final.png",
+      "pdf": "tables\\Table_4_paperloss_reproduced_checkpoint_final.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_reproduced_checkpoint_final_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_reproduced_checkpoint_final_difference.png",
+      "pdf": "tables\\Table_4_paperloss_reproduced_checkpoint_final_difference.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_reproduced_checkpoint_source_only",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_reproduced_checkpoint_source_only.png",
+      "pdf": "tables\\Table_4_paperloss_reproduced_checkpoint_source_only.pdf"
+    },
+    {
+      "name": "Table_4_paperloss_reproduced_checkpoint_source_only_difference",
+      "kind": "table",
+      "png": "tables\\Table_4_paperloss_reproduced_checkpoint_source_only_difference.png",
+      "pdf": "tables\\Table_4_paperloss_reproduced_checkpoint_source_only_difference.pdf"
+    },
+    {
+      "name": "Table_S8",
+      "kind": "table",
+      "png": "tables\\Table_S8.png",
+      "pdf": "tables\\Table_S8.pdf"
+    }
+  ],
+  "metric_cell_counts": {
+    "complete": 1066
+  },
+  "ambiguous_group_count": 0,
+  "all_text_geometry_passed": true,
+  "figure_style": "figure-style rules; apply_figure_style; PNG 300 dpi, PDF TrueType",
+  "statistic": "Report-provided mean and sample SD ddof=1; no metric recomputation or cross-configuration pooling",
+  "artifact_sha256": {
+    "ambiguous_groups.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "figure_qa.json": "a767c3b99cdf4dc3e93bf90294b3b31bd85865351a301243f31f8b2de00ecc36",
+    "figure_table_render_status.csv": "8a99613234b2675c67ade1f4272791fe0be96a35695f580b65abe189142acff5",
+    "figure_table_render_status.json": "a880e1444497826ea7175fc971463d84620a45dd86a907c235b2bd37cd4dec47",
+    "plotted_metric_cells.csv": "b3ad76cfcfdddab2dcb8dc44d44b85f4b849868fc514fbf51148f2bf9341cfb7",
+    "repeat1_display_curves.csv": "91eb5007a23e1f7b2c9ec7f2a8bef7892dfa81488218a1564cd2c34e9b2e9dd4",
+    "结果图表简报.md": "897d81531f5b006d45756d6066fff2a5f04c2d4763c72a640b8f532335939b23",
+    "figures\\Fig4a_paperloss.pdf": "89510f1045ce8a81328559c3e89a1517fcd23a20bafa3fb1d6338237cee253b6",
+    "figures\\Fig4a_paperloss.png": "8cdea40df8705fefeea360273c079a4e05850061b234fa47e3a1b495c5b0831b",
+    "figures\\Fig4a_published.pdf": "b4364d82a0dac817ed4bb8b806c07a4d7802b70b199dc47451990adcb97551d0",
+    "figures\\Fig4a_published.png": "c0c8d31cd4621a4c74c9b49c4b1ac104fab50d8362bf2618920ca9a3dac6ca25",
+    "figures\\Fig4b_paperloss.pdf": "f46907fa8f78160712fa91ae4575d0e1233a6c25f657c57d74beb14cb0194f39",
+    "figures\\Fig4b_paperloss.png": "f7f0ac694f94514b93498795caa80674a5e86f1f08a4f90b11a3710e24856ecd",
+    "figures\\Fig4b_published.pdf": "9f1082e3a20f557fbdf1c93ff31ccad1a43fd665c5ea1c70082641076424fa5a",
+    "figures\\Fig4b_published.png": "342032b3b8cdecc5461258663844eee4786530648942fa36f73da21de6661075",
+    "figures\\Fig5_paperloss.pdf": "e8b94932668038cce1a612add97fd6d53e40836f74d2e4785da695a2c5a1f8b8",
+    "figures\\Fig5_paperloss.png": "16c8651c6ad40843a53b1fbe9090b0d3629785f6044dca99586cb4706f2e8397",
+    "figures\\Fig5_published.pdf": "2f7dab5279fa64a687353b2a292e588c509ab2c384cf9f936a32fb43135b9b5c",
+    "figures\\Fig5_published.png": "0fb521600d8240570b10aeba92389fa232a881897e1d33420b491c13159a745c",
+    "figures\\FigS5_paperloss.pdf": "ca348894579c66ee5135af378721804442a9f3ecd2cae9105e118044d86bcfe8",
+    "figures\\FigS5_paperloss.png": "ed2f6db9e6c8bb539867abf96dd2f996d35005f46f9642bf3ef17d825371d33e",
+    "figures\\FigS5_published.pdf": "939f7c4939f287747f1886cf4ab5ccb2dfebf90fda7b18216a61ac961c5196ec",
+    "figures\\FigS5_published.png": "9245c77037c2571af147015ccb52f1d5e25994546081c8771a2942b8aa59d283",
+    "schematics\\Fig1_computational_framework.mmd": "de33a56fab0b8c353d05c3150c3bd76656f543f819f6ed84e6836e89dcaef6f1",
+    "schematics\\Fig6_transfer_framework.mmd": "b5e6022277869fe5f90ee2eafdb12fc0fb3976c7a315f3b055e0eb511762e544",
+    "schematics\\source_audit_sha256.json": "a8dfcbe972bf1cced262c6a9873db614ab59dbf3736c5c13579c401feb261cfc",
+    "schematics\\计算框架说明.md": "2ee369171f68600cd34277b21469d46c29b05ad485891e074a861dd12dcb5d4d",
+    "tables\\comparison_effects_audited.csv": "68fb08e571e23db89c1a6658cd4bd26e88cd648d0bb2aa6e08267f65dfeedca8",
+    "tables\\published_comparisons_audited.csv": "87c37a3f84b5dbb02aefa8a163f7595b1e60a9ab32d3592cbba3121cfa4be2eb",
+    "tables\\Table_2_paperloss.csv": "ea1b6ea8cfd1247edb2df5e656b2037192e10437c3917c0054015541fa7095ef",
+    "tables\\Table_2_paperloss.pdf": "a478d40b18df7d3dc51e35b0bcf93ec8b6998b1baffa021f8cac76c739176a9c",
+    "tables\\Table_2_paperloss.png": "8039dd3e8b6ee026de70bceee579dd453f168be563f3f87479adf2400221c734",
+    "tables\\Table_2_paperloss_difference.pdf": "ca3c3380e6dd8d05239047edc153b2114af663263f4e2d9c96e8a84982a9b390",
+    "tables\\Table_2_paperloss_difference.png": "f55b1c904747abb0c547b8b66a8a007d47db8962888eecdb290fc30309712c18",
+    "tables\\Table_2_published.csv": "6b01735219a9789ef88ca123ba44906248f62292a03f1286c67ce25139c0e7a5",
+    "tables\\Table_2_published.pdf": "043137a641f38c5304613772e9d3790911294027540158dda62bbad9776d8400",
+    "tables\\Table_2_published.png": "ce4a68b01753fdeab99c94335e643c3227b797edace40ed120791f98aaa2f9a1",
+    "tables\\Table_2_published_difference.pdf": "93b4b039c657b295b7e622bc8b3f5fa8196e465ce4f223c7088d31e30595d7c5",
+    "tables\\Table_2_published_difference.png": "5e8d2adf71f4b8ec4fce328258653011d675d19971347a54df7421cc0171abef",
+    "tables\\Table_3_paperloss.csv": "b7a8e138e2b4bf420e1d233a15d055ac137ab101be023738f4b9ba08d04673b9",
+    "tables\\Table_3_paperloss.pdf": "3ae8af9aa5a4119c62e676a23c8cf3ffe1c3eb97bea8fd86b365f2878fc8d394",
+    "tables\\Table_3_paperloss.png": "fe5e2e06cbaa54ef2d58d0a8251493e478aef4d405b15eb579d53d13db6352bd",
+    "tables\\Table_3_paperloss_difference.pdf": "6dc7bd6bb5a5f8a7fda2912d0afcbf2f600a701f1ed3fd0c5841ef6fa3f3a1ed",
+    "tables\\Table_3_paperloss_difference.png": "f4fd21dbf5d9c3ae4d0d50682b3b5a7262e95da30eea4d4d448bb51b8a921ff3",
+    "tables\\Table_3_published.csv": "3e56000878f96a76a5503e5661a821893d0706a942e2f1760e43d4b73c2a50e0",
+    "tables\\Table_3_published.pdf": "9435e3babc93bb87dc81dce98030b7e98a12211e7293ed7df175c69f1dee0a98",
+    "tables\\Table_3_published.png": "1f2f38327888af880cba329982db5167f48ff1acaf2b79bf62890e7d497abbc4",
+    "tables\\Table_3_published_difference.pdf": "1a6652b923468cfa1fad998a1e3385d8e98ed570ec01abb6bf661ba6b6eda464",
+    "tables\\Table_3_published_difference.png": "ff614a658491e1af34553a0dc3bce7d53f85fcc2bde2daf6e9b9dcb1349576ec",
+    "tables\\Table_4_paperloss_reproduced_checkpoint.csv": "0e780a485b808df0bbf823aa384648ca3b088288a07e7df9ce07d0ce6cd259fe",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_final.pdf": "143c4261bafed6580ff910d1bfe4f43ee4813cf9a80a96fc401eb3ccbb1022f9",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_final.png": "05f09e0591b300494b9f7287822dfb05126e50afa10e67717edb7189f748e3d0",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_final_difference.pdf": "dda45237f87cca4f86e4716cc0447a2cbc52c5d53932db123a6981f864076789",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_final_difference.png": "f52e6f5515da77fbddec9232046f3e65f84d6b2880d5d1db4068e5860e772bb9",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_source_only.pdf": "d44bd6bbe4518858f3b60677dd3c683b1f41703de4f20472659cb216ffc5a8fe",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_source_only.png": "6ede518eacf4ad4303597ed7b9673956fd66573b5eb41ae50bf8ceeb25637853",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_source_only_difference.pdf": "4db095db417f48533152d24a7c87990c9351897ca395b8d1445858961d7abb5e",
+    "tables\\Table_4_paperloss_reproduced_checkpoint_source_only_difference.png": "5d54b689f67862a787e7e37a26f320e197a7aebee499f8a505d34f10d25b2aa2",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint.csv": "ce5710f3f8406c8d8472b546bec04ca80cd63a24190b0c01162914385fca5ec5",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_final.pdf": "6ed524c1eccedbac04e24876c9ad3b4556215ad522c0839b2713ea1fcf16d476",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_final.png": "cb4be257f9a4eb5c1c2dbbe43bdfb066b70af9bde18a0eae2f057038d6525653",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_final_difference.pdf": "0435896aebc15ac40f3ed4a4fda6209bf02e02ed53d37834b8c0c8f62ce4707e",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_final_difference.png": "e105a0aa13ee7f72047f8fe058e46126a61ff1d37cbeb1914d30c7fbe7d7fd7e",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only.pdf": "e33c2e9e212e0a534bf339c3b6a4292eec777c04972f7b4c6c8ceefa9b8b8120",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only.png": "587af46c6f392fb8c029980c5765654699cada0a9a706f7b56f60bcf1794dd3b",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only_difference.pdf": "8550a15a15ae534adbcd280bcbcf879cc088584523b43e2d9d960626a45ef350",
+    "tables\\Table_4_paperloss_supplied_author_checkpoint_source_only_difference.png": "9ec6bcce22fe5ddef516cebd0c8d7776af7619f8e72fae8f34e3cf8d2aa80ba0",
+    "tables\\Table_4_published_reproduced_checkpoint.csv": "25aac0f4a56b842819c47e6be66188fcf852214e270d49d77d9690c110dd4cc5",
+    "tables\\Table_4_published_reproduced_checkpoint_final.pdf": "5ba874e8f285f71831c0d80e2deca9038095f82ef001d850629ce6abc3cc828e",
+    "tables\\Table_4_published_reproduced_checkpoint_final.png": "69b54e4165f1df99105ec6263661836ecd00cbe83c483476bbd046540d9390ce",
+    "tables\\Table_4_published_reproduced_checkpoint_final_difference.pdf": "f951316b3ae2dca8ea6727a92cd9545fb27815d7fca6d9d15c9b6a69011cb5ae",
+    "tables\\Table_4_published_reproduced_checkpoint_final_difference.png": "766004a719deec5bf80675dc9bf25b80550227a7aac823dc8399c8e73dc97de2",
+    "tables\\Table_4_published_reproduced_checkpoint_source_only.pdf": "358db911ebd30effd8141ac440cb7f7ed4793f1f28e65b49a6898c9ba2840395",
+    "tables\\Table_4_published_reproduced_checkpoint_source_only.png": "9bcd54f31699ce656facf266647c150fb7d972525c2bf2081a2bd2a1097fe444",
+    "tables\\Table_4_published_reproduced_checkpoint_source_only_difference.pdf": "0a6f209b09cd487850aaba6abe226fcf1b42a1ea3174312c95a08cb2d39683fa",
+    "tables\\Table_4_published_reproduced_checkpoint_source_only_difference.png": "7469e68d9c6455afa791e2ba795d418f85ab8eb4d322d8352869530f86b08cee",
+    "tables\\Table_4_published_supplied_author_checkpoint.csv": "a621430b9b3be050cc5ee86d56a4f4c93c0f8d5f1bf9c9a5a5bb16e5c06dd21e",
+    "tables\\Table_4_published_supplied_author_checkpoint_final.pdf": "0d17eb6c9dbef9e436452e21c454ec06a1db4d623a04f05b0db0c905d0f3642e",
+    "tables\\Table_4_published_supplied_author_checkpoint_final.png": "4f5cdee8e359a79feb03f9834f1cf4e61506c7092b1785c8b064629a7c5f798b",
+    "tables\\Table_4_published_supplied_author_checkpoint_final_difference.pdf": "1169f8247a1869fed51d5100c3c65e3ba7632362cd31f6283459d895f2f67e9e",
+    "tables\\Table_4_published_supplied_author_checkpoint_final_difference.png": "d32739799ba9be9377b2e6c5d2c1aa5b4b1f755c080e20858c7b4b91d9afbd83",
+    "tables\\Table_4_published_supplied_author_checkpoint_source_only.pdf": "682d42fca15be0c583945a8638118a38ce169d09c95c30f8f80a3fd2035d7784",
+    "tables\\Table_4_published_supplied_author_checkpoint_source_only.png": "f27604e1ed777d22d1b54b8b4d813122cd46d4707147966380b3b955dcc28552",
+    "tables\\Table_4_published_supplied_author_checkpoint_source_only_difference.pdf": "8ae627d007a93b8586697545740726c4c150d2edcb08f8f8fdd9fca12337e1e0",
+    "tables\\Table_4_published_supplied_author_checkpoint_source_only_difference.png": "eefe3c1f314590517b3bbeaf71a1456538ac8dffde371be65c7167e4ae24d596",
+    "tables\\Table_S3_paperloss.csv": "ccf2542099eb6aa86dac39f844458ae4178d7cb6a81d04f969c7d69833881367",
+    "tables\\Table_S3_paperloss.pdf": "c4d14d1068de19e25f5266812a7718557a2fb44567cfeda802d8e5bd1aa9b86d",
+    "tables\\Table_S3_paperloss.png": "376b54a8e8eef0e82e9c2219689009ac74c9dec91d81e38574ec9dfc96ae2f1e",
+    "tables\\Table_S3_paperloss_difference.pdf": "9c3efc22735fc8e8653e7f3ae47486c54d839cb7e5b2e4a796896fe063374270",
+    "tables\\Table_S3_paperloss_difference.png": "82cc681586a0351f0c671a517eb0bd2ca92bb44e4d45e41ee4a899a284141aa7",
+    "tables\\Table_S3_published.csv": "b9f7e6c3e8184a452a07d8f8db985cc547bb05acc15a9b5d051b60f644113f82",
+    "tables\\Table_S3_published.pdf": "79d25e048b900d448c1b2035914fe44b38bc70b172a333ff3660b073f604e6a2",
+    "tables\\Table_S3_published.png": "c90fc4ac4e1501ad254e14425394d6922af441aa0d9bd7c831e3c3ed112e574b",
+    "tables\\Table_S3_published_difference.pdf": "053ad7f1da1a50764a448672fce87afb99bc76a1e6557b859fcc9003a62e938f",
+    "tables\\Table_S3_published_difference.png": "062427a76c9cfd91de07fbf060fccb3917eac6dc390126b590f3c0c118cec5f8",
+    "tables\\Table_S4_paperloss.csv": "7f663c45346ee6f12faad6ea180cd13eab992383bd5e01b717f42156fbbbc677",
+    "tables\\Table_S4_paperloss_difference_p1.pdf": "003140a7877991930341b75a7afd01a805fc76d7c80fb94a7e0b217db3c15d0d",
+    "tables\\Table_S4_paperloss_difference_p1.png": "54fb95381a751d23fb517c6d241eac724dbd46c51ccfb84c8026145b4a5d3008",
+    "tables\\Table_S4_paperloss_difference_p2.pdf": "c0e19da062204647dc8002d4d5a24848455e0279f49d939f9de6928ffc9da681",
+    "tables\\Table_S4_paperloss_difference_p2.png": "196e59f575fbc06117556f58cfd004dbed69e0ae21e793c7022c19a043f87a89",
+    "tables\\Table_S4_paperloss_p1.pdf": "e8ee38e39e2e9d0ee7de9d16b270a66a9359671484180269350c3c590c39a3b8",
+    "tables\\Table_S4_paperloss_p1.png": "a82ffdbf932c3414eac09ec58899e0ad7bcc2254ca6e92957d547d90b5481cab",
+    "tables\\Table_S4_paperloss_p2.pdf": "c61aca83d285dfa4e97069870ea62ce557f0cb3bf0d85eeb981a022856388165",
+    "tables\\Table_S4_paperloss_p2.png": "a680cf8b8602ef4dbd7127fe0f27f6b37eb7a000c7e03322cc38dc04b30a48c6",
+    "tables\\Table_S4_published.csv": "41e3e0b9ec30f842fad21ee72850c11f4cc47b88bf569784409c4ce8ada7f973",
+    "tables\\Table_S4_published_difference_p1.pdf": "ffecf53d12b534f011a1562d9a4f32ac334043834be23c627a8ef59fedcd036d",
+    "tables\\Table_S4_published_difference_p1.png": "11f866c033215461bdad55c8eb704a5a06cd8ace1c3210d821ec7696cd56063e",
+    "tables\\Table_S4_published_difference_p2.pdf": "9c79dc0f4b88e4a005a10c916c3d41190a8940faecefeda02693a3448eb81e7a",
+    "tables\\Table_S4_published_difference_p2.png": "8ff961a22c981aa2bb0fb5438c65d8212621930a9530cb2f1114ad4c4a917454",
+    "tables\\Table_S4_published_p1.pdf": "acb242dbf4a818d6a864dbf8dc0d40fd8d574dd98698d6ccd6f59f76d443bd81",
+    "tables\\Table_S4_published_p1.png": "ff16327c96414e33c9fee07de97383509e02db300d8d73b818f51664680737cc",
+    "tables\\Table_S4_published_p2.pdf": "c1f24015691a3787ed8c580689fd4c6019099e0cb28e949bda5436c9ca1a733b",
+    "tables\\Table_S4_published_p2.png": "6b0162673d8d45201caa508659492650be5b22e6f4be5c80e0316a87a354b65b",
+    "tables\\Table_S5_paperloss.csv": "59ba7a39bf91e4c8c64181341d2ace39553c0e1ca775deed6d5e2079d5ea74da",
+    "tables\\Table_S5_paperloss_difference_p1.pdf": "8f634ffa4168ef634fddd662de9f80c52a9f661ffa078c3fca50998d0bad1f21",
+    "tables\\Table_S5_paperloss_difference_p1.png": "5b95ebad7df20cd7e375c5f8416fa15d41153f4eaa9a27c8ebd36c670d653f79",
+    "tables\\Table_S5_paperloss_difference_p2.pdf": "51399410d1346aa1510908ae0255d45753487e4e8c017592dec3ccbef6e2956c",
+    "tables\\Table_S5_paperloss_difference_p2.png": "c358e07a8f43005e7764b380e92b4df0476cad7f20e0ac296c1265ab3e4299b8",
+    "tables\\Table_S5_paperloss_p1.pdf": "f4838af247a8693ac3eb3f9a31bf5b1ee7f1be6fbc927963de87128983bfc055",
+    "tables\\Table_S5_paperloss_p1.png": "23c17ae3a5ec81e81f63c7a21960d5fbcd41182633e228c67a375abb00084cbe",
+    "tables\\Table_S5_paperloss_p2.pdf": "df03f1ab9bac1cfbd20aa295d19af2c570acec3c5876c6a36bc7b9a633cfa6b9",
+    "tables\\Table_S5_paperloss_p2.png": "19c240a311fd65d2b1f714dfe58d6326cdf26d1cafebd9052a1a2e28ec32786c",
+    "tables\\Table_S5_published.csv": "90ec698c8d715c5892fb7cdda9bd1c4840f70455d23210ef7ca32caf7dc95445",
+    "tables\\Table_S5_published_difference_p1.pdf": "f42e41e1e789b891d595f5fc732fdb043077904faf4838a8c8890919fc9773a7",
+    "tables\\Table_S5_published_difference_p1.png": "0dfa8612aa5bda0787ccc3ee239f258926d60b575d36afb85f002fac22ab36ed",
+    "tables\\Table_S5_published_difference_p2.pdf": "4981f23ce01c1bb5ca223d19c1017e7c45807004f0e57baa9354fd09f74b806e",
+    "tables\\Table_S5_published_difference_p2.png": "80e0975727ed08ac4a4a4baaa7944ca90560699285448a14f95c0ca85b9848e6",
+    "tables\\Table_S5_published_p1.pdf": "c67df34ffc3489fe8ebcc7c4b970e7df6acd066f4ccec16deec3fb3ac99c9aa7",
+    "tables\\Table_S5_published_p1.png": "d51c084f373db9c66c7dd81eea5123b0fc37e2bd298a93fe4097aca0fad299ab",
+    "tables\\Table_S5_published_p2.pdf": "66633fde05d842f58f9105b31bbbfa41890ba46d2e2a0fed39e6a43113748902",
+    "tables\\Table_S5_published_p2.png": "f2a7a33e098d26b3a3926858a5196054243cdfd2050e3ef07e6d8f61e3c64aea",
+    "tables\\Table_S6_paperloss.csv": "0b115638ece1b11be714e6e654df14d4da0e9550a2efd388a7a87b027c142b62",
+    "tables\\Table_S6_paperloss_difference_p1.pdf": "1724b82bce5c8b67a5608ef34635054d02cfbdac74b624a62d76963f421d5482",
+    "tables\\Table_S6_paperloss_difference_p1.png": "6839c70116aa52b8400e612e0df0de76db6822f85640f89cb294b10cb676be78",
+    "tables\\Table_S6_paperloss_difference_p2.pdf": "a38cf2f7d079e6e25a2ef0267752763d2dbf619a16bfad02052a79698b4fbcb2",
+    "tables\\Table_S6_paperloss_difference_p2.png": "431470e96ef4daecc4af2f923bf67b7234cfadc50d8feaec1c7367cc0f50b2d4",
+    "tables\\Table_S6_paperloss_p1.pdf": "afe1408e1b16d13679a7ecbf1ea869567c3ebcc910ce36a9bdab2f47d7e2820e",
+    "tables\\Table_S6_paperloss_p1.png": "ca0e9c4bfb9284d1e7a95d77da45030d91c30d2228d08c3435f6807c3123da4c",
+    "tables\\Table_S6_paperloss_p2.pdf": "ad2d698fe78a82bdde6249d4528314e26e058ee1beb18abd6c16539568613de0",
+    "tables\\Table_S6_paperloss_p2.png": "b59db358614a8ed71591c1ede21746470d9dad28d13b69e1c439abd83bf44a9b",
+    "tables\\Table_S6_published.csv": "f5510a0be5ea84a75b9cb7bef32ee6a2c577ced002d38d9588ac5558be7284a2",
+    "tables\\Table_S6_published_difference_p1.pdf": "f632e62839573faa29bad11a331e96543e8c07670cd57f5eb50fbbe31e2b46d8",
+    "tables\\Table_S6_published_difference_p1.png": "b20a459ee66a6eb77d3208f36b910d3f1ed96a20df605bb626f86f3182b9cedd",
+    "tables\\Table_S6_published_difference_p2.pdf": "35c0244c0462f444b690c34d477f84ba7c421961db11b1695419c57bb3f52b02",
+    "tables\\Table_S6_published_difference_p2.png": "b8bb4c2d7492ff7a84d6e6d77c5b43fc71a8ab6fd1a062dad7b626fcacf1e710",
+    "tables\\Table_S6_published_p1.pdf": "27d4ba94d4e1232c9e0f24e9ba85a3ac0fc1a02cc46c99eb226a88561cabd700",
+    "tables\\Table_S6_published_p1.png": "5bcfdf9079b3e4ec398b14e88050f74b27fa957977c43c6b3147032aa7798715",
+    "tables\\Table_S6_published_p2.pdf": "e10038e2ae0a705c4e599926bddd24c3ce304b9e40aebdfd67e9f941cb28f5b6",
+    "tables\\Table_S6_published_p2.png": "303d6761bc88bc7d9e5b12c8655121d0a0f91280433d0aa1c1e560492e1f3d2f",
+    "tables\\Table_S7_paperloss.csv": "68e34acfd67952acb4911f61dcfacaadfac766d5d57c6de935409e6f6d17f60b",
+    "tables\\Table_S7_paperloss_difference_p1.pdf": "7d33d474f06e9a4758b5d5e733d7cf142efdaab5c66a348ed4474aab320e6729",
+    "tables\\Table_S7_paperloss_difference_p1.png": "fe7cc4b61c45b71d41e5509a28c36b16c2366d278c7e71ca465f17e6df29b6a0",
+    "tables\\Table_S7_paperloss_difference_p2.pdf": "194e9e7fbe1ebc5d5fae201548d258fb71978fec41bdf05c3efd01c57571c6cb",
+    "tables\\Table_S7_paperloss_difference_p2.png": "8f0ccbd55869196f21ad3da85317a4952fd5eb66a5a98ce557b8a481de3d2474",
+    "tables\\Table_S7_paperloss_p1.pdf": "9d198bd375234d264b4ebeaa48b3c620eee45407233b565289b9283ca9f4e5ee",
+    "tables\\Table_S7_paperloss_p1.png": "ad6a4077c0b0f19770e9f0bc0a8a395242aaec5141420abe9b25bbcc34666305",
+    "tables\\Table_S7_paperloss_p2.pdf": "ebc8b73a5f7ab037b0a79f1d99929aa6830e3c1a9f5bc84277e59f8cba3233e1",
+    "tables\\Table_S7_paperloss_p2.png": "bb5aeae6133cbbad52221cf8a897d066903da815a1ae3f10d81afd9c1b718aed",
+    "tables\\Table_S7_published.csv": "27e03f6d681a347060b3ec7a4370fe99bd8855b316f8f3a427f99b9c18701a09",
+    "tables\\Table_S7_published_difference_p1.pdf": "17d8faf4395a06a49a23a99b3debb0f9d75f3988fc88e525cbeff3a0c2eb8a85",
+    "tables\\Table_S7_published_difference_p1.png": "d56ed0c99cd504b86a9d0c07aad03b99b8815b25c1de15324282bef10c796c67",
+    "tables\\Table_S7_published_difference_p2.pdf": "28f1b0746e0ca973db8c48a5a2603ffa5e065beeb3d84bc5c95595142abfca34",
+    "tables\\Table_S7_published_difference_p2.png": "13f55d7b8a3a9630e0ab7e8934e80ce28cd3b803b32e5e157567d20cfe34151a",
+    "tables\\Table_S7_published_p1.pdf": "c0ad7d680e2aa0c39accce325ebaf9e6f5d8e01a129714a8986a388814eef6c9",
+    "tables\\Table_S7_published_p1.png": "439b7cae3138fa2e2fe2f4e2633a1ce19ec311a4b161f1d1fcc43314c5090acc",
+    "tables\\Table_S7_published_p2.pdf": "5349eb19b47713567a303dcc09ab9b95dc55d8f2913ced9cfc92dc8141a67315",
+    "tables\\Table_S7_published_p2.png": "2e7ea10b29ced0f375ab39557065e4d7ccbf6e47a78e6c0396e1bbd203d1067f",
+    "tables\\Table_S8.csv": "2a916c4e4773b521fbc11a8105802d7293bb986ce6aa84658e7e5f40b0850f83",
+    "tables\\Table_S8.pdf": "74f4c0c0c90a5c80fe122558b4bf3bf019a7457a8ec85e80d2cef1b2631d4442",
+    "tables\\Table_S8.png": "05d711143317cfed64b8393fceebcc587b279fab01370e58b2003d9bd2fa3a83"
+  }
+}

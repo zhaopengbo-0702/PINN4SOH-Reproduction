@@ -1,0 +1,12 @@
+﻿table,loss_variant,comparison_count,printed_precision_matches
+Table 2,published_label_monotonicity,22,0
+Table 2,paper_prediction_monotonicity,22,0
+Table 2,author_current,44,1
+Table 3,published_label_monotonicity,16,1
+Table 3,paper_prediction_monotonicity,16,0
+Table 3,author_current,32,0
+Table 4,published_label_monotonicity,56,2
+Table 4,paper_prediction_monotonicity,56,1
+Table S7,published_label_monotonicity,48,2
+Table S7,paper_prediction_monotonicity,48,0
+Table S7,author_current,96,0

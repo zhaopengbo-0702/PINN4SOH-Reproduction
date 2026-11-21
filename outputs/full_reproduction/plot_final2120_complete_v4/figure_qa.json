@@ -1,0 +1,485 @@
+[
+  {
+    "figure": "Fig4a_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Fig4b_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Fig5_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "FigS5_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_2_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_2_published_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_3_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_3_published_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_published_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_published_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_published_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_published_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S3_published",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S3_published_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_published_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_published_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_published_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_published_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_published_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_published_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_published_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_published_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_published_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_published_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_published_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_published_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_supplied_author_checkpoint_final",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_supplied_author_checkpoint_final_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_supplied_author_checkpoint_source_only",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_supplied_author_checkpoint_source_only_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_reproduced_checkpoint_final",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_reproduced_checkpoint_final_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_reproduced_checkpoint_source_only",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_published_reproduced_checkpoint_source_only_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Fig4a_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Fig4b_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Fig5_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "FigS5_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_2_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_2_paperloss_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_3_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_3_paperloss_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_paperloss_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_paperloss_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_paperloss_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S7_paperloss_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S3_paperloss",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S3_paperloss_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_paperloss_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_paperloss_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_paperloss_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S4_paperloss_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_paperloss_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_paperloss_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_paperloss_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S5_paperloss_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_paperloss_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_paperloss_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_paperloss_difference_p1",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S6_paperloss_difference_p2",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_supplied_author_checkpoint_final",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_supplied_author_checkpoint_final_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_supplied_author_checkpoint_source_only",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_supplied_author_checkpoint_source_only_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_reproduced_checkpoint_final",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_reproduced_checkpoint_final_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_reproduced_checkpoint_source_only",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_4_paperloss_reproduced_checkpoint_source_only_difference",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  },
+  {
+    "figure": "Table_S8",
+    "outside_text": [],
+    "text_bbox_overlaps": [],
+    "overflowing_table_cells": [],
+    "geometry_passed": true
+  }
+]

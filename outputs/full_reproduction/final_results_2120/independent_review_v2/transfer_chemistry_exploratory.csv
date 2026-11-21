@@ -1,0 +1,9 @@
+﻿loss_variant,source_mode,class_label,directions,mean_RMSE_improved,direction_equal_mean_relative_RMSE_reduction,interpretation
+published_label_monotonicity,reproduced_checkpoint,MIT_HUST_both_LFP,2,2,0.3416639571379288,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+published_label_monotonicity,reproduced_checkpoint,other_chemistry_pairs,10,10,0.7000185886975071,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+published_label_monotonicity,supplied_author_checkpoint,MIT_HUST_both_LFP,2,2,0.4583339751186166,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+published_label_monotonicity,supplied_author_checkpoint,other_chemistry_pairs,10,9,0.7169053677631765,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+paper_prediction_monotonicity,reproduced_checkpoint,MIT_HUST_both_LFP,2,2,0.09481068494674871,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+paper_prediction_monotonicity,reproduced_checkpoint,other_chemistry_pairs,10,10,0.4137409440942417,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+paper_prediction_monotonicity,supplied_author_checkpoint,MIT_HUST_both_LFP,2,2,0.20600902100609997,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"
+paper_prediction_monotonicity,supplied_author_checkpoint,other_chemistry_pairs,10,6,0.12448721016105428,"Exploratory, unadjusted for target difficulty and source-only error; no causal inference"

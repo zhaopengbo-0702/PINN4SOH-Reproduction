@@ -1,0 +1,576 @@
+[
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/1-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/1-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/10-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/10-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/2-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/2-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/3-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/3-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/4-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/4-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/5-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/5-7.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/6-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/6-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/7-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/7-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/8-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/8-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/9-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/9-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-10.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-15.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-20.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-25.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-30.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-35.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-40.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-45.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-5.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-15.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-20.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-25.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-30.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-35.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-40.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-45.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-5.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-10.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-15.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-25.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-30.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-40.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-45.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#5.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#10.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#16.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#2.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#3.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#9.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#1.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#15.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#19.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#24.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#28.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#12.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#16.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#21.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY35-05_1-#1.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#1.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#15.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#19.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#24.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#28.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/3",
+    "battery": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#2.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "TJU/3",
+    "battery": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#3.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/1",
+    "battery": "data/XJTU data/2C_battery-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/1",
+    "battery": "data/XJTU data/2C_battery-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/2",
+    "battery": "data/XJTU data/3C_battery-14.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/2",
+    "battery": "data/XJTU data/3C_battery-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/2",
+    "battery": "data/XJTU data/3C_battery-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/3",
+    "battery": "data/XJTU data/R2.5_battery-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/3",
+    "battery": "data/XJTU data/R2.5_battery-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/4",
+    "battery": "data/XJTU data/R3_battery-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/4",
+    "battery": "data/XJTU data/R3_battery-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/5",
+    "battery": "data/XJTU data/RW_battery-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/5",
+    "battery": "data/XJTU data/RW_battery-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/6",
+    "battery": "data/XJTU data/Sim_satellite_battery-4.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  },
+  {
+    "group": "XJTU/6",
+    "battery": "data/XJTU data/Sim_satellite_battery-8.csv",
+    "outside": [],
+    "overlaps": [],
+    "passed": true
+  }
+]

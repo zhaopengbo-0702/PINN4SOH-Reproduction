@@ -1,0 +1,291 @@
+{
+  "source_report_sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+  "source_report_bytes": 7506782,
+  "task_status_counts": {
+    "included": 2120
+  },
+  "independently_checked_summary_effect_differences": 468,
+  "regular_cohorts": 11,
+  "small_sample_cohorts": 28,
+  "primary_complete_summaries": 260,
+  "main_task_breakdown": {
+    "regular": 440,
+    "small_sample_XJTU_HUST": 1120,
+    "extra_target_only_MIT_TJU3": 80,
+    "transfer": 480
+  },
+  "direction_counts": [
+    {
+      "family": "regular",
+      "loss_variant": "published_label_monotonicity",
+      "metric": "MAE",
+      "cohorts": 11,
+      "lower_both_mean": 9,
+      "lower_MLP_mean": 9,
+      "lower_CNN_mean": 9,
+      "lower_both_SD_ddof0": 10,
+      "lower_both_SD_ddof1": 10
+    },
+    {
+      "family": "regular",
+      "loss_variant": "published_label_monotonicity",
+      "metric": "MAPE",
+      "cohorts": 11,
+      "lower_both_mean": 9,
+      "lower_MLP_mean": 9,
+      "lower_CNN_mean": 9,
+      "lower_both_SD_ddof0": 10,
+      "lower_both_SD_ddof1": 10
+    },
+    {
+      "family": "regular",
+      "loss_variant": "published_label_monotonicity",
+      "metric": "RMSE",
+      "cohorts": 11,
+      "lower_both_mean": 9,
+      "lower_MLP_mean": 9,
+      "lower_CNN_mean": 9,
+      "lower_both_SD_ddof0": 11,
+      "lower_both_SD_ddof1": 11
+    },
+    {
+      "family": "regular",
+      "loss_variant": "paper_prediction_monotonicity",
+      "metric": "MAE",
+      "cohorts": 11,
+      "lower_both_mean": 0,
+      "lower_MLP_mean": 0,
+      "lower_CNN_mean": 2,
+      "lower_both_SD_ddof0": 11,
+      "lower_both_SD_ddof1": 11
+    },
+    {
+      "family": "regular",
+      "loss_variant": "paper_prediction_monotonicity",
+      "metric": "MAPE",
+      "cohorts": 11,
+      "lower_both_mean": 0,
+      "lower_MLP_mean": 0,
+      "lower_CNN_mean": 2,
+      "lower_both_SD_ddof0": 11,
+      "lower_both_SD_ddof1": 11
+    },
+    {
+      "family": "regular",
+      "loss_variant": "paper_prediction_monotonicity",
+      "metric": "RMSE",
+      "cohorts": 11,
+      "lower_both_mean": 0,
+      "lower_MLP_mean": 0,
+      "lower_CNN_mean": 2,
+      "lower_both_SD_ddof0": 11,
+      "lower_both_SD_ddof1": 11
+    },
+    {
+      "family": "small_sample",
+      "loss_variant": "published_label_monotonicity",
+      "metric": "MAE",
+      "cohorts": 28,
+      "lower_both_mean": 25,
+      "lower_MLP_mean": 25,
+      "lower_CNN_mean": 28,
+      "lower_both_SD_ddof0": 26,
+      "lower_both_SD_ddof1": 26
+    },
+    {
+      "family": "small_sample",
+      "loss_variant": "published_label_monotonicity",
+      "metric": "MAPE",
+      "cohorts": 28,
+      "lower_both_mean": 25,
+      "lower_MLP_mean": 25,
+      "lower_CNN_mean": 28,
+      "lower_both_SD_ddof0": 26,
+      "lower_both_SD_ddof1": 26
+    },
+    {
+      "family": "small_sample",
+      "loss_variant": "published_label_monotonicity",
+      "metric": "RMSE",
+      "cohorts": 28,
+      "lower_both_mean": 25,
+      "lower_MLP_mean": 25,
+      "lower_CNN_mean": 28,
+      "lower_both_SD_ddof0": 26,
+      "lower_both_SD_ddof1": 26
+    },
+    {
+      "family": "small_sample",
+      "loss_variant": "paper_prediction_monotonicity",
+      "metric": "MAE",
+      "cohorts": 28,
+      "lower_both_mean": 4,
+      "lower_MLP_mean": 4,
+      "lower_CNN_mean": 15,
+      "lower_both_SD_ddof0": 27,
+      "lower_both_SD_ddof1": 27
+    },
+    {
+      "family": "small_sample",
+      "loss_variant": "paper_prediction_monotonicity",
+      "metric": "MAPE",
+      "cohorts": 28,
+      "lower_both_mean": 5,
+      "lower_MLP_mean": 5,
+      "lower_CNN_mean": 15,
+      "lower_both_SD_ddof0": 27,
+      "lower_both_SD_ddof1": 27
+    },
+    {
+      "family": "small_sample",
+      "loss_variant": "paper_prediction_monotonicity",
+      "metric": "RMSE",
+      "cohorts": 28,
+      "lower_both_mean": 5,
+      "lower_MLP_mean": 5,
+      "lower_CNN_mean": 21,
+      "lower_both_SD_ddof0": 27,
+      "lower_both_SD_ddof1": 27
+    }
+  ],
+  "transfer_direction_counts": [
+    {
+      "loss_variant": "published_label_monotonicity",
+      "source_mode": "reproduced_checkpoint",
+      "directions": 12,
+      "mean_improved": 12,
+      "individual_paired_repeats_improved": 111,
+      "individual_paired_repeats": 120,
+      "all_fixed_G_updated_F_verified": true
+    },
+    {
+      "loss_variant": "published_label_monotonicity",
+      "source_mode": "supplied_author_checkpoint",
+      "directions": 12,
+      "mean_improved": 11,
+      "individual_paired_repeats_improved": 111,
+      "individual_paired_repeats": 120,
+      "all_fixed_G_updated_F_verified": true
+    },
+    {
+      "loss_variant": "paper_prediction_monotonicity",
+      "source_mode": "reproduced_checkpoint",
+      "directions": 12,
+      "mean_improved": 12,
+      "individual_paired_repeats_improved": 120,
+      "individual_paired_repeats": 120,
+      "all_fixed_G_updated_F_verified": true
+    },
+    {
+      "loss_variant": "paper_prediction_monotonicity",
+      "source_mode": "supplied_author_checkpoint",
+      "directions": 12,
+      "mean_improved": 8,
+      "individual_paired_repeats_improved": 85,
+      "individual_paired_repeats": 120,
+      "all_fixed_G_updated_F_verified": true
+    }
+  ],
+  "target_only_strict_mismatch_count": 96,
+  "target_only_mismatched_field_counts": {
+    "environment_sha256": 96
+  },
+  "printed_numeric_match_counts": [
+    {
+      "table": "Table 2",
+      "loss_variant": "published_label_monotonicity",
+      "comparison_count": 22,
+      "printed_precision_matches": 0
+    },
+    {
+      "table": "Table 2",
+      "loss_variant": "paper_prediction_monotonicity",
+      "comparison_count": 22,
+      "printed_precision_matches": 0
+    },
+    {
+      "table": "Table 2",
+      "loss_variant": "author_current",
+      "comparison_count": 44,
+      "printed_precision_matches": 1
+    },
+    {
+      "table": "Table 3",
+      "loss_variant": "published_label_monotonicity",
+      "comparison_count": 16,
+      "printed_precision_matches": 1
+    },
+    {
+      "table": "Table 3",
+      "loss_variant": "paper_prediction_monotonicity",
+      "comparison_count": 16,
+      "printed_precision_matches": 0
+    },
+    {
+      "table": "Table 3",
+      "loss_variant": "author_current",
+      "comparison_count": 32,
+      "printed_precision_matches": 0
+    },
+    {
+      "table": "Table 4",
+      "loss_variant": "published_label_monotonicity",
+      "comparison_count": 56,
+      "printed_precision_matches": 2
+    },
+    {
+      "table": "Table 4",
+      "loss_variant": "paper_prediction_monotonicity",
+      "comparison_count": 56,
+      "printed_precision_matches": 1
+    },
+    {
+      "table": "Table S7",
+      "loss_variant": "published_label_monotonicity",
+      "comparison_count": 48,
+      "printed_precision_matches": 2
+    },
+    {
+      "table": "Table S7",
+      "loss_variant": "paper_prediction_monotonicity",
+      "comparison_count": 48,
+      "printed_precision_matches": 0
+    },
+    {
+      "table": "Table S7",
+      "loss_variant": "author_current",
+      "comparison_count": 96,
+      "printed_precision_matches": 0
+    }
+  ],
+  "headline_partial_aggregations": [
+    {
+      "loss_variant": "published_label_monotonicity",
+      "aggregation": "eleven_group_equal",
+      "MAPE": 0.010290099039214094
+    },
+    {
+      "loss_variant": "published_label_monotonicity",
+      "aggregation": "four_dataset_equal_within_dataset_group_equal",
+      "MAPE": 0.009882431713527123
+    },
+    {
+      "loss_variant": "paper_prediction_monotonicity",
+      "aggregation": "eleven_group_equal",
+      "MAPE": 0.04669701331713414
+    },
+    {
+      "loss_variant": "paper_prediction_monotonicity",
+      "aggregation": "four_dataset_equal_within_dataset_group_equal",
+      "MAPE": 0.049467093127002155
+    }
+  ],
+  "limitations": [
+    "No significance or equivalence claim; no unreported author seeds recovered",
+    "battery_macro is released CSV-file macro, not guaranteed physical-cell macro (MIT mixed CSV5)",
+    "Original frozen report unchanged; strict target-only comparator is unmatched pending environment payload review",
+    "Local independent review recomputes summary differences; saved-array/checkpoint audit occurred on cloud",
+    "MIT40 is separate sensitivity and excluded from every main2120 count",
+    "Per-CSV and displayed-curve payload is pending; source-report completeness is not full local model backup"
+  ]
+}

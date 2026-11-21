@@ -1,0 +1,15 @@
+{
+  "updated_utc": "2026-11-10T13:26:21.391845+00:00",
+  "completed_csvs": 125,
+  "expected_csvs": 125,
+  "completed_rows": 85577,
+  "expected_rows": 85577,
+  "curve_records": 171154,
+  "expected_curve_records": 171154,
+  "statuses": {
+    "computed": 171153,
+    "window_has_fewer_than_four_points": 1
+  },
+  "completed_partitions_are_atomic_and_sha256_manifested": true,
+  "all_published_rows_covered": true
+}

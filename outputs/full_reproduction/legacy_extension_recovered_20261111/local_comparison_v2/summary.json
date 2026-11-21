@@ -1,0 +1,3469 @@
+{
+  "format": "pinn4soh-selected-legacy-extension-comparison-v1",
+  "task_counts": {
+    "matched": 110
+  },
+  "expected_tasks": 110,
+  "expected_repeats": 10,
+  "reused_repeat1": 11,
+  "new_training_repeats": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "assessment": "complete_selected_ten_repeat_sensitivity",
+  "selection": {
+    "format": "pinn4soh-legacy-extension-selection-v1",
+    "reason": "Post-screen sensitivity extension after complete matched40 and passed_all40 independent overlay: MIT published-label PINN versus CNN changed MSE/RMSE direction; HUST published-label PINN versus MLP changed all four metric directions; paper-equation HUST-to-MIT MAE and XJTU-to-MIT all four improvement directions changed. Include each affected regular group with all four methods; extend only the two affected transfer directions/loss; close exact same-repeat source dependencies. MSE/RMSE changes are related metrics, not independent evidence.",
+    "regular_groups": [
+      {
+        "dataset": "MIT",
+        "batch": "all"
+      },
+      {
+        "dataset": "HUST",
+        "batch": "all"
+      }
+    ],
+    "transfer_repeat1_task_ids": [
+      "legacy_control/transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1/Experiment01",
+      "legacy_control/transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1/Experiment01"
+    ],
+    "evidence_refs": [
+      "/workspace/pinn4soh_legacy_control_comparison_20261110/summary.json: task_counts matched40, errors empty",
+      "/workspace/pinn4soh_legacy_control_comparison_20261110/method_rank_changes.csv: MIT/all published_label PINN-minus-CNN MSE/RMSE; HUST/all published_label PINN-minus-MLP MAE/MAPE/MSE/RMSE",
+      "/workspace/pinn4soh_legacy_control_comparison_20261110/transfer_effect_changes.csv: paper_equation HUST_-1-to-MIT_-1 MAE; XJTU_0-to-MIT_-1 MAE/MAPE/MSE/RMSE",
+      "Independent two-stack overlay passed_all40, including reconstructed data identity and exact source lineage, as inspected by parent before launch"
+    ]
+  },
+  "no_significance_or_equivalence_claim": true,
+  "summaries": [
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.06357628489421648,
+        "sd_ddof0": 0.0007156956221957181,
+        "sd_ddof1": 0.0007544094258499427
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.06373612490161674,
+        "sd_ddof0": 0.00022430070017547685,
+        "sd_ddof1": 0.00023643369777501204
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0001598400074002783,
+        "sd_ddof0": 0.0007173274669568709,
+        "sd_ddof1": 0.0007561295412609614
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.06715163817484408,
+        "sd_ddof0": 0.000675732716508294,
+        "sd_ddof1": 0.0007122848245530235
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.06733417869205352,
+        "sd_ddof0": 0.00015670623589196248,
+        "sd_ddof1": 0.00016518287632340977
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00018254051720943687,
+        "sd_ddof0": 0.0006718896478270324,
+        "sd_ddof1": 0.0007082338744739415
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.005805146664225562,
+        "sd_ddof0": 9.169976441334915e-05,
+        "sd_ddof1": 9.666003881567912e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.005839857054975779,
+        "sd_ddof0": 5.649644083965818e-06,
+        "sd_ddof1": 5.955247758209185e-06
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -3.471039075021651e-05,
+        "sd_ddof0": 9.3376552168276e-05,
+        "sd_ddof1": 9.842752830176213e-05
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.07605340607083995,
+        "sd_ddof0": 0.0006059791949733764,
+        "sd_ddof1": 0.0006387581569303756
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.07628405872789448,
+        "sd_ddof0": 3.6311001281484296e-05,
+        "sd_ddof1": 3.827515605692773e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00023065265705453226,
+        "sd_ddof0": 0.0006173557712132616,
+        "sd_ddof1": 0.0006507501212279061
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.02443452264474386,
+        "sd_ddof0": 0.0003804167876024697,
+        "sd_ddof1": 0.00040099450299610305
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.024402506997158166,
+        "sd_ddof0": 0.0002809852592187469,
+        "sd_ddof1": 0.0002961844693546882
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 3.20156475856908e-05,
+        "sd_ddof0": 0.00045141996643219804,
+        "sd_ddof1": 0.00047583842506749983
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.02590508607149126,
+        "sd_ddof0": 0.00037738233967192774,
+        "sd_ddof1": 0.0003977959140288707
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0258748431213144,
+        "sd_ddof0": 0.0002728375143279511,
+        "sd_ddof1": 0.0002875959921383833
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 3.0242950176858838e-05,
+        "sd_ddof0": 0.0004428492581135282,
+        "sd_ddof1": 0.0004668041052515169
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0008807266904056,
+        "sd_ddof0": 1.410180171460994e-05,
+        "sd_ddof1": 1.4864604176745053e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0008802701297807752,
+        "sd_ddof0": 7.661140361528903e-06,
+        "sd_ddof1": 8.07555100555905e-06
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 4.56560624824767e-07,
+        "sd_ddof0": 1.4900296031435842e-05,
+        "sd_ddof1": 1.5706291090035043e-05
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.02910388465540316,
+        "sd_ddof0": 0.00027172469430573664,
+        "sd_ddof1": 0.0002864229768397044
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.029092975450466626,
+        "sd_ddof0": 0.00015948718760565962,
+        "sd_ddof1": 0.00016811425681615357
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 1.090920493653398e-05,
+        "sd_ddof0": 0.00029428705483373717,
+        "sd_ddof1": 0.000310205793059158
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/XJTU/2C/PINN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.04050615483076623,
+        "sd_ddof0": 0.0001985178550718848,
+        "sd_ddof1": 0.00020925619274612175
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.040513220713786637,
+        "sd_ddof0": 0.0002016154355914612,
+        "sd_ddof1": 0.0002125213293053315
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -7.065883020401786e-06,
+        "sd_ddof0": 0.00032715467681697884,
+        "sd_ddof1": 0.00034485130863931275
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/XJTU/2C/PINN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.04451581510494738,
+        "sd_ddof0": 0.0001802271975742303,
+        "sd_ddof1": 0.00018997614688124709
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.044503134546590814,
+        "sd_ddof0": 0.00017651377284301847,
+        "sd_ddof1": 0.00018606185352450442
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 1.2680558356562011e-05,
+        "sd_ddof0": 0.0002969951312660459,
+        "sd_ddof1": 0.00031306035626046415
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/XJTU/2C/PINN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0023657533730016157,
+        "sd_ddof0": 2.377345856179834e-05,
+        "sd_ddof1": 2.5059425638304528e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0023548083417485087,
+        "sd_ddof0": 2.8463121179420117e-05,
+        "sd_ddof1": 3.0002764081448562e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 1.0945031253107056e-05,
+        "sd_ddof0": 2.354048259977464e-05,
+        "sd_ddof1": 2.48138474116166e-05
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/XJTU/2C/PINN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.04853015981701681,
+        "sd_ddof0": 0.00024773415423059536,
+        "sd_ddof1": 0.00026113472719470647
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.04841805977542597,
+        "sd_ddof0": 0.0002944479943053416,
+        "sd_ddof1": 0.00031037543815772266
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.00011210004159084089,
+        "sd_ddof0": 0.00024392106550192056,
+        "sd_ddof1": 0.0002571153787603971
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.007747176638465838,
+        "sd_ddof0": 0.00048548929014698253,
+        "sd_ddof1": 0.0005117506454942691
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007766100302543781,
+        "sd_ddof0": 0.00042369452135141556,
+        "sd_ddof1": 0.00044661323986843864
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.892366407794388e-05,
+        "sd_ddof0": 0.0007115135820971429,
+        "sd_ddof1": 0.0007500011685240583
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.007950204160011805,
+        "sd_ddof0": 0.0005110026278853266,
+        "sd_ddof1": 0.000538644064816368
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007979871723229415,
+        "sd_ddof0": 0.0004425481535482425,
+        "sd_ddof1": 0.00046648671317145766
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -2.9667563217610024e-05,
+        "sd_ddof0": 0.0007627054734287691,
+        "sd_ddof1": 0.0008039621599706479
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 8.899017112741859e-05,
+        "sd_ddof0": 1.0769271559582365e-05,
+        "sd_ddof1": 1.1351808956384666e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 8.938325271814095e-05,
+        "sd_ddof0": 9.103246141061384e-06,
+        "sd_ddof1": 9.595663968964142e-06
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -3.9308159072235766e-07,
+        "sd_ddof0": 1.6224787101624145e-05,
+        "sd_ddof1": 1.710242726415137e-05
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00894277107844858,
+        "sd_ddof0": 0.0005467756454340789,
+        "sd_ddof1": 0.0005763521362267781
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.00896336459270908,
+        "sd_ddof0": 0.0004532133086662137,
+        "sd_ddof1": 0.00047772877376205456
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -2.0593514260499464e-05,
+        "sd_ddof0": 0.0008084657219530689,
+        "sd_ddof1": 0.0008521976971813635
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.008258701488881358,
+        "sd_ddof0": 0.0003255681280294772,
+        "sd_ddof1": 0.00034317893937681817
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.008275415121158506,
+        "sd_ddof0": 0.00036469538882124295,
+        "sd_ddof1": 0.0003844226936119458
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.671363227714875e-05,
+        "sd_ddof0": 0.00038955164851840155,
+        "sd_ddof1": 0.0004106234918638353
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.008705942129769119,
+        "sd_ddof0": 0.00034460641084574036,
+        "sd_ddof1": 0.0003632470515227637
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.00872471208866792,
+        "sd_ddof0": 0.0003838618503272005,
+        "sd_ddof1": 0.00040462591796020143
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.8769958898800545e-05,
+        "sd_ddof0": 0.00041393823397172885,
+        "sd_ddof1": 0.0004363292099927833
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00014937843823478256,
+        "sd_ddof0": 1.2346657945603444e-05,
+        "sd_ddof1": 1.3014520199707396e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.00014900527959005875,
+        "sd_ddof0": 1.5739142023114446e-05,
+        "sd_ddof1": 1.6590512403304054e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 3.731586447238192e-07,
+        "sd_ddof0": 1.3938033609991683e-05,
+        "sd_ddof1": 1.4691977437184243e-05
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.009497292844419459,
+        "sd_ddof0": 0.0003535785895080331,
+        "sd_ddof1": 0.0003727045582383663
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.009457689853165698,
+        "sd_ddof0": 0.0003672893870518953,
+        "sd_ddof1": 0.00038715700783038186
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 3.9602991253760536e-05,
+        "sd_ddof0": 0.00035537294933955663,
+        "sd_ddof1": 0.0003745959795748764
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/CNN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.007023473736535034,
+        "sd_ddof0": 0.0006105428396432378,
+        "sd_ddof1": 0.000643568660793192
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007111764779083718,
+        "sd_ddof0": 0.0005903831595500852,
+        "sd_ddof1": 0.0006223184921282861
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -8.829104254868478e-05,
+        "sd_ddof0": 0.000812103964275512,
+        "sd_ddof1": 0.000856032741320877
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/CNN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0072471862726922595,
+        "sd_ddof0": 0.0006271499363151009,
+        "sd_ddof1": 0.0006610740777284218
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007326696299931177,
+        "sd_ddof0": 0.0006055816312845859,
+        "sd_ddof1": 0.0006383390880065235
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -7.951002723891729e-05,
+        "sd_ddof0": 0.0008195757106971171,
+        "sd_ddof1": 0.0008639086535847054
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/CNN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 8.152968821447044e-05,
+        "sd_ddof0": 1.3195963377128507e-05,
+        "sd_ddof1": 1.3909766730631187e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 8.267648336373367e-05,
+        "sd_ddof0": 1.3776327646072943e-05,
+        "sd_ddof1": 1.4521524384778835e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.1467951492632327e-06,
+        "sd_ddof0": 1.8791002165701277e-05,
+        "sd_ddof1": 1.9807455453590927e-05
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/CNN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.008604073775413832,
+        "sd_ddof0": 0.0007587889170875211,
+        "sd_ddof1": 0.0007998337470964082
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.008732325954034953,
+        "sd_ddof0": 0.0007341606462439174,
+        "sd_ddof1": 0.0007738732701973068
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00012825217862112056,
+        "sd_ddof0": 0.001053200299288272,
+        "sd_ddof1": 0.0011101705927073176
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/MLP",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0076762727997176415,
+        "sd_ddof0": 0.0003082383404297575,
+        "sd_ddof1": 0.00032491173931613256
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007698180146320501,
+        "sd_ddof0": 0.0005301184900765544,
+        "sd_ddof1": 0.0005587939528037603
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -2.1907346602858657e-05,
+        "sd_ddof0": 0.0005252624044673856,
+        "sd_ddof1": 0.0005536751891245136
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/MLP",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.007893609292481897,
+        "sd_ddof0": 0.00030945679313815346,
+        "sd_ddof1": 0.00032619610124271
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007945845469186778,
+        "sd_ddof0": 0.0005829836199832983,
+        "sd_ddof1": 0.0006145186925724255
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -5.223617670487967e-05,
+        "sd_ddof0": 0.0005757107768384008,
+        "sd_ddof1": 0.0006068524427714194
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/MLP",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 8.815210264239616e-05,
+        "sd_ddof0": 7.580766244782302e-06,
+        "sd_ddof1": 7.990829247611203e-06
+      },
+      "modern": {
+        "n": 10,
+        "mean": 8.880781885922222e-05,
+        "sd_ddof0": 1.276614125618866e-05,
+        "sd_ddof1": 1.345669443366643e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -6.557162168260563e-07,
+        "sd_ddof0": 1.3086566679650653e-05,
+        "sd_ddof1": 1.3794452486454381e-05
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/HUST/all/MLP",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.008799960054653019,
+        "sd_ddof0": 0.0004058963579971836,
+        "sd_ddof1": 0.00042785232841273353
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.008896749667624151,
+        "sd_ddof0": 0.0007114365154385817,
+        "sd_ddof1": 0.0007499199331331543
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -9.67896129711314e-05,
+        "sd_ddof0": 0.0007538168897738058,
+        "sd_ddof1": 0.0007945927701297719
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/CNN",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0066071683006804485,
+        "sd_ddof0": 0.0006208897570320031,
+        "sd_ddof1": 0.0006544752693632254
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.006254856875657716,
+        "sd_ddof0": 0.00035247918336097066,
+        "sd_ddof1": 0.0003715456824055971
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0003523114250227318,
+        "sd_ddof0": 0.0003537117289991555,
+        "sd_ddof1": 0.0003728448995845204
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/CNN",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.006969897801627103,
+        "sd_ddof0": 0.0006528921544324409,
+        "sd_ddof1": 0.0006882087581536371
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.006597755692182299,
+        "sd_ddof0": 0.000372968972110017,
+        "sd_ddof1": 0.00039314381614649006
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0003721421094448047,
+        "sd_ddof0": 0.0003723004569909232,
+        "sd_ddof1": 0.00039243913933762495
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/CNN",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 9.516814803146555e-05,
+        "sd_ddof0": 2.632556891309258e-05,
+        "sd_ddof1": 2.7749586155031943e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 8.164109590292464e-05,
+        "sd_ddof0": 1.3050276845049339e-05,
+        "sd_ddof1": 1.37561996420374e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 1.3527052128540914e-05,
+        "sd_ddof0": 1.6746805987215454e-05,
+        "sd_ddof1": 1.765268348418183e-05
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/CNN",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.008221723829517604,
+        "sd_ddof0": 0.0007702499940484558,
+        "sd_ddof1": 0.0008119147829747531
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007758900062835247,
+        "sd_ddof0": 0.0004863652897022549,
+        "sd_ddof1": 0.0005126740301022542
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0004628237666823561,
+        "sd_ddof0": 0.00044449280667112535,
+        "sd_ddof1": 0.00046853655754721405
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/MLP",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00814180735524035,
+        "sd_ddof0": 0.0006635657923339994,
+        "sd_ddof1": 0.0006994597603832454
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.007788565821100109,
+        "sd_ddof0": 0.0008347430596971787,
+        "sd_ddof1": 0.0008798964432203294
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.00035324153414024165,
+        "sd_ddof0": 0.0008004746166028113,
+        "sd_ddof1": 0.0008437743325383062
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/MLP",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.008591433286813534,
+        "sd_ddof0": 0.0006967346238054746,
+        "sd_ddof1": 0.0007344227786419574
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.008220607377547587,
+        "sd_ddof0": 0.0008837391840545032,
+        "sd_ddof1": 0.000931542893050329
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.000370825909265948,
+        "sd_ddof0": 0.0008336129396297254,
+        "sd_ddof1": 0.0008787051920727909
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/MLP",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00014381599392316224,
+        "sd_ddof0": 2.3775300513817598e-05,
+        "sd_ddof1": 2.5061367226211726e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.00013102690456268231,
+        "sd_ddof0": 2.967073597579185e-05,
+        "sd_ddof1": 3.127570184566694e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 1.278908936047993e-05,
+        "sd_ddof0": 2.678947303122144e-05,
+        "sd_ddof1": 2.8238584031438276e-05
+      }
+    },
+    {
+      "logical_group": "full/shared_baseline/MIT/all/MLP",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.009397604284001985,
+        "sd_ddof0": 0.0006950323870313324,
+        "sd_ddof1": 0.0007326284635342283
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.009041179122137229,
+        "sd_ddof0": 0.0008040686582667408,
+        "sd_ddof1": 0.0008475627850928259
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.00035642516186475527,
+        "sd_ddof0": 0.0007927657583709364,
+        "sd_ddof1": 0.0008356484824809518
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.030133947412872633,
+        "sd_ddof0": 0.0017516360811213163,
+        "sd_ddof1": 0.0018463865493582752
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03231100450086409,
+        "sd_ddof0": 0.0019492212396186633,
+        "sd_ddof1": 0.002054659593590605
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0021770570879914583,
+        "sd_ddof0": 0.002394257663872413,
+        "sd_ddof1": 0.002523769174383555
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.031557237549630204,
+        "sd_ddof0": 0.0017726932849443328,
+        "sd_ddof1": 0.001868582791103321
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03373535571270934,
+        "sd_ddof0": 0.0019619283326878447,
+        "sd_ddof1": 0.002068054045770056
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0021781181630791298,
+        "sd_ddof0": 0.002423027008445704,
+        "sd_ddof1": 0.0025540947262641563
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0011623588849757653,
+        "sd_ddof0": 0.00010629071924791336,
+        "sd_ddof1": 0.00011204025565363519
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0013071598822459543,
+        "sd_ddof0": 0.0001586200863114357,
+        "sd_ddof1": 0.00016720025179887775
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0001448009972701891,
+        "sd_ddof0": 0.00017724055303618372,
+        "sd_ddof1": 0.00018682794711407085
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.033540342846544814,
+        "sd_ddof0": 0.0016273568069791228,
+        "sd_ddof1": 0.0017153846919443418
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03533298881402404,
+        "sd_ddof0": 0.0018241360170307675,
+        "sd_ddof1": 0.001922808191921641
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0017926459674792283,
+        "sd_ddof0": 0.002301731397961621,
+        "sd_ddof1": 0.0024262379264940563
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.030466023085948576,
+        "sd_ddof0": 0.001211378528441239,
+        "sd_ddof1": 0.001276905086165792
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03061598460347953,
+        "sd_ddof0": 0.0010516264905833053,
+        "sd_ddof1": 0.0011085116526709528
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0001499615175309537,
+        "sd_ddof0": 0.0016136676031508661,
+        "sd_ddof1": 0.001700955004127146
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.03292314340421057,
+        "sd_ddof0": 0.0012692542160884985,
+        "sd_ddof1": 0.0013379114175370624
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03308736123999292,
+        "sd_ddof0": 0.0011051621225905534,
+        "sd_ddof1": 0.0011649431637107915
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00016421783578234768,
+        "sd_ddof0": 0.0016938070508278544,
+        "sd_ddof1": 0.0017854293991562036
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0017626645079549033,
+        "sd_ddof0": 7.325143920712245e-05,
+        "sd_ddof1": 7.721379659328849e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0017829210370450767,
+        "sd_ddof0": 6.958156942591942e-05,
+        "sd_ddof1": 7.334541418501338e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -2.025652909017324e-05,
+        "sd_ddof0": 0.00010352383890364562,
+        "sd_ddof1": 0.00010912370768662292
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.04014146983656216,
+        "sd_ddof0": 0.0009001590971219552,
+        "sd_ddof1": 0.0009488510011420324
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.04039094510342311,
+        "sd_ddof0": 0.0008353508306870574,
+        "sd_ddof1": 0.0008805370900949267
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.000249475266860949,
+        "sd_ddof0": 0.001258440845011026,
+        "sd_ddof1": 0.0013265131236072619
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.032517578254228,
+        "sd_ddof0": 0.0022299680191591943,
+        "sd_ddof1": 0.002350592683292351
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.031675208599476715,
+        "sd_ddof0": 0.0006568810591208275,
+        "sd_ddof1": 0.0006924134328818457
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0008423696547512846,
+        "sd_ddof0": 0.0021829147593472103,
+        "sd_ddof1": 0.002300994192511839
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.03396607739744722,
+        "sd_ddof0": 0.002261707903216639,
+        "sd_ddof1": 0.0023840494587227487
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.033113712243365345,
+        "sd_ddof0": 0.0006608478474358216,
+        "sd_ddof1": 0.0006965947949055534
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0008523651540818733,
+        "sd_ddof0": 0.002214282242978434,
+        "sd_ddof1": 0.0023340584234260776
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0013232252859305019,
+        "sd_ddof0": 0.0001713604936155693,
+        "sd_ddof1": 0.00018062982026531367
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.001259419762322935,
+        "sd_ddof0": 4.471396324918709e-05,
+        "sd_ddof1": 4.713265569349808e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 6.3805523607567e-05,
+        "sd_ddof0": 0.00016835925576006802,
+        "sd_ddof1": 0.0001774662377908792
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "final",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.03569921741549316,
+        "sd_ddof0": 0.002161950351425579,
+        "sd_ddof1": 0.0022788957662354284
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03492311502906988,
+        "sd_ddof0": 0.0006159262082338348,
+        "sd_ddof1": 0.0006492432295366911
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0007761023864232789,
+        "sd_ddof0": 0.002126652927709829,
+        "sd_ddof1": 0.0022416890147428235
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.032161408111905314,
+        "sd_ddof0": 0.0011165641467019963,
+        "sd_ddof1": 0.0011769619524202306
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.03273026885818974,
+        "sd_ddof0": 0.0012245901464899842,
+        "sd_ddof1": 0.0012908313543692
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0005688607462844261,
+        "sd_ddof0": 0.0012214501395607317,
+        "sd_ddof1": 0.0012875214964474836
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0336049710122623,
+        "sd_ddof0": 0.0011368546569147436,
+        "sd_ddof1": 0.0011983500281399604
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.034191803499816736,
+        "sd_ddof0": 0.0012401072837935037,
+        "sd_ddof1": 0.0013071878532507617
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0005868324875544353,
+        "sd_ddof0": 0.0012465027794547133,
+        "sd_ddof1": 0.0013139292976024775
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0012928981651630662,
+        "sd_ddof0": 8.055351811830446e-05,
+        "sd_ddof1": 8.491086359782766e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0013421210651882055,
+        "sd_ddof0": 9.597285692201632e-05,
+        "sd_ddof1": 0.00010116427380900948
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -4.9222900025139293e-05,
+        "sd_ddof0": 9.091449162104607e-05,
+        "sd_ddof1": 9.58322886129331e-05
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "source_only",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.03535374088542955,
+        "sd_ddof0": 0.0010453377292963275,
+        "sd_ddof1": 0.0011018827162283056
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.036044467334170945,
+        "sd_ddof0": 0.0012667549342270336,
+        "sd_ddof1": 0.001335276943138071
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0006907264487413904,
+        "sd_ddof0": 0.0011778027235244911,
+        "sd_ddof1": 0.0012415130802289908
+      }
+    }
+  ],
+  "method_effect_summaries": [
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.05655281115768144,
+        "sd_ddof0": 0.0011299738246203785,
+        "sd_ddof1": 0.0011910969940573486
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.05662436012253303,
+        "sd_ddof0": 0.0005494679879657021,
+        "sd_ddof1": 0.0005791901144405359
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -7.154896485159281e-05,
+        "sd_ddof0": 0.0011973960374412258,
+        "sd_ddof1": 0.001262166246524843
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.059904451902151816,
+        "sd_ddof0": 0.0010963934153055967,
+        "sd_ddof1": 0.001155700134658867
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.060007482392122335,
+        "sd_ddof0": 0.0005729804959833705,
+        "sd_ddof1": 0.0006039744740534702
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00010303048997052019,
+        "sd_ddof0": 0.001154973817064625,
+        "sd_ddof1": 0.0012174492999276214
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.005723616976011092,
+        "sd_ddof0": 9.583386989826852e-05,
+        "sd_ddof1": 0.00010101776862225915
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.005757180571612045,
+        "sd_ddof0": 1.8124202007049707e-05,
+        "sd_ddof1": 1.9104586371757395e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -3.356359560095336e-05,
+        "sd_ddof0": 9.744840874398963e-05,
+        "sd_ddof1": 0.0001027196419966918
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.06744933229542613,
+        "sd_ddof0": 0.0010962113180919798,
+        "sd_ddof1": 0.0011555081873420002
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.06755173277385954,
+        "sd_ddof0": 0.0007574203603125839,
+        "sd_ddof1": 0.0007983911615910563
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00010240047843341205,
+        "sd_ddof0": 0.0012743459941800222,
+        "sd_ddof1": 0.0013432786229068494
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.055900012094498824,
+        "sd_ddof0": 0.000744512980705717,
+        "sd_ddof1": 0.0007847855888636867
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.05603794475529625,
+        "sd_ddof0": 0.0004728383672293378,
+        "sd_ddof1": 0.0004984154018532758
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0001379326607974192,
+        "sd_ddof0": 0.0009710294556055737,
+        "sd_ddof1": 0.0010235549182756561
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.05925802888236218,
+        "sd_ddof0": 0.0007397298150239846,
+        "sd_ddof1": 0.0007797436895369446
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.05938833322286674,
+        "sd_ddof0": 0.0005385137378296495,
+        "sd_ddof1": 0.0005676433209441574
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0001303043405045591,
+        "sd_ddof0": 0.000999191538941096,
+        "sd_ddof1": 0.0010532403606075636
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.005716994561583166,
+        "sd_ddof0": 9.280849647194677e-05,
+        "sd_ddof1": 9.782874502235105e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.005751049236116556,
+        "sd_ddof0": 1.4844509057636609e-05,
+        "sd_ddof1": 1.5647486456377138e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -3.4054674533390545e-05,
+        "sd_ddof0": 9.914927603007949e-05,
+        "sd_ddof1": 0.00010451251353726285
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.06725344601618694,
+        "sd_ddof0": 0.0007807306337501821,
+        "sd_ddof1": 0.0008229623472391006
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.06738730906027034,
+        "sd_ddof0": 0.0007202289303104577,
+        "sd_ddof1": 0.0007591879521759097
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00013386304408340017,
+        "sd_ddof0": 0.0011419442066176032,
+        "sd_ddof1": 0.0012037148845818503
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.01782735434406341,
+        "sd_ddof0": 0.0004914699983536643,
+        "sd_ddof1": 0.0005180548654789276
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.01814765012150045,
+        "sd_ddof0": 0.00040151022290115776,
+        "sd_ddof1": 0.00042322893606985254
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00032029577743704075,
+        "sd_ddof0": 0.0004990101689742774,
+        "sd_ddof1": 0.0005260029031814019
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.018935188269864157,
+        "sd_ddof0": 0.000520420368804026,
+        "sd_ddof1": 0.0005485712353885201
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.019277087429132103,
+        "sd_ddof0": 0.0004099495458753869,
+        "sd_ddof1": 0.00043212476357263604
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00034189915926794643,
+        "sd_ddof0": 0.0005019993082564411,
+        "sd_ddof1": 0.0005291537326397746
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0007855585423741343,
+        "sd_ddof0": 2.1458891831869757e-05,
+        "sd_ddof1": 2.2619658083963816e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0007986290338778505,
+        "sd_ddof0": 1.354425573322584e-05,
+        "sd_ddof1": 1.4276899109595854e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.3070491503716176e-05,
+        "sd_ddof0": 1.8258323641721394e-05,
+        "sd_ddof1": 1.9245962988113245e-05
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.020882160825885555,
+        "sd_ddof0": 0.0006485442890984156,
+        "sd_ddof1": 0.0006836257056819009
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.021334075387631376,
+        "sd_ddof0": 0.0004818142782107914,
+        "sd_ddof1": 0.0005078768427787127
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0004519145617458215,
+        "sd_ddof0": 0.00046410811712924784,
+        "sd_ddof1": 0.0004892129102335433
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.016292715289503507,
+        "sd_ddof0": 0.0007497246577494297,
+        "sd_ddof1": 0.0007902791788261352
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.01661394117605806,
+        "sd_ddof0": 0.0007956838904979235,
+        "sd_ddof1": 0.0008387244638258155
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0003212258865545509,
+        "sd_ddof0": 0.000732457957072557,
+        "sd_ddof1": 0.000772078478221039
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.017313652784677728,
+        "sd_ddof0": 0.0007770657666827407,
+        "sd_ddof1": 0.0008190992381541484
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.017654235743766816,
+        "sd_ddof0": 0.0008386722061066852,
+        "sd_ddof1": 0.0008840381271917671
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0003405829590890884,
+        "sd_ddof0": 0.0007542116794605702,
+        "sd_ddof1": 0.0007950089149987453
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0007369106964824377,
+        "sd_ddof0": 2.6571127723485075e-05,
+        "sd_ddof1": 2.8008427868485847e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0007492432252180929,
+        "sd_ddof0": 2.718461056215674e-05,
+        "sd_ddof1": 2.8655095560361876e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.2332528735655161e-05,
+        "sd_ddof0": 2.439570405436229e-05,
+        "sd_ddof1": 2.571532997839634e-05
+      }
+    },
+    {
+      "logical_group": "full/paper_equation/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.019706280371401173,
+        "sd_ddof0": 0.0007124422498449503,
+        "sd_ddof1": 0.0007509800702815952
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.020051796328329395,
+        "sd_ddof0": 0.0007506810063404203,
+        "sd_ddof1": 0.0007912872587543428
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00034551595692822076,
+        "sd_ddof0": 0.0006771085192279353,
+        "sd_ddof1": 0.0007137350479547305
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0007237029019308042,
+        "sd_ddof0": 0.0008731958044384491,
+        "sd_ddof1": 0.0009204291951094882
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0006543355234600633,
+        "sd_ddof0": 0.0008258175063722532,
+        "sd_ddof1": 0.0008704880839256449
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 6.93673784707409e-05,
+        "sd_ddof0": 0.0012733517938927695,
+        "sd_ddof1": 0.0013422306437874784
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0007030178873195461,
+        "sd_ddof0": 0.0008971024539982535,
+        "sd_ddof1": 0.0009456290163869695
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0006531754232982389,
+        "sd_ddof0": 0.0008530207682683194,
+        "sd_ddof1": 0.0008991628397181915
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 4.984246402130726e-05,
+        "sd_ddof0": 0.001312578439877305,
+        "sd_ddof1": 0.001383579159214222
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 7.460482912948152e-06,
+        "sd_ddof0": 1.9171377507180277e-05,
+        "sd_ddof1": 2.0208406268536913e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 6.7067693544072775e-06,
+        "sd_ddof0": 1.9193499405493624e-05,
+        "sd_ddof1": 2.023172479681585e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 7.537135585408751e-07,
+        "sd_ddof0": 3.0012018346205556e-05,
+        "sd_ddof1": 3.163544505092313e-05
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0003386973030347483,
+        "sd_ddof0": 0.0010812282782966928,
+        "sd_ddof1": 0.0011397146766666502
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0002310386386741272,
+        "sd_ddof0": 0.000977244257417336,
+        "sd_ddof1": 0.0010301058945862262
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.00010765866436062109,
+        "sd_ddof0": 0.0015828752744619667,
+        "sd_ddof1": 0.0016684970397546563
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 7.090383874819618e-05,
+        "sd_ddof0": 0.0006759139473206093,
+        "sd_ddof1": 0.0007124758586027299
+      },
+      "modern": {
+        "n": 10,
+        "mean": 6.792015622328141e-05,
+        "sd_ddof0": 0.0007909472800670035,
+        "sd_ddof1": 0.0008337316380422758
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 2.983682524914776e-06,
+        "sd_ddof0": 0.0010899466373373073,
+        "sd_ddof1": 0.0011489046340091378
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 5.6594867529907985e-05,
+        "sd_ddof0": 0.0007048280089402823,
+        "sd_ddof1": 0.0007429539556442712
+      },
+      "modern": {
+        "n": 10,
+        "mean": 3.4026254042638335e-05,
+        "sd_ddof0": 0.0008323203954122573,
+        "sd_ddof1": 0.000877342730838231
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 2.2568613487269647e-05,
+        "sd_ddof0": 0.0011510221577759666,
+        "sd_ddof1": 0.001213283885297914
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 8.380684850224326e-07,
+        "sd_ddof0": 1.5975434702929457e-05,
+        "sd_ddof1": 1.6839586757517495e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 5.75433858918734e-07,
+        "sd_ddof0": 1.72585224500086e-05,
+        "sd_ddof1": 1.819207999705888e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 2.6263462610369855e-07,
+        "sd_ddof0": 2.50998282857049e-05,
+        "sd_ddof1": 2.6457542087315663e-05
+      }
+    },
+    {
+      "logical_group": "full/published_code/HUST/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00014281102379556116,
+        "sd_ddof0": 0.0008431024183184194,
+        "sd_ddof1": 0.0008887079808940912
+      },
+      "modern": {
+        "n": 10,
+        "mean": 6.661492508492923e-05,
+        "sd_ddof0": 0.0009534643298432786,
+        "sd_ddof1": 0.0010050396500102716
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 7.619609871063193e-05,
+        "sd_ddof0": 0.001365735339466873,
+        "sd_ddof1": 0.001439611451232857
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0016515331882009086,
+        "sd_ddof0": 0.000598401315349178,
+        "sd_ddof1": 0.0006307703704480264
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0020205582455007894,
+        "sd_ddof0": 0.0005113022963890468,
+        "sd_ddof1": 0.0005389599431546247
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00036902505729988054,
+        "sd_ddof0": 0.0004296863975312496,
+        "sd_ddof1": 0.0004529292319304334
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0017360443281420148,
+        "sd_ddof0": 0.0006375575998145478,
+        "sd_ddof1": 0.000672044718321372
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.00212695639648562,
+        "sd_ddof0": 0.0005429243658150751,
+        "sd_ddof1": 0.0005722925310593657
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0003909120683436052,
+        "sd_ddof0": 0.0004525791284906389,
+        "sd_ddof1": 0.000477060289161474
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 5.421029020331701e-05,
+        "sd_ddof0": 2.9020779612782405e-05,
+        "sd_ddof1": 3.059058768339058e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 6.736418368713411e-05,
+        "sd_ddof0": 2.1852572663467245e-05,
+        "sd_ddof1": 2.3034634116962895e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.3153893483817095e-05,
+        "sd_ddof0": 2.153011462312194e-05,
+        "sd_ddof1": 2.2694733497854353e-05
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-CNN",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.0012755690149018552,
+        "sd_ddof0": 0.0007895295432165767,
+        "sd_ddof1": 0.0008322372121855751
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0016987897903304509,
+        "sd_ddof0": 0.0006536175408791648,
+        "sd_ddof1": 0.0006889733826054586
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00042322077542859555,
+        "sd_ddof0": 0.00048544112638207535,
+        "sd_ddof1": 0.0005116998764283372
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00011689413364100662,
+        "sd_ddof0": 0.0009017494961999096,
+        "sd_ddof1": 0.0009505274289670216
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.000486849300058397,
+        "sd_ddof0": 0.0008990761689727127,
+        "sd_ddof1": 0.0009477094946440601
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0003699551664173904,
+        "sd_ddof0": 0.0008488064987371055,
+        "sd_ddof1": 0.0008947206095873628
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00011450884295558334,
+        "sd_ddof0": 0.0009509462985485224,
+        "sd_ddof1": 0.0010023854119732675
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0005041047111203319,
+        "sd_ddof0": 0.0009448859962290108,
+        "sd_ddof1": 0.0009959972924269815
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00038959586816474855,
+        "sd_ddof0": 0.0008810080636462802,
+        "sd_ddof1": 0.0009286640393656112
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 5.562444311620333e-06,
+        "sd_ddof0": 3.2376820829991484e-05,
+        "sd_ddof1": 3.412816573931877e-05
+      },
+      "modern": {
+        "n": 10,
+        "mean": 1.7978375027376442e-05,
+        "sd_ddof0": 3.2933865835099585e-05,
+        "sd_ddof1": 3.471534273110602e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -1.2415930715756111e-05,
+        "sd_ddof0": 2.4705835196449884e-05,
+        "sd_ddof1": 2.604223690584504e-05
+      }
+    },
+    {
+      "logical_group": "full/published_code/MIT/all/PINN",
+      "evaluation": "PINN-minus-MLP",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 9.968856041747444e-05,
+        "sd_ddof0": 0.000973982675097265,
+        "sd_ddof1": 0.0010266678849503727
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.00041651073102846913,
+        "sd_ddof0": 0.0008582027237429748,
+        "sd_ddof1": 0.0009046251003960215
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0003168221706109947,
+        "sd_ddof0": 0.0008273694535321654,
+        "sd_ddof1": 0.0008721239798701623
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": -0.0003320756730759426,
+        "sd_ddof0": 0.001983980238850626,
+        "sd_ddof1": 0.002091298795844287
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.001695019897384562,
+        "sd_ddof0": 0.0023484432603388603,
+        "sd_ddof1": 0.002475476552780857
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0020270955704605044,
+        "sd_ddof0": 0.0032871286426907212,
+        "sd_ddof1": 0.0034649378242934915
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": -0.0013659058545803624,
+        "sd_ddof0": 0.0020359681894704744,
+        "sd_ddof1": 0.002146098907458648
+      },
+      "modern": {
+        "n": 10,
+        "mean": 0.0006479944727164199,
+        "sd_ddof0": 0.002384412789617873,
+        "sd_ddof1": 0.0025133917657427884
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.002013900327296782,
+        "sd_ddof0": 0.003362224045238599,
+        "sd_ddof1": 0.0035440953289129933
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": -0.0006003056229791381,
+        "sd_ddof0": 0.00012612136491624577,
+        "sd_ddof1": 0.00013294359158152935
+      },
+      "modern": {
+        "n": 10,
+        "mean": -0.0004757611547991223,
+        "sd_ddof0": 0.00017812237265509126,
+        "sd_ddof1": 0.00018775746660779403
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.00012454446818001584,
+        "sd_ddof0": 0.00023279474580062978,
+        "sd_ddof1": 0.0002453872080166361
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": -0.006601126990017347,
+        "sd_ddof0": 0.0018334626439183354,
+        "sd_ddof1": 0.0019326393198720682
+      },
+      "modern": {
+        "n": 10,
+        "mean": -0.005057956289399068,
+        "sd_ddof0": 0.0020644774157119452,
+        "sd_ddof1": 0.0021761502705426776
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": -0.0015431707006182793,
+        "sd_ddof0": 0.0028826535518885095,
+        "sd_ddof1": 0.0030385836430473546
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "MAE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.00035617014232268635,
+        "sd_ddof0": 0.0027579426749373684,
+        "sd_ddof1": 0.002907126836326487
+      },
+      "modern": {
+        "n": 10,
+        "mean": -0.0010550602587130243,
+        "sd_ddof0": 0.0010794697685737786,
+        "sd_ddof1": 0.0011378610446626638
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0014112304010357106,
+        "sd_ddof0": 0.0023060752933818907,
+        "sd_ddof1": 0.0024308167943092648
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "MAPE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.000361106385184912,
+        "sd_ddof0": 0.0028055882888541766,
+        "sd_ddof1": 0.002957349723157864
+      },
+      "modern": {
+        "n": 10,
+        "mean": -0.0010780912564513968,
+        "sd_ddof0": 0.0010898732994644288,
+        "sd_ddof1": 0.001148827329103455
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0014391976416363087,
+        "sd_ddof0": 0.002356592768977071,
+        "sd_ddof1": 0.002484066889150178
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "MSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 3.0327120767435636e-05,
+        "sd_ddof0": 0.00021091844536836704,
+        "sd_ddof1": 0.0002223275626352773
+      },
+      "modern": {
+        "n": 10,
+        "mean": -8.270130286527067e-05,
+        "sd_ddof0": 8.227852754003229e-05,
+        "sd_ddof1": 8.672918318379761e-05
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0001130284236327063,
+        "sd_ddof0": 0.00018225306289960195,
+        "sd_ddof1": 0.00019211159643489124
+      }
+    },
+    {
+      "logical_group": "transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1",
+      "evaluation": "fine_tune-minus-source_only",
+      "metric": "RMSE",
+      "repeat_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete_ten_repeat_set": true,
+      "comparable_repeats": 10,
+      "legacy": {
+        "n": 10,
+        "mean": 0.000345476530063607,
+        "sd_ddof0": 0.002699587304267114,
+        "sd_ddof1": 0.0028456148746526908
+      },
+      "modern": {
+        "n": 10,
+        "mean": -0.0011213523051010622,
+        "sd_ddof0": 0.0010679964438355886,
+        "sd_ddof1": 0.0011257670984935182
+      },
+      "paired_legacy_minus_modern": {
+        "n": 10,
+        "mean": 0.0014668288351646693,
+        "sd_ddof0": 0.0023223038371403453,
+        "sd_ddof1": 0.0024479231814374066
+      }
+    }
+  ],
+  "analysis_manifest_sha256": "5091c6dd9a080ad2662abeaf90bf9a2355e0da1f61b825b90ad0769e591f249a",
+  "input_suite_manifest_sha256": {
+    "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\extracted\\pinn4soh_legacy_formal_control_20261110": "e6438e66b69d65faad4c8946979bb282e91cdb52a0b855e89270153f22e718fc",
+    "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\extracted\\pinn4soh_legacy_selected_extension_20261110": "b53d5c7b579c6b0e69967b2fe8a0262530a5049e767527b3ff08fa4dcaef5597",
+    "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\extracted\\pinn4soh_full_paper_stage1": "e9a09b847951be1fcc8e9cddf2b954170b312a98872db1bcf32f4630ac766a99",
+    "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\extracted\\pinn4soh_full_paper_stage2": "f4ed3cae3010bd398efc23eb7312439f5f300b50ccea7ae52402a37a20d795f0"
+  },
+  "analysis_scripts_sha256": {
+    "compare_legacy_extension.py": "8b3a41af6e018b52a6395aa6000a88b02297515b29695958504bc4399c367f79",
+    "build_suite_report.py": "aed5d6e8bb1af84767ff4f9b11b8bcc00bf1092180e8ecd0454f571f4b6c85d9",
+    "prepare_legacy_extension.py": "2666a4e4dcc493951bfac70ca14162502e8514300cc76d610a8c3157c7418e33",
+    "compare_legacy_control.py": "436bd4ebd900238dbc9ac1b642a1a2aa3151277e8db818f52de96da44763d15b"
+  },
+  "training_performed": false,
+  "limitation": "Post-screen selected groups; cannot establish all2120 environment-independence or reconstruct historical backend defaults"
+}

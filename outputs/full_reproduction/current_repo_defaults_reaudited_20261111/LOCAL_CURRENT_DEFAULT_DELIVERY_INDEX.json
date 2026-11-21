@@ -1,0 +1,56 @@
+{
+  "format": "pinn4soh-current-default-delivery-index-v1",
+  "status": "passed_20",
+  "inputs_read_only": true,
+  "trained_runs": 20,
+  "additional_training_started": false,
+  "files": [
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/CURRENT_DEFAULT_CONFIGS_20.json",
+      "bytes": 15185,
+      "sha256": "c9058de1d100485b7ebbab969b18d1fb08592d0207b0d1a9b0e377d7af60e093"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/INPUT_SHA256_CHECKS.json",
+      "bytes": 120154,
+      "sha256": "7fa64dc47d7baf21315bc2bbe788dbab96b9fd3a4a8c9eb35612f83839782e4a"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/LOCAL_CURRENT_DEFAULT_AUDIT.json",
+      "bytes": 12792,
+      "sha256": "af495f2a0eac0e205903bcb5b86eda4c148e788640e4f983bb76e37958f9e462"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_per_CSV.csv",
+      "bytes": 62087,
+      "sha256": "a5b97c7667c89f473f3f482aa457514a3578eec121519d4fb76d88983335daeb"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_per_run_20.csv",
+      "bytes": 4979,
+      "sha256": "09adc000bf21a79a12483091808b99eda7a5f5164c73a3fdf3117ef66f50499b"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_summary_20.csv",
+      "bytes": 1304,
+      "sha256": "88e564af766c12cdd2b1ea43e1a459f107977c15aad51d3e9a4ff65bc69b3c4b"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/saved_metric_precision_differences.csv",
+      "bytes": 9804,
+      "sha256": "1dbf32227e99c7e8ea26b48d62e63bd829664747b1fa345b751abb04ab5db9e1"
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/作者当前默认20次_独立复核.md",
+      "bytes": 5164,
+      "sha256": "c5daf3c180b6c5a147a81fd5e8e234c46ade34bb086fee6234c580466755f6b0"
+    }
+  ],
+  "script": {
+    "path": "reproduction/audit_current_defaults_local.py",
+    "bytes": 13312,
+    "sha256": "dc0b2ae648218ef1dca52709f1a706fd48e49f89438177fd1fc30dc9f789ea97"
+  },
+  "metrics_per_run_rows": 40,
+  "metrics_per_CSV_rows": 430
+}

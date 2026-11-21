@@ -1,0 +1,9 @@
+﻿scope,loss_variant,source_mode,comparisons,transfer_lower,transfer_higher
+C13,published_label_monotonicity,reproduced_checkpoint,12,7,5
+C13,published_label_monotonicity,supplied_author_checkpoint,12,8,4
+C13,paper_prediction_monotonicity,reproduced_checkpoint,12,3,9
+C13,paper_prediction_monotonicity,supplied_author_checkpoint,12,2,10
+C14,published_label_monotonicity,reproduced_checkpoint,6,2,4
+C14,published_label_monotonicity,supplied_author_checkpoint,6,4,2
+C14,paper_prediction_monotonicity,reproduced_checkpoint,6,0,6
+C14,paper_prediction_monotonicity,supplied_author_checkpoint,6,1,5

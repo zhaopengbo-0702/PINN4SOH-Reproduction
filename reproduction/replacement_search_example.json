@@ -1,0 +1,21 @@
+{
+  "label": "REPLACEMENT_EXAMPLE_NOT_AUTHOR_GRID",
+  "dataset": "XJTU",
+  "loss_variant": "paper_prediction_monotonicity",
+  "seeds": [20261111, 20261112, 20261113],
+  "splits": {
+    "train": {"paths": ["data/XJTU data/2C_battery-1.csv", "data/XJTU data/2C_battery-3.csv", "data/XJTU data/2C_battery-5.csv", "data/XJTU data/2C_battery-6.csv", "data/XJTU data/2C_battery-7.csv"], "nominal_capacity": 2.0},
+    "valid": {"paths": ["data/XJTU data/2C_battery-2.csv"], "nominal_capacity": 2.0},
+    "test": {"paths": ["data/XJTU data/2C_battery-4.csv", "data/XJTU data/2C_battery-8.csv"], "nominal_capacity": 2.0}
+  },
+  "fixed": {
+    "epochs": 200, "early_stop": 20, "batch_size": 256, "threads": 2,
+    "normalization_method": "min-max", "warmup_epochs": 30, "warmup_lr": 0.002,
+    "lr": 0.01, "final_lr": 0.0002, "lr_F": 0.001
+  },
+  "grid": {
+    "u_layers": [2, 3], "u_hidden": [32, 60],
+    "F_layers_num": [2, 3], "F_hidden_dim": [32, 60],
+    "alpha": [0.35, 0.7], "beta": [0, 20]
+  }
+}

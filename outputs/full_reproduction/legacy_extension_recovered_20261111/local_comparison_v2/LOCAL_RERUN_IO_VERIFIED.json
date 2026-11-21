@@ -1,0 +1,544 @@
+{
+  "format": "pinn4soh-extension-local-windows-io-rerun-v1",
+  "checked_at_utc": "2026-11-11T04:32:58.293819+00:00",
+  "input_restored_root": "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\extracted",
+  "cloud_comparison": "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\extracted\\legacy_selected_comparison_20261110",
+  "local_comparison": "\\\\?\\C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\legacy_extension_recovered_20261111\\local_comparison_v2",
+  "task_counts": {
+    "matched": 110
+  },
+  "byte_comparisons": {
+    "task_matching.csv": {
+      "cloud_sha256": "0878e4d8bbb837e2ab575fdc8cd7e8140710ebcb92afbeabb12829e3f0cacb92",
+      "local_sha256": "0878e4d8bbb837e2ab575fdc8cd7e8140710ebcb92afbeabb12829e3f0cacb92",
+      "byte_identical": true
+    },
+    "per_repeat_metric_differences.csv": {
+      "cloud_sha256": "eef1d611a7e0ee12da20bd74c0c97c637a2e6293a67c9e4b94cbaa6833e6f534",
+      "local_sha256": "eef1d611a7e0ee12da20bd74c0c97c637a2e6293a67c9e4b94cbaa6833e6f534",
+      "byte_identical": true
+    },
+    "per_battery_differences.csv": {
+      "cloud_sha256": "0fc1e11673ab2e95ea9f3722665c8b69de7b7fb3e8d9c856facd9f3291d3799b",
+      "local_sha256": "0fc1e11673ab2e95ea9f3722665c8b69de7b7fb3e8d9c856facd9f3291d3799b",
+      "byte_identical": true
+    },
+    "per_repeat_method_effects.csv": {
+      "cloud_sha256": "ff453f429a103eb2b9c825f83035c30e9337ba8b5a6dc5aa88987d8ce5453aa0",
+      "local_sha256": "ff453f429a103eb2b9c825f83035c30e9337ba8b5a6dc5aa88987d8ce5453aa0",
+      "byte_identical": true
+    },
+    "ten_repeat_summaries.csv": {
+      "cloud_sha256": "26f5de796190bf8e31b10f096bdff435e6e83a30ed21cbbdd224168b9cea9f3e",
+      "local_sha256": "e60a4d147600e99419fdfaa58551a38e821d668d856c9aef1d0dfd0c759d8dc3",
+      "byte_identical": false
+    },
+    "ten_repeat_effect_summaries.csv": {
+      "cloud_sha256": "7f44e48caca7b7f8935eba6d80f0bbbb540513a102973e1eaa3d950a9d433e35",
+      "local_sha256": "d6c1d91c5a761acdd101ca19a22ac43bd7fc646c0252bfb2c09c8e2510277680",
+      "byte_identical": false
+    },
+    "comparison_evidence.json": {
+      "cloud_sha256": "c7cb19e4d9d192a0d16b909beb04ef326a1e068b0afcb55a236a1763cfedd8bf",
+      "local_sha256": "9dc2efbf4f7f18a468b6026fb62f3a9b175fa7826fa59fa53dc9ede3a2146db0",
+      "byte_identical": false
+    }
+  },
+  "summary_field_comparisons": {
+    "format": true,
+    "task_counts": true,
+    "expected_tasks": true,
+    "expected_repeats": true,
+    "reused_repeat1": true,
+    "new_training_repeats": true,
+    "assessment": true,
+    "selection": true,
+    "no_significance_or_equivalence_claim": true,
+    "summaries": true,
+    "method_effect_summaries": true,
+    "analysis_manifest_sha256": true,
+    "analysis_scripts_sha256": true,
+    "training_performed": true,
+    "limitation": true,
+    "input_suite_manifest_hashes_by_suite_name": true
+  },
+  "parsed_non_byte_identical_comparisons": {
+    "ten_repeat_summaries.csv": true,
+    "ten_repeat_effect_summaries.csv": true,
+    "comparison_evidence.json": true
+  },
+  "sd_one_ulp_differences": [
+    {
+      "path": "/summaries/1/modern/sd_ddof0",
+      "cloud": 0.0001567062358919625,
+      "local": 0.00015670623589196248,
+      "absolute_difference": 2.710505431213761e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/2/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 9.337655216827598e-05,
+      "local": 9.3376552168276e-05,
+      "absolute_difference": 1.3552527156068805e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/3/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0006173557712132618,
+      "local": 0.0006173557712132616,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/5/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.00046680410525151684,
+      "local": 0.0004668041052515169,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/6/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 1.4900296031435843e-05,
+      "local": 1.4900296031435842e-05,
+      "absolute_difference": 1.6940658945086007e-21,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/7/legacy/sd_ddof1",
+      "cloud": 0.00028642297683970433,
+      "local": 0.0002864229768397044,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/7/modern/sd_ddof0",
+      "cloud": 0.00015948718760565964,
+      "local": 0.00015948718760565962,
+      "absolute_difference": 2.710505431213761e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/7/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.0003102057930591579,
+      "local": 0.000310205793059158,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/8/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0003271546768169789,
+      "local": 0.00032715467681697884,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/13/legacy/sd_ddof1",
+      "cloud": 0.0005386440648163679,
+      "local": 0.000538644064816368,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/13/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.000803962159970648,
+      "local": 0.0008039621599706479,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/15/legacy/sd_ddof0",
+      "cloud": 0.0005467756454340788,
+      "local": 0.0005467756454340789,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/17/legacy/sd_ddof1",
+      "cloud": 0.00036324705152276373,
+      "local": 0.0003632470515227637,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/19/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0003553729493395566,
+      "local": 0.00035537294933955663,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/20/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0008121039642755121,
+      "local": 0.000812103964275512,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/20/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.0008560327413208771,
+      "local": 0.000856032741320877,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/21/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0008195757106971172,
+      "local": 0.0008195757106971171,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/26/legacy/sd_ddof0",
+      "cloud": 7.580766244782301e-06,
+      "local": 7.580766244782302e-06,
+      "absolute_difference": 8.470329472543003e-22,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/27/modern/sd_ddof0",
+      "cloud": 0.0007114365154385818,
+      "local": 0.0007114365154385817,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/27/modern/sd_ddof1",
+      "cloud": 0.0007499199331331544,
+      "local": 0.0007499199331331543,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/31/legacy/sd_ddof1",
+      "cloud": 0.000811914782974753,
+      "local": 0.0008119147829747531,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/31/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.000468536557547214,
+      "local": 0.00046853655754721405,
+      "absolute_difference": 5.421010862427522e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/39/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0023017313979616216,
+      "local": 0.002301731397961621,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/41/modern/sd_ddof1",
+      "cloud": 0.0011649431637107918,
+      "local": 0.0011649431637107915,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/41/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0016938070508278546,
+      "local": 0.0016938070508278544,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/42/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.0001091237076866229,
+      "local": 0.00010912370768662292,
+      "absolute_difference": 1.3552527156068805e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/44/legacy/sd_ddof0",
+      "cloud": 0.0022299680191591948,
+      "local": 0.0022299680191591943,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/44/modern/sd_ddof1",
+      "cloud": 0.0006924134328818456,
+      "local": 0.0006924134328818457,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/45/legacy/sd_ddof0",
+      "cloud": 0.0022617079032166395,
+      "local": 0.002261707903216639,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/45/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0022142822429784335,
+      "local": 0.002214282242978434,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/summaries/45/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.002334058423426077,
+      "local": 0.0023340584234260776,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/0/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.0012621662465248428,
+      "local": 0.001262166246524843,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/1/legacy/sd_ddof0",
+      "cloud": 0.001096393415305597,
+      "local": 0.0010963934153055967,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/2/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.00010271964199669179,
+      "local": 0.0001027196419966918,
+      "absolute_difference": 1.3552527156068805e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/3/legacy/sd_ddof1",
+      "cloud": 0.0011555081873420004,
+      "local": 0.0011555081873420002,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/3/modern/sd_ddof1",
+      "cloud": 0.0007983911615910561,
+      "local": 0.0007983911615910563,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/3/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0012743459941800225,
+      "local": 0.0012743459941800222,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/6/modern/sd_ddof1",
+      "cloud": 1.5647486456377134e-05,
+      "local": 1.5647486456377138e-05,
+      "absolute_difference": 3.3881317890172014e-21,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/6/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 9.91492760300795e-05,
+      "local": 9.914927603007949e-05,
+      "absolute_difference": 1.3552527156068805e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/10/legacy/sd_ddof1",
+      "cloud": 2.2619658083963813e-05,
+      "local": 2.2619658083963816e-05,
+      "absolute_difference": 3.3881317890172014e-21,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/12/modern/sd_ddof1",
+      "cloud": 0.0008387244638258154,
+      "local": 0.0008387244638258155,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/14/legacy/sd_ddof1",
+      "cloud": 2.8008427868485844e-05,
+      "local": 2.8008427868485847e-05,
+      "absolute_difference": 3.3881317890172014e-21,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/15/modern/sd_ddof0",
+      "cloud": 0.0007506810063404202,
+      "local": 0.0007506810063404203,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/19/legacy/sd_ddof0",
+      "cloud": 0.0010812282782966926,
+      "local": 0.0010812282782966928,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/19/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.0016684970397546565,
+      "local": 0.0016684970397546563,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/21/modern/sd_ddof0",
+      "cloud": 0.0008323203954122572,
+      "local": 0.0008323203954122573,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/21/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0011510221577759664,
+      "local": 0.0011510221577759666,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/22/legacy/sd_ddof0",
+      "cloud": 1.5975434702929454e-05,
+      "local": 1.5975434702929457e-05,
+      "absolute_difference": 3.3881317890172014e-21,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/28/legacy/sd_ddof0",
+      "cloud": 0.0009017494961999095,
+      "local": 0.0009017494961999096,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/29/modern/sd_ddof0",
+      "cloud": 0.0009448859962290109,
+      "local": 0.0009448859962290108,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/29/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0008810080636462803,
+      "local": 0.0008810080636462802,
+      "absolute_difference": 1.0842021724855044e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/33/legacy/sd_ddof1",
+      "cloud": 0.0021460989074586477,
+      "local": 0.002146098907458648,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/34/paired_legacy_minus_modern/sd_ddof0",
+      "cloud": 0.0002327947458006298,
+      "local": 0.00023279474580062978,
+      "absolute_difference": 2.710505431213761e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/36/legacy/sd_ddof0",
+      "cloud": 0.002757942674937368,
+      "local": 0.0027579426749373684,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/36/modern/sd_ddof1",
+      "cloud": 0.0011378610446626635,
+      "local": 0.0011378610446626638,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/38/paired_legacy_minus_modern/sd_ddof1",
+      "cloud": 0.00019211159643489127,
+      "local": 0.00019211159643489124,
+      "absolute_difference": 2.710505431213761e-20,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/39/legacy/sd_ddof1",
+      "cloud": 0.0028456148746526903,
+      "local": 0.0028456148746526908,
+      "absolute_difference": 4.336808689942018e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    },
+    {
+      "path": "/method_effect_summaries/39/modern/sd_ddof1",
+      "cloud": 0.0011257670984935184,
+      "local": 0.0011257670984935182,
+      "absolute_difference": 2.168404344971009e-19,
+      "difference_in_ulps": 1.0,
+      "accepted": true
+    }
+  ],
+  "numeric_check_policy": "All per-repeat values and scientific identities exact; only named sd_ddof0/sd_ddof1 may differ by <=1 binary64 ULP; mean, directions and counts remain exact. JSON line endings/order do not alter parsed evidence.",
+  "cloud_comparison_bytes_unchanged": true,
+  "scope": "Frozen comparator recomputes metrics from restored arrays and checks planned identities, completion-time hashes and source lineage; no training or checkpoint pickle load",
+  "path_adapter": "Process-local Path.resolve preserves Windows extended-length prefix only",
+  "expected_summary_difference": "input_suite_manifest_sha256 keys contain local restored suite paths instead of cloud paths; values checked by unique suite name",
+  "external_inventory_audit_required_separately": true,
+  "wrapper_sha256": "a75d00434da01825bf3b783715325a5e7af23a63d9b60f44e66f8a5fe9f81af6",
+  "passed": true
+}

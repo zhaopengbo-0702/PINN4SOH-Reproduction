@@ -1,0 +1,188 @@
+{
+  "reference": "newly_reconstructed_no_training_time_tensor_reference",
+  "matched_training_time_tensor_record": false,
+  "tensor_order": [
+    "X1",
+    "X2",
+    "Y1",
+    "Y2"
+  ],
+  "tensors": [
+    {
+      "dtype": "float32",
+      "shape": [
+        14170,
+        17
+      ],
+      "sha256": "d1f64d1abd98b876cbe157477d8d5a39087a265501c76b99fa5cadfb5ffaa4c0"
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        14170,
+        17
+      ],
+      "sha256": "a2f0d453c60ead6416832e5b6acdf0d69e75f57ff1e28065a1ff2efc379d7c82"
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        14170,
+        1
+      ],
+      "sha256": "d89cfa654d3ea870de11878a0a31cb6851a7d5f62f42d32ede23640feb0c45fd"
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        14170,
+        1
+      ],
+      "sha256": "9afc8db949543abbdc438a0a20560ffedcb08394864af4ab1130a774a9f47eb9"
+    }
+  ],
+  "independent_csv_reconstruction_bitwise_equal": true,
+  "labels_bitwise_equal": true,
+  "batch_size": 512,
+  "shuffle": false,
+  "boundaries": [
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-10.csv",
+      "start": 0,
+      "stop": 951,
+      "csv_sha256": "90ed1d4b765234d2d58366d0f733fe594f30ac20eeb8e87de985838fad63fb49"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-15.csv",
+      "start": 951,
+      "stop": 1745,
+      "csv_sha256": "0563c450412d1c249d82b2edba33941af847feffa5f551add6994a20147dd810"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-20.csv",
+      "start": 1745,
+      "stop": 2456,
+      "csv_sha256": "7bbbaf09d60c8d656a27a478776f03839d46c1daf1b6167bc26e9852331a096a"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-25.csv",
+      "start": 2456,
+      "stop": 3378,
+      "csv_sha256": "f16ec7bfc0ea505cba5613ef4bc2b4fdbfa58c0cdbf1985ceb3e1b0c18502813"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-30.csv",
+      "start": 3378,
+      "stop": 4204,
+      "csv_sha256": "41306d43ef1c6b72895bf53c01b9a689deade7e49451a472d9b1ce2e3bd63aa2"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-35.csv",
+      "start": 4204,
+      "stop": 4872,
+      "csv_sha256": "686b212b3d24ae1dddb8dda5d380c5612f13263efcc233758016eccb760b7b42"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-40.csv",
+      "start": 4872,
+      "stop": 5416,
+      "csv_sha256": "a0d78f1d37949dd2ada269416d67ea69177fedd7a980cff594154c421e97b91c"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-45.csv",
+      "start": 5416,
+      "stop": 5816,
+      "csv_sha256": "0821e841246871cb5763753e0a3e1c05197c781b678e4658ac9fdf1981b78e2a"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-5.csv",
+      "start": 5816,
+      "stop": 7072,
+      "csv_sha256": "5cc7a02bd71d4400d6ba2d025e2fd9da070e867346fdff12d7d7d26baa7b0077"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-15.csv",
+      "start": 7072,
+      "stop": 7512,
+      "csv_sha256": "69c73e326aea9f47b34431b88ec5dfa1b5f182134e068a5ef4ff2c29f041ea79"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-20.csv",
+      "start": 7512,
+      "stop": 7930,
+      "csv_sha256": "633efbdf1dff98ebf3f4ca590de38d6fd925679e55b04b1480314a7fe1883f18"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-25.csv",
+      "start": 7930,
+      "stop": 8128,
+      "csv_sha256": "4aadbc1f0f2c90d9e0d29e9f4f1bfc23fa6a92bb1ff24c8a3f423643decc2d3b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-30.csv",
+      "start": 8128,
+      "stop": 8567,
+      "csv_sha256": "7e6cd2d6df8e44f41069d22792ed80801743f51317d6a773186d0c210a4c4d79"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-35.csv",
+      "start": 8567,
+      "stop": 9014,
+      "csv_sha256": "d1df70a293c8f548dd0cc68706b5c66915d72a23c6d32d86f8184b64cbe8cc97"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-40.csv",
+      "start": 9014,
+      "stop": 9430,
+      "csv_sha256": "68dafba3b2d9836d044ee5cbb83b5821e8acee03166833295cd6d09efc631c6b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-45.csv",
+      "start": 9430,
+      "stop": 9837,
+      "csv_sha256": "d5d8442858744f706d1f3c01a611918b1e656ed29ec83b793061f799bf9770dd"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-5.csv",
+      "start": 9837,
+      "stop": 10243,
+      "csv_sha256": "1eb4b6a2638fed234d1a9fde14900f66c7a7640e53420ec3af6e51d196791432"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-10.csv",
+      "start": 10243,
+      "stop": 11171,
+      "csv_sha256": "ab4373c119a237cae6baf7585ac90bee91e43268f3619c7d9e75c4bf9b1402e9"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-15.csv",
+      "start": 11171,
+      "stop": 11941,
+      "csv_sha256": "91ee2efe82421b5ae2e063cdcfd58bc30c6f6b38417ed05e3519472cfecb23e1"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-25.csv",
+      "start": 11941,
+      "stop": 12668,
+      "csv_sha256": "e132eda934d61ae241eb485de27548653b770980d02f883b151e55f65f0c6394"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-30.csv",
+      "start": 12668,
+      "stop": 13436,
+      "csv_sha256": "bffddca30cf78e73f4f4df2463d4259218b1ebabdc988aa13168f411999662d1"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-40.csv",
+      "start": 13436,
+      "stop": 13826,
+      "csv_sha256": "da7c14b4bf3073c386ab965980af10390d7fcab5890548d54169a9b10fba6001"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-45.csv",
+      "start": 13826,
+      "stop": 14170,
+      "csv_sha256": "b4b84103dfe3a0a2289213fce62d69ba17f552e868d69b66878f61a3f4acc4e2"
+    }
+  ]
+}

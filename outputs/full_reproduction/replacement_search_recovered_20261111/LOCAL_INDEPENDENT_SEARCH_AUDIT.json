@@ -1,0 +1,138 @@
+{
+  "format": "pinn4soh-replacement-search-portable-local-audit-v1",
+  "status": "passed",
+  "expected_runs": 192,
+  "candidate_runs": 192,
+  "candidate_count": 64,
+  "seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "selected_test_runs": 3,
+  "inventory_sha256_checks": 1789,
+  "source_sha256_checks": 31,
+  "original_csv_sha256_checks": 8,
+  "artifact_sha256_checks": 969,
+  "independent_csv_preprocessing_and_tensor_rebuild": true,
+  "selection_independently_recomputed_without_importing_search_code": true,
+  "selected_same_seed_checkpoints_verified": true,
+  "plan_sha256": "dacf337fd721526cca8e270e35904b9d0d83266e7b94ff3381b99e06135b132e",
+  "selection_sha256": "659b4e7ccbee848916b585b488bd796b3830677a689a344069ab63d3cfec48c1",
+  "selected": {
+    "candidate_id": "candidate_0021",
+    "mean_validation_mse": 2.266503686590111e-05,
+    "per_seed_validation_mse": [
+      1.778294244177639e-05,
+      2.562351973681439e-05,
+      2.458864841911256e-05
+    ],
+    "parameters": {
+      "u_layers": 2,
+      "u_hidden": 60,
+      "F_layers_num": 2,
+      "F_hidden_dim": 60,
+      "alpha": 0.35,
+      "beta": 0
+    }
+  },
+  "selected_test_per_seed": [
+    {
+      "seed": 20261111,
+      "MSE": 3.172978452237124e-05,
+      "RMSE": 0.0056329197155978745,
+      "MAE": 0.004426177652155767,
+      "MAPE": 0.48018792402560123,
+      "n": 732
+    },
+    {
+      "seed": 20261112,
+      "MSE": 5.970311341478232e-05,
+      "RMSE": 0.007726778980583198,
+      "MAE": 0.004873130572298185,
+      "MAPE": 0.5448099513828127,
+      "n": 732
+    },
+    {
+      "seed": 20261113,
+      "MSE": 6.199763296750692e-05,
+      "RMSE": 0.007873857565863566,
+      "MAE": 0.006077019080438249,
+      "MAPE": 0.6621433251663833,
+      "n": 732
+    }
+  ],
+  "selected_test_summary": {
+    "MSE": {
+      "mean": 5.11435103015535e-05,
+      "sample_sd": 1.6851877238646828e-05
+    },
+    "RMSE": {
+      "mean": 0.007077852087348213,
+      "sample_sd": 0.001253507158639735
+    },
+    "MAE": {
+      "mean": 0.005125442434964067,
+      "sample_sd": 0.0008538532147652089
+    },
+    "MAPE": {
+      "mean": 0.5623804001915991,
+      "sample_sd": 0.09224143594167626
+    }
+  },
+  "preprocessing_row_counts": {
+    "train": [
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-1.csv",
+        "original_rows": 375,
+        "retained_rows": 355
+      },
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-3.csv",
+        "original_rows": 387,
+        "retained_rows": 358
+      },
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-5.csv",
+        "original_rows": 393,
+        "retained_rows": 369
+      },
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-6.csv",
+        "original_rows": 391,
+        "retained_rows": 359
+      },
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-7.csv",
+        "original_rows": 393,
+        "retained_rows": 365
+      }
+    ],
+    "valid": [
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-2.csv",
+        "original_rows": 392,
+        "retained_rows": 371
+      }
+    ],
+    "test": [
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-4.csv",
+        "original_rows": 384,
+        "retained_rows": 355
+      },
+      {
+        "path": "/workspace/PINN4SOH-main/data/XJTU data/2C_battery-8.csv",
+        "original_rows": 405,
+        "retained_rows": 379
+      }
+    ]
+  },
+  "limits": [
+    "Only explicit replacement XJTU/2C search, not recovered historical grid or all-dataset tuning",
+    "Full-trajectory per-battery normalization and capacity-based 3sigma cleaning use future/test-label distribution",
+    "Cloud GPU smoke evaluated the same test batteries before formal search; its metrics were not inputs to formal selection",
+    "This audit verifies checkpoint byte lineage; it does not execute archived pickle or rerun GPU inference",
+    "Three seeds are repeated optimization runs on one fixed validation/test split, not independent battery-level sampling"
+  ]
+}

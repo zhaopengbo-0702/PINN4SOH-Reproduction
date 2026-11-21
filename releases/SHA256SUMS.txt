@@ -1,0 +1,4 @@
+b5c6f1fcdac47a7f172bafb3f7015e0f76d0afd63b502a2c462d24f083168d05  pinn4soh-main-2120.tar.gz
+f23e01b3d9c01c462d99e85f87e1498af58f1475b18ab6c245e3d2b11d106bb3  pinn4soh-current-defaults110-and-mit40.tar.gz
+6dc9e13224c4e66a816b24b2045b9cf2d16678475f2e6d5cc5105172cf939a9c  pinn4soh-legacy-controls-and-seed110.tar.gz
+397e5c94528c5997e9793960e3736fc2e44f3bbd450b2ef15be9a0073853ef38  pinn4soh-replacement-search192.tar.gz

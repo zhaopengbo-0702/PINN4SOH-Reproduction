@@ -1,0 +1,119 @@
+{
+  "figure1b": {
+    "selected_battery": "2C_battery-1",
+    "selected_physical_cycle": 10,
+    "full_life_physical_cycles": 390,
+    "plotted_window_curves": {
+      "voltage_V": 389,
+      "current_A": 389
+    },
+    "voltage_window": "4.0<=V<=4.2 V during I>=3.9 A (paper boundary; public reader CC gate)",
+    "current_window": "0.1<=I<=0.5 A during charge stage",
+    "supplemental_4p195_boundary_used_for_plot": false,
+    "layout_check": {
+      "overlapping_text_pairs": [],
+      "text_outside_figure": []
+    }
+  },
+  "figureS4": {
+    "cells": [
+      {
+        "batch": 1,
+        "battery": "2C_battery-1",
+        "member": "Battery Dataset/Batch-1/2C_battery-1.mat",
+        "crc32": 3760458052,
+        "uncompressed_bytes": 44388077,
+        "sha256": "336a0c25c9d6e4c18a231c0b4004edfb44fbd7808533490cddf4d073ce854dbb",
+        "physical_cycles": 390,
+        "labelled_capacity_tests": 1,
+        "trajectory_is_interpolated": false,
+        "capacity_basis": "Raw per-cycle discharge capacity"
+      },
+      {
+        "batch": 2,
+        "battery": "3C_battery-1",
+        "member": "Battery Dataset/Batch-2/3C_battery-1.mat",
+        "crc32": 4153057615,
+        "uncompressed_bytes": 30837529,
+        "sha256": "1113afe4045da763c5a5c0d70459fc539dd3bd63d43dbd509b2e67fc0a36bc2a",
+        "physical_cycles": 299,
+        "labelled_capacity_tests": 1,
+        "trajectory_is_interpolated": false,
+        "capacity_basis": "Raw per-cycle discharge capacity"
+      },
+      {
+        "batch": 3,
+        "battery": "R2.5_battery-1",
+        "member": "Battery Dataset/Batch-3/R2.5_battery-1.mat",
+        "crc32": 2726124171,
+        "uncompressed_bytes": 60264367,
+        "sha256": "94ec478408d8319aa5dfe0947539e41fd8c6c3a377fefc2f6c1041bbb13690c5",
+        "physical_cycles": 592,
+        "labelled_capacity_tests": 1,
+        "trajectory_is_interpolated": false,
+        "capacity_basis": "Raw per-cycle discharge capacity"
+      },
+      {
+        "batch": 4,
+        "battery": "R3_battery-1",
+        "member": "Battery Dataset/Batch-4/R3_battery-1.mat",
+        "crc32": 1968669701,
+        "uncompressed_bytes": 80230783,
+        "sha256": "5a41e4c6223cd17c7d2866607560a1ea5f6c14f8e91fc42457347de93465097a",
+        "physical_cycles": 799,
+        "labelled_capacity_tests": 134,
+        "trajectory_is_interpolated": true,
+        "capacity_basis": "Periodic test-capacity interpolation"
+      },
+      {
+        "batch": 5,
+        "battery": "RW_battery-1",
+        "member": "Battery Dataset/Batch-5/RW_battery-1.mat",
+        "crc32": 1690007213,
+        "uncompressed_bytes": 17476523,
+        "sha256": "59eb49feb67ddb16445311d729b377366e5ed2dc78dc60ec2bcf82ff8b9ee12b",
+        "physical_cycles": 197,
+        "labelled_capacity_tests": 17,
+        "trajectory_is_interpolated": true,
+        "capacity_basis": "Periodic test-capacity interpolation"
+      },
+      {
+        "batch": 6,
+        "battery": "Sim_satellite_battery-1",
+        "member": "Battery Dataset/Batch-6/Sim_satellite_battery-1.mat",
+        "crc32": 2614275955,
+        "uncompressed_bytes": 102808911,
+        "sha256": "4c68a1b0aa80502c438258dff7137fe788bc355aedbe977fbf3420d4f2247f3f",
+        "physical_cycles": 949,
+        "labelled_capacity_tests": 165,
+        "trajectory_is_interpolated": true,
+        "capacity_basis": "Periodic test-capacity interpolation"
+      }
+    ],
+    "all_physical_cycles_plotted": true,
+    "display_sampling": "Uniform index sampling, including endpoints, max 1024 points per variable per cycle",
+    "capacity_interpolation": "Public reader cubic interpolation of labelled test-capacity cycles with linear fallback, batches 4-6. Batch3 has only an initial labelled test and is fully discharged per Note1.3; raw discharge capacity is retained.",
+    "layout_check": {
+      "overlapping_text_pairs": [],
+      "text_outside_figure": []
+    }
+  },
+  "figure1b_source": {
+    "batch": 1,
+    "battery": "2C_battery-1",
+    "member": "Battery Dataset/Batch-1/2C_battery-1.mat",
+    "crc32": 3760458052,
+    "uncompressed_bytes": 44388077,
+    "sha256": "336a0c25c9d6e4c18a231c0b4004edfb44fbd7808533490cddf4d073ce854dbb"
+  },
+  "archive_sha256": "009deeda5ca935bf7b6230497aa492db12af120b6fc5211a9af05352affe55b1",
+  "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+  "reader_sha256": "a731d37aeaffc40663490aa88c0903f4fb602bc2623be1ff504bd1fd448f3e8b",
+  "script_sha256": "1242e5a56aa0ac73c9a5087fd6dc17cf2025887417fdad79b3594997e13657ec",
+  "figure_style_sha256": "5f6550d8cfbaf8cf7ac080dfa130c426e61117c8cb4d9bf72ae7b5511aed7a5d",
+  "scope": "Data-grounded reconstruction of figure concepts; exact original display cell/cycle identity is unreported",
+  "paper_results_modified": false,
+  "caption_revision_sha256": "68d8fd2fbb9713cc023019d610a7af42c4d06c996fa69f1b4faf0273ff39633e",
+  "script_caption_revision_sha256": "d7928b3a2cdc43a85cf24bf5f44be2efed9b6912e36743a21f0975d62e16049e",
+  "visual_inspection": "Full figure plus representative cropped panels checked for source coverage, legibility, capacities/interpolation identity, and out-of-range labels"
+}

@@ -1,0 +1,14 @@
+{
+  "format": "pinn4soh-extension-local-audit-delivery-index-v1",
+  "completed": true,
+  "training_new_tasks": 99,
+  "reused_repeat1": 11,
+  "matched_analysis_tasks": 110,
+  "files": {
+    "outputs\\full_reproduction\\legacy_extension_recovered_20261111\\restored\\EXTENSION_LOCAL_EXTRACTION_VERIFIED.json": "b6243bf5590035e91fabd16bbc54de16fd1384701cfe57ddf7041ee437b85edc",
+    "outputs\\full_reproduction\\legacy_extension_recovered_20261111\\local_comparison_v2\\LOCAL_RERUN_IO_VERIFIED.json": "118d9eba93cf8853a5898f2e25bc56b6c3439674e16091b6e14667a699b19d07",
+    "outputs\\full_reproduction\\legacy_extension_recovered_20261111\\direction_stability_v2\\direction_stability_summary.json": "4533e04f03a3d24d9986b62ed8d06462c1f569b143c3686bd883a67720648c88",
+    "outputs\\full_reproduction\\legacy_extension_recovered_20261111\\direction_stability_v2\\PLOT_LOCAL_REVIEW.json": "5d66ffaa34faa7a7ffa94a4cd466d67bf3e87a136576b8273c2acee8e86e6823",
+    "outputs\\full_reproduction\\delivery_acceptance_20261111_final\\ACCEPTANCE.json": "0a075737e96f2fa8696d6ec4aa719fa92765b1884057f65700a5e69e57fe3793"
+  }
+}

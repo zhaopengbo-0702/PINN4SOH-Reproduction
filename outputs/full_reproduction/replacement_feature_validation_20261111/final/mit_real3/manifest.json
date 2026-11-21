@@ -1,0 +1,184 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-11-11T03:56:56.993559+00:00",
+  "dataset": "MIT",
+  "profile": "released_audit",
+  "selected_cycles": [
+    8,
+    15,
+    16
+  ],
+  "runtime": {
+    "python": "3.9.12",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1"
+  },
+  "invocation": [
+    "reproduction/export_replacement_features.py",
+    "--dataset",
+    "MIT",
+    "--limit",
+    "3",
+    "--output",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\mit_real3",
+    "--kind",
+    "mit-mirror",
+    "--input",
+    "outputs/full_reproduction/feature_audit/MIT_mirror_audit/within_cycle_2017-05-12.h5",
+    "--expected-sha256",
+    "8a789f4a83409ad0c1d6c214c836f2de94b63ef2e73a50722fe057c3d8a89d77",
+    "--csv-name",
+    "2017-05-12_battery-1.csv",
+    "--current-unit",
+    "native_unit_unresolved",
+    "--cycles",
+    "8",
+    "15",
+    "16",
+    "--reference-csv",
+    "PINN4SOH/data/MIT data/2017-05-12/2017-05-12_battery-1.csv",
+    "--alignment-csv",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\mit_alignment.csv"
+  ],
+  "selection": "Explicit --cycles in source order or first --limit raw cycles; no feature-error selection",
+  "provenance": {
+    "input_path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\feature_audit\\MIT_mirror_audit\\within_cycle_2017-05-12.h5",
+    "input_bytes": 797659714,
+    "input_sha256": "8a789f4a83409ad0c1d6c214c836f2de94b63ef2e73a50722fe057c3d8a89d77",
+    "expected_sha256_verified": true,
+    "kind": "mit-mirror",
+    "mapping_sha256": "67683d2d002f985192da177ad4c43f30ed2166679b33c93878891f4b04a6da88",
+    "reader_sha256": "5ed35e8d829796a4def32073c4cdea5425e87b0d34e90da81e658d760f698045",
+    "stage_selection": "Unchanged author MITBatteryClass via existing audited HDF5 adapter",
+    "source_type": "Third-party derived float32 HDF5 mirror; not original MAT byte chain"
+  },
+  "preset_protocol": {
+    "slope": "(last observed curve value - first observed curve value) / elapsed physical seconds",
+    "slope_status": "prespecified replacement; released slope columns remain unreconstructed",
+    "selected_by_released_feature_error": false,
+    "entropy": "min-max curve values, divide by their sum, then -sum(p*ln(p)); explicit assumption",
+    "released_audit": {
+      "std": "population ddof=0",
+      "kurtosis": "biased Fisher excess",
+      "skewness": "biased third standardized moment",
+      "charge": "last minus first recorded charge capacity in Ah",
+      "voltage_windows": {
+        "XJTU": "[4.0,4.195] V, all charge points (prior exploratory diagnostic fixed across cells)",
+        "TJU": "[4.0,4.2] V with CC stage mask",
+        "HUST": "[3.4,3.595] V, all charge points (public-reader boundary)",
+        "MIT": "unchanged author MIT reader CC stage, strict 3.4<V<3.595"
+      },
+      "current_window": "0.1<=I<=0.5 and supplied CV stage mask; MIT uses unchanged strict author mask"
+    },
+    "paper_note2": {
+      "std": "sample ddof=1",
+      "kurtosis": "sum(centered^4)/((n-1)*sample_SD^4)",
+      "skewness": "sum(centered^3)/((n-1)*sample_SD^3)",
+      "charge": "trapezoid integral of current over physical seconds / 3600",
+      "voltage_window": "XJTU/TJU [4.0,4.2], HUST/MIT [3.4,3.6], supplied CC mask",
+      "entropy_caveat": "paper does not uniquely define normalization; same declared min-max probability assumption"
+    }
+  },
+  "feature_schema": [
+    {
+      "feature": "voltage mean",
+      "unit": "V",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage std",
+      "unit": "V",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage kurtosis",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage skewness",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CC Q",
+      "unit": "Ah",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CC charge time",
+      "unit": "s",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage slope",
+      "unit": "V/s",
+      "status": "replacement"
+    },
+    {
+      "feature": "voltage entropy",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current mean",
+      "unit": "native_unit_unresolved",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current std",
+      "unit": "native_unit_unresolved",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current kurtosis",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current skewness",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CV Q",
+      "unit": "Ah",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CV charge time",
+      "unit": "s",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current slope",
+      "unit": "native_unit_unresolved/s",
+      "status": "replacement"
+    },
+    {
+      "feature": "current entropy",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    }
+  ],
+  "feature_count": 16,
+  "replacement_feature_count": 2,
+  "missing_values": "Empty CSV fields/JSON null; no imputation",
+  "current_unit": "native_unit_unresolved",
+  "MIT_caveat": "Canonical MIT inputs must retain author-selected windows or explicitly supply stage masks; derived H5 native current units remain uncertain. No silent C-rate-to-A conversion.",
+  "training_inputs_changed": false,
+  "all_released_slopes_reconstructed": false,
+  "code_sha256": {
+    "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a",
+    "export_replacement_features.py": "ac17e3ce185013925b6de43c520a47036a381e7016a8d30afab2f720bf955816",
+    "extract_mit_mirror_features.py": "e7e61f34587a67d344e6e8d9e5756ff084723d99436bf0cf6695482e5359e9b7"
+  },
+  "artifacts_sha256": {
+    "features_16.csv": "ba34af3c6319f2fa378de9bd42ce43c466bc93a94441b5d3a8edb066b0e95ef4",
+    "released_comparison.csv": "d7803616ebae087fb5fb4c6f293bfeb87136c4ad3116e4fa99bc61d91a5af794",
+    "released_comparison_summary.json": "69e29785f5665f827afb1eb24860bf844d24c9c441bac3a7c3ab061bc9abee06",
+    "window_diagnostics.json": "1b65588f498f822b55e23aa7faa5ef8eaf5a3dac7d21fe407cdc826b922b1fdd"
+  },
+  "comparison_available": true
+}

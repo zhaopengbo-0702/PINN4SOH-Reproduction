@@ -1,0 +1,107 @@
+{
+  "scope": "Independent satellite TableS1/FigS2/FigS3 raw supplement; frozen main report and mapping unchanged",
+  "files": [
+    {
+      "path": "FIGURE_VISUAL_QA.md",
+      "bytes": 1301,
+      "sha256": "1f6124dee0f610a5620828594add17a0628cd2e76184d7eff7c38995e9343600"
+    },
+    {
+      "path": "FigureS2_published_schedule.layout.json",
+      "bytes": 93,
+      "sha256": "00118834819997dcadae40c54d75feff8c30c437999afeb0f6bc2ab67c5ad57c"
+    },
+    {
+      "path": "FigureS2_published_schedule.pdf",
+      "bytes": 26454,
+      "sha256": "f9b460c4f986dca85dc99f6f0733e230989897641a5eea6d327fad58ab9630a4"
+    },
+    {
+      "path": "FigureS2_published_schedule.png",
+      "bytes": 97939,
+      "sha256": "f011a3318d96f696aec1cb6345f7fdf4d3a868a8b0fc08346c1bc94d6ce15e0c"
+    },
+    {
+      "path": "FigureS3_first_cell_raw_capacity.layout.json",
+      "bytes": 93,
+      "sha256": "00118834819997dcadae40c54d75feff8c30c437999afeb0f6bc2ab67c5ad57c"
+    },
+    {
+      "path": "FigureS3_first_cell_raw_capacity.pdf",
+      "bytes": 30360,
+      "sha256": "8786cccd6713292e204d686e27caba42dca99f42d5082877bcddfc5e11cdd8d4"
+    },
+    {
+      "path": "FigureS3_first_cell_raw_capacity.png",
+      "bytes": 133493,
+      "sha256": "8636a5b42392fffe8b1f90462e5b7b4c91db09ba33a9563d3031f2b0445d9bb1"
+    },
+    {
+      "path": "first_43_non_test_raw_records_descriptive.csv",
+      "bytes": 751,
+      "sha256": "c9ce55cf495b67bf57851ce4aa76393ce03212513ad10dabf7bfe0ddf5bc26f0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4941,
+      "sha256": "bb2f670b0aa867453c84d2fae07f859c948dde47c319051176e058a0a360779f"
+    },
+    {
+      "path": "satellite_all_raw_cycle_capacity_and_stage3_duration.csv",
+      "bytes": 394639,
+      "sha256": "1fe7180af7053e6fdc1e08384997f0e4ac153d99908a1c135eef7fc41255bbaa"
+    },
+    {
+      "path": "satellite_duration_order_audit.layout.json",
+      "bytes": 93,
+      "sha256": "00118834819997dcadae40c54d75feff8c30c437999afeb0f6bc2ab67c5ad57c"
+    },
+    {
+      "path": "satellite_duration_order_audit.pdf",
+      "bytes": 36448,
+      "sha256": "82424b13c3db93454ca41e7dd52218fc69d8af98274879d90d37db3e5430ca42"
+    },
+    {
+      "path": "satellite_duration_order_audit.png",
+      "bytes": 291433,
+      "sha256": "64a2101701945dd27dcbabebd4a997b58f2c56ff919a41dfb8d856e9d4c28037"
+    },
+    {
+      "path": "SATELLITE_INDEPENDENT_CHECKS.json",
+      "bytes": 2022,
+      "sha256": "689930fda3971cb979ae3e8556acd70538198c69682f25380245fa1a061f0b61"
+    },
+    {
+      "path": "SATELLITE_SUPPLEMENT.json",
+      "bytes": 2169,
+      "sha256": "263704476440d873388763c2afe936f0d4d67aff51c170a54bf2cea352fe473c"
+    },
+    {
+      "path": "supplement_satellite_protocol_source.py",
+      "bytes": 20431,
+      "sha256": "5e2c3d31529ef2b63ef9e040f12abdf4c37e162641d318c07383c50b4314483b"
+    },
+    {
+      "path": "TableS1_published_schedule_46cycles.csv",
+      "bytes": 4188,
+      "sha256": "d587ea7ed082c6282ddac8f29cf7e7df9ca517f7f6c9dd648d71c3a4b16c92c5"
+    },
+    {
+      "path": "TableS1_published_schedule.layout.json",
+      "bytes": 93,
+      "sha256": "00118834819997dcadae40c54d75feff8c30c437999afeb0f6bc2ab67c5ad57c"
+    },
+    {
+      "path": "TableS1_published_schedule.pdf",
+      "bytes": 28173,
+      "sha256": "516c35923f2567dfbef82057a13ba91c6f49a27180f0211d16e06cf89e263aa4"
+    },
+    {
+      "path": "TableS1_published_schedule.png",
+      "bytes": 138301,
+      "sha256": "0a7cd49959fb21b5ccde09ba0b5919a68001f5190a7fb586a672c1c380c8e07b"
+    }
+  ],
+  "file_count": 20,
+  "total_bytes": 1213415.0
+}

@@ -1,0 +1,64 @@
+{
+  "source_workbook_sha256": "4ed89ee3d28b5b05c2bf7f9502ddfc2e9c1d2832173c9bbd04c261c4be8b4535",
+  "sheets": [
+    {
+      "sheet": "Figure 4a",
+      "records": 66751,
+      "csv": "figure_4a.csv"
+    },
+    {
+      "sheet": "Figure 4b",
+      "records": 990,
+      "csv": "figure_4b.csv"
+    },
+    {
+      "sheet": "Figure 5b",
+      "records": 120,
+      "csv": "figure_5b.csv"
+    },
+    {
+      "sheet": "Figure 5a",
+      "records": 120,
+      "csv": "figure_5a.csv"
+    },
+    {
+      "sheet": "Figure S5",
+      "records": 720,
+      "csv": "figure_s5.csv"
+    }
+  ],
+  "per_repeat_groups_all_have_ten_distinct_repeats": true,
+  "published_mean_comparisons": 162,
+  "published_mean_matches_to_rounding": 162,
+  "published_mean_mismatches": [],
+  "double_average_comparisons": 66,
+  "double_average_compatible_with_rounding": 64,
+  "double_average_mismatches": [
+    {
+      "group": "MIT",
+      "metric": "PINN_MAPE",
+      "n_batteries": 23,
+      "mean_of_rounded_battery_means": 0.006673913043478261,
+      "Table2_rounded_mean": 0.0065,
+      "difference": 0.0001739130434782613,
+      "compatible_with_two_stage_rounding": false
+    },
+    {
+      "group": "MIT",
+      "metric": "PINN_RMSE",
+      "n_batteries": 23,
+      "mean_of_rounded_battery_means": 0.007508695652173913,
+      "Table2_rounded_mean": 0.0074,
+      "difference": 0.00010869565217391276,
+      "compatible_with_two_stage_rounding": false
+    }
+  ],
+  "Figure5a_vs_FigureS5_batch1_exact_matches": 120,
+  "Figure5a_overlap_values": 120,
+  "interpretation_limits": [
+    "Numerical compatibility does not prove a unique aggregation algorithm",
+    "Source Data does not include Table4 per-repeat transfer results",
+    "Figure4a predictions are a representative result, not all ten checkpoints",
+    "SD ddof remains unspecified in paper; both ddof0 and ddof1 are exported"
+  ]
+}

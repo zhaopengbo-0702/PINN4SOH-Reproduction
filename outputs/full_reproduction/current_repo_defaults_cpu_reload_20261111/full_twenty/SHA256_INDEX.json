@@ -1,0 +1,426 @@
+{
+  "format": "pinn4soh-cpu-reload-delivery-sha-v1",
+  "files": [
+    {
+      "path": "CPU_RELOAD_SUMMARY.json",
+      "bytes": 36580,
+      "sha256": "bb23fd3ed9405b3749982775f49243b8a7a8cc9af3ecb971b5c340a829512db1"
+    },
+    {
+      "path": "INPUTS_AFTER.json",
+      "bytes": 70,
+      "sha256": "ba4c988f92d7359e25775c73a82c038bcc8eff6849f8af077478f0c397b4a29b"
+    },
+    {
+      "path": "INPUTS_BEFORE.json",
+      "bytes": 172419,
+      "sha256": "97cdc62f85bb5b8ad5d352c442fb526de232a685be906307b31ea4ab47c53043"
+    },
+    {
+      "path": "README.md",
+      "bytes": 691,
+      "sha256": "6cc502dd4fbea07d13b7121ddd9853ad4de94695ec577c907518a6c93e164c1b"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "90e4f25e0988bc780be186d1a6dae71f3c0a43e02b4af0efc756b3c647792d2c"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "484a8b2c560e8f63844c6418585cb133bd4dd9416a57025e9c0b89b768959da3"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment02/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "a0448bb568303ecba9ece0779169ade20746c7da8bf50d0defe3f8ade2fffb5b"
+    },
+    {
+      "path": "runs/HUST/all/Experiment02/CPU_RELOAD.json",
+      "bytes": 1468,
+      "sha256": "6a7617cc177951dd3397e83489357759f6cda50ad5abe103fc69cdf435c23af2"
+    },
+    {
+      "path": "runs/HUST/all/Experiment02/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment02/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment03/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "99b63cb1da70efe33da3d9bc9b3672f5cd1c8ccb7b8e32ab421c2e6c07ee2a21"
+    },
+    {
+      "path": "runs/HUST/all/Experiment03/CPU_RELOAD.json",
+      "bytes": 1468,
+      "sha256": "f3cd00ed4694205356ce873a3013978f51a24db1745e757abb13bd152ac0a75b"
+    },
+    {
+      "path": "runs/HUST/all/Experiment03/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment03/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment04/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "c77af56b9b665c9ed490a7a3faf8e993feec95e49a638164d8f88d057cb0e607"
+    },
+    {
+      "path": "runs/HUST/all/Experiment04/CPU_RELOAD.json",
+      "bytes": 1468,
+      "sha256": "636a8fd27767dfa6a3b58241c75cebf587716f0caa663bf5c2e407f3ca3f53e1"
+    },
+    {
+      "path": "runs/HUST/all/Experiment04/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment04/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment05/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "ad13f24350876ac50e52a8653b5a5dd371f855902edf90e055158685fa28ce05"
+    },
+    {
+      "path": "runs/HUST/all/Experiment05/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "9132630865a4c6cbfb23f0c5fa85edd5a68292ee3a9c9cd667bcbfdf560463eb"
+    },
+    {
+      "path": "runs/HUST/all/Experiment05/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment05/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment06/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "86ded9bc84e9b22504f21adc729ce5f5293f523ee97fe749f1bf09f10ab9c436"
+    },
+    {
+      "path": "runs/HUST/all/Experiment06/CPU_RELOAD.json",
+      "bytes": 1466,
+      "sha256": "e8c23c3a4edc4e617cd417fd12680ec16a800bedec81517284a15f0bdd272614"
+    },
+    {
+      "path": "runs/HUST/all/Experiment06/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment06/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment07/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "6843987b5d1fefbf57dc8b2e33d9b4d5fe481ed1b749c273eb8d3a24395a3f45"
+    },
+    {
+      "path": "runs/HUST/all/Experiment07/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "bf7b532fbe1845eefa5b69c0f497cedd739c578feeb7b52f3371782a5e98f0cc"
+    },
+    {
+      "path": "runs/HUST/all/Experiment07/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment07/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment08/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "6ea3eb56e491ac9fb9f6a4f99115f2252862ecf5a9dcd6e067343cc4292e3307"
+    },
+    {
+      "path": "runs/HUST/all/Experiment08/CPU_RELOAD.json",
+      "bytes": 1466,
+      "sha256": "3710707a25663ebac1713d1b9f9f3a5d30fa32d467e9ff39e0476d5525809e10"
+    },
+    {
+      "path": "runs/HUST/all/Experiment08/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment08/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment09/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "b27bf27738d2f77c00d541439953562051dd29b610eb2d696dd8da42e4f997e8"
+    },
+    {
+      "path": "runs/HUST/all/Experiment09/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "b7d81ed9bdc0887e08d3b3e642262499b6b33fe3c2532341f3210801f39b792c"
+    },
+    {
+      "path": "runs/HUST/all/Experiment09/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment09/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/HUST/all/Experiment10/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "259898b657426609c1fc54c5c08d373a3710b233dded43e427b5b4ddb09018f4"
+    },
+    {
+      "path": "runs/HUST/all/Experiment10/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "cdf522a012264d0a3ee77500e7f34d0d74351cda726c0d00f52a71c6025a3ff1"
+    },
+    {
+      "path": "runs/HUST/all/Experiment10/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment10/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "a1276c6a75f0e8ebfc429bdc1d93bf6aa99611cd63d9fb8ecce916743c70c1e8"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/CPU_RELOAD.json",
+      "bytes": 1466,
+      "sha256": "8c8c139644d57a4b884d8f094aa073a51ebd73e3c7f1fa73fb0169dd2fd5151a"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment02/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "e84f3c456122ec2a3ccede51afedfb8a3b9ad4cc274370c92da784e96cd2a66c"
+    },
+    {
+      "path": "runs/MIT/all/Experiment02/CPU_RELOAD.json",
+      "bytes": 1463,
+      "sha256": "6f58ac9cd0b0f7613b61e80be9942d422640747523156b8c00efa7f8478101f5"
+    },
+    {
+      "path": "runs/MIT/all/Experiment02/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment02/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment03/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "0f4d5f306ec7c84ef5262562dffdc0e8293fafa658f0d29a1d2d796cd4b3548a"
+    },
+    {
+      "path": "runs/MIT/all/Experiment03/CPU_RELOAD.json",
+      "bytes": 1468,
+      "sha256": "b9e20fe56737e6ff469b40252c68a19adccb28030ac8102be244392a6dbc66b3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment03/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment03/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment04/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "1a3ebee21d51734b1a32a05871d5e6c2310ec194e499811346decc763ba8c9a4"
+    },
+    {
+      "path": "runs/MIT/all/Experiment04/CPU_RELOAD.json",
+      "bytes": 1457,
+      "sha256": "580c908c0c14481ee7208b476f15d5a1ac3a9e20a18678d20590ae991407c908"
+    },
+    {
+      "path": "runs/MIT/all/Experiment04/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment04/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment05/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "134f8aeabecff74f7edd6294ff0d8f24c5e542cac31ef9e3f70e5c7a35accace"
+    },
+    {
+      "path": "runs/MIT/all/Experiment05/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "b8f2ce4010a3f1833cb13b45999990bfa3668e56dd070c0abc67783a3425d2a9"
+    },
+    {
+      "path": "runs/MIT/all/Experiment05/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment05/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment06/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "e4520fa686f75af862403e8114ed396b5c6ccfc9bbb0b184d5283bafb64ac485"
+    },
+    {
+      "path": "runs/MIT/all/Experiment06/CPU_RELOAD.json",
+      "bytes": 1465,
+      "sha256": "187a74c78c018d413a652106243c2e9ac8ee4e7e1f36a073f5b2eab9c08df0e1"
+    },
+    {
+      "path": "runs/MIT/all/Experiment06/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment06/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment07/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "12c0fdb9f19765da9ee13c6032905883b14f00c6cc846cf492448b915d2592ec"
+    },
+    {
+      "path": "runs/MIT/all/Experiment07/CPU_RELOAD.json",
+      "bytes": 1462,
+      "sha256": "85616f089220a337bac78be7f27a3e8ea778196c6bf330e6d0699127684f55ed"
+    },
+    {
+      "path": "runs/MIT/all/Experiment07/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment07/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment08/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "e6cc0cfbab866977b30916a6419f483ee9f81b3a9071140e31bf924ee2c2c9f3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment08/CPU_RELOAD.json",
+      "bytes": 1466,
+      "sha256": "634ed4c9b77f2056408123cf1947db7ae403fdb5adee15437171652066a16a60"
+    },
+    {
+      "path": "runs/MIT/all/Experiment08/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment08/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment09/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "92d57c54be367e332874448a39b460008933bc7fbc93f666e77db8ed0232078f"
+    },
+    {
+      "path": "runs/MIT/all/Experiment09/CPU_RELOAD.json",
+      "bytes": 1456,
+      "sha256": "ebff2b4fa0035658f20bcf527e33e32cf6bf8905ce204853c58411ab7975a8f8"
+    },
+    {
+      "path": "runs/MIT/all/Experiment09/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment09/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    },
+    {
+      "path": "runs/MIT/all/Experiment10/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "1d20dc77d2f8c92f08a847a57d7c2c1043af9a340a987258237a814c271470ee"
+    },
+    {
+      "path": "runs/MIT/all/Experiment10/CPU_RELOAD.json",
+      "bytes": 1466,
+      "sha256": "41f73a229b2791dbbb50fd8b13927553bd61a8cc71c17b1713c511b953756ecd"
+    },
+    {
+      "path": "runs/MIT/all/Experiment10/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment10/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    }
+  ],
+  "script_sha256": "2dc2c8b36df88c42d7bbbd9f9e799113f43b173976979ef0d14b043297695271"
+}

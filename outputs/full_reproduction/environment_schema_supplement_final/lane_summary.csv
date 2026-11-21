@@ -1,0 +1,13 @@
+﻿claim_scope,loss_variant,source_mode,comparisons,higher,lower
+C13,paper_prediction_monotonicity,reproduced_checkpoint,12,9,3
+C13,paper_prediction_monotonicity,supplied_author_checkpoint,12,10,2
+C13,published_label_monotonicity,reproduced_checkpoint,12,5,7
+C13,published_label_monotonicity,supplied_author_checkpoint,12,4,8
+C14,paper_prediction_monotonicity,reproduced_checkpoint,6,6,
+C14,paper_prediction_monotonicity,supplied_author_checkpoint,6,5,1
+C14,published_label_monotonicity,reproduced_checkpoint,6,4,2
+C14,published_label_monotonicity,supplied_author_checkpoint,6,2,4
+additional_n2_outside_C14,paper_prediction_monotonicity,reproduced_checkpoint,6,6,
+additional_n2_outside_C14,paper_prediction_monotonicity,supplied_author_checkpoint,6,6,
+additional_n2_outside_C14,published_label_monotonicity,reproduced_checkpoint,6,6,
+additional_n2_outside_C14,published_label_monotonicity,supplied_author_checkpoint,6,6,

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "kind": "local_delivery_file_index_not_additional_training",
+  "records": [
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\transfer\\SEARCH_COLLECTION_VERIFIED.json",
+      "bytes": 334036,
+      "sha256": "560d457dae6be9ee933cf9221c6827f690d3dd84a124a6a7b24ce0d07b523045"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\transfer\\JSON_TRANSFER_MANIFEST.json",
+      "bytes": 984,
+      "sha256": "e8c15e0113ce1c5ab377a14e4ff7d3e3cd5c2c62992e4fb5ec29f8ad395fb8f5"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\restored\\SEARCH_LOCAL_EXTRACTION_VERIFIED.json",
+      "bytes": 1196,
+      "sha256": "a01f0d51edb8547d953fc2762dd67f85dba02d114630feb03c1f065ba7171581"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\LOCAL_INDEPENDENT_SEARCH_AUDIT.json",
+      "bytes": 4224,
+      "sha256": "08988668eebfd58cc4ff6103b8fc4cc810cdb9a76abde577072c2d7893edf6ae"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\LOCAL_METRIC_ADDENDUM.json",
+      "bytes": 1822,
+      "sha256": "f4d56f6b7de84db2cbcf06cb6b9b45a1642db153ef26e479c884f8bdb5e44ea0"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\selected_test_per_CSV.csv",
+      "bytes": 735,
+      "sha256": "8ff96efedf9620e4df6ad1b97419561c1ea4127baccbee6f5a1fb084c0f60dc9"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\selected_test_CSV_macro_per_seed.csv",
+      "bytes": 310,
+      "sha256": "a2b67174662494ff9e112f5aef0a78f8213917fb102c729707c7263322ce619e"
+    },
+    {
+      "path": "outputs\\full_reproduction\\replacement_search_recovered_20261111\\192搜索_本地独立复核.md",
+      "bytes": 5131,
+      "sha256": "26c7eb137ca35fe5e34e0f9bbed12f2e83d37540c90b333cb9e44680ddbeadd7"
+    },
+    {
+      "path": "reproduction\\restore_replacement_search_local.py",
+      "bytes": 7002,
+      "sha256": "af33c2d04092ce401d3eaee186173533fee330fe59077f5282f79a72e42967be"
+    },
+    {
+      "path": "reproduction\\audit_replacement_search_local.py",
+      "bytes": 17441,
+      "sha256": "caa578aa860b1ce0419aacb527ae944ab77b3d15690e68a55d33ddfbc499d367"
+    }
+  ]
+}

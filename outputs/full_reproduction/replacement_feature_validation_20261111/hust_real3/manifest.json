@@ -1,0 +1,150 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-11-11T03:52:48.351637+00:00",
+  "dataset": "HUST",
+  "profile": "released_audit",
+  "selected_cycles": [
+    12,
+    14,
+    15
+  ],
+  "selection": "Explicit --cycles in source order or first --limit raw cycles; no feature-error selection",
+  "provenance": {
+    "input_path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\raw_data\\HUST\\our_data.zip",
+    "input_bytes": 1188136932,
+    "input_sha256": "071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "expected_sha256_verified": true,
+    "kind": "official-archive",
+    "member": "our_data/1-1.pkl",
+    "member_crc32": "1141ccc3",
+    "member_bytes": 53553885
+  },
+  "preset_protocol": {
+    "slope": "(last observed curve value - first observed curve value) / elapsed physical seconds",
+    "slope_status": "prespecified replacement; released slope columns remain unreconstructed",
+    "selected_by_released_feature_error": false,
+    "entropy": "min-max curve values, divide by their sum, then -sum(p*ln(p)); explicit assumption",
+    "released_audit": {
+      "std": "population ddof=0",
+      "kurtosis": "biased Fisher excess",
+      "skewness": "biased third standardized moment",
+      "charge": "last minus first recorded charge capacity in Ah",
+      "voltage_windows": {
+        "XJTU": "[4.0,4.195] V, all charge points (prior exploratory diagnostic fixed across cells)",
+        "TJU": "[4.0,4.2] V with CC stage mask",
+        "HUST": "[3.4,3.595] V, all charge points (public-reader boundary)",
+        "MIT": "unchanged author MIT reader CC stage, strict 3.4<V<3.595"
+      },
+      "current_window": "0.1<=I<=0.5 and supplied CV stage mask; MIT uses unchanged strict author mask"
+    },
+    "paper_note2": {
+      "std": "sample ddof=1",
+      "kurtosis": "sum(centered^4)/((n-1)*sample_SD^4)",
+      "skewness": "sum(centered^3)/((n-1)*sample_SD^3)",
+      "charge": "trapezoid integral of current over physical seconds / 3600",
+      "voltage_window": "XJTU/TJU [4.0,4.2], HUST/MIT [3.4,3.6], supplied CC mask",
+      "entropy_caveat": "paper does not uniquely define normalization; same declared min-max probability assumption"
+    }
+  },
+  "feature_schema": [
+    {
+      "feature": "voltage mean",
+      "unit": "V",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage std",
+      "unit": "V",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage kurtosis",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage skewness",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CC Q",
+      "unit": "Ah",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CC charge time",
+      "unit": "s",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage slope",
+      "unit": "V/s",
+      "status": "replacement"
+    },
+    {
+      "feature": "voltage entropy",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current mean",
+      "unit": "A",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current std",
+      "unit": "A",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current kurtosis",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current skewness",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CV Q",
+      "unit": "Ah",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CV charge time",
+      "unit": "s",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current slope",
+      "unit": "A/s",
+      "status": "replacement"
+    },
+    {
+      "feature": "current entropy",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    }
+  ],
+  "feature_count": 16,
+  "replacement_feature_count": 2,
+  "missing_values": "Empty CSV fields/JSON null; no imputation",
+  "current_unit": "A",
+  "MIT_caveat": "Canonical MIT inputs must retain author-selected windows or explicitly supply stage masks; derived H5 native current units remain uncertain. No silent C-rate-to-A conversion.",
+  "training_inputs_changed": false,
+  "all_released_slopes_reconstructed": false,
+  "code_sha256": {
+    "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a",
+    "export_replacement_features.py": "1cb29e3ea3f9f63c000b16c974be5560e5af2ec7c29f981d9ee995d9c2b538d3",
+    "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74"
+  },
+  "artifacts_sha256": {
+    "features_16.csv": "b46848a1a031d0ef6409bce9f9c05bb344b16e1fc301c4794742dc184526c80f",
+    "released_comparison.csv": "675dea2e37ef4118473d1415bba59ccc56aad65b2cd9e18d99c5c0d06a21f806",
+    "released_comparison_summary.json": "723b7be22e1859b6a8f972f81046e3ffa480b81e13166761c571855e35574528",
+    "window_diagnostics.json": "4a8111aad22c30fd76a87e304f30bd4dacca7feebbbfae2fac176de3c70beac3"
+  },
+  "comparison_available": true
+}

@@ -1,0 +1,9 @@
+﻿loss_variant,aggregation,n_repeats,MAPE_mean,MAPE_sd_ddof1,published_headline_fraction,mean_minus_published
+paper_prediction_monotonicity,all_82_test_CSV_equal,10,0.04798449725309166,0.00012900559855304154,0.0087,0.03928449725309166
+paper_prediction_monotonicity,all_test_point_pooled,10,0.05530814664687067,0.00010909428135410646,0.0087,0.04660814664687067
+paper_prediction_monotonicity,eleven_group_equal,10,0.04669701331713414,0.00010668420161012508,0.0087,0.03799701331713414
+paper_prediction_monotonicity,four_dataset_equal_within_dataset_group_equal,10,0.049467093127002155,7.962694580074779e-05,0.0087,0.040767093127002156
+published_label_monotonicity,all_82_test_CSV_equal,10,0.010873756596662645,0.00031465145547923364,0.0087,0.0021737565966626453
+published_label_monotonicity,all_test_point_pooled,10,0.008655411362651915,0.0003106236448545839,0.0087,-4.458863734808395e-05
+published_label_monotonicity,eleven_group_equal,10,0.010290099039214094,0.00040934511556374453,0.0087,0.0015900990392140948
+published_label_monotonicity,four_dataset_equal_within_dataset_group_equal,10,0.009882431713527123,0.000311309059250442,0.0087,0.001182431713527124

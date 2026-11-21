@@ -1,0 +1,32 @@
+{
+  "figure2_released_capacity": {
+    "text_overlap_count": 0,
+    "text_overlap_examples": [],
+    "outside_text": []
+  },
+  "figure3a_released_features": {
+    "text_overlap_count": 0,
+    "text_overlap_examples": [],
+    "outside_text": []
+  },
+  "figure3b_raw_pooled": {
+    "text_overlap_count": 0,
+    "text_overlap_examples": [],
+    "outside_text": []
+  },
+  "figure3b_raw_per_battery_minmax_pooled": {
+    "text_overlap_count": 0,
+    "text_overlap_examples": [],
+    "outside_text": []
+  },
+  "figure3b_author_cleaned_pooled": {
+    "text_overlap_count": 0,
+    "text_overlap_examples": [],
+    "outside_text": []
+  },
+  "figure3b_author_cleaned_per_battery_minmax_pooled": {
+    "text_overlap_count": 0,
+    "text_overlap_examples": [],
+    "outside_text": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "original_rows": 381,
+  "original_curves": 762,
+  "preserved_original_sha256": "71a78a9ea2c6c53a3f08d9ce67ee8b3eeba727759caad0819ff2386a9bcd4999",
+  "original_sample_unchanged": true,
+  "overlap_curves_verified": 762,
+  "fixed_non_slope_values_checked": 5334,
+  "exact_numeric_agreement": true,
+  "mismatches": [],
+  "missing_sample_curves": 0,
+  "full_original_sample_overlap_verified": true
+}

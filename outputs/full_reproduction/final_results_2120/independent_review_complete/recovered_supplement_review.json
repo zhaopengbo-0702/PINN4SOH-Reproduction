@@ -1,0 +1,10 @@
+{
+  "main_report_sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+  "MIT40_report_sha256": "bdae0e33adb376c0eab333ca6550cdec052b866f314d41fbd91ddeefecb44287",
+  "formal_efficiency_sha256": "4772dce08f33bd38bc8a3f4fd7ebb8aea162530725cc1cd9c489a74a4854fd43",
+  "local_array_checks": 480,
+  "scope": "440 regular main +40 separate sensitivity; no training",
+  "MIT40_not_merged_into_main2120": true,
+  "timing_independent_process_means_and_SDs_recomputed": true,
+  "aggregate_uses_full_saved_arrays": true
+}

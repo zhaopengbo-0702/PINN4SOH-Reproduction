@@ -1,0 +1,49 @@
+dataset,feature,window,formula_candidate,alignment_signature_feature,cells,published_rows,published_finite_rows,published_nonfinite_rows,mapped_rows,finite_pairs,matches_at_1e_8,absolute_error_sum,maximum_absolute_difference,finite_pair_match_rate,finite_target_coverage,mae
+HUST,current mean,note2_current_stage,mean,True,77,144366,144366,0,144366,144366,144366,0.0,0.0,1.0,1.0,0.0
+HUST,current std,note2_current_stage,std_ddof0,True,77,144366,144366,0,144366,144366,144366,0.0,0.0,1.0,1.0,0.0
+HUST,current kurtosis,note2_current_stage,kurtosis_scipy_biased,True,77,144366,144366,0,144366,144366,144366,9.781064846947629e-14,5.551115123125783e-16,1.0,1.0,6.775185879602974e-19
+HUST,current skewness,note2_current_stage,skewness_scipy_biased,True,77,144366,144366,0,144366,144366,144366,2.3814283878209608e-14,2.220446049250313e-16,1.0,1.0,1.6495770387909624e-19
+HUST,current entropy,note2_current_stage,entropy_minmax_probability,False,77,144366,144366,0,144366,144366,144366,1.5081269566508126e-12,1.3322676295501878e-15,1.0,1.0,1.0446552212091577e-17
+HUST,current slope,note2_current_stage,slope_endpoint_per_second,False,77,144366,144366,0,144366,144366,0,240.0575725966071,0.0058590511860175,0.0,1.0,0.0016628400911336955
+HUST,CV Q,note2_current_stage,charge_capacity_difference_Ah,False,77,144366,144366,0,144366,144366,144366,0.0,0.0,1.0,1.0,0.0
+HUST,CV charge time,note2_current_stage,duration_seconds,False,77,144366,144366,0,144366,144366,144366,7.711463467785507e-09,3.126388037344441e-13,1.0,1.0,5.341606380855261e-14
+HUST,voltage mean,fixed_5mV_boundary_allcharge,mean,False,77,144366,144366,0,144366,144366,144366,0.0,0.0,1.0,1.0,0.0
+HUST,voltage std,fixed_5mV_boundary_allcharge,std_ddof0,False,77,144366,144366,0,144366,144366,144366,0.0,0.0,1.0,1.0,0.0
+HUST,voltage kurtosis,fixed_5mV_boundary_allcharge,kurtosis_scipy_biased,False,77,144366,144366,0,144366,144366,144366,1.3748090122930878e-13,1.3322676295501878e-15,1.0,1.0,9.5230803117984e-19
+HUST,voltage skewness,fixed_5mV_boundary_allcharge,skewness_scipy_biased,False,77,144366,144366,0,144366,144366,144366,4.141131881851834e-14,4.440892098500626e-16,1.0,1.0,2.8684952702518833e-19
+HUST,voltage entropy,fixed_5mV_boundary_allcharge,entropy_minmax_probability,False,77,144366,144366,0,144366,144366,144366,2.6645352591003757e-14,1.7763568394002505e-15,1.0,1.0,1.8456806028430348e-19
+HUST,voltage slope,fixed_5mV_boundary_allcharge,slope_endpoint_per_second,False,77,144366,144366,0,144366,144366,0,74.20095140055173,0.0012325454545454,0.0,1.0,0.0005139780239152691
+HUST,CC Q,fixed_5mV_boundary_allcharge,charge_capacity_difference_Ah,False,77,144366,144366,0,144366,144366,144366,0.0,0.0,1.0,1.0,0.0
+HUST,CC charge time,fixed_5mV_boundary_allcharge,duration_seconds,False,77,144366,144366,0,144366,144366,144366,7.272092261700891e-09,1.1368683772161603e-13,1.0,1.0,5.037261032168856e-14
+TJU,current mean,note2_current_stage,mean,True,130,57465,57465,0,57465,57465,57465,0.0,0.0,1.0,1.0,0.0
+TJU,current std,note2_current_stage,std_ddof0,True,130,57465,57465,0,57465,57465,57465,0.0,0.0,1.0,1.0,0.0
+TJU,current kurtosis,note2_current_stage,kurtosis_scipy_biased,True,130,57465,57465,0,57465,57465,57465,3.4720490371675794e-14,6.661338147750939e-16,1.0,1.0,6.042023905277263e-19
+TJU,current skewness,note2_current_stage,skewness_scipy_biased,True,130,57465,57465,0,57465,57465,57465,7.105427357601002e-15,3.3306690738754696e-16,1.0,1.0,1.2364791364484472e-19
+TJU,current entropy,note2_current_stage,entropy_minmax_probability,False,130,57465,57465,0,57465,57465,57465,1.3322676295501878e-14,1.7763568394002505e-15,1.0,1.0,2.3183983808408387e-19
+TJU,current slope,note2_current_stage,slope_endpoint_per_second,False,130,57465,57465,0,57465,57465,0,8.649584800740163,0.0006350737814225,0.0,1.0,0.00015051918212373032
+TJU,CV Q,note2_current_stage,charge_capacity_difference_Ah,False,130,57465,57465,0,57465,57465,57465,0.0,0.0,1.0,1.0,0.0
+TJU,CV charge time,note2_current_stage,duration_seconds,False,130,57465,57465,0,57465,57465,57465,1.6003323139557324e-05,3.2605385058559477e-09,1.0,1.0,2.7848817783968196e-10
+TJU,voltage mean,note2_fixed_cc,mean,False,130,57465,57465,0,57465,57465,57465,0.0,0.0,1.0,1.0,0.0
+TJU,voltage std,note2_fixed_cc,std_ddof0,False,130,57465,57465,0,57465,57465,57465,0.0,0.0,1.0,1.0,0.0
+TJU,voltage kurtosis,note2_fixed_cc,kurtosis_scipy_biased,False,130,57465,57465,0,57465,57465,57465,2.930988785010413e-14,6.661338147750939e-16,1.0,1.0,5.100476437849844e-19
+TJU,voltage skewness,note2_fixed_cc,skewness_scipy_biased,False,130,57465,57465,0,57465,57465,57465,1.1136924715771102e-15,1.1102230246251565e-16,1.0,1.0,1.9380361464841383e-20
+TJU,voltage entropy,note2_fixed_cc,entropy_minmax_probability,False,130,57465,57465,0,57465,57465,57465,1.1102230246251565e-14,1.3322676295501878e-15,1.0,1.0,1.9319986507006987e-19
+TJU,voltage slope,note2_fixed_cc,slope_endpoint_per_second,False,130,57465,57465,0,57465,57465,10,1.140904403821506,6.236681232830001e-05,0.00017401896806751936,1.0,1.9853900701670685e-05
+TJU,CC Q,note2_fixed_cc,charge_capacity_difference_Ah,False,130,57465,57465,0,57465,57465,57465,0.0,0.0,1.0,1.0,0.0
+TJU,CC charge time,note2_fixed_cc,duration_seconds,False,130,57465,57465,0,57465,57465,57465,1.591434272540937e-05,3.259856384829618e-09,1.0,1.0,2.769397498548572e-10
+XJTU,current mean,note2_current_stage,mean,True,55,23297,23297,0,23297,23297,23297,0.0,0.0,1.0,1.0,0.0
+XJTU,current std,note2_current_stage,std_ddof0,True,55,23297,23297,0,23297,23297,23297,0.0,0.0,1.0,1.0,0.0
+XJTU,current kurtosis,note2_current_stage,kurtosis_scipy_biased,True,55,23297,23297,0,23297,23297,23297,2.5368596112684827e-14,9.43689570931383e-16,1.0,1.0,1.0889211534826299e-18
+XJTU,current skewness,note2_current_stage,skewness_scipy_biased,True,55,23297,23297,0,23297,23297,23297,4.3298697960381105e-15,2.220446049250313e-16,1.0,1.0,1.8585525157909218e-19
+XJTU,current entropy,note2_current_stage,entropy_minmax_probability,False,55,23297,23297,0,23297,23297,23297,3.552713678800501e-15,1.7763568394002505e-15,1.0,1.0,1.5249661668028077e-19
+XJTU,current slope,note2_current_stage,slope_endpoint_per_second,False,55,23297,23297,0,23297,23297,0,12.925458874268658,0.001243231984135,0.0,1.0,0.0005548121592595037
+XJTU,CV Q,note2_current_stage,charge_capacity_difference_Ah,False,55,23297,23297,0,23297,23297,23297,0.0,0.0,1.0,1.0,0.0
+XJTU,CV charge time,note2_current_stage,duration_seconds,False,55,23297,23297,0,23297,23297,23297,2.8887825465062633e-09,6.821210263296962e-13,1.0,1.0,1.2399804895506988e-13
+XJTU,voltage mean,fixed_5mV_boundary_allcharge,mean,False,55,23297,23297,0,23297,23297,23297,0.0,0.0,1.0,1.0,0.0
+XJTU,voltage std,fixed_5mV_boundary_allcharge,std_ddof0,False,55,23297,23297,0,23297,23297,23297,0.0,0.0,1.0,1.0,0.0
+XJTU,voltage kurtosis,fixed_5mV_boundary_allcharge,kurtosis_scipy_biased,False,55,23297,23297,0,23297,23297,23297,1.2212453270876722e-14,6.661338147750939e-16,1.0,1.0,5.242071198384651e-19
+XJTU,voltage skewness,fixed_5mV_boundary_allcharge,skewness_scipy_biased,False,55,23297,23297,0,23297,23297,23297,1.0408340855860843e-16,1.0408340855860843e-16,1.0,1.0,4.4676743168051005e-21
+XJTU,voltage entropy,fixed_5mV_boundary_allcharge,entropy_minmax_probability,False,55,23297,23146,151,23297,23146,23146,4.440892098500626e-14,2.6645352591003757e-15,1.0,1.0,1.918643436663193e-18
+XJTU,voltage slope,fixed_5mV_boundary_allcharge,slope_endpoint_per_second,False,55,23297,23297,0,23297,23297,3,0.49208169821261527,0.00010877338748550001,0.0001287719448856076,1.0,2.1122105773817028e-05
+XJTU,CC Q,fixed_5mV_boundary_allcharge,charge_capacity_difference_Ah,False,55,23297,23297,0,23297,23297,23297,0.0,0.0,1.0,1.0,0.0
+XJTU,CC charge time,fixed_5mV_boundary_allcharge,duration_seconds,False,55,23297,23297,0,23297,23297,23297,1.2567511475936044e-09,4.547473508864641e-13,1.0,1.0,5.394476317094924e-14

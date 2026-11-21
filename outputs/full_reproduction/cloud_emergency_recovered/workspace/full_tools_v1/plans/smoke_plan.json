@@ -1,0 +1,402 @@
+{
+  "schema": "pinn4soh-full-paper-plan-v1",
+  "stage": "smoke",
+  "tasks": [
+    {
+      "task_id": "full/published_code/XJTU/2C/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "XJTU",
+      "batch": "2C",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20261109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/XJTU/2C/Experiment01",
+      "loss_variant": "published_label_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 0.7,
+        "beta": 20,
+        "batch_size": 256,
+        "early_stop": 20
+      }
+    },
+    {
+      "task_id": "full/paper_equation/XJTU/2C/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "XJTU",
+      "batch": "2C",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20261109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/XJTU/2C/Experiment01",
+      "loss_variant": "paper_prediction_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 0.7,
+        "beta": 20,
+        "batch_size": 256,
+        "early_stop": 20
+      }
+    },
+    {
+      "task_id": "full/shared_baseline/XJTU/2C/MLP/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "XJTU",
+      "batch": "2C",
+      "model": "MLP",
+      "repeat": 1,
+      "seed": 20261109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/XJTU/2C/Experiment01",
+      "loss_variant": "author_current",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_comparision.py defaults batch512; hardcoded patience10; corresponding dataset loader adaptation"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ]
+    },
+    {
+      "task_id": "full/shared_baseline/XJTU/2C/CNN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "XJTU",
+      "batch": "2C",
+      "model": "CNN",
+      "repeat": 1,
+      "seed": 20261109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/XJTU/2C/Experiment01",
+      "loss_variant": "author_current",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_comparision.py defaults batch512; hardcoded patience10; corresponding dataset loader adaptation"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ]
+    },
+    {
+      "task_id": "full/published_code/MIT/all/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "MIT",
+      "batch": "all",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20271109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/MIT/all/Experiment01",
+      "loss_variant": "published_label_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 1,
+        "beta": 50,
+        "batch_size": 512,
+        "early_stop": 10
+      }
+    },
+    {
+      "task_id": "full/paper_equation/MIT/all/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "MIT",
+      "batch": "all",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20271109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/MIT/all/Experiment01",
+      "loss_variant": "paper_prediction_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 1,
+        "beta": 50,
+        "batch_size": 512,
+        "early_stop": 10
+      }
+    },
+    {
+      "task_id": "full/published_code/HUST/all/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "HUST",
+      "batch": "all",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20281109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/HUST/all/Experiment01",
+      "loss_variant": "published_label_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 0.5,
+        "beta": 80,
+        "batch_size": 512,
+        "early_stop": 20
+      }
+    },
+    {
+      "task_id": "full/paper_equation/HUST/all/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "HUST",
+      "batch": "all",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20281109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/HUST/all/Experiment01",
+      "loss_variant": "paper_prediction_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 0.5,
+        "beta": 80,
+        "batch_size": 512,
+        "early_stop": 20
+      }
+    },
+    {
+      "task_id": "full/published_code/TJU/0/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "TJU",
+      "batch": "0",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20291109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/TJU/0/Experiment01",
+      "loss_variant": "published_label_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 1,
+        "beta": 50,
+        "batch_size": 512,
+        "early_stop": 20
+      }
+    },
+    {
+      "task_id": "full/paper_equation/TJU/0/PINN/Experiment01",
+      "runner": "extended",
+      "family": "full",
+      "dataset": "TJU",
+      "batch": "0",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20291109,
+      "epochs": 200,
+      "threads": 2,
+      "protocol_id": "author_current",
+      "validation_protocol": "author_sample_split",
+      "reference_run": "/workspace/pinn4soh_main_20261109/TJU/0/Experiment01",
+      "loss_variant": "paper_prediction_monotonicity",
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Supplementary Note 3; peer review pp29-30 sample validation clarification",
+        "Original main_*.py defaults; small_sample() batch128 and XJTU alpha0.5/beta10"
+      ],
+      "paper_coverage": [
+        "Table 2",
+        "Fig. 4",
+        "Tables S3-S6"
+      ],
+      "overrides": {
+        "alpha": 1,
+        "beta": 50,
+        "batch_size": 512,
+        "early_stop": 20
+      }
+    },
+    {
+      "source": "TJU",
+      "source_batch": 2,
+      "target": "XJTU",
+      "target_batch": 0,
+      "adaptation_lr": 0.0004,
+      "author_function": "FineTune_TJU2XJTU",
+      "paper_source_batch_override": false,
+      "source_batch_in_author_script": 2,
+      "transfer_design": "paper_fixed12",
+      "task_id": "transfer/published_code/supplied_author_checkpoint/TJU_2-to-XJTU_0/Experiment01",
+      "runner": "transfer",
+      "family": "transfer",
+      "dataset": "XJTU",
+      "batch": "2C",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20261109,
+      "epochs": 200,
+      "adaptation_epochs": 200,
+      "threads": 2,
+      "sample_size": 1,
+      "protocol_id": "author_current",
+      "loss_variant": "published_label_monotonicity",
+      "validation_protocol": "author_sample_split",
+      "source_mode": "supplied_author_checkpoint",
+      "split_json": "/workspace/pinn4soh_main_20261109/XJTU/2C/Experiment01/splits.json",
+      "overrides": {
+        "alpha": 0.7,
+        "beta": 50,
+        "batch_size": 128,
+        "early_stop": 10
+      },
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Original adaptation defaults alpha0.7/beta50/batch128/patience10",
+        "Table 4 fixed XJTU index0 and TJU index2; original target-specific adaptation LR"
+      ],
+      "paper_coverage": [
+        "Table 4",
+        "Fig. 6b"
+      ],
+      "source_checkpoint": "pretrained model/model_TJU_2.pth"
+    },
+    {
+      "source": "TJU",
+      "source_batch": 2,
+      "target": "XJTU",
+      "target_batch": 0,
+      "adaptation_lr": 0.0004,
+      "author_function": "FineTune_TJU2XJTU",
+      "paper_source_batch_override": false,
+      "source_batch_in_author_script": 2,
+      "transfer_design": "paper_fixed12",
+      "task_id": "transfer/paper_equation/supplied_author_checkpoint/TJU_2-to-XJTU_0/Experiment01",
+      "runner": "transfer",
+      "family": "transfer",
+      "dataset": "XJTU",
+      "batch": "2C",
+      "model": "PINN",
+      "repeat": 1,
+      "seed": 20261109,
+      "epochs": 200,
+      "adaptation_epochs": 200,
+      "threads": 2,
+      "sample_size": 1,
+      "protocol_id": "author_current",
+      "loss_variant": "paper_prediction_monotonicity",
+      "validation_protocol": "author_sample_split",
+      "source_mode": "supplied_author_checkpoint",
+      "split_json": "/workspace/pinn4soh_main_20261109/XJTU/2C/Experiment01/splits.json",
+      "overrides": {
+        "alpha": 0.7,
+        "beta": 50,
+        "batch_size": 128,
+        "early_stop": 10
+      },
+      "protocol_evidence": [
+        "Publication-era commit d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+        "Original adaptation defaults alpha0.7/beta50/batch128/patience10",
+        "Table 4 fixed XJTU index0 and TJU index2; original target-specific adaptation LR"
+      ],
+      "paper_coverage": [
+        "Table 4",
+        "Fig. 6b"
+      ],
+      "source_checkpoint": "pretrained model/model_TJU_2.pth"
+    }
+  ]
+}

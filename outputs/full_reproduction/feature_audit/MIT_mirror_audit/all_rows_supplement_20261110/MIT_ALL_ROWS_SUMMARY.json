@@ -1,0 +1,2111 @@
+{
+  "format": "pinn4soh-mit-all-published-rows-combined-v1",
+  "scope": "85577 published feature-table rows across 125 CSVs, not all 114738 mirror cycles",
+  "expected_csvs": 125,
+  "completed_csvs": 125,
+  "expected_published_rows": 85577,
+  "completed_published_rows": 85577,
+  "expected_curve_records": 171154,
+  "curve_records": 171154,
+  "statuses": {
+    "computed": 171153,
+    "window_has_fewer_than_four_points": 1
+  },
+  "all_published_rows_covered": true,
+  "fixed_non_slope_features": 14,
+  "residual_summary": {
+    "voltage/mean": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 0.008894057572527814,
+      "sum_squared": 2.9346711788150274e-05,
+      "max_abs": 0.004473423232015161,
+      "at_1e_8": 84495,
+      "at_1e_6": 85570,
+      "at_1e_4": 85571,
+      "mean_absolute_residual": 1.0393168145891153e-07,
+      "root_mean_squared_residual": 1.851841157128167e-05,
+      "nonfinite_or_missing": 1
+    },
+    "voltage/std_ddof0": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 0.0042957026895777545,
+      "sum_squared": 6.5397256696154195e-06,
+      "max_abs": 0.001864456185882872,
+      "at_1e_8": 84588,
+      "at_1e_6": 85570,
+      "at_1e_4": 85572,
+      "mean_absolute_residual": 5.019751670535845e-08,
+      "root_mean_squared_residual": 8.74185852998552e-06,
+      "nonfinite_or_missing": 1
+    },
+    "voltage/kurtosis_scipy_biased": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 0.28649983998778417,
+      "sum_squared": 0.022420889362057942,
+      "max_abs": 0.13564031230742835,
+      "at_1e_8": 999,
+      "at_1e_6": 69823,
+      "at_1e_4": 85570,
+      "mean_absolute_residual": 3.3478994109070786e-06,
+      "root_mean_squared_residual": 0.0005118590972756966,
+      "nonfinite_or_missing": 1
+    },
+    "voltage/skewness_scipy_biased": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 0.5217445787711348,
+      "sum_squared": 0.11148578449219453,
+      "max_abs": 0.27467426300999276,
+      "at_1e_8": 2738,
+      "at_1e_6": 85148,
+      "at_1e_4": 85570,
+      "mean_absolute_residual": 6.0968563472367815e-06,
+      "root_mean_squared_residual": 0.0011413891916688195,
+      "nonfinite_or_missing": 1
+    },
+    "voltage/entropy_minmax_probability": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 0.46553531414443716,
+      "sum_squared": 0.08900925582187137,
+      "max_abs": 0.22533353591212135,
+      "at_1e_8": 1626,
+      "at_1e_6": 72193,
+      "at_1e_4": 85570,
+      "mean_absolute_residual": 5.440021900351e-06,
+      "root_mean_squared_residual": 0.0010198624305187876,
+      "nonfinite_or_missing": 1
+    },
+    "voltage/duration_seconds": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 590.6616001242904,
+      "sum_squared": 171927.88074087715,
+      "max_abs": 302.11599999945616,
+      "at_1e_8": 85570,
+      "at_1e_6": 85570,
+      "at_1e_4": 85570,
+      "mean_absolute_residual": 0.0069021875306661965,
+      "root_mean_squared_residual": 1.417415454048492,
+      "nonfinite_or_missing": 1
+    },
+    "voltage/charge_capacity_difference_Ah": {
+      "expected": 85577,
+      "finite": 85576,
+      "sum_abs": 0.29620342497939384,
+      "sum_squared": 0.04297469553297037,
+      "max_abs": 0.14661353569961555,
+      "at_1e_8": 35365,
+      "at_1e_6": 85570,
+      "at_1e_4": 85573,
+      "mean_absolute_residual": 3.4612908406491754e-06,
+      "root_mean_squared_residual": 0.0007086477504759224,
+      "nonfinite_or_missing": 1
+    },
+    "current/mean": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 0.1228993514894155,
+      "sum_squared": 0.005204295923809902,
+      "max_abs": 0.06026943652628797,
+      "at_1e_8": 85568,
+      "at_1e_6": 85568,
+      "at_1e_4": 85568,
+      "mean_absolute_residual": 1.4361259624597204e-06,
+      "root_mean_squared_residual": 0.0002466053321372165,
+      "nonfinite_or_missing": 0
+    },
+    "current/std_ddof0": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 0.08483274901553953,
+      "sum_squared": 0.002433593042244229,
+      "max_abs": 0.041330796305789674,
+      "at_1e_8": 85568,
+      "at_1e_6": 85568,
+      "at_1e_4": 85568,
+      "mean_absolute_residual": 9.91303142381008e-07,
+      "root_mean_squared_residual": 0.0001686341192280736,
+      "nonfinite_or_missing": 0
+    },
+    "current/kurtosis_scipy_biased": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 0.5068227803158529,
+      "sum_squared": 0.039638757784228915,
+      "max_abs": 0.10872098986213623,
+      "at_1e_8": 7752,
+      "at_1e_6": 85568,
+      "at_1e_4": 85568,
+      "mean_absolute_residual": 5.922418176798123e-06,
+      "root_mean_squared_residual": 0.0006805836147234517,
+      "nonfinite_or_missing": 0
+    },
+    "current/skewness_scipy_biased": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 0.5442882232984175,
+      "sum_squared": 0.0659719365814741,
+      "max_abs": 0.2129643073441893,
+      "at_1e_8": 21949,
+      "at_1e_6": 85568,
+      "at_1e_4": 85568,
+      "mean_absolute_residual": 6.360216218124233e-06,
+      "root_mean_squared_residual": 0.0008780132857902093,
+      "nonfinite_or_missing": 0
+    },
+    "current/entropy_minmax_probability": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 0.9654198045549554,
+      "sum_squared": 0.24391583737274253,
+      "max_abs": 0.34774080151751807,
+      "at_1e_8": 31778,
+      "at_1e_6": 85568,
+      "at_1e_4": 85568,
+      "mean_absolute_residual": 1.1281299935204031e-05,
+      "root_mean_squared_residual": 0.0016882683197989039,
+      "nonfinite_or_missing": 0
+    },
+    "current/duration_seconds": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 326.5345001233122,
+      "sum_squared": 22397.554785912336,
+      "max_abs": 96.81410000007604,
+      "at_1e_8": 85568,
+      "at_1e_6": 85568,
+      "at_1e_4": 85568,
+      "mean_absolute_residual": 0.003815680616559499,
+      "root_mean_squared_residual": 0.511589679765943,
+      "nonfinite_or_missing": 0
+    },
+    "current/charge_capacity_difference_Ah": {
+      "expected": 85577,
+      "finite": 85577,
+      "sum_abs": 0.012464158569241358,
+      "sum_squared": 2.420331146023597e-05,
+      "max_abs": 0.0034505771469117213,
+      "at_1e_8": 27188,
+      "at_1e_6": 85568,
+      "at_1e_4": 85570,
+      "mean_absolute_residual": 1.456484635970104e-07,
+      "root_mean_squared_residual": 1.6817400463340577e-05,
+      "nonfinite_or_missing": 0
+    }
+  },
+  "fingerprints": [
+    {
+      "mapping_sha256": "67683d2d002f985192da177ad4c43f30ed2166679b33c93878891f4b04a6da88",
+      "reader_sha256": "5ed35e8d829796a4def32073c4cdea5425e87b0d34e90da81e658d760f698045",
+      "candidate_helper_sha256": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a",
+      "unchanged_adapter_sha256": "e7e61f34587a67d344e6e8d9e5756ff084723d99436bf0cf6695482e5359e9b7",
+      "streaming_extractor_sha256": "f1a1de2e1ef4979ce79e94451557f19c8a336cdeadcd8bb301e616bcb5bc3cda"
+    }
+  ],
+  "source_checksums": {
+    "2017-05-12": {
+      "bytes": 797659714,
+      "sha256": "8a789f4a83409ad0c1d6c214c836f2de94b63ef2e73a50722fe057c3d8a89d77"
+    },
+    "2017-06-30": {
+      "bytes": 581592476,
+      "sha256": "5f3f752d9d9a0276442fbb853941d9b212e7fffd152995b207ae6fa4a4503fae"
+    },
+    "2018-04-12": {
+      "bytes": 823392641,
+      "sha256": "bdd195323719986b3d77d4bd610c26e5e4e7c8d8ddde558b03b4696a2bcc6107"
+    }
+  },
+  "partitions": [
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-10.csv",
+      "rows": 990,
+      "curve_records": 1980,
+      "statuses": {
+        "computed": 1980
+      },
+      "elapsed_seconds": 35.15600000000268,
+      "peak_rss_bytes": 290680832,
+      "artifact_sha256": {
+        "curve_records.jsonl": "c92badf6695755d5ed6af3046087484cc4dde9d2b11606e30f361e98d03bc407",
+        "fixed14_residuals.csv": "9f04d53b6dd372b0d77716f56ee9ac5bb9a445ea1b9c5d454d6f317452e27bc2"
+      },
+      "partition_path": "per_csv/2017-05-12_battery-10_4179808e/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-11.csv",
+      "rows": 854,
+      "curve_records": 1708,
+      "statuses": {
+        "computed": 1708
+      },
+      "elapsed_seconds": 34.062999999994645,
+      "peak_rss_bytes": 290680832,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2716fa778dc5bbb2a0a915c485cdda6b49aad99cf046c8e73c70ad2f0a1e3e8d",
+        "fixed14_residuals.csv": "3399ba84eed1b998ac1634f31599f34187d7e760454be5f7b1e69a2d8c322352"
+      },
+      "partition_path": "per_csv/2017-05-12_battery-11_e6a2710c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-12.csv",
+      "rows": 732,
+      "curve_records": 1464,
+      "statuses": {
+        "computed": 1464
+      },
+      "elapsed_seconds": 23.296999999991385,
+      "peak_rss_bytes": 290689024,
+      "artifact_sha256": {
+        "curve_records.jsonl": "599bc2c8e2d33a1c35552b44c0baff463a14e1d573593c62d2026551f4564b55",
+        "fixed14_residuals.csv": "f913758ec8c9dd1795b586bd7b45784ebc49170934f309536aa65aecc371f657"
+      },
+      "partition_path": "per_csv/2017-05-12_battery-12_e98b320b/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-13.csv",
+      "rows": 859,
+      "curve_records": 1718,
+      "statuses": {
+        "computed": 1718
+      },
+      "elapsed_seconds": 25.281000000002678,
+      "peak_rss_bytes": 288112640,
+      "artifact_sha256": {
+        "curve_records.jsonl": "04fcb3c54ff381bc00fc77ff0d0d9c7c7e1734b5c51fa053ded129627455ebff",
+        "fixed14_residuals.csv": "0598181441083ebe7c81129453c347a1ff2e91d69cfad62a78c999e7dc780462"
+      },
+      "partition_path": "per_csv/2017-05-12_battery-13_b1e114f9/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-1.csv",
+      "rows": 1737,
+      "curve_records": 3474,
+      "statuses": {
+        "computed": 3474
+      },
+      "elapsed_seconds": 52.48400000001129,
+      "peak_rss_bytes": 290553856,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7d7405db99cc853df5f68746153788f2440620895e79494f7d655b2605a1ca5e",
+        "fixed14_residuals.csv": "c1f9162b679942a3f2dd29220a55e69d97e0ce184dd1726fdfdd57834d64e3e3"
+      },
+      "partition_path": "per_csv/2017-05-12_battery-1_ddba3f14/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-11.csv",
+      "rows": 36,
+      "curve_records": 72,
+      "statuses": {
+        "computed": 72
+      },
+      "elapsed_seconds": 1.4060000000026776,
+      "peak_rss_bytes": 283385856,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2062b83e8899c48435130370d014b5d5d6baaa0f73e61f927959f5283531b907",
+        "fixed14_residuals.csv": "5b61516934101515113195efe8bcd1b9a4af5733aa343d06ac6212836c76dcf4"
+      },
+      "partition_path": "per_csv/2017-06-30_battery-11_7c7d469f/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-15.csv",
+      "rows": 826,
+      "curve_records": 1652,
+      "statuses": {
+        "computed": 1652
+      },
+      "elapsed_seconds": 28.60899999999674,
+      "peak_rss_bytes": 288423936,
+      "artifact_sha256": {
+        "curve_records.jsonl": "aec765d8e37eb69934f36281b84f36e0d60d66606886a6838ad2bbf9df3a95d7",
+        "fixed14_residuals.csv": "375ffa738f6aa146527331e0c157ad3510efd7ed47f90dc0dfa91fa1773d3c1a"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-15_1787208c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-18.csv",
+      "rows": 804,
+      "curve_records": 1608,
+      "statuses": {
+        "computed": 1608
+      },
+      "elapsed_seconds": 44.23399999999674,
+      "peak_rss_bytes": 289021952,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2b67f594290f7f25034a8cbba024e30cc21d7c0de9c85ff35d516bf7d784c277",
+        "fixed14_residuals.csv": "69abf789f030adab4733a9a5f1c3f11cbbcb45c9177c2388241a633f25e00158"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-18_0517f6ee/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-19.csv",
+      "rows": 641,
+      "curve_records": 1282,
+      "statuses": {
+        "computed": 1282
+      },
+      "elapsed_seconds": 29.0,
+      "peak_rss_bytes": 290635776,
+      "artifact_sha256": {
+        "curve_records.jsonl": "05d58e2d6b9e7c262a86cfd4a4e4de7e80f95e84b7428ba1a6683943f9829711",
+        "fixed14_residuals.csv": "0a0687d028044df47a4aa560669d0d8f943628907ebb07f6a10ce194759b2fe2"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-19_4fe48bfc/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-22.csv",
+      "rows": 516,
+      "curve_records": 1032,
+      "statuses": {
+        "computed": 1032
+      },
+      "elapsed_seconds": 22.312000000005355,
+      "peak_rss_bytes": 290648064,
+      "artifact_sha256": {
+        "curve_records.jsonl": "08b1b0956d3a55f0031ffe29bcb31c07aa8d2d7030c3d239871c7b108feacae1",
+        "fixed14_residuals.csv": "716dd8ef12fbac41d8ce812e07071012457dc90b04ce71df26097087eff19b72"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-22_dbb84eb8/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-23.csv",
+      "rows": 848,
+      "curve_records": 1696,
+      "statuses": {
+        "computed": 1696
+      },
+      "elapsed_seconds": 55.98500000000058,
+      "peak_rss_bytes": 290680832,
+      "artifact_sha256": {
+        "curve_records.jsonl": "17a821c764fa66ba54f172e6340d94c5ed1258172e0a66cd7cb59f38704c33c1",
+        "fixed14_residuals.csv": "e05f6b5dbd0631862ff306f2ec3fd00c998f1cf4b0726412686194c3203930bc"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-23_3c26a365/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-26.csv",
+      "rows": 801,
+      "curve_records": 1602,
+      "statuses": {
+        "computed": 1602
+      },
+      "elapsed_seconds": 51.48500000000058,
+      "peak_rss_bytes": 290693120,
+      "artifact_sha256": {
+        "curve_records.jsonl": "c4118be8f2ebbd27766d4701ebec7e8aeed00393b95156a393d1434541ec057f",
+        "fixed14_residuals.csv": "99498757d6f1391f23d71ec0b08365b6c94ac2a11b16906c8964bff07863d152"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-26_88b0fb69/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-27.csv",
+      "rows": 820,
+      "curve_records": 1640,
+      "statuses": {
+        "computed": 1640
+      },
+      "elapsed_seconds": 39.03100000000268,
+      "peak_rss_bytes": 290693120,
+      "artifact_sha256": {
+        "curve_records.jsonl": "6ec006d62fbb1d6c25b88201da0a8ab45922b1a6fdf373bb9e962f1d2d20ca31",
+        "fixed14_residuals.csv": "af2025616a424dec257531f9e600aba2b8ba91fccd49fccf55edf8e5998c53bc"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-27_f70a079f/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-28.csv",
+      "rows": 793,
+      "curve_records": 1586,
+      "statuses": {
+        "computed": 1586
+      },
+      "elapsed_seconds": 32.687000000005355,
+      "peak_rss_bytes": 290902016,
+      "artifact_sha256": {
+        "curve_records.jsonl": "817ed52bc2eb65f31bbaa90c021b8028183cf19b3b8523fa632744b759296715",
+        "fixed14_residuals.csv": "0a21203731db2fe46264dacdb68bbe50d85b5abe27c7c1962c969261a39a8970"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-28_71a0f6d4/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-30.csv",
+      "rows": 856,
+      "curve_records": 1712,
+      "statuses": {
+        "computed": 1712
+      },
+      "elapsed_seconds": 32.28100000000268,
+      "peak_rss_bytes": 290902016,
+      "artifact_sha256": {
+        "curve_records.jsonl": "a29f203532bb8ba205222090884b680461e243e02b31e3b917de83f068bfeb26",
+        "fixed14_residuals.csv": "0397154c94efd43f758e6ae0b570ad9a9d5bee8ac45e53625e1a4ca1131606ee"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-30_650d68ea/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-31.csv",
+      "rows": 668,
+      "curve_records": 1336,
+      "statuses": {
+        "computed": 1336
+      },
+      "elapsed_seconds": 22.265999999988708,
+      "peak_rss_bytes": 290914304,
+      "artifact_sha256": {
+        "curve_records.jsonl": "9189a1bbb50c76a47a3296923dfc4c44e25a820da537f52e3654828f813d652a",
+        "fixed14_residuals.csv": "294afbf4ff7fea1d488dd13064d2162837f0367146da3283b325ef34d2b3f818"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-31_2f7e91f6/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-34.csv",
+      "rows": 696,
+      "curve_records": 1392,
+      "statuses": {
+        "computed": 1392
+      },
+      "elapsed_seconds": 22.297000000005937,
+      "peak_rss_bytes": 290914304,
+      "artifact_sha256": {
+        "curve_records.jsonl": "9211f1e8228637862ae0c591bb2023d03251a291c75fc7fe22eeb3a0d00a092e",
+        "fixed14_residuals.csv": "5bb8cb54b4f64e18b067460000a5f6b08785f6cdbb9eb6ce44216779945045f6"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-34_7b8eb14e/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-35.csv",
+      "rows": 696,
+      "curve_records": 1392,
+      "statuses": {
+        "computed": 1392
+      },
+      "elapsed_seconds": 25.905999999988126,
+      "peak_rss_bytes": 291442688,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ad3fc565942231227a4f4f7719fd44790f22cf5ab81eb0f6e8938055cae997c6",
+        "fixed14_residuals.csv": "2fb06589c23bb0ba6c42f57e79c3927fb8249dce0a59b4f3c160be80a9cc44c1"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-35_f4abb8bc/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-36.csv",
+      "rows": 657,
+      "curve_records": 1314,
+      "statuses": {
+        "computed": 1314
+      },
+      "elapsed_seconds": 21.014999999999418,
+      "peak_rss_bytes": 291401728,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7301e2d6d3dda61da94452b3231dfa448159ff4f7b3c87349cf5cc5f89ca2892",
+        "fixed14_residuals.csv": "859d79e3496ad5b594253c6c5e29092ed6d2fc4dca32ea228e59993e4b4d6e3b"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-36_e35f7c3b/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-38.csv",
+      "rows": 608,
+      "curve_records": 1216,
+      "statuses": {
+        "computed": 1216
+      },
+      "elapsed_seconds": 21.093999999997322,
+      "peak_rss_bytes": 291479552,
+      "artifact_sha256": {
+        "curve_records.jsonl": "40007dc04e4f8c80c840822cf0a931dddb8d92289ca69ef3b07ad237867b69a4",
+        "fixed14_residuals.csv": "0ff3fed01e64be7318ee4b994c11587b7f96990bee9ad8fed77a37420c69a0c9"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-38_cc2a4905/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-40.csv",
+      "rows": 569,
+      "curve_records": 1138,
+      "statuses": {
+        "computed": 1138
+      },
+      "elapsed_seconds": 24.765999999988708,
+      "peak_rss_bytes": 291487744,
+      "artifact_sha256": {
+        "curve_records.jsonl": "34f3d5bc1eb490e5427f26ab4322d508923e0b4f1bc70e6574a35266eca80eaf",
+        "fixed14_residuals.csv": "a896ecca146e0972cc842cf355bf7c9d22af57f0635bcf98a76e92ba14ee958f"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-40_6ad1e3bb/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-41.csv",
+      "rows": 864,
+      "curve_records": 1728,
+      "statuses": {
+        "computed": 1728
+      },
+      "elapsed_seconds": 43.26499999999942,
+      "peak_rss_bytes": 291487744,
+      "artifact_sha256": {
+        "curve_records.jsonl": "1b7dcdae34e411f515f9aace4a41b9fff9502264e08f081207472418c97c00f0",
+        "fixed14_residuals.csv": "652dbf22f7a01ac63353f4b7aed81d1f08c6af8c6fcbe8af2f907482d0004492"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-41_f1eb66d5/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-42.csv",
+      "rows": 954,
+      "curve_records": 1908,
+      "statuses": {
+        "computed": 1908
+      },
+      "elapsed_seconds": 50.10899999999674,
+      "peak_rss_bytes": 291491840,
+      "artifact_sha256": {
+        "curve_records.jsonl": "f4222c2bfe592adc777642afca274368f9f620c94ee46ea5dc09e8de63ccf5ed",
+        "fixed14_residuals.csv": "9269151cf83c26edd9eb328f4e94aa30f19d861523ecb5c11776e39fe2480097"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-42_30df7486/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-43.csv",
+      "rows": 629,
+      "curve_records": 1258,
+      "statuses": {
+        "computed": 1258
+      },
+      "elapsed_seconds": 23.5,
+      "peak_rss_bytes": 291491840,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2e5668aae5d9d28c1dd65ea147b0536ff0ea3f7370b6eda324af8f73ce76e456",
+        "fixed14_residuals.csv": "a5ca91eab96aec3c4399de82bc84e27dc687d5ad34fe033ad9d1005d97ca38e2"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-43_06481116/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-5.csv",
+      "rows": 1358,
+      "curve_records": 2716,
+      "statuses": {
+        "computed": 2716
+      },
+      "elapsed_seconds": 59.21899999999732,
+      "peak_rss_bytes": 292110336,
+      "artifact_sha256": {
+        "curve_records.jsonl": "f5cac45700d785a4d47a4c185b01db9dc064de953ec834e6447c03d0279745d9",
+        "fixed14_residuals.csv": "005b43953dcb98349216f908331be59882c07ca00c326e0198359b552fd9ceaf"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-5_42481cdd/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-6.csv",
+      "rows": 1088,
+      "curve_records": 2176,
+      "statuses": {
+        "computed": 2176
+      },
+      "elapsed_seconds": 77.59400000001187,
+      "peak_rss_bytes": 292118528,
+      "artifact_sha256": {
+        "curve_records.jsonl": "11e9a97a3346515667de54f7068af9a4bd661dd2bf33627e80ceabc39fde6674",
+        "fixed14_residuals.csv": "d0f25d364bd6c19dbe1118acb883290ed261f014421424da3742ed1353e6e1be"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-6_81b2d528/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-8.csv",
+      "rows": 815,
+      "curve_records": 1630,
+      "statuses": {
+        "computed": 1630
+      },
+      "elapsed_seconds": 48.40600000000268,
+      "peak_rss_bytes": 292081664,
+      "artifact_sha256": {
+        "curve_records.jsonl": "d38a3c8eae08dd962987f00b496cf41b6f718771cad469b0f2e52271e83f8536",
+        "fixed14_residuals.csv": "92894049dcb505bec81de5dead18c0e2efdea73c53e1214bd6fa197a5c8688f7"
+      },
+      "partition_path": "worker1/per_csv/2017-05-12_battery-8_406b8f5e/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-13.csv",
+      "rows": 421,
+      "curve_records": 842,
+      "statuses": {
+        "computed": 842
+      },
+      "elapsed_seconds": 18.687000000005355,
+      "peak_rss_bytes": 293167104,
+      "artifact_sha256": {
+        "curve_records.jsonl": "0dd7aaad4d1f3963672262f3dbef8d385fd44d567f8cfa9b2607c8c0bfeef265",
+        "fixed14_residuals.csv": "874424c1f9de80ccf44122c8224871d188e1a28d2f089d4c1b2300b5af8f7105"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-13_d826f537/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-18.csv",
+      "rows": 469,
+      "curve_records": 938,
+      "statuses": {
+        "computed": 938
+      },
+      "elapsed_seconds": 22.985000000000582,
+      "peak_rss_bytes": 293695488,
+      "artifact_sha256": {
+        "curve_records.jsonl": "918283b39fbafa8b9583fe76528de47c1b80e49ff514e3f64ba83cd069e1bede",
+        "fixed14_residuals.csv": "59c8b7cab665beb56e842e3a06117be7a5b6228fb07b64b7c0ccb903fafb253c"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-18_2888cf79/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-19.csv",
+      "rows": 459,
+      "curve_records": 918,
+      "statuses": {
+        "computed": 918
+      },
+      "elapsed_seconds": 18.84299999999348,
+      "peak_rss_bytes": 293699584,
+      "artifact_sha256": {
+        "curve_records.jsonl": "5705d6c5f0712551b7d853143f29a01651d8767667313c33e2e040c7a642c209",
+        "fixed14_residuals.csv": "efbec3f49a2b4fc9586005ac1059bc407511ac40a1af0e624599dc78724e2ed5"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-19_80c14486/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-22.csv",
+      "rows": 463,
+      "curve_records": 926,
+      "statuses": {
+        "computed": 926
+      },
+      "elapsed_seconds": 20.5,
+      "peak_rss_bytes": 294244352,
+      "artifact_sha256": {
+        "curve_records.jsonl": "79a38f389157c7afb90561e707e74fcafc381d5d52f50cb807f01af19b6fbfef",
+        "fixed14_residuals.csv": "d0cbd79fdd0e7033778ff59b92f0fef1f69e3147e731bae9b830c2933a699c80"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-22_be7f325c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-23.csv",
+      "rows": 487,
+      "curve_records": 974,
+      "statuses": {
+        "computed": 974
+      },
+      "elapsed_seconds": 24.031999999991967,
+      "peak_rss_bytes": 294785024,
+      "artifact_sha256": {
+        "curve_records.jsonl": "9edc36b36fc9820705adf75362fe4543ba0493361009762f28baca6bfeebe0fb",
+        "fixed14_residuals.csv": "ab6db113116d4c637c91c91536c0fdb1f2257a81533e4c55537b0d07f85c2c71"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-23_a9f50ede/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-24.csv",
+      "rows": 496,
+      "curve_records": 992,
+      "statuses": {
+        "computed": 992
+      },
+      "elapsed_seconds": 20.812000000005355,
+      "peak_rss_bytes": 294821888,
+      "artifact_sha256": {
+        "curve_records.jsonl": "5d5678b278371ea932f1251c32f6a9c2f6f52f04f7fe72d6c97c399032a1ec45",
+        "fixed14_residuals.csv": "624cdb8d96ab44b921a631557b48af57cbeff61d88dcc52aeafe23317271e286"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-24_67e8bcbd/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-25.csv",
+      "rows": 200,
+      "curve_records": 400,
+      "statuses": {
+        "computed": 400
+      },
+      "elapsed_seconds": 7.7810000000026776,
+      "peak_rss_bytes": 296030208,
+      "artifact_sha256": {
+        "curve_records.jsonl": "e3bc9d3e4403367fd27fb61e8adcc71926408f3f76137b44052f74d6f5faf6ba",
+        "fixed14_residuals.csv": "e5442cef8e4f1f33604fa5980f5186c3f38804369247956da86218bcdb627693"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-25_fff38e80/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-26.csv",
+      "rows": 148,
+      "curve_records": 296,
+      "statuses": {
+        "computed": 296
+      },
+      "elapsed_seconds": 5.765999999988708,
+      "peak_rss_bytes": 296415232,
+      "artifact_sha256": {
+        "curve_records.jsonl": "108ff1690d1a28430509fcb9687bf6572918fe7ab73bc07cafb3bdba467d7ccd",
+        "fixed14_residuals.csv": "9d4ab6da0c23ed6bbce60a4d112465e213806df0d36f64a7a288083c2652bc91"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-26_68159055/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-28.csv",
+      "rows": 443,
+      "curve_records": 886,
+      "statuses": {
+        "computed": 886
+      },
+      "elapsed_seconds": 19.889999999999418,
+      "peak_rss_bytes": 296427520,
+      "artifact_sha256": {
+        "curve_records.jsonl": "df3162a7afb42b0f36e30f7092536ea20da3779449ebf7e75b134a00d9662920",
+        "fixed14_residuals.csv": "c33daae8deec0de4d1e9dbb416082df405883d96b51cf0900fe0a9b07eb81f26"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-28_a59db501/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-29.csv",
+      "rows": 486,
+      "curve_records": 972,
+      "statuses": {
+        "computed": 972
+      },
+      "elapsed_seconds": 16.35899999999674,
+      "peak_rss_bytes": 296501248,
+      "artifact_sha256": {
+        "curve_records.jsonl": "4a8e50aef4fdebe582e7bf6cf00267f723c3c2ad2de59d8860e7413339647937",
+        "fixed14_residuals.csv": "8fe2bcb21edadda2dada9812ea4f54bb54558043afab0684232a26ca76921e74"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-29_ed534463/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-2.csv",
+      "rows": 130,
+      "curve_records": 260,
+      "statuses": {
+        "computed": 260
+      },
+      "elapsed_seconds": 5.687999999994645,
+      "peak_rss_bytes": 294232064,
+      "artifact_sha256": {
+        "curve_records.jsonl": "6415f35a1e0e02ad5032a96a368ae8639cd26841d9bb1915d07d99aad5db4629",
+        "fixed14_residuals.csv": "2028c624c82626c580ae70044517262806f74d271d5b268b8ab179263dfb744c"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-2_e9ed69a6/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-33.csv",
+      "rows": 495,
+      "curve_records": 990,
+      "statuses": {
+        "computed": 990
+      },
+      "elapsed_seconds": 19.797000000005937,
+      "peak_rss_bytes": 296501248,
+      "artifact_sha256": {
+        "curve_records.jsonl": "bca4cdb6fc8884c2683191b6d952d3a11ccf2a52d340c41729b65d8f5c5660d4",
+        "fixed14_residuals.csv": "ca1ec102bdbfbb5d169603ca6e4c39f99ad57d7c66a5f8108fc2201279157571"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-33_dc8cef65/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-36.csv",
+      "rows": 441,
+      "curve_records": 882,
+      "statuses": {
+        "computed": 882
+      },
+      "elapsed_seconds": 24.203000000008615,
+      "peak_rss_bytes": 296501248,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7e7c56c8cb1b3c41877620bd27bbd5982908883ff7b588ef504c692e3024018d",
+        "fixed14_residuals.csv": "ba581065ef080423123b11b3ce5399fb8f0d88f423744d3afa3150dfe4f2c2a1"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-36_ebda59a6/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-38.csv",
+      "rows": 453,
+      "curve_records": 906,
+      "statuses": {
+        "computed": 906
+      },
+      "elapsed_seconds": 20.062000000005355,
+      "peak_rss_bytes": 296480768,
+      "artifact_sha256": {
+        "curve_records.jsonl": "6bcb5b2662d5b5abed09045f238fdbce0965924d495ba55d479b80d02ffcffbe",
+        "fixed14_residuals.csv": "51585083298ebba2f7a455f7a4250bd84c88b253d47594984e623105b430bbf0"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-38_7561a446/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-40.csv",
+      "rows": 438,
+      "curve_records": 876,
+      "statuses": {
+        "computed": 876
+      },
+      "elapsed_seconds": 16.125,
+      "peak_rss_bytes": 296480768,
+      "artifact_sha256": {
+        "curve_records.jsonl": "473e5312d102d531b8d1ea06efc204c6187854c148139c3698c4ec5a220ccc59",
+        "fixed14_residuals.csv": "3bc22e9c5687641140f8aa30b9f5514757964dd902d8616c3b80373466906acf"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-40_99abc6d9/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-41.csv",
+      "rows": 465,
+      "curve_records": 930,
+      "statuses": {
+        "computed": 930
+      },
+      "elapsed_seconds": 25.469000000011874,
+      "peak_rss_bytes": 296480768,
+      "artifact_sha256": {
+        "curve_records.jsonl": "a03737f998999e09b53b8c9f12315637b80647794f715e05b70d2518bdcf1c10",
+        "fixed14_residuals.csv": "30bb6273d78d812a74b7f77f1186f84bdfc423041936419a8159e2230ca087c6"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-41_c9be9e67/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-43.csv",
+      "rows": 427,
+      "curve_records": 854,
+      "statuses": {
+        "computed": 854
+      },
+      "elapsed_seconds": 24.952999999994063,
+      "peak_rss_bytes": 296546304,
+      "artifact_sha256": {
+        "curve_records.jsonl": "64882cd1ab6f7c66ea52a3231b17c319b61e873080fefb2156679a80a70c8613",
+        "fixed14_residuals.csv": "9e069758aacb8b9888471ad7fea1ac02a68a9cf7bd068a712dcfc85aa8848cb9"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-43_46b63f08/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-46.csv",
+      "rows": 455,
+      "curve_records": 910,
+      "statuses": {
+        "computed": 910
+      },
+      "elapsed_seconds": 22.312000000005355,
+      "peak_rss_bytes": 296546304,
+      "artifact_sha256": {
+        "curve_records.jsonl": "80476ccb63e273f5405bd05f76d4d7d1785c9af06214a058e523204c7c9156d7",
+        "fixed14_residuals.csv": "cdec6cb53e76321de1017ba70598fc4299a3e89ebd65539515208eb341f8d4bf"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-46_4e788d90/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-47.csv",
+      "rows": 398,
+      "curve_records": 796,
+      "statuses": {
+        "computed": 796
+      },
+      "elapsed_seconds": 22.843999999997322,
+      "peak_rss_bytes": 296546304,
+      "artifact_sha256": {
+        "curve_records.jsonl": "6b68e8593dc347338d5dbdcd63df7967622f6f090bd38c7e770c97c53e955eb6",
+        "fixed14_residuals.csv": "045db5fc29a71e4dfa2c54ec5cc65a51bbf9ad32e82865cfa0792d67387897d0"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-47_dd8f7929/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-48.csv",
+      "rows": 666,
+      "curve_records": 1332,
+      "statuses": {
+        "computed": 1332
+      },
+      "elapsed_seconds": 31.89100000000326,
+      "peak_rss_bytes": 296550400,
+      "artifact_sha256": {
+        "curve_records.jsonl": "21f83047605298b83ecef69c4b0e337b073467886c22e41c7ae756fa7e360474",
+        "fixed14_residuals.csv": "cd1a6886878e3369372ede55758d33d46660cdb52f0c8e582c3277997010af1a"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-48_fec60c6c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-5.csv",
+      "rows": 421,
+      "curve_records": 842,
+      "statuses": {
+        "computed": 842
+      },
+      "elapsed_seconds": 30.453000000008615,
+      "peak_rss_bytes": 296550400,
+      "artifact_sha256": {
+        "curve_records.jsonl": "17c8273a7d6d809de62050abfa9778edd469debb1aff0054989f82a12dffd02f",
+        "fixed14_residuals.csv": "0fea784fe8f6e4207359ce41f6b96ce904a81695ed34c1f5da4fdc66c017dc21"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-5_10315dc0/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-7.csv",
+      "rows": 473,
+      "curve_records": 946,
+      "statuses": {
+        "computed": 946
+      },
+      "elapsed_seconds": 25.76600000000326,
+      "peak_rss_bytes": 296550400,
+      "artifact_sha256": {
+        "curve_records.jsonl": "be1468b4f5bc15730a29e478f2afb0d31470b6e457fbd44339fa211579a6fa06",
+        "fixed14_residuals.csv": "533c683b3c66b6934654f18d72d2f241542e9c0b5fd3d870d5363bb2d912f41b"
+      },
+      "partition_path": "worker1/per_csv/2017-06-30_battery-7_beea4835/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-11.csv",
+      "rows": 124,
+      "curve_records": 248,
+      "statuses": {
+        "computed": 248
+      },
+      "elapsed_seconds": 6.047000000005937,
+      "peak_rss_bytes": 296595456,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2868fdfb8e996c711471736eb0c5def593936f306fbaa02db6bf3155e6384d7c",
+        "fixed14_residuals.csv": "4f97da8ee872f355e388010d3b2950ffc7e42ef606dbd8363f67c1e5bdec3325"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-11_7fcac26f/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-1.csv",
+      "rows": 947,
+      "curve_records": 1894,
+      "statuses": {
+        "computed": 1894
+      },
+      "elapsed_seconds": 59.0,
+      "peak_rss_bytes": 296595456,
+      "artifact_sha256": {
+        "curve_records.jsonl": "e0a92365c3f02992a651f58084830f405acf3304e7807749489525d3b2666257",
+        "fixed14_residuals.csv": "f21c088b5dc44e2c5d857daf9135e70748945da54985c35bca2b00cdd0e0ffe6"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-1_215ef8d6/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-21.csv",
+      "rows": 751,
+      "curve_records": 1502,
+      "statuses": {
+        "computed": 1502
+      },
+      "elapsed_seconds": 36.23500000000058,
+      "peak_rss_bytes": 296632320,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2872d302de7a08d614e2b2851bfe074b0716c41b141acf24546711550c8320a5",
+        "fixed14_residuals.csv": "3d5b5ed941232e53306e22f5d6c1adaf88d85ecbd4f24053d215affd32d8f950"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-21_9f238431/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-24.csv",
+      "rows": 1991,
+      "curve_records": 3982,
+      "statuses": {
+        "computed": 3982
+      },
+      "elapsed_seconds": 138.15600000000268,
+      "peak_rss_bytes": 296779776,
+      "artifact_sha256": {
+        "curve_records.jsonl": "0f27155acc28a1a276e7395972b55493d9796db78d6badbfcaa9ccf1051a4016",
+        "fixed14_residuals.csv": "887a3ee548b7f66cf830dc541e71503c9f4fb4e78025481944d7a5bd0b8671c6"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-24_25bed613/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-25.csv",
+      "rows": 767,
+      "curve_records": 1534,
+      "statuses": {
+        "computed": 1534
+      },
+      "elapsed_seconds": 58.67200000000594,
+      "peak_rss_bytes": 296771584,
+      "artifact_sha256": {
+        "curve_records.jsonl": "59dcdec95219ae355b3a1fc0be012d4a4dc4f38d4c151a5469f483deab819d91",
+        "fixed14_residuals.csv": "6215dd05b906dea873f2cf1f8b03dd82563c0d589e12e68eb84d986348336071"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-25_1af62c15/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-2.csv",
+      "rows": 981,
+      "curve_records": 1962,
+      "statuses": {
+        "computed": 1962
+      },
+      "elapsed_seconds": 57.40600000000268,
+      "peak_rss_bytes": 296611840,
+      "artifact_sha256": {
+        "curve_records.jsonl": "01952e380935ea6ce377b0ec1672dce90fe9954824237b50f0dcb6d77fa27533",
+        "fixed14_residuals.csv": "4028b575edc3586b4f69f3359649e342f9e6adaced8e1575a40e3d27a4f2f46a"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-2_c3cae38a/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-31.csv",
+      "rows": 254,
+      "curve_records": 508,
+      "statuses": {
+        "computed": 508
+      },
+      "elapsed_seconds": 23.047000000005937,
+      "peak_rss_bytes": 297746432,
+      "artifact_sha256": {
+        "curve_records.jsonl": "29b667f4a9f870b40a56971168666fd6bc6c3c53862d8fcd84a9037ad7fbd3c9",
+        "fixed14_residuals.csv": "fb6e39f911ae44b33f3f92a6ad3c6ce78e0aa517399546e3e8c571f8f0852993"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-31_985b7c28/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-33.csv",
+      "rows": 2156,
+      "curve_records": 4312,
+      "statuses": {
+        "computed": 4312
+      },
+      "elapsed_seconds": 172.3130000000092,
+      "peak_rss_bytes": 298352640,
+      "artifact_sha256": {
+        "curve_records.jsonl": "c852f4b90eb76a8778c0c2dfcdf02e26d6b6816a900271202f3e726d680a2200",
+        "fixed14_residuals.csv": "1f4373e996cbb6557f3127fba800ca3cb955178f68308e5598765e958599304f"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-33_60c05939/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-34.csv",
+      "rows": 1210,
+      "curve_records": 2420,
+      "statuses": {
+        "computed": 2420
+      },
+      "elapsed_seconds": 66.60899999999674,
+      "peak_rss_bytes": 298405888,
+      "artifact_sha256": {
+        "curve_records.jsonl": "68e9f507b4c96fd598d6e576490654a1d22100f20a56f6aa818d676b027aa465",
+        "fixed14_residuals.csv": "adc071e86e4a9d40f4124fa7d9c4c60f564870c7881898e015a42592deda5c85"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-34_ebf32c2d/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-37.csv",
+      "rows": 809,
+      "curve_records": 1618,
+      "statuses": {
+        "computed": 1618
+      },
+      "elapsed_seconds": 56.84399999999732,
+      "peak_rss_bytes": 298405888,
+      "artifact_sha256": {
+        "curve_records.jsonl": "19b54ccac520dda05a48f785eb192a90f467eace9416bff300f2029be702ad79",
+        "fixed14_residuals.csv": "b1a45c28763d4a71062464b044d9006fe2c0917ea8d76e4e0ce188c696798467"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-37_8526eabe/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-40.csv",
+      "rows": 412,
+      "curve_records": 824,
+      "statuses": {
+        "computed": 824
+      },
+      "elapsed_seconds": 21.485000000000582,
+      "peak_rss_bytes": 298405888,
+      "artifact_sha256": {
+        "curve_records.jsonl": "297af6ffa37fe3d2653d63513a72cf984239fd179b0e4dd2d2d9fb85e891ad75",
+        "fixed14_residuals.csv": "fc5478241d2b53677eb4d27940311149a8e1346b7056e2ac0a1bedc00a2b943b"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-40_62537395/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-42.csv",
+      "rows": 269,
+      "curve_records": 538,
+      "statuses": {
+        "computed": 538
+      },
+      "elapsed_seconds": 13.468999999997322,
+      "peak_rss_bytes": 299196416,
+      "artifact_sha256": {
+        "curve_records.jsonl": "a279496d2d95cd9bcca13b8ec709bf34794e25063ffa306c0385e1b4b4d82888",
+        "fixed14_residuals.csv": "26e18ac62175558edf037612711c34d0b6efc40ab7f5f31629ae890c67058afe"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-42_5fddf1d3/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-44.csv",
+      "rows": 560,
+      "curve_records": 1120,
+      "statuses": {
+        "computed": 1120
+      },
+      "elapsed_seconds": 29.312999999994645,
+      "peak_rss_bytes": 299196416,
+      "artifact_sha256": {
+        "curve_records.jsonl": "b11e2bc31ce6623a86442102e20ad0ed4bade35d3cee1cb117596fb6fa69d85f",
+        "fixed14_residuals.csv": "098bb853a82f33968d9d6cf058b77eca7e6fa33948d0b12c2b31dfbe8a910624"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-44_2ff25d8a/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-45.csv",
+      "rows": 360,
+      "curve_records": 720,
+      "statuses": {
+        "computed": 720
+      },
+      "elapsed_seconds": 19.718999999997322,
+      "peak_rss_bytes": 299196416,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7fcb4e098dca6fb374d5a4f36301698085ff2e9ccc5502d086972bb53e9a600c",
+        "fixed14_residuals.csv": "f414f8449a73d7ca2a8a865a632e3fb618427bc830bfb9356ef48fda0aeb1c84"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-45_ec9775c9/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-46.csv",
+      "rows": 1674,
+      "curve_records": 3348,
+      "statuses": {
+        "computed": 3348
+      },
+      "elapsed_seconds": 93.86000000000058,
+      "peak_rss_bytes": 299261952,
+      "artifact_sha256": {
+        "curve_records.jsonl": "fcbf3c71acb04673cff050e56afce3819fdf8faeda632a2f4c9893ab82c1f8fb",
+        "fixed14_residuals.csv": "f61e9576e5292c4424b224e62ea36ce2e4675867c1be28fd477f2efd9d2bb5c4"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-46_e0737ae4/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-4.csv",
+      "rows": 1035,
+      "curve_records": 2070,
+      "statuses": {
+        "computed": 2070
+      },
+      "elapsed_seconds": 63.29700000000594,
+      "peak_rss_bytes": 298405888,
+      "artifact_sha256": {
+        "curve_records.jsonl": "43a10c2515cc904a5d4a0b82fabbb4e72f21f40ed72f69e39e7ecb2429ddcb91",
+        "fixed14_residuals.csv": "4688a423b43bc33eb12d667c9cc3387394525d8cb18450e4d67b1dece4805eb5"
+      },
+      "partition_path": "worker1/per_csv/2018-04-12_battery-4_d61af22d/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-14.csv",
+      "rows": 850,
+      "curve_records": 1700,
+      "statuses": {
+        "computed": 1700
+      },
+      "elapsed_seconds": 29.34299999999348,
+      "peak_rss_bytes": 288313344,
+      "artifact_sha256": {
+        "curve_records.jsonl": "d3941ab2266b455d7f2b220e70aa70a649da81222e669949ea2e2adc4c312442",
+        "fixed14_residuals.csv": "9dde27978e34b325c6da4f1492f9cd4049a1eac11de01939f4f245c6e2cd4b3c"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-14_3dd85a12/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-16.csv",
+      "rows": 666,
+      "curve_records": 1332,
+      "statuses": {
+        "computed": 1332
+      },
+      "elapsed_seconds": 37.26600000000326,
+      "peak_rss_bytes": 288919552,
+      "artifact_sha256": {
+        "curve_records.jsonl": "81769e72dd6442275007557f5f4866112c3644eb45b0f930638a5db860f8fa9c",
+        "fixed14_residuals.csv": "14d51936d099c5e049d38d80f596e23e8b14d77d2c8536f7aed9e1b1d8fb81bd"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-16_b934736a/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-17.csv",
+      "rows": 809,
+      "curve_records": 1618,
+      "statuses": {
+        "computed": 1618
+      },
+      "elapsed_seconds": 38.01600000000326,
+      "peak_rss_bytes": 289509376,
+      "artifact_sha256": {
+        "curve_records.jsonl": "e91a02ac4f316bc5309bf090b85ecd4ca45587c7c08f5f5b5305444ed4cb1ac1",
+        "fixed14_residuals.csv": "76a826b6186a60031e6b2ce7dab06e32ddf77ca312870a3ed0bcf6f05592cc9e"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-17_0082a048/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-20.csv",
+      "rows": 736,
+      "curve_records": 1472,
+      "statuses": {
+        "computed": 1472
+      },
+      "elapsed_seconds": 35.60899999999674,
+      "peak_rss_bytes": 290664448,
+      "artifact_sha256": {
+        "curve_records.jsonl": "6d40e193d211363d56c6fb596c5714784d22919def49ad46461f4d1f030fafc9",
+        "fixed14_residuals.csv": "650acb6c7e8b182087a53ecb853d252f90550630629d7b27426a65363b776646"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-20_6a05ca79/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-21.csv",
+      "rows": 494,
+      "curve_records": 988,
+      "statuses": {
+        "computed": 988
+      },
+      "elapsed_seconds": 22.406000000002678,
+      "peak_rss_bytes": 290664448,
+      "artifact_sha256": {
+        "curve_records.jsonl": "474971c9a9747965c7710fcb04666744dfcf9c5b1865532c7706f877a69b2241",
+        "fixed14_residuals.csv": "1af19cc3fd8f31b4a1482b44d7d084ec94ab02c3d89111a3be6de5c9ce2c8813"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-21_371483da/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-24.csv",
+      "rows": 944,
+      "curve_records": 1888,
+      "statuses": {
+        "computed": 1888
+      },
+      "elapsed_seconds": 35.328000000008615,
+      "peak_rss_bytes": 290807808,
+      "artifact_sha256": {
+        "curve_records.jsonl": "260edc8591588541c98d0e99341a5a6026304609b5151690485e33bc19bbb1d0",
+        "fixed14_residuals.csv": "80e0ce267cf694df1f7e0252404f45181b29efe7dd4acfc86c1ec21156cec5d3"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-24_9bc043b1/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-25.csv",
+      "rows": 956,
+      "curve_records": 1912,
+      "statuses": {
+        "computed": 1912
+      },
+      "elapsed_seconds": 34.25,
+      "peak_rss_bytes": 291340288,
+      "artifact_sha256": {
+        "curve_records.jsonl": "598c8d34fe6d1a0ea6db62561e1032d1e7c62a57fce7143417867096ebac89ce",
+        "fixed14_residuals.csv": "2351fa0e83e0c3bca3fdf13b685cfc17c0a50e4dda649f11f38d6715c6619c56"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-25_3fd8e336/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-29.csv",
+      "rows": 799,
+      "curve_records": 1598,
+      "statuses": {
+        "computed": 1598
+      },
+      "elapsed_seconds": 25.71799999999348,
+      "peak_rss_bytes": 291352576,
+      "artifact_sha256": {
+        "curve_records.jsonl": "4abd4c7a39be6abad50f12731ba1f46738e8d75c49854fe11adc6cf56494ac43",
+        "fixed14_residuals.csv": "371cd665c77966b9f7d6b50ad8881a75c42d1f18f7f167ffa132a572c45ed1c5"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-29_9cd8b24c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-2.csv",
+      "rows": 2020,
+      "curve_records": 4040,
+      "statuses": {
+        "computed": 4040
+      },
+      "elapsed_seconds": 122.6869999999908,
+      "peak_rss_bytes": 290656256,
+      "artifact_sha256": {
+        "curve_records.jsonl": "07c0e9b78e0f04968a2a71e90ae69b1756e2e8a78d70c1729d499297d9188c1d",
+        "fixed14_residuals.csv": "57c8ee459f6a862dd6dce45b0581ab517cc6e2801c43f74b3f0ab1ae9dd4a629"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-2_0354b61d/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-32.csv",
+      "rows": 826,
+      "curve_records": 1652,
+      "statuses": {
+        "computed": 1652
+      },
+      "elapsed_seconds": 37.6880000000092,
+      "peak_rss_bytes": 291414016,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2e9ea99ee6ed6f6b707adebd5513885e4c71727b4c6b4ea2b5ad4f0da43b7615",
+        "fixed14_residuals.csv": "60395ba6d46a6e58d065effe22d679156112e981665de3a8b087dd8a1c88d36d"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-32_2e2930eb/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-33.csv",
+      "rows": 683,
+      "curve_records": 1366,
+      "statuses": {
+        "computed": 1366
+      },
+      "elapsed_seconds": 41.51600000000326,
+      "peak_rss_bytes": 291418112,
+      "artifact_sha256": {
+        "curve_records.jsonl": "09f08bf850e0b5a9718bc121e138f73456b93fc82b189abe0009710c98107fc4",
+        "fixed14_residuals.csv": "bc30476f34fad4c3b36d1923dbc4d0cfa06ea33d3efc5ceac2ffc65328b3071a"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-33_ebe7ca8c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-37.csv",
+      "rows": 657,
+      "curve_records": 1314,
+      "statuses": {
+        "computed": 1314
+      },
+      "elapsed_seconds": 29.422000000005937,
+      "peak_rss_bytes": 291946496,
+      "artifact_sha256": {
+        "curve_records.jsonl": "02731b46fe808bdb6fc4132908c58c0d74bf1984f8f38e8b179be84b647766d0",
+        "fixed14_residuals.csv": "5ef1b217e026a8d3758568ca75b7decc924cddc919b14cef0073fe7eb1aae0a4"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-37_e53b3248/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-39.csv",
+      "rows": 558,
+      "curve_records": 1116,
+      "statuses": {
+        "computed": 1116
+      },
+      "elapsed_seconds": 21.062000000005355,
+      "peak_rss_bytes": 291954688,
+      "artifact_sha256": {
+        "curve_records.jsonl": "3387dfce23a76e54a9169b0a1af0fd6b914a6b3600da5c5948c09eac8c10289f",
+        "fixed14_residuals.csv": "424927609a5feac54374d7f1b109b4a527e91099cdf6631428795975134ccbcd"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-39_725d513e/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-3.csv",
+      "rows": 2114,
+      "curve_records": 4228,
+      "statuses": {
+        "computed": 4228
+      },
+      "elapsed_seconds": 73.89100000000326,
+      "peak_rss_bytes": 291450880,
+      "artifact_sha256": {
+        "curve_records.jsonl": "05b8744767c0f254eee26bd16f5a630efb600a7997aee36d9744c3ad91cb8cb9",
+        "fixed14_residuals.csv": "5bdd7b2ebd93ea9f455988c51d078255e05298970300d375844173732bfa47b5"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-3_b7b0cff7/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-44.csv",
+      "rows": 590,
+      "curve_records": 1180,
+      "statuses": {
+        "computed": 1180
+      },
+      "elapsed_seconds": 35.90600000000268,
+      "peak_rss_bytes": 291995648,
+      "artifact_sha256": {
+        "curve_records.jsonl": "72212a4900f17ed879c7f335dd630c5546121924efc4c26dad830a1d03a78919",
+        "fixed14_residuals.csv": "853ebb08001ba25649ab553018b989a6d4d7891dc525541bb1e076320ba165a9"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-44_7d3a463a/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-45.csv",
+      "rows": 414,
+      "curve_records": 828,
+      "statuses": {
+        "computed": 827,
+        "window_has_fewer_than_four_points": 1
+      },
+      "elapsed_seconds": 25.797000000005937,
+      "peak_rss_bytes": 291975168,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ac6510702f25f6ac563bac4a2202f6df202a43aad99593998946c5307eeee298",
+        "fixed14_residuals.csv": "2831d11476a1164941a7ff9e1cb125755246db0b8d12568aeb19e65722662766"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-45_486e1b71/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-46.csv",
+      "rows": 460,
+      "curve_records": 920,
+      "statuses": {
+        "computed": 920
+      },
+      "elapsed_seconds": 36.98500000000058,
+      "peak_rss_bytes": 291975168,
+      "artifact_sha256": {
+        "curve_records.jsonl": "bd4f9ab09607e41b6c7689834b2c5613c99fb4be952fbd61b0cbe5f7263acb8d",
+        "fixed14_residuals.csv": "e674bfb7b38134cdff1432ba0fff785105018e520f424c54ec7a1f25b450570b"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-46_c84ec7e0/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-4.csv",
+      "rows": 1150,
+      "curve_records": 2300,
+      "statuses": {
+        "computed": 2300
+      },
+      "elapsed_seconds": 47.5630000000092,
+      "peak_rss_bytes": 291995648,
+      "artifact_sha256": {
+        "curve_records.jsonl": "50f7f9e9fe671d82dac3e43b7695752c5382c4100ba5934f6dd283a41bc4231c",
+        "fixed14_residuals.csv": "3a9bd1bc5b73624b49512bbb01434d1bf372e91505dbbac6e13662ecdb33be06"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-4_94f66f94/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-7.csv",
+      "rows": 590,
+      "curve_records": 1180,
+      "statuses": {
+        "computed": 1180
+      },
+      "elapsed_seconds": 36.671999999991385,
+      "peak_rss_bytes": 291958784,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2ae30d523e81e54bfad7acdfa33adb44f12d26530240ce0a3ea4d405f69dd2aa",
+        "fixed14_residuals.csv": "5dc26bd331508ebdf6305f67c161815b8122e0c09242fd9d13f6ea75786db6b3"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-7_d5c80ed5/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-9.csv",
+      "rows": 829,
+      "curve_records": 1658,
+      "statuses": {
+        "computed": 1658
+      },
+      "elapsed_seconds": 37.187000000005355,
+      "peak_rss_bytes": 291975168,
+      "artifact_sha256": {
+        "curve_records.jsonl": "1f2f3f3d80de9ebc1971c16a778db863a145c3a8b79c4dcc93956a1b87ceb741",
+        "fixed14_residuals.csv": "931a038984b182a41bf9f9aa4ab7e4ef329aeeb6a99f569aee86ab777f7d284b"
+      },
+      "partition_path": "worker2/per_csv/2017-05-12_battery-9_06755e75/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-12.csv",
+      "rows": 452,
+      "curve_records": 904,
+      "statuses": {
+        "computed": 904
+      },
+      "elapsed_seconds": 19.046999999991385,
+      "peak_rss_bytes": 293588992,
+      "artifact_sha256": {
+        "curve_records.jsonl": "9078a2e700a087f6132e66b0994360ec23ded7e4087845b930ee5061a5503f7b",
+        "fixed14_residuals.csv": "74c4647c4e94898561d6fd08eda4b62d6ae8d6a476028311c31c5f000d737c35"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-12_78303ada/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-14.csv",
+      "rows": 263,
+      "curve_records": 526,
+      "statuses": {
+        "computed": 526
+      },
+      "elapsed_seconds": 10.843999999997322,
+      "peak_rss_bytes": 295178240,
+      "artifact_sha256": {
+        "curve_records.jsonl": "8d1e418241e32a5b6a940390a3530277e7f2c4527c91028d21680e23e943130d",
+        "fixed14_residuals.csv": "6e359653013666232592edaa66a9bcd6299799d40ba26cd7a127dddfdba039fe"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-14_9fd9cf5c/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-15.csv",
+      "rows": 459,
+      "curve_records": 918,
+      "statuses": {
+        "computed": 918
+      },
+      "elapsed_seconds": 21.155999999988126,
+      "peak_rss_bytes": 295186432,
+      "artifact_sha256": {
+        "curve_records.jsonl": "fafeb0f58cdd416bc8042700ad4bba70507d5af1c89c36889d00f8bd0e8ba761",
+        "fixed14_residuals.csv": "39ba5ee9aedb6178ec5dd9d007042f1f9027d8e81a54abc24aa68ba7571d50a4"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-15_d8bf2c44/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-1.csv",
+      "rows": 274,
+      "curve_records": 548,
+      "statuses": {
+        "computed": 548
+      },
+      "elapsed_seconds": 13.625,
+      "peak_rss_bytes": 293584896,
+      "artifact_sha256": {
+        "curve_records.jsonl": "24b5e61eeb16dc8b282aad75aced19a210f559a049bfb3cd41301d81452b2b74",
+        "fixed14_residuals.csv": "ef2dfe4115a7c43ecd7c37e1ba53b56825e88b8029bdc03567b2c5d29e09386b"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-1_c8704b1e/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-20.csv",
+      "rows": 436,
+      "curve_records": 872,
+      "statuses": {
+        "computed": 872
+      },
+      "elapsed_seconds": 22.296000000002095,
+      "peak_rss_bytes": 295211008,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ce79f699edebb8225e5359cdebdcb3dcfff00af9a3543bf362f51783cbe97407",
+        "fixed14_residuals.csv": "7f41c7229cbd2fac01402ad415f5d49576596b208d412619f4dea951ec01bf19"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-20_111e51a3/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-21.csv",
+      "rows": 476,
+      "curve_records": 952,
+      "statuses": {
+        "computed": 952
+      },
+      "elapsed_seconds": 18.437000000005355,
+      "peak_rss_bytes": 295276544,
+      "artifact_sha256": {
+        "curve_records.jsonl": "bb24c9695e14157c23d8bc91c5ca729b23f97dac848c52a95cdc9b209b8f65d5",
+        "fixed14_residuals.csv": "d0b42799b991bdf5f35df215f0fc2602a67b9b99ff1d0ffda46e9e1a3a62d52b"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-21_2aab8dff/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-27.csv",
+      "rows": 180,
+      "curve_records": 360,
+      "statuses": {
+        "computed": 360
+      },
+      "elapsed_seconds": 6.860000000000582,
+      "peak_rss_bytes": 295542784,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7bef138d7973fbad7a11aea8b24e08ca2aab2b346fa64be4c63c342b83ec607c",
+        "fixed14_residuals.csv": "664a2faac2520268e0fb91794c5a54ec4006304fc628094bd96cc75ab24ad0b3"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-27_fe055a15/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-30.csv",
+      "rows": 471,
+      "curve_records": 942,
+      "statuses": {
+        "computed": 942
+      },
+      "elapsed_seconds": 16.186999999990803,
+      "peak_rss_bytes": 295555072,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ba0ec24ac1e5ba8a8a390d89104ea0fa846129d15ce2aee87eec2d6617af6436",
+        "fixed14_residuals.csv": "0f11bf2dc5d283c2e58c2d6696b07dcee1f4f37801d7a1bd744361a6d51c8628"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-30_6af007df/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-31.csv",
+      "rows": 449,
+      "curve_records": 898,
+      "statuses": {
+        "computed": 898
+      },
+      "elapsed_seconds": 17.625,
+      "peak_rss_bytes": 295555072,
+      "artifact_sha256": {
+        "curve_records.jsonl": "626bcb83e8f0343d132ef94b5fab93f69e122dbdb335d9d02326114bcb218ac5",
+        "fixed14_residuals.csv": "2b1e06e3a0cfcf04a9c4bd395e9a16e5454c663f730bf6d1ed59178e479e8d3c"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-31_82146163/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-32.csv",
+      "rows": 468,
+      "curve_records": 936,
+      "statuses": {
+        "computed": 936
+      },
+      "elapsed_seconds": 23.906000000002678,
+      "peak_rss_bytes": 295555072,
+      "artifact_sha256": {
+        "curve_records.jsonl": "c99fc13bceed3eae7feffdf1b621e91a920622aac26439d8f0bbed2ee679e474",
+        "fixed14_residuals.csv": "2c276aa7464b6297e1fb9780290665261781c0f694be7f31c63ae0ed3729a549"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-32_96eb45e6/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-34.csv",
+      "rows": 493,
+      "curve_records": 986,
+      "statuses": {
+        "computed": 986
+      },
+      "elapsed_seconds": 21.110000000000582,
+      "peak_rss_bytes": 295620608,
+      "artifact_sha256": {
+        "curve_records.jsonl": "f38ad5a64ee14ff7bcbb60c65aca48a75e0c75edf2b8a58fed0ab8dbd9f29de9",
+        "fixed14_residuals.csv": "95cc564d43f97fbc1e7ba2e3fe9ddd2075f5ba6aa56319d680b2503871c0bcfe"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-34_3f9bf303/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-35.csv",
+      "rows": 475,
+      "curve_records": 950,
+      "statuses": {
+        "computed": 950
+      },
+      "elapsed_seconds": 19.125,
+      "peak_rss_bytes": 295620608,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7e30b2cbb3570616c6756da056f9144bd2aa298b2a7715bdf0ed645991aafc04",
+        "fixed14_residuals.csv": "ffda640d07fa16ea0efec4ebb346041a308604b369e2a1cb4ed89ed8b7e3127f"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-35_3b490590/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-37.csv",
+      "rows": 505,
+      "curve_records": 1010,
+      "statuses": {
+        "computed": 1010
+      },
+      "elapsed_seconds": 26.14100000000326,
+      "peak_rss_bytes": 295620608,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ecf77705d2a537af6884bca9d3b9d8343428bd2d11790926cee2259c0e335d3e",
+        "fixed14_residuals.csv": "2b748001f99c29ebbbc18c6fb70691dda6b1461cbd18ba29e6bc5a21b206aec1"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-37_a2da7434/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-39.csv",
+      "rows": 441,
+      "curve_records": 882,
+      "statuses": {
+        "computed": 882
+      },
+      "elapsed_seconds": 25.078999999997905,
+      "peak_rss_bytes": 295620608,
+      "artifact_sha256": {
+        "curve_records.jsonl": "9b90f57aa31f2ac1bbfd28a9ebc4f8a8f7a8e517177ac4c1f168ddd55c4f06e7",
+        "fixed14_residuals.csv": "865f83f6b7c9c8d19a3d5bffbae74e03b3b76c984b57fbbec6f0f4bba9338325"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-39_220f90bc/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-3.csv",
+      "rows": 414,
+      "curve_records": 828,
+      "statuses": {
+        "computed": 828
+      },
+      "elapsed_seconds": 19.125,
+      "peak_rss_bytes": 295542784,
+      "artifact_sha256": {
+        "curve_records.jsonl": "04da77c13ddc7d7b3c20eea4b3565edc19d6073820faba157b914bb8b6a2d252",
+        "fixed14_residuals.csv": "fb4dc6a2b3462c26c5bfd263ddd2df86683f50197100d14ccfc091d6a880bdce"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-3_21c7405d/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-42.csv",
+      "rows": 406,
+      "curve_records": 812,
+      "statuses": {
+        "computed": 812
+      },
+      "elapsed_seconds": 19.547000000005937,
+      "peak_rss_bytes": 296411136,
+      "artifact_sha256": {
+        "curve_records.jsonl": "92e3dd3fbab7fe60fd11bbfe9efe5d0e59fdc08ffe362b6d1bf886d3aec7f723",
+        "fixed14_residuals.csv": "9a2ab2912296aacf8e56340c0dbaaf0e40655eecf8c408a79993f78d94bd7606"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-42_d421709d/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-44.csv",
+      "rows": 423,
+      "curve_records": 846,
+      "statuses": {
+        "computed": 846
+      },
+      "elapsed_seconds": 27.48399999999674,
+      "peak_rss_bytes": 296476672,
+      "artifact_sha256": {
+        "curve_records.jsonl": "7fe31b50de5d2bc6beabe2192656e82048e4b4eae89468e1e9a6ac32a37e2090",
+        "fixed14_residuals.csv": "3d3e9b00931d19355a8e05cfb98b3e7f30880e854681b1f8110f3f9403a4bab0"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-44_85b32bca/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-45.csv",
+      "rows": 423,
+      "curve_records": 846,
+      "statuses": {
+        "computed": 846
+      },
+      "elapsed_seconds": 16.952999999994063,
+      "peak_rss_bytes": 296476672,
+      "artifact_sha256": {
+        "curve_records.jsonl": "57a8aa149c99637a9ea4ad2535917860dd688e4d4b611317a93820c90f505fd8",
+        "fixed14_residuals.csv": "7121cf43836d6a8bc97bf13fce83ff2a8895c2660dfccfb7ac94ec593d090a97"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-45_931cc9de/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-4.csv",
+      "rows": 300,
+      "curve_records": 600,
+      "statuses": {
+        "computed": 600
+      },
+      "elapsed_seconds": 15.171999999991385,
+      "peak_rss_bytes": 296411136,
+      "artifact_sha256": {
+        "curve_records.jsonl": "8c7955970732640e9b3490845ef383cdb5453065899611d666a60481fe8f307b",
+        "fixed14_residuals.csv": "96ffd79ed7f2d7c3f234af2f0b3443612443f22b8782f5a6927f8a8164fc6781"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-4_202f64a0/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-06-30\\2017-06-30_battery-6.csv",
+      "rows": 456,
+      "curve_records": 912,
+      "statuses": {
+        "computed": 912
+      },
+      "elapsed_seconds": 32.125,
+      "peak_rss_bytes": 296476672,
+      "artifact_sha256": {
+        "curve_records.jsonl": "2ad7bade7aff9786f17b01c6bd2c9f5710253e92a93f1ce2b9a68f825dd1c4c8",
+        "fixed14_residuals.csv": "455538cb652a4ac309a1f7834015235ba9ede2fabd51a5f6b3e6833552ebcfde"
+      },
+      "partition_path": "worker2/per_csv/2017-06-30_battery-6_75d9abdd/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-10.csv",
+      "rows": 971,
+      "curve_records": 1942,
+      "statuses": {
+        "computed": 1942
+      },
+      "elapsed_seconds": 56.26499999999942,
+      "peak_rss_bytes": 296484864,
+      "artifact_sha256": {
+        "curve_records.jsonl": "58ebbe5f6c60371e72bf78676b33f6427f9c764eb32806723ed1de44de6ae3a4",
+        "fixed14_residuals.csv": "3c0355d44ed4aff5273e80d3323efc43c24ad7efe2cc3a6d2b2f40fab0752b43"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-10_bfad6075/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-12.csv",
+      "rows": 763,
+      "curve_records": 1526,
+      "statuses": {
+        "computed": 1526
+      },
+      "elapsed_seconds": 42.5619999999908,
+      "peak_rss_bytes": 296509440,
+      "artifact_sha256": {
+        "curve_records.jsonl": "1364a25d77a01b90afd5932098acac7d327ee706fc287acab2053575ee771082",
+        "fixed14_residuals.csv": "d4776549e71d68cf78dd9c8e3c49a63d3e3076da2b4b2a83e6d310ea0cc9d199"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-12_ff8f87ee/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-14.csv",
+      "rows": 658,
+      "curve_records": 1316,
+      "statuses": {
+        "computed": 1316
+      },
+      "elapsed_seconds": 39.59399999999732,
+      "peak_rss_bytes": 296509440,
+      "artifact_sha256": {
+        "curve_records.jsonl": "10948e0c8c7858a3fdfc60be019ac12108439f498d6eb597123283661df97612",
+        "fixed14_residuals.csv": "fe6e8e49695c149d611ffbca04da771c73b6050e04a6af2124160bd1c072650e"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-14_f8e829b8/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-15.csv",
+      "rows": 805,
+      "curve_records": 1610,
+      "statuses": {
+        "computed": 1610
+      },
+      "elapsed_seconds": 39.0,
+      "peak_rss_bytes": 296517632,
+      "artifact_sha256": {
+        "curve_records.jsonl": "560afb0a8d376f1b7d367116a879ac2f1f5b5341adc2d92aaeb1acf99cd5eda8",
+        "fixed14_residuals.csv": "50fda62425f39049e0adb7d1aed89a3ed6b95d381f416925e360f2ddab70860a"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-15_34f22f96/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-16.csv",
+      "rows": 819,
+      "curve_records": 1638,
+      "statuses": {
+        "computed": 1638
+      },
+      "elapsed_seconds": 43.82799999999406,
+      "peak_rss_bytes": 296525824,
+      "artifact_sha256": {
+        "curve_records.jsonl": "e5cb87bf5c6e9454a8dc92c7a7cf6ffc06bc1bff9f9dbe82bc13f48444ec08d1",
+        "fixed14_residuals.csv": "afdaa05f3a2eb195f206d516aa177261becc39f6d2d8fb656f9a196f57dd3345"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-16_51d002f9/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-18.csv",
+      "rows": 1229,
+      "curve_records": 2458,
+      "statuses": {
+        "computed": 2458
+      },
+      "elapsed_seconds": 96.17199999999139,
+      "peak_rss_bytes": 296570880,
+      "artifact_sha256": {
+        "curve_records.jsonl": "25ef142bbed0de0d2a700aace7262077608bd98960e589fd0e0331bf49631759",
+        "fixed14_residuals.csv": "d3a0cbf83fa48cdf03979009f9e0f86165ab83318b65d096191b74d7835bb517"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-18_7af7e9fe/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-19.csv",
+      "rows": 622,
+      "curve_records": 1244,
+      "statuses": {
+        "computed": 1244
+      },
+      "elapsed_seconds": 47.25,
+      "peak_rss_bytes": 296566784,
+      "artifact_sha256": {
+        "curve_records.jsonl": "9223b39085af94320c68022a06fe47df20e7812b3e389bbf503517ea5d956e55",
+        "fixed14_residuals.csv": "ae42cc6180f20bc86106046ff1be8f263894734a9450c46dee4557a749d5c4b9"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-19_4fa10aa6/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-22.csv",
+      "rows": 705,
+      "curve_records": 1410,
+      "statuses": {
+        "computed": 1410
+      },
+      "elapsed_seconds": 54.53100000000268,
+      "peak_rss_bytes": 296566784,
+      "artifact_sha256": {
+        "curve_records.jsonl": "63398e2c1736954f507277326d9dd72c91849ad74b2d980a862d151e1669be18",
+        "fixed14_residuals.csv": "79e4f1e95e7f97c009cb36cd9437a7f563e65b7138006d40fe5924775493c38b"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-22_2730e2e0/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-26.csv",
+      "rows": 127,
+      "curve_records": 254,
+      "statuses": {
+        "computed": 254
+      },
+      "elapsed_seconds": 16.921000000002095,
+      "peak_rss_bytes": 296566784,
+      "artifact_sha256": {
+        "curve_records.jsonl": "79ef2091dbdb56c4030912fe66731a3846f626a38756e8b5e92620a1ff5616af",
+        "fixed14_residuals.csv": "c593b254ab8ad178ec3ecb2c575e086d61e4615e066bc65e956208e8e8de1eb6"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-26_1c7f90b2/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-27.csv",
+      "rows": 951,
+      "curve_records": 1902,
+      "statuses": {
+        "computed": 1902
+      },
+      "elapsed_seconds": 69.65599999998813,
+      "peak_rss_bytes": 296591360,
+      "artifact_sha256": {
+        "curve_records.jsonl": "69fcf4afafaf103f832b8e831052800d9f1181acdd7d3e44e66f721eee478cc2",
+        "fixed14_residuals.csv": "865e1e953ad6450d2a859910dfc64a98d96b8047c0a4a403af1f27ac0b22bad5"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-27_5afad958/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-29.csv",
+      "rows": 503,
+      "curve_records": 1006,
+      "statuses": {
+        "computed": 1006
+      },
+      "elapsed_seconds": 44.796999999991385,
+      "peak_rss_bytes": 296591360,
+      "artifact_sha256": {
+        "curve_records.jsonl": "994aca41b71b6a43cfcc82f6aa16ff9280cec7d7c3b0a73db13c3a1e13fb958c",
+        "fixed14_residuals.csv": "902184c913e980051e5ca58f0a9f5fc163e76af08002edb83e55564a4c331ba2"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-29_daae4000/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-30.csv",
+      "rows": 802,
+      "curve_records": 1604,
+      "statuses": {
+        "computed": 1604
+      },
+      "elapsed_seconds": 43.96899999999732,
+      "peak_rss_bytes": 296607744,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ac94a7a7909acbab01c535ddfb733ba9577ba30b230c3d9837e5db9ed94dcc28",
+        "fixed14_residuals.csv": "17cad0f2b1654f3bb07854f3c284111ff52dfeff6b648652e2b558167981e1df"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-30_fca94f7a/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-36.csv",
+      "rows": 1003,
+      "curve_records": 2006,
+      "statuses": {
+        "computed": 2006
+      },
+      "elapsed_seconds": 64.31200000000536,
+      "peak_rss_bytes": 296628224,
+      "artifact_sha256": {
+        "curve_records.jsonl": "abdd50f9ea6fa4a219132ced5b5238472ea0eb2d08c3b3542b8dc1c59d3c9322",
+        "fixed14_residuals.csv": "2180ddb76c866afac5cde3cf063649b5b2c0e77968b39561b3a2b8de787798ba"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-36_93d55103/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-38.csv",
+      "rows": 1297,
+      "curve_records": 2594,
+      "statuses": {
+        "computed": 2594
+      },
+      "elapsed_seconds": 80.93700000000536,
+      "peak_rss_bytes": 296701952,
+      "artifact_sha256": {
+        "curve_records.jsonl": "78c3dfe443926b5983f96dec367f1b2314f5a8fa63ac7923e6cf80c9822c9c76",
+        "fixed14_residuals.csv": "76af6e74a8d5cdd7f79a1b732be84db366e153a615f9626f89fb73f62574b42f"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-38_088031cb/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-39.csv",
+      "rows": 92,
+      "curve_records": 184,
+      "statuses": {
+        "computed": 184
+      },
+      "elapsed_seconds": 5.735000000000582,
+      "peak_rss_bytes": 296701952,
+      "artifact_sha256": {
+        "curve_records.jsonl": "d53826cd74eafa0de116ee0038558dc789ecd5086c909040ca088bd5f8be9839",
+        "fixed14_residuals.csv": "35e8e443af7e45b293b71b5372e8f14bcddd9f430af27111aac0944d90eb2111"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-39_4d7b951d/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-41.csv",
+      "rows": 672,
+      "curve_records": 1344,
+      "statuses": {
+        "computed": 1344
+      },
+      "elapsed_seconds": 39.20299999999406,
+      "peak_rss_bytes": 296701952,
+      "artifact_sha256": {
+        "curve_records.jsonl": "ef9c2c0e9247b34e0d0d210c6771f8f4f02e31b7d10030a33e82b484cee6eec4",
+        "fixed14_residuals.csv": "61d03dc59a4da7c87e3741044ee9ca7465a4b9181b9daec501f944226c9cd8cc"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-41_574cf73e/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-43.csv",
+      "rows": 231,
+      "curve_records": 462,
+      "statuses": {
+        "computed": 462
+      },
+      "elapsed_seconds": 11.264999999999418,
+      "peak_rss_bytes": 298217472,
+      "artifact_sha256": {
+        "curve_records.jsonl": "a58edec15ef744f36da0ae4d9e9e029c22fc3a8c148fbce1da65927098b13161",
+        "fixed14_residuals.csv": "3b1b0ae2343cb9c19310b7b5dc3db00241792ab14dd0da48f7d455899dca762c"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-43_1a9b60e2/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-6.csv",
+      "rows": 768,
+      "curve_records": 1536,
+      "statuses": {
+        "computed": 1536
+      },
+      "elapsed_seconds": 39.32799999999406,
+      "peak_rss_bytes": 298283008,
+      "artifact_sha256": {
+        "curve_records.jsonl": "3d51ee83654c2a69bec3baf4853cbfe46db0b7046322732cc8388723dca60456",
+        "fixed14_residuals.csv": "d9864797604f00afd5b6072e793f14ac95ffa4c540a49bff289a77ddb5efff1b"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-6_44272050/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-8.csv",
+      "rows": 1700,
+      "curve_records": 3400,
+      "statuses": {
+        "computed": 3400
+      },
+      "elapsed_seconds": 94.67199999999139,
+      "peak_rss_bytes": 298348544,
+      "artifact_sha256": {
+        "curve_records.jsonl": "4aa335b899db4b53f4d5f45c8ae1da3611b29eff58a278970659d76e3a938956",
+        "fixed14_residuals.csv": "4670988f9dfbbfb8cb2e4997bd6de18f93f882ffc96cbe80eaed254d26c73c58"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-8_fe3f2ec7/PARTITION_VERIFIED.json"
+    },
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2018-04-12\\2018-04-12_battery-9.csv",
+      "rows": 101,
+      "curve_records": 202,
+      "statuses": {
+        "computed": 202
+      },
+      "elapsed_seconds": 6.64100000000326,
+      "peak_rss_bytes": 298344448,
+      "artifact_sha256": {
+        "curve_records.jsonl": "a0b2559299d2a8c00884c87aef4fa6f4805e94563e33e719113de30fb1a70316",
+        "fixed14_residuals.csv": "d06774f4ae2aa4773032bce2268b26b56560723547fa9d044bea6fb5e91dd952"
+      },
+      "partition_path": "worker2/per_csv/2018-04-12_battery-9_062a2fd5/PARTITION_VERIFIED.json"
+    }
+  ],
+  "peak_partition_rss_bytes": 299261952,
+  "total_partition_compute_seconds": 4440.231999999989,
+  "selection_uses_feature_error": false,
+  "mapping_frozen": true,
+  "author_reader_unchanged": true,
+  "current_units": "Mirror I native numeric values retained; C-rate/A interpretation unresolved",
+  "slope_status": "Only existing six helper candidates retained verbatim; no new slope proposals or residual-based selection",
+  "missing_csvs": [],
+  "errors": [],
+  "verified_without_errors": true
+}

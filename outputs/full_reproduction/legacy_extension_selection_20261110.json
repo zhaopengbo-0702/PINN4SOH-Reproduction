@@ -1,0 +1,24 @@
+{
+  "format": "pinn4soh-legacy-extension-selection-v1",
+  "reason": "Post-screen sensitivity extension after complete matched40 and passed_all40 independent overlay: MIT published-label PINN versus CNN changed MSE/RMSE direction; HUST published-label PINN versus MLP changed all four metric directions; paper-equation HUST-to-MIT MAE and XJTU-to-MIT all four improvement directions changed. Include each affected regular group with all four methods; extend only the two affected transfer directions/loss; close exact same-repeat source dependencies. MSE/RMSE changes are related metrics, not independent evidence.",
+  "regular_groups": [
+    {
+      "dataset": "MIT",
+      "batch": "all"
+    },
+    {
+      "dataset": "HUST",
+      "batch": "all"
+    }
+  ],
+  "transfer_repeat1_task_ids": [
+    "legacy_control/transfer/paper_equation/reproduced_checkpoint/HUST_-1-to-MIT_-1/Experiment01",
+    "legacy_control/transfer/paper_equation/reproduced_checkpoint/XJTU_0-to-MIT_-1/Experiment01"
+  ],
+  "evidence_refs": [
+    "/workspace/pinn4soh_legacy_control_comparison_20261110/summary.json: task_counts matched40, errors empty",
+    "/workspace/pinn4soh_legacy_control_comparison_20261110/method_rank_changes.csv: MIT/all published_label PINN-minus-CNN MSE/RMSE; HUST/all published_label PINN-minus-MLP MAE/MAPE/MSE/RMSE",
+    "/workspace/pinn4soh_legacy_control_comparison_20261110/transfer_effect_changes.csv: paper_equation HUST_-1-to-MIT_-1 MAE; XJTU_0-to-MIT_-1 MAE/MAPE/MSE/RMSE",
+    "Independent two-stack overlay passed_all40, including reconstructed data identity and exact source lineage, as inspected by parent before launch"
+  ]
+}

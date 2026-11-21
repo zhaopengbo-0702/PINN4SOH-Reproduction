@@ -1,0 +1,176 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-11-11T03:56:31.311690+00:00",
+  "dataset": "XJTU",
+  "profile": "released_audit",
+  "selected_cycles": [
+    10,
+    12,
+    13
+  ],
+  "runtime": {
+    "python": "3.9.12",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1"
+  },
+  "invocation": [
+    "reproduction/export_replacement_features.py",
+    "--dataset",
+    "XJTU",
+    "--limit",
+    "3",
+    "--output",
+    "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\xjtu_real3",
+    "--kind",
+    "xjtu-mat",
+    "--input",
+    "outputs/full_reproduction/feature_audit/raw_sample/2C_battery-1.mat",
+    "--expected-sha256",
+    "336a0c25c9d6e4c18a231c0b4004edfb44fbd7808533490cddf4d073ce854dbb",
+    "--cycles",
+    "10",
+    "12",
+    "13",
+    "--reference-csv",
+    "PINN4SOH/data/XJTU data/2C_battery-1.csv",
+    "--alignment-csv",
+    "outputs/full_reproduction/feature_audit/boundary_extraction/XJTU/2C_battery-1_a973e3fa7df8/cycle_alignment.csv"
+  ],
+  "selection": "Explicit --cycles in source order or first --limit raw cycles; no feature-error selection",
+  "provenance": {
+    "input_path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\feature_audit\\raw_sample\\2C_battery-1.mat",
+    "input_bytes": 44388077,
+    "input_sha256": "336a0c25c9d6e4c18a231c0b4004edfb44fbd7808533490cddf4d073ce854dbb",
+    "expected_sha256_verified": true,
+    "kind": "xjtu-mat",
+    "reader_sha256": "a731d37aeaffc40663490aa88c0903f4fb602bc2623be1ff504bd1fd448f3e8b"
+  },
+  "preset_protocol": {
+    "slope": "(last observed curve value - first observed curve value) / elapsed physical seconds",
+    "slope_status": "prespecified replacement; released slope columns remain unreconstructed",
+    "selected_by_released_feature_error": false,
+    "entropy": "min-max curve values, divide by their sum, then -sum(p*ln(p)); explicit assumption",
+    "released_audit": {
+      "std": "population ddof=0",
+      "kurtosis": "biased Fisher excess",
+      "skewness": "biased third standardized moment",
+      "charge": "last minus first recorded charge capacity in Ah",
+      "voltage_windows": {
+        "XJTU": "[4.0,4.195] V, all charge points (prior exploratory diagnostic fixed across cells)",
+        "TJU": "[4.0,4.2] V with CC stage mask",
+        "HUST": "[3.4,3.595] V, all charge points (public-reader boundary)",
+        "MIT": "unchanged author MIT reader CC stage, strict 3.4<V<3.595"
+      },
+      "current_window": "0.1<=I<=0.5 and supplied CV stage mask; MIT uses unchanged strict author mask"
+    },
+    "paper_note2": {
+      "std": "sample ddof=1",
+      "kurtosis": "sum(centered^4)/((n-1)*sample_SD^4)",
+      "skewness": "sum(centered^3)/((n-1)*sample_SD^3)",
+      "charge": "trapezoid integral of current over physical seconds / 3600",
+      "voltage_window": "XJTU/TJU [4.0,4.2], HUST/MIT [3.4,3.6], supplied CC mask",
+      "entropy_caveat": "paper does not uniquely define normalization; same declared min-max probability assumption"
+    }
+  },
+  "feature_schema": [
+    {
+      "feature": "voltage mean",
+      "unit": "V",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage std",
+      "unit": "V",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage kurtosis",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage skewness",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CC Q",
+      "unit": "Ah",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CC charge time",
+      "unit": "s",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "voltage slope",
+      "unit": "V/s",
+      "status": "replacement"
+    },
+    {
+      "feature": "voltage entropy",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current mean",
+      "unit": "A",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current std",
+      "unit": "A",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current kurtosis",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current skewness",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CV Q",
+      "unit": "Ah",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "CV charge time",
+      "unit": "s",
+      "status": "prior_audited_convention"
+    },
+    {
+      "feature": "current slope",
+      "unit": "A/s",
+      "status": "replacement"
+    },
+    {
+      "feature": "current entropy",
+      "unit": "dimensionless",
+      "status": "prior_audited_convention"
+    }
+  ],
+  "feature_count": 16,
+  "replacement_feature_count": 2,
+  "missing_values": "Empty CSV fields/JSON null; no imputation",
+  "current_unit": "A",
+  "MIT_caveat": "Canonical MIT inputs must retain author-selected windows or explicitly supply stage masks; derived H5 native current units remain uncertain. No silent C-rate-to-A conversion.",
+  "training_inputs_changed": false,
+  "all_released_slopes_reconstructed": false,
+  "code_sha256": {
+    "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a",
+    "export_replacement_features.py": "ac17e3ce185013925b6de43c520a47036a381e7016a8d30afab2f720bf955816"
+  },
+  "artifacts_sha256": {
+    "features_16.csv": "e7d5acf24157454775f79acc8310b0c4a529d55f7a000eae103a19f8f5fb6ac3",
+    "released_comparison.csv": "afd0acaedf4894cb6e5b9f670596c1bf4643318e4558de20ff700809d3e16077",
+    "released_comparison_summary.json": "d6748b6d3fb29b116ca62fbe9127afa6024c5351504552851d7f679f2bc44348",
+    "window_diagnostics.json": "42ecc4f32b49d0ceea137e02ed4d565c12c44f979c7828e20d4dd92881ccedbf"
+  },
+  "comparison_available": true
+}

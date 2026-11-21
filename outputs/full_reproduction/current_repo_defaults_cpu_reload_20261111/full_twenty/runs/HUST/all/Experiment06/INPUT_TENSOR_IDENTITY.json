@@ -1,0 +1,170 @@
+{
+  "reference": "newly_reconstructed_no_training_time_tensor_reference",
+  "matched_training_time_tensor_record": false,
+  "tensor_order": [
+    "X1",
+    "X2",
+    "Y1",
+    "Y2"
+  ],
+  "tensors": [
+    {
+      "dtype": "float32",
+      "shape": [
+        35302,
+        17
+      ],
+      "sha256": "b3039a0ed2a861c08f7586f1758b37d873fba6252d44af30ed2d4808c85ca8e5"
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        35302,
+        17
+      ],
+      "sha256": "0f722de6303b956aa73a73a30fc1ba6e1cfca2500777924d0f0ec192932494d8"
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        35302,
+        1
+      ],
+      "sha256": "e9993c14e32ac468eb4df7aa083a582db1c09655a83bb4257fd590793ae476e4"
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        35302,
+        1
+      ],
+      "sha256": "edf431daa525a6ee1d305602ebe84dbf117138524f122cb29b6b225266f31e73"
+    }
+  ],
+  "independent_csv_reconstruction_bitwise_equal": true,
+  "labels_bitwise_equal": true,
+  "batch_size": 512,
+  "shuffle": false,
+  "boundaries": [
+    {
+      "path": "data/HUST data/1-4.csv",
+      "start": 0,
+      "stop": 1450,
+      "csv_sha256": "41d56b52db2bcf9e5c8bbbb2843f900b1469147f325bc050896c8abd1b23a381"
+    },
+    {
+      "path": "data/HUST data/1-8.csv",
+      "start": 1450,
+      "stop": 3664,
+      "csv_sha256": "beb504881eb6b443f5cfcbde725c750e3f8ec588ad08ae7b4375c3aff07d032b"
+    },
+    {
+      "path": "data/HUST data/10-4.csv",
+      "start": 3664,
+      "stop": 5434,
+      "csv_sha256": "443ef1cf699480e4ac7087b457ed9b08e8aff19a3275faa20e13926eef922590"
+    },
+    {
+      "path": "data/HUST data/10-8.csv",
+      "start": 5434,
+      "stop": 6815,
+      "csv_sha256": "7f697154a5b1c7a708709f09cdd659c0499a5c3a3641de435126d025790c5fb1"
+    },
+    {
+      "path": "data/HUST data/2-4.csv",
+      "start": 6815,
+      "stop": 8290,
+      "csv_sha256": "d420f71c07149fa22828bb39b7aca0a28d4baf894002dac8d87644d4f4b62e61"
+    },
+    {
+      "path": "data/HUST data/2-8.csv",
+      "start": 8290,
+      "stop": 9730,
+      "csv_sha256": "05da4968219c0a96296bfa25b0b496700146cb5726a9201eee020640f8d2fe78"
+    },
+    {
+      "path": "data/HUST data/3-4.csv",
+      "start": 9730,
+      "stop": 11373,
+      "csv_sha256": "4ec9c7e821f1b26f427b2dd44bfc5371ae3f525afe06c4ef75c71d0acd1d47b7"
+    },
+    {
+      "path": "data/HUST data/3-8.csv",
+      "start": 11373,
+      "stop": 13660,
+      "csv_sha256": "493d8f9ce0802b15f088c5d743585784bfdd35bd5d3079cf46c3017d65a40a9d"
+    },
+    {
+      "path": "data/HUST data/4-4.csv",
+      "start": 13660,
+      "stop": 15125,
+      "csv_sha256": "2d88cb95421da11a15d27c368c9b2a1bdbbffb03c9e9420f701706e8e197cfd7"
+    },
+    {
+      "path": "data/HUST data/4-8.csv",
+      "start": 15125,
+      "stop": 16804,
+      "csv_sha256": "78875143b5dc63fc38e22321159067d4fe426f84bf03ab727e502a0286cc2a80"
+    },
+    {
+      "path": "data/HUST data/5-4.csv",
+      "start": 16804,
+      "stop": 18749,
+      "csv_sha256": "8d4252a6e72e8ec7c5104f1c96dc7afcb647ba75cab895c2ba46b09111542484"
+    },
+    {
+      "path": "data/HUST data/5-7.csv",
+      "start": 18749,
+      "stop": 20184,
+      "csv_sha256": "03b04af6f2b80294ddd5014540599a4421ac6e68e03feb3a900d2def687f1b0f"
+    },
+    {
+      "path": "data/HUST data/6-4.csv",
+      "start": 20184,
+      "stop": 21897,
+      "csv_sha256": "8bd6aa43ee4ffc00fe3fd1395350ba3ceaad0aee1c730b815087a229c8221ea7"
+    },
+    {
+      "path": "data/HUST data/6-8.csv",
+      "start": 21897,
+      "stop": 24331,
+      "csv_sha256": "d2f8bf2f823afec541f9d19470ba38ecce47d33a94fa33d5269e523bdb34ae72"
+    },
+    {
+      "path": "data/HUST data/7-4.csv",
+      "start": 24331,
+      "stop": 25712,
+      "csv_sha256": "e3910ba0e108bf0f0f64d36557815b51db331696328d60f33b1316b8b63e7cd7"
+    },
+    {
+      "path": "data/HUST data/7-8.csv",
+      "start": 25712,
+      "stop": 27609,
+      "csv_sha256": "38889439b03dbb138c636442064e9b53401f2bd2858f6fbb77c05cd513b81cbc"
+    },
+    {
+      "path": "data/HUST data/8-4.csv",
+      "start": 27609,
+      "stop": 29473,
+      "csv_sha256": "5cff5a2ea82a919b2662a585933b6b0df66fc59d7c92bed0e927c0ce631c37d9"
+    },
+    {
+      "path": "data/HUST data/8-8.csv",
+      "start": 29473,
+      "stop": 31137,
+      "csv_sha256": "ba3176e703013f1bbc09b278ff3e359fe57c886cfa231931c3f60dc964413335"
+    },
+    {
+      "path": "data/HUST data/9-4.csv",
+      "start": 31137,
+      "stop": 33052,
+      "csv_sha256": "bb13f160bfb370a7ca2cacfc594f5b7294ef1743979354513d30be5d683f34d4"
+    },
+    {
+      "path": "data/HUST data/9-8.csv",
+      "start": 33052,
+      "stop": 35302,
+      "csv_sha256": "a913c93dcfa308131ac92f863a882306244b67712e855c955cd389a19e1d7e34"
+    }
+  ]
+}

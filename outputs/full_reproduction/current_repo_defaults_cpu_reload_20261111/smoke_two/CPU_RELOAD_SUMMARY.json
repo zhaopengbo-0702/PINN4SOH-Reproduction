@@ -1,0 +1,154 @@
+{
+  "format": "pinn4soh-current-defaults-cpu-reload-v1",
+  "phase": "smoke",
+  "started_at_utc": "2026-11-11T10:22:39.034798+00:00",
+  "status": "passed_cpu_tolerance",
+  "script_sha256": "2dc2c8b36df88c42d7bbbd9f9e799113f43b173976979ef0d14b043297695271",
+  "expected_runs": 2,
+  "training_performed": false,
+  "original_inputs_modified": false,
+  "device": "cpu",
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "limits": [
+    "CPU Torch 2.7 results do not establish twenty GPU reloads or GPU bitwise equality.",
+    "Input tensor hashes are newly reconstructed; no training-time GPU X tensor reference exists for these twenty historical runs.",
+    "Source CSV/source SHA binding and an independent reconstruction are checked; they cannot retroactively supply missing training-time X hashes.",
+    "Author full-trajectory scaling, capacity-dependent 3sigma cleaning, split order and batch size are retained.",
+    "CSV macro metrics are not physical-battery-UID macro; historical MIT identity duplication is retained.",
+    "This verifies the twenty current-default checkpoints, not all repository versions or the publication's Note3 loss/parameter arms."
+  ],
+  "repo": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\PINN4SOH",
+  "results": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\cloud_emergency_recovered\\workspace\\pinn4soh_main_20261109",
+  "source_files_verified": 417,
+  "source_fingerprint": "16406722f3e691fa9229b233704ae12633e3e8d11980f02b7ec248e5b68198c0",
+  "input_snapshot_sha256": "4bcf813b24ffcb964bc211e6b4f6c2ad3fbe69703f8d7d68d72038142ae609f3",
+  "delivery_index_sha256": "272052e12ccd365a0f3037b1bbe4a5ec2d816b41017a9db4af48d37a35de73aa",
+  "original_gpu_reload_scope": [
+    "MIT/all/Experiment01",
+    "HUST/all/Experiment01"
+  ],
+  "environment": {
+    "python": "3.9.12 (tags/v3.9.12:b28265d, Mar 23 2022, 23:52:46) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "torch": "2.7.0+cpu",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "sklearn": "1.5.1",
+    "threads": 2,
+    "interop_threads": 2,
+    "cuda_visible_devices": "",
+    "cuda_available": false,
+    "isolated": true,
+    "dont_write_bytecode": true,
+    "imports": {
+      "torch": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\torch\\__init__.py",
+      "numpy": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\numpy\\__init__.py",
+      "pandas": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\pandas\\__init__.py",
+      "scipy": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\scipy\\__init__.py",
+      "sklearn": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\sklearn\\__init__.py"
+    }
+  },
+  "runs": [
+    {
+      "run": "MIT/all/Experiment01",
+      "device": "cpu",
+      "training_performed": false,
+      "checkpoint_loaded": true,
+      "atol": 1e-06,
+      "rtol": 1e-05,
+      "input_tensor_reference": "newly_reconstructed_no_training_time_tensor_reference",
+      "status": "passed_cpu_tolerance",
+      "passed": true,
+      "n_test": 14170,
+      "checkpoint_sha256": "7d3463b920e50eea4979b2dcd446745fa7415c8e294cf8fa0a44b8c97eb52259",
+      "strict_network_loads": [
+        "solution_u",
+        "dynamical_F"
+      ],
+      "g_loaded_but_not_used_for_inference": true,
+      "all_arrays_finite": true,
+      "labels_bitwise_equal": true,
+      "predictions_bitwise_equal": false,
+      "predictions_allclose": true,
+      "max_absolute_prediction_difference": 1.7881393432617188e-07,
+      "mean_absolute_prediction_difference": 3.137130844988449e-08,
+      "elements_over_fixed_bound": 0,
+      "maximum_fixed_bound_ratio": 0.017906937360028928,
+      "original_metrics_float64": {
+        "MAE": 0.006023165333329916,
+        "MAPE": 0.006355526038802181,
+        "MSE": 6.597255586066857e-05,
+        "RMSE": 0.008122349158997573
+      },
+      "cpu_metrics_float64": {
+        "MAE": 0.006023165711905642,
+        "MAPE": 0.006355526393526264,
+        "MSE": 6.59725581009376e-05,
+        "RMSE": 0.008122349296905274
+      },
+      "cpu_prediction_tensor": {
+        "dtype": "float32",
+        "shape": [
+          14170,
+          1
+        ],
+        "sha256": "3738c0d152a1eac794b103a4d1d71de22bba749d1fc8a011896052f9b80fea4b"
+      },
+      "elapsed_seconds": 1.5533017000000005
+    },
+    {
+      "run": "HUST/all/Experiment01",
+      "device": "cpu",
+      "training_performed": false,
+      "checkpoint_loaded": true,
+      "atol": 1e-06,
+      "rtol": 1e-05,
+      "input_tensor_reference": "newly_reconstructed_no_training_time_tensor_reference",
+      "status": "passed_cpu_tolerance",
+      "passed": true,
+      "n_test": 35302,
+      "checkpoint_sha256": "9bb51760e3b680f083cc0b2bbca15501eca6f7756cb5de588b8be5ee0a985027",
+      "strict_network_loads": [
+        "solution_u",
+        "dynamical_F"
+      ],
+      "g_loaded_but_not_used_for_inference": true,
+      "all_arrays_finite": true,
+      "labels_bitwise_equal": true,
+      "predictions_bitwise_equal": false,
+      "predictions_allclose": true,
+      "max_absolute_prediction_difference": 2.384185791015625e-07,
+      "mean_absolute_prediction_difference": 3.5757383917433085e-08,
+      "elements_over_fixed_bound": 0,
+      "maximum_fixed_bound_ratio": 0.025986577828605213,
+      "original_metrics_float64": {
+        "MAE": 0.00782128894141994,
+        "MAPE": 0.008025207118793573,
+        "MSE": 8.701351075678866e-05,
+        "RMSE": 0.009328103277558019
+      },
+      "cpu_metrics_float64": {
+        "MAE": 0.007821288195137775,
+        "MAPE": 0.008025206275414845,
+        "MSE": 8.701348858434445e-05,
+        "RMSE": 0.009328102089082455
+      },
+      "cpu_prediction_tensor": {
+        "dtype": "float32",
+        "shape": [
+          35302,
+          1
+        ],
+        "sha256": "43570c19552e4eb5379f43c366f127aecb521ad317aa001b9dba2c01b073cbe3"
+      },
+      "elapsed_seconds": 2.0615284000000003
+    }
+  ],
+  "passed_runs": 2,
+  "prediction_bitwise_runs": 0,
+  "prediction_allclose_runs": 2,
+  "inputs_unchanged_after": true,
+  "finished_at_utc": "2026-11-11T10:22:52.915780+00:00"
+}

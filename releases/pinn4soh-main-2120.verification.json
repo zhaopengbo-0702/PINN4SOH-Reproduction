@@ -1,0 +1,30 @@
+{
+  "filename": "pinn4soh-main-2120.tar.gz",
+  "summary": "主实验2120项：常规440、小样本1120、补充target-only80、迁移480。完成训练不等于所有论文结论一致。",
+  "bytes": 336526800,
+  "sha256": "b5c6f1fcdac47a7f172bafb3f7015e0f76d0afd63b502a2c462d24f083168d05",
+  "source_file_count": 34605,
+  "archive_file_members": 34607,
+  "source_uncompressed_bytes": 616947528,
+  "member_roundtrip_sha256_verified": true,
+  "sensitive_text_scan_passed": true,
+  "omitted_transient_files": 1642,
+  "source_trees": [
+    {
+      "archive_prefix": "workspace/pinn4soh_full_paper_stage1",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_paper_stage1"
+    },
+    {
+      "archive_prefix": "workspace/pinn4soh_full_paper_stage2",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_paper_stage2"
+    },
+    {
+      "archive_prefix": "workspace/full_report_tools",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/full_report_tools"
+    },
+    {
+      "archive_prefix": "workspace/full_supplement_tools_v1",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/full_supplement_tools_v1"
+    }
+  ]
+}

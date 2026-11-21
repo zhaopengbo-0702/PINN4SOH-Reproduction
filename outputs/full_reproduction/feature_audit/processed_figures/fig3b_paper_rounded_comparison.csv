@@ -1,0 +1,5 @@
+aggregation,entries,rounded_two_decimal_matches,maximum_absolute_difference_from_printed,entries_within_rounding_tolerance
+author_cleaned_per_battery_minmax_pooled,176,176,0.004987221283984211,176
+author_cleaned_pooled,176,16,0.6154378979070418,16
+raw_per_battery_minmax_pooled,176,47,0.24004841577068714,47
+raw_pooled,176,9,0.6259866820193841,9

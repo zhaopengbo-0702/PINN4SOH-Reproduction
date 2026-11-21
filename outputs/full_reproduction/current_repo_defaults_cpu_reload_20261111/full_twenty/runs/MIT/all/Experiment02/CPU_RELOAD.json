@@ -1,0 +1,47 @@
+{
+  "run": "MIT/all/Experiment02",
+  "device": "cpu",
+  "training_performed": false,
+  "checkpoint_loaded": true,
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "input_tensor_reference": "newly_reconstructed_no_training_time_tensor_reference",
+  "status": "passed_cpu_tolerance",
+  "passed": true,
+  "n_test": 14170,
+  "checkpoint_sha256": "86cd805f032be36873c7baf499913b535aa4ddc0f0a766f9ecd40e19f39e9f90",
+  "strict_network_loads": [
+    "solution_u",
+    "dynamical_F"
+  ],
+  "g_loaded_but_not_used_for_inference": true,
+  "all_arrays_finite": true,
+  "labels_bitwise_equal": true,
+  "predictions_bitwise_equal": false,
+  "predictions_allclose": true,
+  "max_absolute_prediction_difference": 2.384185791015625e-07,
+  "mean_absolute_prediction_difference": 3.144281719802716e-08,
+  "elements_over_fixed_bound": 0,
+  "maximum_fixed_bound_ratio": 0.02414716499364241,
+  "original_metrics_float64": {
+    "MAE": 0.006652440011879888,
+    "MAPE": 0.0070230053573321,
+    "MSE": 8.570704105548357e-05,
+    "RMSE": 0.009257809733164944
+  },
+  "cpu_metrics_float64": {
+    "MAE": 0.006652439965609522,
+    "MAPE": 0.007023005306944042,
+    "MSE": 8.570702201546828e-05,
+    "RMSE": 0.009257808704843079
+  },
+  "cpu_prediction_tensor": {
+    "dtype": "float32",
+    "shape": [
+      14170,
+      1
+    ],
+    "sha256": "5ab2224a91acec82be769f23230aedb06a44e7ad1f0bf4ac8679d52e83b2561c"
+  },
+  "elapsed_seconds": 1.7180631999999996
+}

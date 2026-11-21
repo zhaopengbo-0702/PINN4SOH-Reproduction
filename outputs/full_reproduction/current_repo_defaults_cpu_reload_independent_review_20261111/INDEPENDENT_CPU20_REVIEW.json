@@ -1,0 +1,68 @@
+{
+  "format": "pinn4soh-current-defaults-cpu-reload-independent-review-v1",
+  "status": "PASS",
+  "saved_at_utc": "2026-11-11T10:34:37.741349+00:00",
+  "review_scope": "Independent read-only source review and independent recomputation from already saved arrays; no inference rerun or training",
+  "bindings": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\reproduction\\reload_current_defaults_cpu.py",
+      "sha256": "2dc2c8b36df88c42d7bbbd9f9e799113f43b173976979ef0d14b043297695271",
+      "bytes": 23690
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\current_repo_defaults_cpu_reload_20261111\\smoke_two\\CPU_RELOAD_SUMMARY.json",
+      "sha256": "1f30cffefaae6c7a0c28e4addf72dd2b82d4c4e839fcc2066df49efc9e6a7bb8",
+      "bytes": 6519
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\current_repo_defaults_cpu_reload_20261111\\full_twenty\\CPU_RELOAD_SUMMARY.json",
+      "sha256": "bb23fd3ed9405b3749982775f49243b8a7a8cc9af3ecb971b5c340a829512db1",
+      "bytes": 36580
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\current_repo_defaults_cpu_reload_20261111\\DELIVERY_SHA256_INDEX.json",
+      "sha256": "30b0ba4a8a275ce264bb33db89c89665725d3cc09d903cce68df2943f18c2319",
+      "bytes": 20073
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\current_repo_defaults_cpu_reload_20261111\\full_twenty\\INPUTS_BEFORE.json",
+      "sha256": "97cdc62f85bb5b8ad5d352c442fb526de232a685be906307b31ea4ab47c53043",
+      "bytes": 172419
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\current_repo_defaults_cpu_reload_20261111\\full_twenty\\INPUTS_AFTER.json",
+      "sha256": "ba4c988f92d7359e25775c73a82c038bcc8eff6849f8af077478f0c397b4a29b",
+      "bytes": 70
+    }
+  ],
+  "checks": {
+    "runs": 20,
+    "labels_bitwise_equal_runs": 20,
+    "prediction_allclose_fixed_tolerance_runs": 20,
+    "prediction_bitwise_equal_runs": 0,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "maximum_absolute_prediction_difference": 2.384185791015625e-07,
+    "minimum_run_maximum_absolute_prediction_difference": 1.1920928955078125e-07,
+    "elements_over_fixed_bound": 0,
+    "original_input_files_independently_rehashed": 636,
+    "original_input_files_unchanged": true,
+    "full_twenty_output_files_independently_rehashed": 84,
+    "full_twenty_output_sha_and_bytes_match": true,
+    "run_records_match_summary": true,
+    "per_run_checkpoint_sha_and_cpu_prediction_tensor_sha_match": true,
+    "smoke_full_script_and_input_snapshot_bindings_match": true,
+    "independent_four_tensor_identity_records_and_label_hashes_checked": true,
+    "root_delivery_index_files": 101,
+    "root_delivery_index_sha256": "30b0ba4a8a275ce264bb33db89c89665725d3cc09d903cce68df2943f18c2319",
+    "root_delivery_index_verification_scope": "Index hash bound here; feature_exporter independently reported 101/101 SHA and byte match. This reviewer independently rehashed the 84 full-stage output files, not an additional 101-file rerun."
+  },
+  "limits": [
+    "CPU Torch2.7 cross-version reload does not establish 20 GPU reloads or GPU bitwise equality.",
+    "Historical training-time GPU X tensor hashes do not exist for these twenty runs; new input tensor hashes cannot retroactively establish original training X byte equality.",
+    "Author full-trajectory normalization and capacity-dependent 3sigma cleaning are retained.",
+    "Verification covers these twenty current-default checkpoints, not all repository versions or all publication conclusions.",
+    "Generic interface caveats: observe resolves before checking symlinks and results/output overlap is checked after output directory creation. The actual fixed distinct ordinary input/output paths avoid these cases."
+  ],
+  "evidence_origin": "Independent review calculations executed before report save; no cloud UI accessed and no original inputs written."
+}

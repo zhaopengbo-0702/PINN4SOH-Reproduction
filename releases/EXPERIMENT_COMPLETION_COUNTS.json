@@ -1,0 +1,36 @@
+{
+  "format": "release-source-completion-check-v1",
+  "checks": [
+    {
+      "source": "cloud_emergency_recovered/workspace/pinn4soh_full_paper_stage1/manifest.json",
+      "expected": 1880,
+      "complete": 1880,
+      "all_complete": true
+    },
+    {
+      "source": "cloud_emergency_recovered/workspace/pinn4soh_full_paper_stage2/manifest.json",
+      "expected": 240,
+      "complete": 240,
+      "all_complete": true
+    },
+    {
+      "source": "cloud_emergency_recovered/workspace/pinn4soh_main_20261109/manifest.json",
+      "expected": 110,
+      "complete": 110,
+      "all_complete": true
+    },
+    {
+      "source": "cloud_emergency_recovered/workspace/pinn4soh_mit_physical_purity_sensitivity_20261110/manifest.json",
+      "expected": 40,
+      "complete": 40,
+      "all_complete": true
+    },
+    {
+      "source": "legacy_extension_recovered_20261111/restored/extracted/pinn4soh_legacy_selected_extension_20261110/manifest.json",
+      "expected": 99,
+      "complete": 99,
+      "all_complete": true
+    }
+  ],
+  "note": "直接读取原manifest；扩展110中的11个repeat1已完成复用，不再计为新训练。包文件SHA及整成员核验另见RELEASE_ASSETS_CATALOG.json。"
+}

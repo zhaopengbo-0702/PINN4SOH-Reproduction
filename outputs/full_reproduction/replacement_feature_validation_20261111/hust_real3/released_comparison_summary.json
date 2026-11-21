@@ -1,0 +1,137 @@
+{
+  "post_export_only": true,
+  "threshold_descriptive_only": 1e-08,
+  "alignment_caveat": "Pre-existing signature mapping uses four current statistics; these are not independent validation of row identity.",
+  "reference_sha256": "feab7bf9a920c84d31bdf0db04da7d9808b7487d562670486931da563dbea1cd",
+  "alignment_sha256": "098b4a72193a9baf262d025b09ca6b85dfdb873d69e996e8f8fbe1876cd48f4e",
+  "features": [
+    {
+      "feature": "voltage mean",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "feature": "voltage std",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 2.0816681711721685e-17
+    },
+    {
+      "feature": "voltage kurtosis",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "feature": "voltage skewness",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "feature": "CC Q",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 8.326672684688674e-17
+    },
+    {
+      "feature": "CC charge time",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 1.1368683772161603e-13
+    },
+    {
+      "feature": "voltage slope",
+      "status": "replacement",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 0,
+      "maximum_absolute_error": 0.0004801662887377133
+    },
+    {
+      "feature": "voltage entropy",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "feature": "current mean",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "feature": "current std",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 6.938893903907228e-17
+    },
+    {
+      "feature": "current kurtosis",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "feature": "current skewness",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 0.0
+    },
+    {
+      "feature": "CV Q",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 5.0306980803327406e-17
+    },
+    {
+      "feature": "CV charge time",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 1.4210854715202004e-13
+    },
+    {
+      "feature": "current slope",
+      "status": "replacement",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 0,
+      "maximum_absolute_error": 0.0019222117647057844
+    },
+    {
+      "feature": "current entropy",
+      "status": "prior_audited_convention",
+      "rows": 3,
+      "finite_pairs": 3,
+      "matches_at_1e_8": 3,
+      "maximum_absolute_error": 0.0
+    }
+  ]
+}

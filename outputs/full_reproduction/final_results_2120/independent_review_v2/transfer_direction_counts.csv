@@ -1,0 +1,5 @@
+﻿loss_variant,source_mode,directions,mean_improved,individual_paired_repeats_improved,individual_paired_repeats,all_fixed_G_updated_F_verified
+published_label_monotonicity,reproduced_checkpoint,12,12,111,120,True
+published_label_monotonicity,supplied_author_checkpoint,12,11,111,120,True
+paper_prediction_monotonicity,reproduced_checkpoint,12,12,120,120,True
+paper_prediction_monotonicity,supplied_author_checkpoint,12,8,85,120,True

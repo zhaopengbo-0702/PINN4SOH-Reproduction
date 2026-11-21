@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123d4b">
+  <meta name="description" content="PINN4SOH 中文复现成果：2120 次主实验、关键误差、图表、代码和未复现结论。训练覆盖完成与论文结论一致分别报告。">
+  <title>PINN4SOH｜中文复现成果</title>
+  <style>
+    :root{--ink:#173640;--muted:#526b74;--teal:#087d79;--deep:#123d4b;--blue:#1c5d82;--paper:#f4f8f9;--line:#dce7e9;--amber:#935b17;--white:#fff;--radius:20px;--shadow:0 12px 40px #17364009}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif}a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}button:focus-visible,a:focus-visible{outline:3px solid #45c6c1;outline-offset:5px}button{cursor:pointer}img{max-width:100%;height:auto}::selection{background:#a9e5df;color:#123d4b}.wrap{max-width:1184px;margin:auto;padding:0 32px}.topbar{position:sticky;top:0;z-index:5;background:#ffffffef;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{color:var(--deep);font-weight:800;letter-spacing:.02em;display:flex;align-items:center;gap:12px}.brandmark{width:30px;height:32px;border:2px solid var(--teal);border-radius:7px;display:inline-flex;align-items:flex-end;padding:4px;gap:3px;position:relative}.brandmark:before{content:"";position:absolute;left:8px;right:8px;top:-5px;height:3px;background:var(--teal);border-radius:2px}.brandmark i{width:4px;border-radius:2px;background:var(--teal)}.brandmark i:nth-child(1){height:8px}.brandmark i:nth-child(2){height:13px}.brandmark i:nth-child(3){height:19px}.navlinks{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:600}.navlinks a{color:var(--muted)}.navlinks .repo{background:#eaf4f3;color:#0a655f;padding:7px 15px;border-radius:999px}.hero{padding:68px 0 42px;background:radial-gradient(ellipse at 85% 5%,#dcefeb 0,transparent 46%),linear-gradient(125deg,#f6fafb 25%,#e9f3f5);border-bottom:1px solid var(--line)}.eyebrow{display:flex;align-items:center;gap:9px;color:var(--teal);font-size:13px;font-weight:750;letter-spacing:.1em;margin:0 0 16px}.dot{width:7px;height:7px;background:var(--teal);border-radius:50%;display:inline-block}.hero h1{font-size:clamp(32px,4.5vw,52px);line-height:1.2;letter-spacing:-.035em;margin:0 0 18px;color:var(--deep);font-weight:800}.hero h1 span{display:block;font-size:.57em;font-weight:650;letter-spacing:0;margin-top:13px}.intro{max-width:810px;font-size:18px;color:var(--muted);margin:0}.date{color:#6c8289;font-size:13px;margin:19px 0 25px}.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:11px 21px;border-radius:11px;font-size:15px;font-weight:700;border:1px solid #b8d2d3;background:#fff;color:var(--deep);transition:transform .15s,background .15s}.btn:hover{transform:translateY(-1px);text-decoration:none;background:#f6fbfb}.btn.primary{color:#fff;background:var(--teal);border-color:var(--teal)}.btn.primary:hover{background:#076b68}.banner{margin-top:32px;border-left:3px solid var(--teal);padding:12px 18px;background:#fff9;border-radius:0 12px 12px 0;font-size:15px;max-width:955px}.banner strong{color:var(--deep)}main{padding:34px 0 72px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:0 0 48px}.stat{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:23px 22px;box-shadow:var(--shadow)}.stat strong{display:block;font-size:32px;line-height:1.3;letter-spacing:-.03em;font-weight:800;color:var(--deep)}.stat strong em{font-style:normal;font-size:17px;color:#6d8288;font-weight:500;margin-left:3px}.stat span{display:block;font-size:14px;font-weight:650;margin-top:7px}.stat small{color:var(--muted);font-size:12px;display:block;margin-top:4px}.section{margin:0 0 48px}.sectionhead{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:19px}.sectionhead h2{font-size:25px;line-height:1.4;letter-spacing:-.02em;margin:0 0 7px;font-weight:780}.sectionhead p{margin:0;color:var(--muted);font-size:14px}.sectionhead a{font-size:14px;white-space:nowrap}.panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}.tabbar{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:20px 24px;border-bottom:1px solid var(--line);flex-wrap:wrap}.tabs{display:inline-flex;gap:4px;padding:4px;border-radius:12px;background:#edf3f5}.tabs button{border:0;color:var(--muted);background:transparent;border-radius:9px;padding:8px 17px;font-size:14px;font-weight:650}.tabs button[aria-pressed="true"]{background:#fff;color:var(--teal);box-shadow:0 1px 5px #17364015}.tag{font-size:12px;background:#eef7f5;color:#177267;border:1px solid #d7ece7;padding:3px 9px;border-radius:6px;white-space:nowrap}.chartbody{padding:22px 26px 10px}.chartcaption{display:flex;gap:14px;margin:0 0 20px;align-items:flex-start}.chartcaption .num{color:var(--teal);font-size:13px;font-weight:750;padding-top:3px}.chartcaption h3{margin:0;font-size:17px}.chartcaption p{margin:3px 0 0;color:var(--muted);font-size:14px}.chartframe{border:1px solid #eaf0f1;border-radius:12px;overflow:hidden;padding:14px;background:#fff;min-height:170px}.chartframe img{display:block;width:100%;object-fit:contain}.chartfoot{padding:15px 26px 21px;color:var(--muted);font-size:13px}.chartfoot a{margin-left:6px}.findings{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}.finding{padding:22px 23px;background:#fff;border:1px solid var(--line);border-radius:16px}.finding b{display:block;font-size:15px;margin-bottom:7px}.finding p{color:var(--muted);font-size:14px;margin:0}.finding .n{color:var(--teal);font-size:23px;font-weight:800;line-height:1.2;margin-bottom:9px}.metrics-intro{padding:23px 26px 0;font-size:14px;color:var(--muted)}.metrics-intro p{margin:0 0 15px}.scrolltable{overflow-x:auto;padding:0 25px 4px}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{text-align:left;padding:16px 13px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:12px;font-weight:650;white-space:nowrap}td{font-size:14px}td strong{font-size:17px;color:var(--deep);font-weight:700}td .sd{font-size:13px;color:var(--muted)}tbody tr:last-child td{border:0}.unit{font-weight:400;color:#6c8289}.note{font-size:13px;color:var(--muted);padding:16px 26px 23px;margin:0}.note strong{color:var(--amber)}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.mini{padding:26px}.mini h3{font-size:18px;margin:0 0 12px}.mini p{margin:0;color:var(--muted);font-size:14px}.mini img{border:1px solid #eaf0f1;border-radius:9px;display:block;width:100%;margin:18px 0 10px}.minifoot{color:var(--muted);font-size:12px;margin-top:10px}.matrix{width:100%}.matrix td{vertical-align:top}.matrix td:first-child{width:26%;font-weight:700}.matrix .scope{font-size:13px;color:var(--muted)}.matrix .count{display:block;font-weight:750;font-size:16px;color:var(--teal);margin-bottom:4px}.matrix td:last-child{font-size:13px;color:var(--muted)}.limits{background:linear-gradient(120deg,#123d4b,#174e57);border-radius:var(--radius);color:#fff;padding:29px 30px;display:grid;grid-template-columns:.85fr 1.3fr;gap:36px}.limits h2{margin:0 0 13px;font-size:25px;line-height:1.4}.limits p{color:#c6dcdf;font-size:14px;margin:0}.limits a{color:#94e1d2;font-size:14px;display:inline-block;margin-top:20px}.limits ul{margin:0;padding-left:20px;color:#d4e5e6;font-size:14px}.limits li{padding:4px 0 7px}.resources{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.resource{padding:24px;border:1px solid var(--line);background:#fff;border-radius:16px;display:block;color:var(--ink);transition:border-color .15s,transform .15s}.resource:hover{border-color:#91bfba;transform:translateY(-2px);text-decoration:none}.resource .icon{font-size:12px;font-weight:800;color:var(--teal);letter-spacing:.1em;display:block;margin-bottom:12px}.resource h3{margin:0 0 7px;font-size:17px}.resource p{font-size:13px;color:var(--muted);margin:0}.resource .arrow{display:block;margin-top:16px;color:var(--teal);font-weight:700}footer{border-top:1px solid var(--line);padding:30px 0 35px;color:var(--muted);font-size:12px}footer .wrap{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}footer p{margin:0 0 4px}footer a{color:var(--muted);text-decoration:underline}.hidden{display:none!important}noscript{display:block;padding:13px 26px;color:var(--muted);font-size:13px}
+    @media(max-width:850px){.wrap{padding:0 22px}.hero{padding:45px 0 32px}.navlinks{gap:15px}.navlinks a:nth-child(2){display:none}.stats{grid-template-columns:repeat(2,1fr)}.findings{grid-template-columns:1fr}.finding{display:grid;grid-template-columns:70px 1fr;column-gap:12px}.finding .n{grid-row:1/3;margin:0}.finding b{margin-bottom:4px}.split{grid-template-columns:1fr}.limits{grid-template-columns:1fr;gap:22px}.resources{grid-template-columns:1fr}.sectionhead{align-items:flex-start}.sectionhead a{margin-top:7px}}
+    @media(max-width:520px){.wrap{padding:0 16px}.nav{height:64px;gap:10px}.brand{font-size:14px;gap:8px}.brandmark{transform:scale(.85)}.navlinks{gap:8px;font-size:12px}.navlinks a:not(.repo){display:none}.hero h1{font-size:34px}.intro{font-size:16px}.date{line-height:1.6}.btn{padding:10px 16px;font-size:14px}.stats{gap:10px;margin-bottom:33px}.stat{padding:18px 16px;border-radius:15px}.stat strong{font-size:29px}.stat span{font-size:13px}.section{margin-bottom:34px}.sectionhead{display:block}.sectionhead h2{font-size:22px}.sectionhead a{display:inline-block}.tabbar{padding:15px 16px}.tabs button{padding:7px 12px;font-size:13px}.chartbody{padding:17px 15px 8px}.chartframe{padding:4px}.chartfoot{padding:12px 16px 18px}.metrics-intro{padding:19px 17px 0}.scrolltable{padding:0 9px}.note{padding:14px 17px 20px}th,td{padding:14px 9px}.mini{padding:21px 17px}.limits{padding:24px 21px}.matrix td:first-child{min-width:114px}.matrix td:nth-child(2){min-width:130px}.matrix td:last-child{min-width:230px}.matrix th{font-size:11px}.resource{padding:21px}.finding{padding:20px 18px}.banner{font-size:14px}footer .wrap{gap:15px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="wrap nav" aria-label="主要导航">
+      <a class="brand" href="#top"><span class="brandmark" aria-hidden="true"><i></i><i></i><i></i></span>PINN4SOH 复现</a>
+      <div class="navlinks"><a href="#results">结果图表</a><a href="#metrics">误差数值</a><a href="#limitations">差异与限制</a><a class="repo" href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction">查看仓库 ↗</a></div>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <p class="eyebrow"><span class="dot"></span>锂离子电池健康状态估计 · 论文复现档案</p>
+      <h1>跑过的实验，得到的结果。<span>PINN4SOH 中文成果看板</span></h1>
+      <p class="intro">主实验、误差数据、结果图与复核证据集中展示。既记录与原文相符的部分，也保留未一致的数值和结论。</p>
+      <p class="date">成果整理：2026 年 11 月 21 日 · 实验与收尾证据截至 2026 年 11 月 11 日 · 本次整理未重新训练</p>
+      <div class="actions"><a class="btn primary" href="#results">先看关键结果 <span aria-hidden="true">↓</span></a><a class="btn" href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/blob/main/docs/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.md">阅读完整中文说明 ↗</a><a class="btn" href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases">下载模型与日志 ↗</a></div>
+      <div class="banner"><strong>主实验矩阵已完成 2120/2120。</strong> 训练覆盖完成与论文全部结论成立分别判断：MIT/HUST、部分迁移比较及未公开的历史实现仍有差异。</div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="stats" aria-label="成果覆盖范围">
+      <div class="stat"><strong>2120<em>/2120</em></strong><span>主实验训练已完成</span><small>常规、小样本、目标域独训与迁移</small></div>
+      <div class="stat"><strong>69<em>组</em></strong><span>主结果图表</span><small>每组均有 PNG 与 PDF</small></div>
+      <div class="stat"><strong>82<em>组</em></strong><span>逐测试 CSV 预测曲线</span><small>固定第 1 次重复，保留误差面板</small></div>
+      <div class="stat"><strong>21<em>项</em></strong><span>论文结论逐项核对</span><small>对应 25 项主文与补充图表</small></div>
+    </div>
+
+    <section class="section" id="results" aria-labelledby="results-title">
+      <div class="sectionhead"><div><h2 id="results-title">01 · 常规估计：优势与反例一起看</h2><p>主实验采用论文参数。两种单调损失实现分开展示，共享同一份 MLP、CNN 基线。</p></div><a href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/tree/main/outputs/full_reproduction/plot_final2120_complete_v4">浏览全部主图表 ↗</a></div>
+      <div class="panel">
+        <div class="tabbar"><div class="tabs" role="group" aria-label="切换单调损失实现"><button type="button" id="label-button" aria-pressed="true" data-lane="published">标签单调实现</button><button type="button" id="prediction-button" aria-pressed="false" data-lane="paperloss">预测单调实现</button></div><span class="tag">真实实验结果 · 10 次均值与样本标准差</span></div>
+        <div class="chartbody">
+          <div class="chartcaption"><span class="num">图 01</span><div><h3 id="chart-title">标签单调实现：多数常规组误差更低，MIT/HUST 保留反例</h3><p id="chart-description" aria-live="polite">11 组的三项误差中，27/33 个组指标同时低于 MLP 与 CNN；MIT/HUST 未形成这一均值优势。</p></div></div>
+          <a id="chart-original" href="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig4b_published.png" target="_blank" rel="noopener"><div class="chartframe"><img id="regular-chart" src="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig4b_published.png" alt="标签单调 PINN、MLP 与 CNN 在 11 组常规任务中的 MAE、MAPE、RMSE 十次均值及样本标准差" width="1800" loading="eager"></div></a>
+        </div>
+        <div class="chartfoot">统计口径为发布 CSV 文件等权宏平均；MAPE 用实测 SOH 作分母，误差线为重复间样本标准差（ddof=1）。图内保留原审计图的英文坐标。<a id="chart-open" href="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig4b_published.png" target="_blank" rel="noopener">打开原图 ↗</a></div>
+        <noscript>当前展示标签单调实现。浏览器未启用脚本时，可在仓库图表目录中打开预测单调实现的原图。</noscript>
+      </div>
+      <div class="findings">
+        <div class="finding"><div class="n">27/33</div><b>多数常规组指标有优势</b><p>标签单调实现的 MAE、MAPE、RMSE 各有 9/11 组同时低于两基线；并非所有任务最好。</p></div>
+        <div class="finding"><div class="n">25/28</div><b>小样本有收益，也有例外</b><p>标签实现的 MAPE、RMSE 各有 25/28 个设置同时胜两基线；增加训练电池不保证每一步误差下降。</p></div>
+        <div class="finding"><div class="n">20/48</div><b>迁移优势取决于比较对象</b><p>一电池微调与目标域一电池独训相比，仅 20/48 组均值误差更低。组数不能当作独立种子胜率。</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="metrics" aria-labelledby="metrics-title">
+      <div class="sectionhead"><div><h2 id="metrics-title">02 · 作者修正版默认参数：误差到底多少？</h2><p>MIT、HUST 各 10 次原有训练独立复核。这一批与主实验的论文参数、损失分支分别记录。</p></div><a href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/blob/main/outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_summary_20.csv">查看完整精度 CSV ↗</a></div>
+      <div class="panel">
+        <div class="tabbar"><div class="tabs" role="group" aria-label="切换指标聚合口径"><button type="button" data-metric="pooled" aria-pressed="true">合并全部测试样本</button><button type="button" data-metric="macro" aria-pressed="false">测试 CSV 等权</button></div><span class="tag">每个数据集 10 次 · 均值 ± 样本标准差</span></div>
+        <div class="metrics-intro"><p id="aggregation-description" aria-live="polite">先在每次运行内合并全部测试样本计算指标，再对 10 次结果求均值与样本标准差。较长测试文件的样本权重更大。</p></div>
+        <div class="scrolltable"><table aria-label="作者修正版默认参数的十次误差"><thead><tr><th>数据集</th><th>MAPE <span class="unit">（%）</span></th><th>RMSE <span class="unit">（SOH 百分点）</span></th><th>重复次数</th></tr></thead><tbody><tr><td><strong>MIT</strong></td><td><strong id="mit-mape">0.689402</strong><span class="sd" id="mit-mape-sd"> ± 0.028627</span></td><td><strong id="mit-rmse">0.902220</strong><span class="sd" id="mit-rmse-sd"> ± 0.042616</span></td><td>10 次</td></tr><tr><td><strong>HUST</strong></td><td><strong id="hust-mape">0.814535</strong><span class="sd" id="hust-mape-sd"> ± 0.027752</span></td><td><strong id="hust-rmse">0.955581</strong><span class="sd" id="hust-rmse-sd"> ± 0.029957</span></td><td>10 次</td></tr></tbody></table></div>
+        <p class="note"><strong>接近论文量级，不等于精确恢复原表。</strong> 原文表 2 的 MIT/HUST MAPE 分别为 0.65% / 0.78%；原聚合细节未唯一恢复，两组也未同时达到原表 MAPE 与 RMSE 四位小数的一致门槛。MIT 单次低误差不能替代十次均值。测试 CSV 宏平均也不等于物理电池等权平均。</p>
+        <noscript>测试 CSV 等权的 MAPE：MIT 0.792423±0.050746%，HUST 0.799301±0.030026%；RMSE：MIT 0.872649±0.047542、HUST 0.893679±0.037698 SOH 百分点。</noscript>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="curves-title">
+      <div class="sectionhead"><div><h2 id="curves-title">03 · 从平均数字回到实际曲线</h2><p>以下均为已经保存并审计的实验图，不代表新增训练。</p></div></div>
+      <div class="split">
+        <article class="panel mini"><h3>小样本：训练电池更多会怎样？</h3><p>XJTU 第一组和 HUST 的 1 至 4 节训练电池设置；局部误差回升与不利结果均保留。</p><a href="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig5_published.png" target="_blank" rel="noopener"><img loading="lazy" width="1200" src="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig5_published.png" alt="标签单调实现、MLP、CNN 在 XJTU 第一组及 HUST 不同训练电池数下的误差曲线"></a><div class="minifoot">标签单调实现 · CSV 等权宏平均 · 10 次均值与样本标准差</div></article>
+        <article class="panel mini"><h3>预测轨迹：固定第 1 次重复</h3><p>按预先固定的第 1 次运行展示各组预测，未挑最好种子。不同电池串接处不能解释为单电池突变。</p><a href="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig4a_published.png" target="_blank" rel="noopener"><img loading="lazy" width="1200" src="https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/Fig4a_published.png" alt="11 组测试任务固定第 1 次重复的实际 SOH 与 PINN、MLP、CNN 预测轨迹"></a><div class="minifoot">显示点均匀抽样 · 横轴为保留测试点顺序 · 统计使用完整数组</div></article>
+      </div>
+    </section>
+
+    <section class="section" id="coverage" aria-labelledby="coverage-title">
+      <div class="sectionhead"><div><h2 id="coverage-title">04 · 做了哪些实验和复核？</h2><p>不同批次分别计算，避免把复用、复载或额外搜索重复计入主训练。</p></div><a href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/blob/main/docs/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.md">查看实验说明 ↗</a></div>
+      <div class="panel"><div class="scrolltable"><table class="matrix" aria-label="实验与复核范围"><thead><tr><th>批次</th><th>完成范围</th><th>应如何理解</th></tr></thead><tbody>
+        <tr><td>主实验矩阵</td><td><span class="count">2120 / 2120</span><span class="scope">440 常规 + 1120 小样本<br>+ 80 目标域独训 + 480 迁移</span></td><td>保留两种论文损失实现、源权重模式与完整十次重复；训练完成不意味着所有数值和结论一致。</td></tr>
+        <tr><td>当前默认参数核对</td><td><span class="count">MIT/HUST 各 10 次</span><span class="scope">来自原有 110 次常规训练</span></td><td>重算原数组、配置与来源链；不是本次新训练，也不替代主实验两种论文参数分支。</td></tr>
+        <tr><td>模型 CPU 复载</td><td><span class="count">20 / 20 容差内一致</span><span class="scope">上述 20 个保存的模型</span></td><td>绝对容差 10<sup>−6</sup>、相对容差 10<sup>−5</sup>；预测逐位相同为 0/20，最大差为 2.3842×10<sup>−7</sup> SOH。不能称全部 GPU 逐位复现。</td></tr>
+        <tr><td>旧软件栈敏感性</td><td><span class="count">110 项配对分析</span><span class="scope">99 次新增 + 11 次原有运行复用</span></td><td>选定敏感配置的补充验证，110 项配对核验无错误；部分迁移均值方向随环境变化，不能推广到全 2120 项。</td></tr>
+        <tr><td>XJTU/2C 替代搜索</td><td><span class="count">192 次选择 + 3 次测试</span><span class="scope">64 个配置 × 3 个种子</span></td><td>选中 α=0.35、β=0；测试 CSV 宏 MAPE 为 0.565253±0.094795%，RMSE 为 0.701363±0.121802 SOH 百分点。新划分与搜索，不能恢复作者历史搜索，β=0 也不能证明单调项贡献。</td></tr>
+      </tbody></table></div></div>
+    </section>
+
+    <section class="section limits" id="limitations" aria-labelledby="limitations-title">
+      <div><h2 id="limitations-title">哪些结论还不能成立？</h2><p>复现档案保留差异与来源缺口，方便判断结果能回答什么问题。</p><a href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/blob/main/docs/%E6%9C%AA%E5%A4%8D%E7%8E%B0%E4%B8%8E%E9%99%90%E5%88%B6.md">逐项阅读未复现与限制 →</a></div>
+      <ul><li>“全部任务精度最好、全部小样本设置最好、迁移普遍优于目标域独训”均有本次实测反例。</li><li>两种论文单调损失实现结果不同；作者修正版默认参数又是另一批协议，不能混成同一结果。</li><li>MIT 原始 MAT、两个特征斜率、历史搜索与种子、原总体聚合口径等尚无法唯一恢复。</li><li>验证相邻端点重合、MIT 物理身份重复与整条轨迹缩放已有记录，不能宣称全面无数据泄漏。</li><li>CPU 计时采用不同于论文的硬件；未验证真实电化学机制识别、导数阶数优越或 BMS 部署。</li></ul>
+    </section>
+
+    <section class="section" aria-labelledby="resources-title">
+      <div class="sectionhead"><div><h2 id="resources-title">05 · 接下来从哪里读？</h2><p>看结论、核数字、下载原件，各有对应入口。</p></div></div>
+      <div class="resources">
+        <a class="resource" href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/blob/main/docs/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.md"><span class="icon">中文解读</span><h3>实验结果与证据</h3><p>逐批实验范围、误差口径、论文参考值与本次实际结果。</p><span class="arrow">阅读说明 →</span></a>
+        <a class="resource" href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/tree/main/reproduction"><span class="icon">可运行代码</span><h3>复现运行器与审计脚本</h3><p>训练、结果统计、特征替代导出、checkpoint 复核等工程入口。</p><span class="arrow">浏览代码 →</span></a>
+        <a class="resource" href="https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases"><span class="icon">原始证据包</span><h3>模型、日志与预测数组</h3><p>下载已整理的本地证据包；用发布清单中的 SHA-256 核对文件。</p><span class="arrow">前往下载 →</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap"><div><p><strong>PINN4SOH 中文复现档案</strong> · 成果整理于 2026 年 11 月 21 日</p><p>依据已保存实验与独立审计整理；保留不利结果、版本区别及证据边界。</p></div><div><p><a href="https://www.nature.com/articles/s41467-024-48779-z">原论文 · Nature Communications · 2024</a></p><p><a href="https://doi.org/10.1038/s41467-024-48779-z">DOI：10.1038/s41467-024-48779-z</a> · <a href="https://github.com/wang-fujin/PINN4SOH">作者原始仓库</a></p></div></div></footer>
+
+  <script>
+    (() => {
+      'use strict';
+      const imageRoot = 'https://raw.githubusercontent.com/zhaopengbo-0702/PINN4SOH-Reproduction/main/outputs/full_reproduction/plot_final2120_complete_v4/figures/';
+      const lanes = {
+        published: {
+          title: '标签单调实现：多数常规组误差更低，MIT/HUST 保留反例',
+          description: '11 组的三项误差中，27/33 个组指标同时低于 MLP 与 CNN；MIT/HUST 未形成这一均值优势。',
+          alt: '标签单调 PINN、MLP 与 CNN 在 11 组常规任务中的 MAE、MAPE、RMSE 十次均值及样本标准差'
+        },
+        paperloss: {
+          title: '预测单调实现：结果明显不同，不能与标签实现合并',
+          description: '在同一主实验比较范围，0/33 个常规组指标同时低于两基线。实现差异会影响结论，较小重复波动也不等于较小平均误差。',
+          alt: '预测单调 PINN、MLP 与 CNN 在 11 组常规任务中的 MAE、MAPE、RMSE 十次均值及样本标准差'
+        }
+      };
+      document.querySelectorAll('[data-lane]').forEach(button => {
+        button.addEventListener('click', () => {
+          const lane = button.dataset.lane;
+          if (!Object.prototype.hasOwnProperty.call(lanes, lane)) return;
+          document.querySelectorAll('[data-lane]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+          const imageUrl = imageRoot + 'Fig4b_' + lane + '.png';
+          document.getElementById('chart-title').textContent = lanes[lane].title;
+          document.getElementById('chart-description').textContent = lanes[lane].description;
+          const chart = document.getElementById('regular-chart');
+          chart.src = imageUrl;
+          chart.alt = lanes[lane].alt;
+          document.getElementById('chart-original').href = imageUrl;
+          document.getElementById('chart-open').href = imageUrl;
+        });
+      });
+      const metricRows = {
+        pooled: {
+          description: '先在每次运行内合并全部测试样本计算指标，再对 10 次结果求均值与样本标准差。较长测试文件的样本权重更大。',
+          mit: ['0.689402', '0.028627', '0.902220', '0.042616'],
+          hust: ['0.814535', '0.027752', '0.955581', '0.029957']
+        },
+        macro: {
+          description: '先在每次运行内分别计算各测试 CSV 的指标，再对 CSV 等权平均，最后统计 10 次结果。MIT 混合物理身份文件的限制仍保留。',
+          mit: ['0.792423', '0.050746', '0.872649', '0.047542'],
+          hust: ['0.799301', '0.030026', '0.893679', '0.037698']
+        }
+      };
+      document.querySelectorAll('[data-metric]').forEach(button => {
+        button.addEventListener('click', () => {
+          const row = metricRows[button.dataset.metric];
+          if (!row) return;
+          document.querySelectorAll('[data-metric]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+          document.getElementById('aggregation-description').textContent = row.description;
+          ['mit', 'hust'].forEach(dataset => {
+            const values = row[dataset];
+            document.getElementById(dataset + '-mape').textContent = values[0];
+            document.getElementById(dataset + '-mape-sd').textContent = ' ± ' + values[1];
+            document.getElementById(dataset + '-rmse').textContent = values[2];
+            document.getElementById(dataset + '-rmse-sd').textContent = ' ± ' + values[3];
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

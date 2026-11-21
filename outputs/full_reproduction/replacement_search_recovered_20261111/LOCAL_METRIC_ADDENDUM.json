@@ -1,0 +1,62 @@
+{
+  "format": "pinn4soh-replacement-search-local-metric-addendum-v1",
+  "status": "passed",
+  "aggregation": "equal released test CSV within seed, then mean and sample SD across three seeds",
+  "seed_count": 3,
+  "test_CSVs": 2,
+  "per_CSV_rows": 6,
+  "selected_runs": [
+    {
+      "seed": 20261111,
+      "best_epoch": 84,
+      "epochs_completed": 105
+    },
+    {
+      "seed": 20261112,
+      "best_epoch": 62,
+      "epochs_completed": 83
+    },
+    {
+      "seed": 20261113,
+      "best_epoch": 54,
+      "epochs_completed": 75
+    }
+  ],
+  "CSV_macro_summary": {
+    "MSE": {
+      "mean": 5.165518364884455e-05,
+      "sample_sd": 1.7078892957289323e-05
+    },
+    "RMSE": {
+      "mean": 0.007013631295621927,
+      "sample_sd": 0.0012180247154329718
+    },
+    "MAE": {
+      "mean": 0.005150631075927688,
+      "sample_sd": 0.0008789614908331831
+    },
+    "MAPE_pct": {
+      "mean": 0.5652526178432248,
+      "sample_sd": 0.09479460410182383
+    }
+  },
+  "frozen_sha_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    }
+  ],
+  "not_paper_historical_search": true,
+  "not_a_matched_baseline_comparison": true
+}

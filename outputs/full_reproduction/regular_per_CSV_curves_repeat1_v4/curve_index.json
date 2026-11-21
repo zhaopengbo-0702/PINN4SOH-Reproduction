@@ -1,0 +1,740 @@
+[
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/1-4.csv",
+    "n_full_retained_points": 1450,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__1-4.png",
+    "pdf": "HUST__HUST_data__1-4.pdf",
+    "truth_id": "8287cfba9930217e8de4d50b95a8fa750a1282b65a75ab92d66dc263e62df018"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/1-8.csv",
+    "n_full_retained_points": 2214,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__1-8.png",
+    "pdf": "HUST__HUST_data__1-8.pdf",
+    "truth_id": "d4002f66b55b377bf192696638045c7ff34ac384c6f3269a06925e8c977731f4"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/10-4.csv",
+    "n_full_retained_points": 1770,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__10-4.png",
+    "pdf": "HUST__HUST_data__10-4.pdf",
+    "truth_id": "265d0d86c07bfff37197430f0a36388100edd10848646db93c82cca52f482651"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/10-8.csv",
+    "n_full_retained_points": 1381,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__10-8.png",
+    "pdf": "HUST__HUST_data__10-8.pdf",
+    "truth_id": "8c3c6b3e9eb2d0774c75381ad94b4b09d183c8bde92ed57d3b4ac0357b1434e4"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/2-4.csv",
+    "n_full_retained_points": 1475,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__2-4.png",
+    "pdf": "HUST__HUST_data__2-4.pdf",
+    "truth_id": "3936b3afa5825049120ff5220044eb014abb786f1f6d10fd2fb17e87dec97314"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/2-8.csv",
+    "n_full_retained_points": 1440,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__2-8.png",
+    "pdf": "HUST__HUST_data__2-8.pdf",
+    "truth_id": "219b8fce3c8779e9c5493b6659c03b627e270d8fcf23c91dd7bb8fb0e2365c51"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/3-4.csv",
+    "n_full_retained_points": 1643,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__3-4.png",
+    "pdf": "HUST__HUST_data__3-4.pdf",
+    "truth_id": "23af6189d95ae0eb77589d7c868a7a8d9a6c5b9067a8146ecdc4d29522e32762"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/3-8.csv",
+    "n_full_retained_points": 2287,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__3-8.png",
+    "pdf": "HUST__HUST_data__3-8.pdf",
+    "truth_id": "aa004d24641fac1e0e2eb15fb452112fc5d25049a52398bc17f74eff37497fec"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/4-4.csv",
+    "n_full_retained_points": 1465,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__4-4.png",
+    "pdf": "HUST__HUST_data__4-4.pdf",
+    "truth_id": "e18510a01191716ac8cff7e9a52c5be0423b59cb149d5a27cb6f242762b9584c"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/4-8.csv",
+    "n_full_retained_points": 1679,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__4-8.png",
+    "pdf": "HUST__HUST_data__4-8.pdf",
+    "truth_id": "7cc00593ec43549a85972d0a3d82604c8c2888468277a798962682968dc88dfa"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/5-4.csv",
+    "n_full_retained_points": 1945,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__5-4.png",
+    "pdf": "HUST__HUST_data__5-4.pdf",
+    "truth_id": "81454d793622df4aa5ecff8b3d6c5fcad07997f5c70b13e04d87ed162d30a98d"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/5-7.csv",
+    "n_full_retained_points": 1435,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__5-7.png",
+    "pdf": "HUST__HUST_data__5-7.pdf",
+    "truth_id": "cd749c4f66c1d761b861f2653dda2bd8691d497ad9f17112bc5169c1fa1401d9"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/6-4.csv",
+    "n_full_retained_points": 1713,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__6-4.png",
+    "pdf": "HUST__HUST_data__6-4.pdf",
+    "truth_id": "bf43ce4ba475867ba02f99423167256238dfc919d6775ea46c6de0f61d9f312f"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/6-8.csv",
+    "n_full_retained_points": 2434,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__6-8.png",
+    "pdf": "HUST__HUST_data__6-8.pdf",
+    "truth_id": "9b890681b4fd98e59e8a422a3751f368b60e642d3194de592cc83df12ec01531"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/7-4.csv",
+    "n_full_retained_points": 1381,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__7-4.png",
+    "pdf": "HUST__HUST_data__7-4.pdf",
+    "truth_id": "75bbf4797462678fa725aa2da80a6cddc4ae637c4f2029c5b3e3b20cb27594eb"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/7-8.csv",
+    "n_full_retained_points": 1897,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__7-8.png",
+    "pdf": "HUST__HUST_data__7-8.pdf",
+    "truth_id": "6e792474ef81241f18c939637533b77e112611043166f70e8f7a08eba84d2718"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/8-4.csv",
+    "n_full_retained_points": 1864,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__8-4.png",
+    "pdf": "HUST__HUST_data__8-4.pdf",
+    "truth_id": "58a79d00da7cbecad043c5d29cafa4c52f3cbeaedb4866fbb69b157b21a8f1a5"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/8-8.csv",
+    "n_full_retained_points": 1664,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__8-8.png",
+    "pdf": "HUST__HUST_data__8-8.pdf",
+    "truth_id": "b9f038ebe88e7874a1aec7bb4f54289bf78cebdb8dedad8a69cca9c7b13f78ac"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/9-4.csv",
+    "n_full_retained_points": 1915,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__9-4.png",
+    "pdf": "HUST__HUST_data__9-4.pdf",
+    "truth_id": "d5a51f5904f83ea91d5b871dc86990fd16ca4565dc8b5bd14459929ed93a14db"
+  },
+  {
+    "group": "HUST",
+    "battery": "data/HUST data/9-8.csv",
+    "n_full_retained_points": 2250,
+    "n_display_points": 256,
+    "png": "HUST__HUST_data__9-8.png",
+    "pdf": "HUST__HUST_data__9-8.pdf",
+    "truth_id": "4d925553186daaf11844180572fb058482d62fcde3b1d20b08248d22d6a58329"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-10.csv",
+    "n_full_retained_points": 951,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-10.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-10.pdf",
+    "truth_id": "2273e830b62599386c372091e6907dbd6973caea83378f4186167cc6ffb0b14c"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-15.csv",
+    "n_full_retained_points": 794,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-15.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-15.pdf",
+    "truth_id": "b70c75f8ca0a2f18c19b29023c72eb7ac4166a3a37d92acb450303b41fc4cf0d"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-20.csv",
+    "n_full_retained_points": 711,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-20.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-20.pdf",
+    "truth_id": "debc04beb081795c53804bbfe872acd685a76e3bc22af088f9e47028031d0aba"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-25.csv",
+    "n_full_retained_points": 922,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-25.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-25.pdf",
+    "truth_id": "8f3c005e13b80165bbbd8150ed524050fd0fb5000530c06f34ba6ec363a96a21"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-30.csv",
+    "n_full_retained_points": 826,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-30.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-30.pdf",
+    "truth_id": "4d3be9bf84c98fc000843fc14dfeaf233f7d2770bb2970d6b1aa338aaeb0860e"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-35.csv",
+    "n_full_retained_points": 668,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-35.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-35.pdf",
+    "truth_id": "4432d5232eb3cc12aec1de5de1a5ed3ed30cf967b5601b9569b427b04032ca3a"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-40.csv",
+    "n_full_retained_points": 544,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-40.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-40.pdf",
+    "truth_id": "f0a04655d088807e3a3b14931b4c29ce983c1698969005de02133957c62005d8"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-45.csv",
+    "n_full_retained_points": 400,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-45.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-45.pdf",
+    "truth_id": "5d3d3c9387f6b4fe95a2fffbde249e57e9e5ac634d6bae70bcb875294e45f1c7"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-05-12/2017-05-12_battery-5.csv",
+    "n_full_retained_points": 1256,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-05-12__2017-05-12_battery-5.png",
+    "pdf": "MIT__MIT_data__2017-05-12__2017-05-12_battery-5.pdf",
+    "truth_id": "203c6f8b07c0dca012e3feee53d2db578fbf676b468e4fd2c713522ed0cfa24f"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-15.csv",
+    "n_full_retained_points": 440,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-15.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-15.pdf",
+    "truth_id": "b4b9c5772625e45bfa67a8f7c70298b26ead4620a5ad1451fe0e55cb49b0a9e2"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-20.csv",
+    "n_full_retained_points": 418,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-20.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-20.pdf",
+    "truth_id": "6fd2704b3f464160a9e1bb3967492ab30e066ac841dd3e137ed1daf794090e43"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-25.csv",
+    "n_full_retained_points": 198,
+    "n_display_points": 198,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-25.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-25.pdf",
+    "truth_id": "23cc4fbf51bbd900517eb08ba49f628e9a827139b001722b5c32b579b03c1a12"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-30.csv",
+    "n_full_retained_points": 439,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-30.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-30.pdf",
+    "truth_id": "8f10619885af8d636e3162c822edeeda2dfca2d7e65e3e9ecc2aaafc95e42ae0"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-35.csv",
+    "n_full_retained_points": 447,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-35.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-35.pdf",
+    "truth_id": "b85a53d0a068cbda50803abe317825daad9e7d63039f16c5da085b316975aad6"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-40.csv",
+    "n_full_retained_points": 416,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-40.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-40.pdf",
+    "truth_id": "49a99b262629a268954c2db20d5134ca9f086992973a740d030527ff95846d6e"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-45.csv",
+    "n_full_retained_points": 407,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-45.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-45.pdf",
+    "truth_id": "a60d097687fc55d195b87729d56d84e0caca81e0e5f0af474edbf6a21172de0f"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2017-06-30/2017-06-30_battery-5.csv",
+    "n_full_retained_points": 406,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2017-06-30__2017-06-30_battery-5.png",
+    "pdf": "MIT__MIT_data__2017-06-30__2017-06-30_battery-5.pdf",
+    "truth_id": "9113b7fac2e629f7a5b2ebe51684cf54e1cdd7d1357a775fd56d8cb81c1707f0"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-10.csv",
+    "n_full_retained_points": 928,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2018-04-12__2018-04-12_battery-10.png",
+    "pdf": "MIT__MIT_data__2018-04-12__2018-04-12_battery-10.pdf",
+    "truth_id": "349a2d7eca7d79e2efb5a24f1ddec0d3fe23b7bf189f05e51549084d765ee8f9"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-15.csv",
+    "n_full_retained_points": 770,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2018-04-12__2018-04-12_battery-15.png",
+    "pdf": "MIT__MIT_data__2018-04-12__2018-04-12_battery-15.pdf",
+    "truth_id": "8e40e1b83b9100e144fab77022cbbcd17e6cc420a832287417240c5a2f745810"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-25.csv",
+    "n_full_retained_points": 727,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2018-04-12__2018-04-12_battery-25.png",
+    "pdf": "MIT__MIT_data__2018-04-12__2018-04-12_battery-25.pdf",
+    "truth_id": "6a67d458b814a0388dbb1d16fa3552085d7f7b922d471f731901a43df5d13d13"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-30.csv",
+    "n_full_retained_points": 768,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2018-04-12__2018-04-12_battery-30.png",
+    "pdf": "MIT__MIT_data__2018-04-12__2018-04-12_battery-30.pdf",
+    "truth_id": "699af404caa4187f8edf509d4058fd2f9116a16db332d1caff1d9967764c2220"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-40.csv",
+    "n_full_retained_points": 390,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2018-04-12__2018-04-12_battery-40.png",
+    "pdf": "MIT__MIT_data__2018-04-12__2018-04-12_battery-40.pdf",
+    "truth_id": "324ab38cfac8eb1133a2119761bc77f55392552197fe3a4ba38e09f3d2ef4448"
+  },
+  {
+    "group": "MIT",
+    "battery": "data/MIT data/2018-04-12/2018-04-12_battery-45.csv",
+    "n_full_retained_points": 344,
+    "n_display_points": 256,
+    "png": "MIT__MIT_data__2018-04-12__2018-04-12_battery-45.png",
+    "pdf": "MIT__MIT_data__2018-04-12__2018-04-12_battery-45.pdf",
+    "truth_id": "f46894cef75b9677d3182711d5ac2d4b88b2b1e63840cf360f7148233b9fa9a8"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#5.csv",
+    "n_full_retained_points": 337,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-025_1-#5.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-025_1-#5.pdf",
+    "truth_id": "1c3b74c6b68306bf46cfa7005168a1ac5ea75c5626dc9b1bb4c3735ddfdfc3bf"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#10.csv",
+    "n_full_retained_points": 187,
+    "n_display_points": 187,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#10.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#10.pdf",
+    "truth_id": "c3ff1fe7a7dc1fc4507d5bf01fb491f7976c363b94d0c8cb1ea32175f665e942"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#16.csv",
+    "n_full_retained_points": 142,
+    "n_display_points": 142,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#16.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#16.pdf",
+    "truth_id": "126cff1ba0be2f93697a354107d9ed6daba9ba8059b2b0eec1d19962857c0658"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#2.csv",
+    "n_full_retained_points": 149,
+    "n_display_points": 149,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#2.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#2.pdf",
+    "truth_id": "dd7267a4768b160e2b72651e8d6942a9727123de1ee591d8462f1968e67ebec5"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#8.csv",
+    "n_full_retained_points": 105,
+    "n_display_points": 105,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#8.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-05_1-#8.pdf",
+    "truth_id": "df98ac1a7dfc325634fc73f986bdc3c7b9315f658afef8e9f08c2c048092a429"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#3.csv",
+    "n_full_retained_points": 27,
+    "n_display_points": 27,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-1_1-#3.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-1_1-#3.pdf",
+    "truth_id": "0665d010dd48506a85b69abbc50db24006c826d0b91a67584cd1624355e419eb"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#9.csv",
+    "n_full_retained_points": 27,
+    "n_display_points": 27,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-1_1-#9.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY25-1_1-#9.pdf",
+    "truth_id": "41d0fb02e2d2346d56a10b601a33ffe7623f14b052e9c062e8685e6f9af9f414"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#1.csv",
+    "n_full_retained_points": 700,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#1.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#1.pdf",
+    "truth_id": "53cafcd1aa20e095977eeaead31cd0c34ee1446569f639830885a7c34c916f7b"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#15.csv",
+    "n_full_retained_points": 455,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#15.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#15.pdf",
+    "truth_id": "284af1c0d8b19ae7fd70bf884e3d6e78f991a31804776f9a493f1c473cd4b3f6"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#19.csv",
+    "n_full_retained_points": 658,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#19.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#19.pdf",
+    "truth_id": "da73a1294e6c0f49fb3d324fa81287d10662bdf5a6ff93e9b46c92ce27babb85"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#24.csv",
+    "n_full_retained_points": 689,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#24.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#24.pdf",
+    "truth_id": "11dbe7df04d9255a9272130f8e64b227b6f7da2f2e0d9de469d8aea358d4c8bf"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#28.csv",
+    "n_full_retained_points": 686,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#28.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#28.pdf",
+    "truth_id": "30e9a2776b3eadccbd198255a03036139b2b017fb3ac1261d83639896bbb868d"
+  },
+  {
+    "group": "TJU/1",
+    "battery": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#8.csv",
+    "n_full_retained_points": 365,
+    "n_display_points": 256,
+    "png": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#8.png",
+    "pdf": "TJU_1__TJU_data__Dataset_1_NCA_battery__CY45-05_1-#8.pdf",
+    "truth_id": "0297bde59c1e7448a18733858b69a866ed2f8222f1082da03da56dde7f2c92d1"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#12.csv",
+    "n_full_retained_points": 195,
+    "n_display_points": 195,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#12.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#12.pdf",
+    "truth_id": "7cdee94d23542d3cb33497f7060e67361f04984d77d6172974bb8235c940c583"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#16.csv",
+    "n_full_retained_points": 328,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#16.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#16.pdf",
+    "truth_id": "9a692b87dee258c064980095855dc3e819ae872c7f129f6f301da5a6490b4990"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#21.csv",
+    "n_full_retained_points": 163,
+    "n_display_points": 163,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#21.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#21.pdf",
+    "truth_id": "0c8d5813eaa43ecbc213cc38a68d147207868a867d01df97728a6197d53a7f36"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#4.csv",
+    "n_full_retained_points": 164,
+    "n_display_points": 164,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#4.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY25-05_1-#4.pdf",
+    "truth_id": "ab0c3a7ea820f537e9812ffd16fd834cc6fb69615bdd786f2f2ee9ad69f44de2"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY35-05_1-#1.csv",
+    "n_full_retained_points": 1097,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY35-05_1-#1.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY35-05_1-#1.pdf",
+    "truth_id": "0d98b51a411a17bf4537b8cae239528bda27e686e0c4600045b97cc2af49e93f"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#1.csv",
+    "n_full_retained_points": 446,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#1.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#1.pdf",
+    "truth_id": "6c7f15d80d40e1a817b4330c4eda572312ef56c7294b471500b350e1e919cb7b"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#15.csv",
+    "n_full_retained_points": 372,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#15.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#15.pdf",
+    "truth_id": "1e7ddead69936b733dd1f323ba4fe763a4b18bcb1625b9debdadb7c86d74b533"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#19.csv",
+    "n_full_retained_points": 766,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#19.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#19.pdf",
+    "truth_id": "5d0ba1f7f20a73723d943081cee6823405de7b5ae37e19ecb077fd37047dc882"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#24.csv",
+    "n_full_retained_points": 857,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#24.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#24.pdf",
+    "truth_id": "808d58e852af1c3263079f5056e0fa40f0f765668ca1c67e7b390197fb2e4eb0"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#28.csv",
+    "n_full_retained_points": 856,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#28.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#28.pdf",
+    "truth_id": "db144131878fdf2307d1321795676fa2f480d351c74fe9e36df526be473bd6e7"
+  },
+  {
+    "group": "TJU/2",
+    "battery": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#8.csv",
+    "n_full_retained_points": 396,
+    "n_display_points": 256,
+    "png": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#8.png",
+    "pdf": "TJU_2__TJU_data__Dataset_2_NCM_battery__CY45-05_1-#8.pdf",
+    "truth_id": "1bcf090ff2a755b12b25da6afa027b418b4dfc7355c241897060cdac7d5324d3"
+  },
+  {
+    "group": "TJU/3",
+    "battery": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#2.csv",
+    "n_full_retained_points": 901,
+    "n_display_points": 256,
+    "png": "TJU_3__TJU_data__Dataset_3_NCM_NCA_battery__CY25-05_2-#2.png",
+    "pdf": "TJU_3__TJU_data__Dataset_3_NCM_NCA_battery__CY25-05_2-#2.pdf",
+    "truth_id": "6af2daef7cae979cb2530269dc3a614653873c89ac54bf3103da360ba48c8105"
+  },
+  {
+    "group": "TJU/3",
+    "battery": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#3.csv",
+    "n_full_retained_points": 856,
+    "n_display_points": 256,
+    "png": "TJU_3__TJU_data__Dataset_3_NCM_NCA_battery__CY25-05_4-#3.png",
+    "pdf": "TJU_3__TJU_data__Dataset_3_NCM_NCA_battery__CY25-05_4-#3.pdf",
+    "truth_id": "d427dc49f8d23851a3a1677723cf69bee4904f097f4ade3c2831f7e9d5481867"
+  },
+  {
+    "group": "XJTU/1",
+    "battery": "data/XJTU data/2C_battery-4.csv",
+    "n_full_retained_points": 354,
+    "n_display_points": 256,
+    "png": "XJTU_1__XJTU_data__2C_battery-4.png",
+    "pdf": "XJTU_1__XJTU_data__2C_battery-4.pdf",
+    "truth_id": "95b02d957520a570591fa294843a5040e5509d55dee8d4f9d5de5e2e1f236190"
+  },
+  {
+    "group": "XJTU/1",
+    "battery": "data/XJTU data/2C_battery-8.csv",
+    "n_full_retained_points": 378,
+    "n_display_points": 256,
+    "png": "XJTU_1__XJTU_data__2C_battery-8.png",
+    "pdf": "XJTU_1__XJTU_data__2C_battery-8.pdf",
+    "truth_id": "0187837b9504dc9dc20f976bd0046ef2589295d77e93211767918c32d07f2dd1"
+  },
+  {
+    "group": "XJTU/2",
+    "battery": "data/XJTU data/3C_battery-14.csv",
+    "n_full_retained_points": 127,
+    "n_display_points": 127,
+    "png": "XJTU_2__XJTU_data__3C_battery-14.png",
+    "pdf": "XJTU_2__XJTU_data__3C_battery-14.pdf",
+    "truth_id": "32404e7bb0a85fd96cdf10ec35bd087b6f7314d755b009f3cd01bd18957d99f2"
+  },
+  {
+    "group": "XJTU/2",
+    "battery": "data/XJTU data/3C_battery-4.csv",
+    "n_full_retained_points": 306,
+    "n_display_points": 256,
+    "png": "XJTU_2__XJTU_data__3C_battery-4.png",
+    "pdf": "XJTU_2__XJTU_data__3C_battery-4.pdf",
+    "truth_id": "acb46acbcb814fad9e7b9315cc635f170410774277de48322ff774315425ab60"
+  },
+  {
+    "group": "XJTU/2",
+    "battery": "data/XJTU data/3C_battery-8.csv",
+    "n_full_retained_points": 236,
+    "n_display_points": 236,
+    "png": "XJTU_2__XJTU_data__3C_battery-8.png",
+    "pdf": "XJTU_2__XJTU_data__3C_battery-8.pdf",
+    "truth_id": "f32859cdded1e81d8d2e37e99c1bfded999dfee11538c399d917fcedc81bcc4b"
+  },
+  {
+    "group": "XJTU/3",
+    "battery": "data/XJTU data/R2.5_battery-4.csv",
+    "n_full_retained_points": 515,
+    "n_display_points": 256,
+    "png": "XJTU_3__XJTU_data__R2.5_battery-4.png",
+    "pdf": "XJTU_3__XJTU_data__R2.5_battery-4.pdf",
+    "truth_id": "a2ba3eb0377b5ead44d0aeb251deb2930d4a3d9c0dd7f7c8df6c64868c0f8f07"
+  },
+  {
+    "group": "XJTU/3",
+    "battery": "data/XJTU data/R2.5_battery-8.csv",
+    "n_full_retained_points": 577,
+    "n_display_points": 256,
+    "png": "XJTU_3__XJTU_data__R2.5_battery-8.png",
+    "pdf": "XJTU_3__XJTU_data__R2.5_battery-8.pdf",
+    "truth_id": "0b820453e56f60b90805d8e236415d818b4620251c9d64170435641f9713175a"
+  },
+  {
+    "group": "XJTU/4",
+    "battery": "data/XJTU data/R3_battery-4.csv",
+    "n_full_retained_points": 586,
+    "n_display_points": 256,
+    "png": "XJTU_4__XJTU_data__R3_battery-4.png",
+    "pdf": "XJTU_4__XJTU_data__R3_battery-4.pdf",
+    "truth_id": "25b456e673cac438c16c4278acd0b5b27767750a3ebdf911d0191f8af05037a9"
+  },
+  {
+    "group": "XJTU/4",
+    "battery": "data/XJTU data/R3_battery-8.csv",
+    "n_full_retained_points": 604,
+    "n_display_points": 256,
+    "png": "XJTU_4__XJTU_data__R3_battery-8.png",
+    "pdf": "XJTU_4__XJTU_data__R3_battery-8.pdf",
+    "truth_id": "245f335479f3e7d73c6c42e3e6bc06174067034f8966efc2fb20ef87942e37c9"
+  },
+  {
+    "group": "XJTU/5",
+    "battery": "data/XJTU data/RW_battery-4.csv",
+    "n_full_retained_points": 170,
+    "n_display_points": 170,
+    "png": "XJTU_5__XJTU_data__RW_battery-4.png",
+    "pdf": "XJTU_5__XJTU_data__RW_battery-4.pdf",
+    "truth_id": "11fc33ca7ae472b7f7c606441a9c3f021422409c675c182b83ec1f1985d33ba7"
+  },
+  {
+    "group": "XJTU/5",
+    "battery": "data/XJTU data/RW_battery-8.csv",
+    "n_full_retained_points": 152,
+    "n_display_points": 152,
+    "png": "XJTU_5__XJTU_data__RW_battery-8.png",
+    "pdf": "XJTU_5__XJTU_data__RW_battery-8.pdf",
+    "truth_id": "5e526870584a1ce52ffee1f91ac5e72a7e47ffccfaf4e0a6f9e25bd3c55c2bc9"
+  },
+  {
+    "group": "XJTU/6",
+    "battery": "data/XJTU data/Sim_satellite_battery-4.csv",
+    "n_full_retained_points": 651,
+    "n_display_points": 256,
+    "png": "XJTU_6__XJTU_data__Sim_satellite_battery-4.png",
+    "pdf": "XJTU_6__XJTU_data__Sim_satellite_battery-4.pdf",
+    "truth_id": "46d48620e650534384723b0f74baabe92d869bc98d6ddf9c1ba450d49fca5971"
+  },
+  {
+    "group": "XJTU/6",
+    "battery": "data/XJTU data/Sim_satellite_battery-8.csv",
+    "n_full_retained_points": 699,
+    "n_display_points": 256,
+    "png": "XJTU_6__XJTU_data__Sim_satellite_battery-8.png",
+    "pdf": "XJTU_6__XJTU_data__Sim_satellite_battery-8.pdf",
+    "truth_id": "ba33414d19cf707ceaa1a82b32756bc4750d53519481cdfc2c7a50437961c686"
+  }
+]

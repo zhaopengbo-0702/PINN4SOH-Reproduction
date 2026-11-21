@@ -1,0 +1,18 @@
+{
+  "filename": "pinn4soh-replacement-search192.tar.gz",
+  "summary": "XJTU/2C透明替代搜索192项候选训练及3项选定测试。使用新split和3个seed，选中β=0；不能称恢复作者历史搜索或证明单调项贡献。",
+  "bytes": 8056143,
+  "sha256": "397e5c94528c5997e9793960e3736fc2e44f3bbd450b2ef15be9a0073853ef38",
+  "source_file_count": 1787,
+  "archive_file_members": 1789,
+  "source_uncompressed_bytes": 12372890,
+  "member_roundtrip_sha256_verified": true,
+  "sensitive_text_scan_passed": true,
+  "omitted_transient_files": 2,
+  "source_trees": [
+    {
+      "archive_prefix": "replacement_search",
+      "workspace_relative_source": "outputs/full_reproduction/replacement_search_recovered_20261111/restored/extracted"
+    }
+  ]
+}

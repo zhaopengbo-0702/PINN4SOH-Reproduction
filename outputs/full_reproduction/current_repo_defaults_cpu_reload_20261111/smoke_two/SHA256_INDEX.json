@@ -1,0 +1,66 @@
+{
+  "format": "pinn4soh-cpu-reload-delivery-sha-v1",
+  "files": [
+    {
+      "path": "CPU_RELOAD_SUMMARY.json",
+      "bytes": 6519,
+      "sha256": "1f30cffefaae6c7a0c28e4addf72dd2b82d4c4e839fcc2066df49efc9e6a7bb8"
+    },
+    {
+      "path": "INPUTS_AFTER.json",
+      "bytes": 70,
+      "sha256": "ba4c988f92d7359e25775c73a82c038bcc8eff6849f8af077478f0c397b4a29b"
+    },
+    {
+      "path": "INPUTS_BEFORE.json",
+      "bytes": 172419,
+      "sha256": "97cdc62f85bb5b8ad5d352c442fb526de232a685be906307b31ea4ab47c53043"
+    },
+    {
+      "path": "README.md",
+      "bytes": 690,
+      "sha256": "cd664eb500e4a23effa3ad554b6d99e3c411b2682644071e1302c86452ab2c9f"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/cpu_pred_label.npy",
+      "bytes": 141336,
+      "sha256": "90e4f25e0988bc780be186d1a6dae71f3c0a43e02b4af0efc756b3c647792d2c"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/CPU_RELOAD.json",
+      "bytes": 1467,
+      "sha256": "801df38c7a57bc0a24349a116e82272a0e10d68c66a8143472fa3006cfcc4b38"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/cpu_true_label.npy",
+      "bytes": 141336,
+      "sha256": "c0f48d763a1b6b7e90056da338dfbdc5288625c2334b8a62263bda5f8c714b66"
+    },
+    {
+      "path": "runs/HUST/all/Experiment01/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 4867,
+      "sha256": "e2077c4269ed2cd32117e8c31927502b98a51f60d4f5a54f028964922f7a54ce"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/cpu_pred_label.npy",
+      "bytes": 56808,
+      "sha256": "a1276c6a75f0e8ebfc429bdc1d93bf6aa99611cd63d9fb8ecce916743c70c1e8"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/CPU_RELOAD.json",
+      "bytes": 1466,
+      "sha256": "f1b59e992b39555d65b2083c34226819ebf3efb922363c97a971ac7a2de77001"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/cpu_true_label.npy",
+      "bytes": 56808,
+      "sha256": "889b78c43930c6a108e4787799979e9b284544ff98ce824693dca26ea8ce92c3"
+    },
+    {
+      "path": "runs/MIT/all/Experiment01/INPUT_TENSOR_IDENTITY.json",
+      "bytes": 6052,
+      "sha256": "b6ebf9010b3308672cee1bc30c8aea03da4ed4f9fcf845952228c96b60d171d6"
+    }
+  ],
+  "script_sha256": "2dc2c8b36df88c42d7bbbd9f9e799113f43b173976979ef0d14b043297695271"
+}

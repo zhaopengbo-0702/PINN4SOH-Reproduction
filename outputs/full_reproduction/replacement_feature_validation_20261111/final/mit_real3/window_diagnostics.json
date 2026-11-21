@@ -1,0 +1,128 @@
+[
+  {
+    "raw_cycle": 8,
+    "curves": {
+      "voltage": {
+        "n": 135,
+        "issues": [],
+        "undefined_features": [],
+        "status": "computed",
+        "time_start_seconds": 896.3751000000011,
+        "time_end_seconds": 1391.378099999998,
+        "observed_first": 3.4011402130126953,
+        "observed_last": 3.5890541076660156,
+        "stage_selection": "unchanged_author_MIT_reader"
+      },
+      "current": {
+        "n": 78,
+        "issues": [],
+        "undefined_features": [],
+        "status": "computed",
+        "time_start_seconds": 1431.377199999999,
+        "time_end_seconds": 1696.380799999999,
+        "observed_first": 0.47576645016670227,
+        "observed_last": 0.10246969759464264,
+        "stage_selection": "unchanged_author_MIT_reader"
+      }
+    },
+    "physical_mapping": {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-1.csv",
+      "csv_row_zero_based": "0",
+      "capacity": "1.0743741",
+      "match_type": "ordered_expected_physical_cell",
+      "cell_uid": "EL150800460514",
+      "cycle": "8",
+      "segment": "1",
+      "source_batch_date": "2017-05-12",
+      "source_channel": "1",
+      "source_struct_index": "0",
+      "source_cycle_index": "7",
+      "h5_row": "7",
+      "QDischarge_Ah": "1.0743741"
+    }
+  },
+  {
+    "raw_cycle": 15,
+    "curves": {
+      "voltage": {
+        "n": 135,
+        "issues": [],
+        "undefined_features": [],
+        "status": "computed",
+        "time_start_seconds": 896.3873000000021,
+        "time_end_seconds": 1396.383999999991,
+        "observed_first": 3.4003725051879883,
+        "observed_last": 3.589406967163086,
+        "stage_selection": "unchanged_author_MIT_reader"
+      },
+      "current": {
+        "n": 68,
+        "issues": [],
+        "undefined_features": [],
+        "status": "computed",
+        "time_start_seconds": 1431.3855999999942,
+        "time_end_seconds": 1686.3896999999997,
+        "observed_first": 0.4913581609725952,
+        "observed_last": 0.10075829178094864,
+        "stage_selection": "unchanged_author_MIT_reader"
+      }
+    },
+    "physical_mapping": {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-1.csv",
+      "csv_row_zero_based": "1",
+      "capacity": "1.0730921",
+      "match_type": "ordered_expected_physical_cell",
+      "cell_uid": "EL150800460514",
+      "cycle": "15",
+      "segment": "1",
+      "source_batch_date": "2017-05-12",
+      "source_channel": "1",
+      "source_struct_index": "0",
+      "source_cycle_index": "14",
+      "h5_row": "14",
+      "QDischarge_Ah": "1.0730921"
+    }
+  },
+  {
+    "raw_cycle": 16,
+    "curves": {
+      "voltage": {
+        "n": 135,
+        "issues": [],
+        "undefined_features": [],
+        "status": "computed",
+        "time_start_seconds": 896.397100000002,
+        "time_end_seconds": 1396.39880000001,
+        "observed_first": 3.4003143310546875,
+        "observed_last": 3.5851526260375977,
+        "stage_selection": "unchanged_author_MIT_reader"
+      },
+      "current": {
+        "n": 73,
+        "issues": [],
+        "undefined_features": [],
+        "status": "computed",
+        "time_start_seconds": 1436.3977000000014,
+        "time_end_seconds": 1711.3974000000017,
+        "observed_first": 0.4692658483982086,
+        "observed_last": 0.1000751182436943,
+        "stage_selection": "unchanged_author_MIT_reader"
+      }
+    },
+    "physical_mapping": {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-1.csv",
+      "csv_row_zero_based": "2",
+      "capacity": "1.0758405",
+      "match_type": "ordered_expected_physical_cell",
+      "cell_uid": "EL150800460514",
+      "cycle": "16",
+      "segment": "1",
+      "source_batch_date": "2017-05-12",
+      "source_channel": "1",
+      "source_struct_index": "0",
+      "source_cycle_index": "15",
+      "h5_row": "15",
+      "QDischarge_Ah": "1.0758405"
+    }
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "format": "pinn4soh-replacement-search-cloud-pipeline-v1",
+  "status": "complete",
+  "request": {
+    "repo": "/workspace/PINN4SOH-main",
+    "output": "/workspace/pinn4soh_replacement_grid_20261111",
+    "gpu": "0",
+    "evaluate_test": true,
+    "bundle": "/workspace/replacement_search_cloud_20261111_v1",
+    "bundle_manifest_sha256": "d1ad619d7dcc7cf4fc21459ab51d53f29600bfea5c3f8c2f8e3eca3bfef51a5d",
+    "prior_pipeline": "/workspace/legacy_selected_pipeline_20261110_status.json"
+  },
+  "pid": 3082,
+  "started_at": "2026-11-11T04:54:13.701469+00:00",
+  "steps": [
+    {
+      "name": "preflight",
+      "status": "complete",
+      "started_at": "2026-11-11T04:54:13.703530+00:00",
+      "finished_at": "2026-11-11T04:54:13.705413+00:00",
+      "result": {
+        "status": "passed",
+        "checked_at": "2026-11-11T04:54:13.699250+00:00",
+        "package_manifest_sha256": "d1ad619d7dcc7cf4fc21459ab51d53f29600bfea5c3f8c2f8e3eca3bfef51a5d",
+        "expected_author_inputs_sha256": "6aad05220e2d399302bd111e4019d05d52ac452c75218823ad64ef0002e2610c",
+        "environment": {
+          "python": "3.10.13 (main, Aug 25 2023, 13:20:03) [GCC 9.4.0]",
+          "torch": "1.13.1+cu116",
+          "numpy": "1.24.4",
+          "pandas": "1.5.3",
+          "scipy": "1.10.1",
+          "sklearn": "1.2.2",
+          "gpu": "NVIDIA GeForce RTX 3090",
+          "cuda": "11.6",
+          "visible_gpus": 1
+        },
+        "author_python_files": 28,
+        "input_csvs": 8
+      }
+    },
+    {
+      "name": "gpu_smoke",
+      "status": "complete",
+      "started_at": "2026-11-11T04:54:13.710170+00:00",
+      "finished_at": "2026-11-11T04:54:32.992652+00:00",
+      "result": {
+        "returncode": 0,
+        "argv": [
+          "/usr/bin/python3",
+          "/workspace/replacement_search_cloud_20261111_v1/search_replacement_grid.py",
+          "--repo",
+          "/workspace/PINN4SOH-main",
+          "--device",
+          "0",
+          "--spec",
+          "/workspace/pinn4soh_replacement_grid_20261111_smoke_spec.json",
+          "--output",
+          "/workspace/pinn4soh_replacement_grid_20261111_gpu_smoke",
+          "--execute",
+          "--resume",
+          "--evaluate-test"
+        ]
+      }
+    },
+    {
+      "name": "formal_plan",
+      "status": "complete",
+      "started_at": "2026-11-11T04:54:32.994863+00:00",
+      "finished_at": "2026-11-11T04:54:33.141584+00:00",
+      "result": {
+        "returncode": 0,
+        "argv": [
+          "/usr/bin/python3",
+          "/workspace/replacement_search_cloud_20261111_v1/search_replacement_grid.py",
+          "--repo",
+          "/workspace/PINN4SOH-main",
+          "--device",
+          "0",
+          "--spec",
+          "/workspace/replacement_search_cloud_20261111_v1/replacement_search_example.json",
+          "--output",
+          "/workspace/pinn4soh_replacement_grid_20261111"
+        ]
+      }
+    },
+    {
+      "name": "formal_search",
+      "status": "complete",
+      "started_at": "2026-11-11T04:54:33.143813+00:00",
+      "finished_at": "2026-11-11T05:43:40.042470+00:00",
+      "result": {
+        "returncode": 0,
+        "argv": [
+          "/usr/bin/python3",
+          "/workspace/replacement_search_cloud_20261111_v1/search_replacement_grid.py",
+          "--repo",
+          "/workspace/PINN4SOH-main",
+          "--device",
+          "0",
+          "--spec",
+          "/workspace/replacement_search_cloud_20261111_v1/replacement_search_example.json",
+          "--output",
+          "/workspace/pinn4soh_replacement_grid_20261111",
+          "--execute",
+          "--resume",
+          "--evaluate-test"
+        ]
+      }
+    },
+    {
+      "name": "audit_and_collection",
+      "status": "complete",
+      "started_at": "2026-11-11T05:43:40.045743+00:00",
+      "finished_at": "2026-11-11T05:43:44.335437+00:00",
+      "result": {
+        "returncode": 0,
+        "argv": [
+          "/usr/bin/python3",
+          "/workspace/replacement_search_cloud_20261111_v1/collect_replacement_search.py",
+          "--search",
+          "/workspace/pinn4soh_replacement_grid_20261111",
+          "--bundle",
+          "/workspace/replacement_search_cloud_20261111_v1",
+          "--smoke",
+          "/workspace/pinn4soh_replacement_grid_20261111_gpu_smoke",
+          "--smoke-spec",
+          "/workspace/pinn4soh_replacement_grid_20261111_smoke_spec.json",
+          "--pipeline-status",
+          "/workspace/pinn4soh_replacement_grid_20261111_pipeline_status.json",
+          "--output",
+          "/workspace/pinn4soh_replacement_grid_20261111_backup",
+          "--require-test"
+        ]
+      }
+    }
+  ],
+  "prior_attempt": null,
+  "updated_at": "2026-11-11T05:43:44.338418+00:00",
+  "finished_at": "2026-11-11T05:43:44.338364+00:00",
+  "collection": "/workspace/pinn4soh_replacement_grid_20261111_backup"
+}

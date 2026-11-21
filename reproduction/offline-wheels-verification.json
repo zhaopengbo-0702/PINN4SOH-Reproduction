@@ -1,0 +1,105 @@
+{
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.10.13",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "",
+    "platform_system": "Linux",
+    "platform_version": "",
+    "python_full_version": "3.10.13",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.10",
+    "sys_platform": "linux",
+    "extra": ""
+  },
+  "wheel_count": 23,
+  "active_dependency_count": 21,
+  "active_dependencies": [
+    {
+      "package": "contourpy",
+      "requirement": "numpy>=1.20"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "contourpy>=1.0.1"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "cycler>=0.10"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "fonttools>=4.22.0"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "kiwisolver>=1.0.1"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "numpy<2,>=1.20"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "packaging>=20.0"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "pillow>=6.2.0"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "pyparsing>=2.3.1"
+    },
+    {
+      "package": "matplotlib",
+      "requirement": "python-dateutil>=2.7"
+    },
+    {
+      "package": "openpyxl",
+      "requirement": "et-xmlfile"
+    },
+    {
+      "package": "pandas",
+      "requirement": "python-dateutil>=2.8.1"
+    },
+    {
+      "package": "pandas",
+      "requirement": "pytz>=2020.1"
+    },
+    {
+      "package": "pandas",
+      "requirement": "numpy>=1.21.0; python_version >= \"3.10\""
+    },
+    {
+      "package": "python-dateutil",
+      "requirement": "six>=1.5"
+    },
+    {
+      "package": "scienceplots",
+      "requirement": "matplotlib"
+    },
+    {
+      "package": "scikit-learn",
+      "requirement": "numpy>=1.17.3"
+    },
+    {
+      "package": "scikit-learn",
+      "requirement": "scipy>=1.3.2"
+    },
+    {
+      "package": "scikit-learn",
+      "requirement": "joblib>=1.1.1"
+    },
+    {
+      "package": "scikit-learn",
+      "requirement": "threadpoolctl>=2.0.0"
+    },
+    {
+      "package": "scipy",
+      "requirement": "numpy<1.27.0,>=1.19.5"
+    }
+  ],
+  "status": "passed"
+}

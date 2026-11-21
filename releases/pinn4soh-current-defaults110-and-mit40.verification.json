@@ -1,0 +1,26 @@
+{
+  "filename": "pinn4soh-current-defaults110-and-mit40.tar.gz",
+  "summary": "作者当前修正版默认110项、MIT物理身份敏感性40项、现代栈正式CPU计时。默认110与主2120使用不同配置，不能混为同一结论。",
+  "bytes": 30415559,
+  "sha256": "f23e01b3d9c01c462d99e85f87e1498af58f1475b18ab6c245e3d2b11d106bb3",
+  "source_file_count": 1843,
+  "archive_file_members": 1845,
+  "source_uncompressed_bytes": 46797366,
+  "member_roundtrip_sha256_verified": true,
+  "sensitive_text_scan_passed": true,
+  "omitted_transient_files": 42,
+  "source_trees": [
+    {
+      "archive_prefix": "workspace/pinn4soh_main_20261109",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_main_20261109"
+    },
+    {
+      "archive_prefix": "workspace/pinn4soh_mit_physical_purity_sensitivity_20261110",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_mit_physical_purity_sensitivity_20261110"
+    },
+    {
+      "archive_prefix": "workspace/efficiency_formal_20261110",
+      "workspace_relative_source": "outputs/full_reproduction/cloud_emergency_recovered/workspace/efficiency_formal_20261110"
+    }
+  ]
+}

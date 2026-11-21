@@ -1,0 +1,22 @@
+{
+  "failed_curve_count": 1,
+  "records": [
+    {
+      "csv": "PINN4SOH\\data\\MIT data\\2017-05-12\\2017-05-12_battery-45.csv",
+      "csv_row_zero_based": "121",
+      "capacity": "1.0825275",
+      "match_type": "ordered_expected_physical_cell",
+      "cell_uid": "EL150800460485",
+      "cycle": "145",
+      "segment": "1",
+      "source_batch_date": "2017-05-12",
+      "source_channel": "47",
+      "source_struct_index": "44",
+      "source_cycle_index": "144",
+      "h5_row": "37742",
+      "QDischarge_Ah": "1.0825275",
+      "curve": "voltage",
+      "status": "window_has_fewer_than_four_points"
+    }
+  ]
+}

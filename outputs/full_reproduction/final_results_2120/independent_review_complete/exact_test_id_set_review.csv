@@ -1,0 +1,12 @@
+﻿group,actual_test_CSV_count,published_test_CSV_count,exact_id_set_match
+XJTU/1,2,2,True
+XJTU/2,3,3,True
+XJTU/3,2,2,True
+XJTU/4,2,2,True
+XJTU/5,2,2,True
+XJTU/6,2,2,True
+TJU/1,13,13,True
+TJU/2,11,11,True
+TJU/3,2,2,True
+HUST,20,20,True
+MIT,23,23,True

@@ -1,0 +1,10 @@
+Working directory: C:\Users\Administrator\Desktop\复现PINN4SOH
+
+1. Smoke two runs (exit 0):
+python -I -B -X utf8 reproduction/reload_current_defaults_cpu.py --repo PINN4SOH --audit-dir outputs/full_reproduction/current_repo_defaults_reaudited_20261111 --output outputs/full_reproduction/current_repo_defaults_cpu_reload_20261111/smoke_two --phase smoke
+
+2. Full twenty, same script (exit 0):
+python -I -B -X utf8 reproduction/reload_current_defaults_cpu.py --repo PINN4SOH --audit-dir outputs/full_reproduction/current_repo_defaults_reaudited_20261111 --output outputs/full_reproduction/current_repo_defaults_cpu_reload_20261111/full_twenty --phase full --smoke-summary outputs/full_reproduction/current_repo_defaults_cpu_reload_20261111/smoke_two/CPU_RELOAD_SUMMARY.json > outputs/full_reproduction/current_repo_defaults_cpu_reload_20261111/full_twenty_console.log 2>&1
+
+Outputs are immutable by this CLI: existing output directories are rejected.
+Use fresh output directories for a deliberate rerun, without editing historical inputs.

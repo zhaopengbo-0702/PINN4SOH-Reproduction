@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-11-10T12:53:30.017704+00:00",
+  "status": "complete",
+  "identities": [
+    {
+      "battery": 1,
+      "member": "Battery Dataset/Batch-6/Sim_satellite_battery-1.mat",
+      "member_crc32": 2614275955,
+      "member_bytes": 102808911,
+      "member_sha256": "4c68a1b0aa80502c438258dff7137fe788bc355aedbe977fbf3420d4f2247f3f",
+      "physical_cycles": 949
+    }
+  ],
+  "cycles": 949,
+  "schedule_cycles": 46,
+  "original_archive_sha256_saved": "009deeda5ca935bf7b6230497aa492db12af120b6fc5211a9af05352affe55b1",
+  "archive_checksum_scope": "Existing official archive verification plus this run ZIP member CRC and member SHA; full archive not rehashed",
+  "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+  "source_reader_sha256": "a731d37aeaffc40663490aa88c0903f4fb602bc2623be1ff504bd1fd448f3e8b",
+  "script_sha256": "5e2c3d31529ef2b63ef9e040f12abdf4c37e162641d318c07383c50b4314483b",
+  "supplement_pdf_sha256": "f6f0ee6ea624c959487ea680fefc97142cdd88135976201b6e498f780dbe0753",
+  "no_training": true,
+  "no_phase_fit": true,
+  "no_paper_result_changes": true,
+  "boundaries": [
+    "Published schedule is an intended design",
+    "Recorded endpoint span excludes unrecorded edge intervals",
+    "Periodic full-capacity tests are separate records",
+    "No apparatus or physical aging repeated"
+  ],
+  "figure_qa": {
+    "TableS1_published_schedule": {
+      "text_collisions": [],
+      "text_outside_figure": [],
+      "text_spine_collisions": []
+    },
+    "FigureS2_published_schedule": {
+      "text_collisions": [],
+      "text_outside_figure": [],
+      "text_spine_collisions": []
+    },
+    "FigureS3_first_cell_raw_capacity": {
+      "text_collisions": [],
+      "text_outside_figure": [],
+      "text_spine_collisions": []
+    },
+    "satellite_duration_order_audit": {
+      "text_collisions": [],
+      "text_outside_figure": [],
+      "text_spine_collisions": []
+    }
+  },
+  "figure_style_sha256": "5f6550d8cfbaf8cf7ac080dfa130c426e61117c8cb4d9bf72ae7b5511aed7a5d",
+  "render_script_sha256": "5e2c3d31529ef2b63ef9e040f12abdf4c37e162641d318c07383c50b4314483b"
+}

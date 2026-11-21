@@ -1,0 +1,10 @@
+test_constant_moments_are_missing (test_replacement_features.FeatureTests) ... ok
+test_explicit_stage_masks_and_complete_schema (test_replacement_features.FeatureTests) ... ok
+test_invalid_window_is_preserved_not_repaired (test_replacement_features.FeatureTests) ... ok
+test_linear_voltage_physical_seconds (test_replacement_features.FeatureTests) ... ok
+test_negative_current_slope_and_paper_integral (test_replacement_features.FeatureTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.040s
+
+OK

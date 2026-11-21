@@ -1,0 +1,26 @@
+{
+  "filename": "pinn4soh-legacy-controls-and-seed110.tar.gz",
+  "summary": "旧栈正式40项对照、身份审计与补充；扩展99项新训练加11项已完成repeat1复用构成110配对，不是110项新训练。现代参考原件随对应恢复目录保留。",
+  "bytes": 66087735,
+  "sha256": "6dc9e13224c4e66a816b24b2045b9cf2d16678475f2e6d5cc5105172cf939a9c",
+  "source_file_count": 3885,
+  "archive_file_members": 3887,
+  "source_uncompressed_bytes": 145605698,
+  "member_roundtrip_sha256_verified": true,
+  "sensitive_text_scan_passed": true,
+  "omitted_transient_files": 17,
+  "source_trees": [
+    {
+      "archive_prefix": "extension",
+      "workspace_relative_source": "outputs/full_reproduction/legacy_extension_recovered_20261111/restored/extracted"
+    },
+    {
+      "archive_prefix": "control40/pinn4soh_legacy_formal_control_20261110",
+      "workspace_relative_source": "outputs/full_reproduction/legacy_overlay_recovered_20261110/extracted/pinn4soh_legacy_formal_control_20261110"
+    },
+    {
+      "archive_prefix": "control40/legacy_independent_overlay_20261110",
+      "workspace_relative_source": "outputs/full_reproduction/legacy_overlay_recovered_20261110/extracted/legacy_independent_overlay_20261110"
+    }
+  ]
+}

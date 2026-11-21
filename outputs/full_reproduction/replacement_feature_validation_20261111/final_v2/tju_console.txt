@@ -1,0 +1,1 @@
+{"output": "C:\\Users\\Administrator\\Desktop\\\u590d\u73b0PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final_v2\\tju_real3", "cycles": 3, "features": 16, "replacement_slopes": 2}

@@ -1,0 +1,52 @@
+{
+  "total_new_training_tasks": 2120,
+  "existing_current_PINN_main_tasks": 110,
+  "seed_policy": "10 prespecified paired seeds per dataset/batch; not recovered historical seeds",
+  "lanes": {
+    "published_code": "published_label_monotonicity",
+    "paper_equation": "paper_prediction_monotonicity"
+  },
+  "shared_baselines": true,
+  "small_sample_baseline_gap": "No published dedicated baseline settings; original comparison batch512 retained",
+  "target_only_reuse": "XJTU1/HUST n1/n2 use same small-sample tasks; MIT/TJU3 add40 per two PINN lanes",
+  "numeric_exactness": "Unknown author seeds/checkpoint provenance and documented code/paper differences remain explicit",
+  "stages": {
+    "stage1_plan.json": {
+      "tasks": 1880,
+      "sha256": "acfb8467a0c38378038b7b8cb43fc0ebf81f4b39689f2ee95c52a24c67d5fc68",
+      "by_family": {
+        "full": 440,
+        "small_sample": 1200,
+        "transfer": 240
+      },
+      "by_model": {
+        "PINN": 1100,
+        "MLP": 390,
+        "CNN": 390
+      }
+    },
+    "stage2_reproduced_transfer_plan.json": {
+      "tasks": 240,
+      "sha256": "9643d456f92364f7774c42358e2e263551079bbd941d6f777eb8456cc6de1d4c",
+      "by_family": {
+        "transfer": 240
+      },
+      "by_model": {
+        "PINN": 240
+      }
+    },
+    "smoke_plan.json": {
+      "tasks": 12,
+      "sha256": "1ba15eea06e90de1be233b257bb83a4f97f8c37d470b1ffc1c2fda60d7dc3a6d",
+      "by_family": {
+        "full": 10,
+        "transfer": 2
+      },
+      "by_model": {
+        "PINN": 10,
+        "MLP": 1,
+        "CNN": 1
+      }
+    }
+  }
+}

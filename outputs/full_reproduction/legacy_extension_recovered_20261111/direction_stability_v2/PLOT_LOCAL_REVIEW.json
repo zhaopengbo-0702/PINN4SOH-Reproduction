@@ -1,0 +1,108 @@
+{
+  "figures": [
+    {
+      "stem": "effect_seed_directions_01",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_02",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_03",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_04",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_05",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_06",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_07",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_08",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_09",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    },
+    {
+      "stem": "effect_seed_directions_10",
+      "png_size": [
+        2640,
+        1980
+      ],
+      "pdf_pages": 1,
+      "pdf_media_box": " 0 0 633.6 475.2 ",
+      "nonempty": true
+    }
+  ],
+  "all_plot_pairs_checked": true,
+  "all_stability_output_sha_verified": true,
+  "artifact_sha_checks": 25,
+  "visual_review": "All ten four-panel images examined in contact sheet; transfer HUST-to-MIT full-size image examined; labels, zero line, repeat1 star and ten-mean diamonds visible"
+}

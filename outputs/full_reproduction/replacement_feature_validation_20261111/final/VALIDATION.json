@@ -1,0 +1,121 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-11-11T03:56:57.189206+00:00",
+  "implementation_acceptance": "passed_bounded_samples",
+  "all_released_features_reconstructed": false,
+  "analytical_fixture": {
+    "kind": "analytic_and_failure_contract",
+    "tests": 5,
+    "returncode": 0,
+    "log_sha256": "ba14209b6ddc39299c6a6fa88124d39d61a90209a0e6627cda0988b777b6ab61"
+  },
+  "real_samples": [
+    {
+      "dataset": "XJTU",
+      "kind": "real_raw_sample",
+      "manifest": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\xjtu_real3\\manifest.json",
+      "manifest_sha256": "b5c9f224a32ebcf604975e4a0fd485441f364ad2fdc485b609743e46d57e02cc",
+      "cycles": [
+        10,
+        12,
+        13
+      ],
+      "groups": {
+        "prior_audited_convention": {
+          "feature_count": 14,
+          "finite_pairs": 42,
+          "matches_at_1e_8": 42,
+          "maximum_absolute_error": 1.1368683772161603e-13
+        },
+        "replacement": {
+          "feature_count": 2,
+          "finite_pairs": 6,
+          "matches_at_1e_8": 0,
+          "maximum_absolute_error": 0.0005167189554603379
+        }
+      }
+    },
+    {
+      "dataset": "TJU",
+      "kind": "real_raw_sample",
+      "manifest": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\tju_real3\\manifest.json",
+      "manifest_sha256": "8dfecb23dc3255c62e21ba82e9f204ce04f47e25b1ce454a0a4d6e99412691f5",
+      "cycles": [
+        1,
+        2,
+        4
+      ],
+      "groups": {
+        "prior_audited_convention": {
+          "feature_count": 14,
+          "finite_pairs": 42,
+          "matches_at_1e_8": 42,
+          "maximum_absolute_error": 8.185452315956354e-12
+        },
+        "replacement": {
+          "feature_count": 2,
+          "finite_pairs": 6,
+          "matches_at_1e_8": 0,
+          "maximum_absolute_error": 6.487800571167873e-05
+        }
+      }
+    },
+    {
+      "dataset": "HUST",
+      "kind": "real_raw_sample",
+      "manifest": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\hust_real3\\manifest.json",
+      "manifest_sha256": "663e11e58eb2bd3b4af56821188170332cdb8d1d63f5372f203591b1bda32291",
+      "cycles": [
+        12,
+        14,
+        15
+      ],
+      "groups": {
+        "prior_audited_convention": {
+          "feature_count": 14,
+          "finite_pairs": 42,
+          "matches_at_1e_8": 42,
+          "maximum_absolute_error": 1.4210854715202004e-13
+        },
+        "replacement": {
+          "feature_count": 2,
+          "finite_pairs": 6,
+          "matches_at_1e_8": 0,
+          "maximum_absolute_error": 0.0019222117647057844
+        }
+      }
+    },
+    {
+      "dataset": "MIT",
+      "kind": "real_raw_sample",
+      "manifest": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\replacement_feature_validation_20261111\\final\\mit_real3\\manifest.json",
+      "manifest_sha256": "c66b04613bfc1e408161d9b1b4468a820943a57a91fe9ffeee7cd6e5917231bb",
+      "cycles": [
+        8,
+        15,
+        16
+      ],
+      "groups": {
+        "prior_audited_convention": {
+          "feature_count": 14,
+          "finite_pairs": 42,
+          "matches_at_1e_8": 21,
+          "maximum_absolute_error": 1.0040634070840326e-06
+        },
+        "replacement": {
+          "feature_count": 2,
+          "finite_pairs": 6,
+          "matches_at_1e_8": 0,
+          "maximum_absolute_error": 0.0034192724350610914
+        }
+      }
+    }
+  ],
+  "training_performed": false,
+  "frozen_inputs_changed": false,
+  "code_sha256": {
+    "export_replacement_features.py": "ac17e3ce185013925b6de43c520a47036a381e7016a8d30afab2f720bf955816",
+    "validate_replacement_features.py": "feb8f5d6af0ca27e1eb1386e881ff937fd4504221a0c290634c24238bff2d45b",
+    "test_replacement_features.py": "b147c454d7e1859a2f474dc18aad3437edb754e07e649511985e5830458623b6"
+  }
+}

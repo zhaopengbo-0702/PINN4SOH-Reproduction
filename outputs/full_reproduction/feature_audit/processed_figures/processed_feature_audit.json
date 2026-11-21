@@ -1,0 +1,31 @@
+{
+  "schema": "pinn4soh-feature-csv-audit-v1",
+  "batteries": 387,
+  "paper_claim_batteries": 387,
+  "raw_rows": 310705,
+  "paper_claim_samples": 310705,
+  "raw_row_difference_from_paper": 0,
+  "finite_rows": 310554,
+  "author_cleaned_rows": 303952,
+  "author_adjacent_pairs": 303565,
+  "negative_voltage_kurtosis": 164862,
+  "negative_current_kurtosis": 286509,
+  "constant_columns": [],
+  "sources_unchanged": true,
+  "pearson_aggregation": "Cycles pooled within each paper group; alternative per-battery minmax and equal-battery coefficient mean exported separately",
+  "figure3a_normalization": "Author-cleaned features separately scaled to [-1,1] within each of 8 XJTU Batch-1 cells",
+  "author_preprocessing": "Insert cycle index; drop NaN/Inf; union 3-sigma row exclusion across all features, capacity and cycle index; scale each whole battery including held-out test battery",
+  "interpretation": "Descriptive repeated-cycle correlations; no independent-cycle inference or causal conclusion; no raw extraction claim",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "matplotlib": "3.9.1"
+  },
+  "printed_fig3b_reference": {
+    "source": "Manually transcribed displayed two-decimal values from paper PDF p5 Fig3b",
+    "sha256": "7d86d505d3bd6317bd8e5e599ac7af425b336a7ccfac67f2d8e1ede6e39565ea",
+    "independent_transcription_review": "Independent agent visually checked all 176 entries against the original PDF image without viewing computed coefficients; all matched"
+  },
+  "script_sha256": "6fbcb458042671cce8ae94cc775b964d8e3b8b769604169f21475a9d8aadecbc",
+  "figure_style_sha256": "5f6550d8cfbaf8cf7ac080dfa130c426e61117c8cb4d9bf72ae7b5511aed7a5d"
+}
