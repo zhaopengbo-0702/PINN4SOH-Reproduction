@@ -1,0 +1,85 @@
+{
+  "format": "pinn4soh-deadline-final-delivery-receipt-v1",
+  "recorded_at_UTC": "2026-11-11T15:06:46.061069+00:00",
+  "recorded_local_GetDate": "2026-11-11T23:03:22.3499429+08:00",
+  "status": "passed_final_closeout_with_cloud_only_new_archive",
+  "deadline": "2026-11-12T09:00:00+08:00",
+  "additional_queue_plan_cancelled": true,
+  "all_training_dispatchers_waiters_stopped": true,
+  "platform_job_UI_ended": true,
+  "final_StageA_formal": 59,
+  "GPU_smoke_separate": 2,
+  "formal_test": 0,
+  "confirmation_training_test": 0,
+  "transfer_training_test": 0,
+  "new_partial_archive_cloud_independently_verified": true,
+  "new_partial_archive_offsite": false,
+  "new_partial_archive_downloaded_to_local": false,
+  "main2120_existing_local_backup_unchanged": true,
+  "collector_summary_TypeError_disclosed": true,
+  "independent_existing_backup_verifier_disclosed": true,
+  "report": {
+    "path": "明早9点截止_复现最终交付_20261112.md",
+    "sha256": "de43562875211cb8873676ad3f58b48470acb24b7ebe1ca8b9e52edac395b490"
+  },
+  "documents": {
+    "复现结果总入口.md": "54d9114f65f7f3e2da18662d3f1881f82d4634778c80d664ae473d97b01c97e1",
+    "本日复现进展_20261111.md": "a44656d78c3963116bfe0cafabcf7148d516d4736c723b260ccb778e90ed18cf",
+    "outputs/full_reproduction/执行状态.md": "509a829911f35f79bd440966ecc7b432eadedc2f9652030d164ab8729c8823d0",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "71c19ecde91620b6f188b4fae8065cdef48a09c7d02e0ac87ce3f7309dd5ee49",
+    "outputs/full_reproduction/claim_clarification_addenda/CODE_PROVENANCE_与微信结果技术核对_20261111.md": "4ee77efb9c9953a9aa9b2a3ecc96e0bcdb9a16314b20ae22e805ba60ee1d9b30"
+  },
+  "local_ui_transcript": {
+    "path": "outputs/full_reproduction/cloud_live_20261111/deadline_final_closeout_local/LOCAL_UI_OBSERVATION.json",
+    "sha256": "9a8543b6d3f2c0e92ed6218c9679e3a3a05dc39be91d4dd8ffe23a3eb0e20406",
+    "cloud_original_record": false
+  },
+  "protected_artifact_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/transfer_robustness_preregistered_20261111/PROTOCOL.json",
+      "sha256": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23",
+      "unchanged": true
+    },
+    {
+      "path": "reproduction/run_transfer_robustness.py",
+      "sha256": "3f57579ba9010ea12686d6660ee4bf292b4edf091e0841bed89b82ece63af037",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/transfer-robustness-cloud-20261111-v2.zip",
+      "sha256": "ce4e51c8244fd7adb26d691c0817d5e7d178b8a0a4650a2cc7fc435d9581b081",
+      "unchanged": true
+    }
+  ],
+  "historical_reviews_preserved": [
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口_实时快照_20261111_220239_REVIEW.json",
+      "sha256": "e305aae83a751288dc6ee31b711ae5e75fb698db0685cf87a82d52d8bc7430a8"
+    },
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口_CPU20_最终快照_20261111_182947_REVIEW.json",
+      "sha256": "228fc7628955088fdda907b166b0cf50bfdd6d1adc85c982b2c8bfe308f72ca9"
+    }
+  ],
+  "claim_rows": 21,
+  "figure_rows": 25,
+  "missing_links": [],
+  "external_document_independent_review": "search_runner final wording check requested historical-running labels; corrections applied, final pass pending",
+  "mirror_exact_path": "/workspace/pinn4soh_deadline_partial_20261111_mirror",
+  "timestamp_note": "recorded_local_GetDate is the separate local shell clock sample; recorded_at_UTC is the later JSON generation time. They are distinct collection instants."
+}

@@ -1,0 +1,140 @@
+{
+  "format": "pinn4soh-github-independent-content-review-v1",
+  "created_at_utc": "2026-11-21T10:26:39.806497+00:00",
+  "status": "PASS_LOCAL_CONTENT",
+  "git_head": "e96d92d55cbda4c93b2f4695aaa465ac9f0e4832",
+  "git_remote_or_upload_verified_by_this_review": false,
+  "scope": "Chinese README/docs, local navigation, original publication index SHA, protected result SHA, source syntax and bounded credential-pattern scan; no browser/GitHub remote verification",
+  "counts": {
+    "tracked_files": 983,
+    "publication_original_files": 959,
+    "primary_markdown_documents": 8,
+    "primary_relative_links_checked": 366,
+    "python_scripts_ast_parsed": 139,
+    "text_files_secret_patterns_scanned": 559
+  },
+  "publication_index": {
+    "path": "repository/PUBLICATION_FILES.json",
+    "sha256": "8b5fb5752925a506c1790afc029f1d30940aeb95d987c22c4d351b19eb936593",
+    "all_rows_tracked_and_bytes_sha_match": true,
+    "errors": [],
+    "scope_note": "Index lists selected unchanged original files; authored README/docs/release catalogs and later received pipeline JSON are separately tracked and intentionally not rows of this original-file index."
+  },
+  "fixed_issue": {
+    "previous_ignore_rule": "runs/",
+    "current_ignore_rule": "/runs/",
+    "effect": "Restored versioning of 88 CPU-reload evidence files: 44 JSON and 44 NPY, 4511517 bytes. All 959 index rows now tracked.",
+    "empty_init_py": "All four empty author __init__.py files are tracked; empty files were not the cause."
+  },
+  "primary_links": {
+    "errors": [],
+    "utf8_replacement_character_documents": []
+  },
+  "dashboard_local": {
+    "missing_targets_or_anchors": [],
+    "duplicate_ids": 0
+  },
+  "protected_sha256_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "expected_sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "observed_sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "passed": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "expected_sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "observed_sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "passed": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "expected_sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "observed_sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "passed": true
+    }
+  ],
+  "credential_pattern_scan": {
+    "patterns": [
+      "github_token",
+      "private_key",
+      "api_key"
+    ],
+    "hits": [],
+    "not_exhaustive": true
+  },
+  "scientific_wording_review": {
+    "main2120_complete_does_not_mean_all_claims_reproduced": true,
+    "current20_and_main_lanes_kept_separate": true,
+    "CPU20_allclose_not_bitwise": true,
+    "legacy110_is_99new_plus11reuse": true,
+    "replacement192_plus3test_not_historical_grid_and_beta0_limit": true,
+    "MIT_HUST_and_transfer_counterexamples_preserved": true,
+    "withdrawn_additional_tuning_not_presented_as_results": true,
+    "completed_default_MAPE_pooled_and_macro_values_match_saved_audit": true,
+    "no_cloud_only_experiment_or_login_screenshot_paths_tracked": true
+  },
+  "limitations": [
+    "GitHub Pages, v1.0.0 assets, archive-20261121 assets and remote pushed commit need root live verification; local existing links do not prove remote upload.",
+    "Full CAS archive generation and cleanup are handled separately and are not certified complete by this review.",
+    "Historical original reports may link local-only trees, retain old status and English labels; current Chinese download documentation explicitly explains this.",
+    "Release catalog still contains a false exclusion field mentioning withdrawn tuning; it is an exclusion record, not a claim of included results."
+  ],
+  "file_bindings": [
+    {
+      "path": "README.md",
+      "sha256": "48f9ea0d3f62f85e68d6518485195f52f20055c1a48d15ddb1ed6bd6a973d09f",
+      "bytes": 6944
+    },
+    {
+      "path": "docs/使用指南.md",
+      "sha256": "84710ae398bf7350892c5945081151310f757e530bfc36a029777c689bc1b5a6",
+      "bytes": 4398
+    },
+    {
+      "path": "docs/图表目录.md",
+      "sha256": "e4d1e4ebfb25f83641a9a78ded4850d3214ffc5ac2e9feea3f2f918e2adf45b7",
+      "bytes": 40179
+    },
+    {
+      "path": "docs/实验结果.md",
+      "sha256": "37e82da3608f137314f0381b0a55c99fc982d04deb2a00cc8b08d61cdbc865ac",
+      "bytes": 7718
+    },
+    {
+      "path": "docs/常见问题.md",
+      "sha256": "91b3855926fa8573c9c0c86853ff4d41553c63154990f3fcc8da06f8550776a8",
+      "bytes": 5485
+    },
+    {
+      "path": "docs/文件与下载说明.md",
+      "sha256": "79df798b677b6d8ecb3a9402ad18837fae17dcd221699be6d74ec11afaf3fad8",
+      "bytes": 2922
+    },
+    {
+      "path": "docs/未复现与限制.md",
+      "sha256": "cda8a036a679f8c1334a9b15259913f067a1d0f582027d790d2467db1ea8632d",
+      "bytes": 5699
+    },
+    {
+      "path": "docs/来源与使用说明.md",
+      "sha256": "fd1090b5843d5023d08df80c05ed477ad9294977fd364f0aea44ab964c17b924",
+      "bytes": 1526
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "31e681270a9313be826b0578ce62c0962941f36a4c15e4db8105b5c0e9180369",
+      "bytes": 29757
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e217b92aef82ce2fef9ecf51b5c1f3b667482e5d667b54be0946020da375911e",
+      "bytes": 96
+    },
+    {
+      "path": "PUBLICATION_FILES.json",
+      "sha256": "8b5fb5752925a506c1790afc029f1d30940aeb95d987c22c4d351b19eb936593",
+      "bytes": 218243
+    }
+  ]
+}

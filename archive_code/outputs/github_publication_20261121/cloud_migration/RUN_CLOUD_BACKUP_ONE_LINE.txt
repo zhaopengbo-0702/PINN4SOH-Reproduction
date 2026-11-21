@@ -1,0 +1,1 @@
+python /workspace/cloud_inventory_backup_20261121.py --root /workspace --known-local /workspace/KNOWN_LOCAL_SHA256_20261121.json --output /workspace/CLOUD_MIGRATION_BACKUP_20261121 --max-mib 600 > /tmp/cloud_migration_backup_20261121.log 2>&1

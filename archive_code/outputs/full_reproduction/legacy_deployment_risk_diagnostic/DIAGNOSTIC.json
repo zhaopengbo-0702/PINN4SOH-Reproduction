@@ -1,0 +1,56 @@
+{
+  "format": "pinn4soh-legacy-deployment-risk-readonly-v1",
+  "files": {
+    "reproduction/compare_runtime_observations.py": {
+      "bytes": 8275,
+      "sha256": "0ebe038d1026ab76f1f0449409f2f92ded25c3f048fb1c6fce584b82576f0925"
+    },
+    "reproduction/diagnose_legacy_runtime_observations.py": {
+      "bytes": 7148,
+      "sha256": "f8239c80fae948413bef9d6752a61199b04a99fc133f44063820bb8627474251"
+    },
+    "reproduction/test_compare_runtime_observations.py": {
+      "bytes": 3293,
+      "sha256": "109dc132067b2ab81f9d61d9658de7f6c4354cbcb9d50827f3c7b54bc4018e40"
+    },
+    "reproduction/LEGACY_DEPLOYMENT_RISKS.md": {
+      "bytes": 8275,
+      "sha256": "e3b78091304cfc05dd81fdc82e03b012d349e9d6bc0a2c918af9ba31d9aaf27f"
+    }
+  },
+  "official_sources": {
+    "nvidia_ampere_compatibility.html": {
+      "url": "https://docs.nvidia.com/cuda/ampere-compatibility-guide/index.html",
+      "sha256": "d33d5241dce832daa1d27dde44bba366437001cc71bfa48c11df474cc5595524"
+    },
+    "cuda110_release_notes.html": {
+      "url": "https://docs.nvidia.com/cuda/archive/11.0/cuda-toolkit-release-notes/index.html",
+      "sha256": "94217d7bdf6cda5de56cdb6457aa1247e50772064fe01ca183ebc50b963aaa42"
+    },
+    "python37_cmdline.html": {
+      "url": "https://docs.python.org/3.7/using/cmdline.html",
+      "sha256": "64263b12ddbe5cdc6070e74ab197ff923a719c89ae596a1c5743b8b2d04b2d79"
+    },
+    "pytorch_171_cuda_init.py": {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/v1.7.1/torch/cuda/__init__.py",
+      "sha256": "08a6bd8f9c848af02fea77ac054b20c423f7d57eee8916c89ebd2d6b5ffd1c9f"
+    }
+  },
+  "observations": {
+    "wheel_arch_string": "sm_37 sm_50 sm_60 sm_70 sm_75 sm_80",
+    "cuda_runtime": "11.0",
+    "sm80_to_sm86_same_major_cubin_compatible_rule": true,
+    "not_proof_of_actual_kernel_execution": true,
+    "tf32_defaults_in_actual_wheel_header": {
+      "cublas": true,
+      "cudnn": true
+    },
+    "normal_launcher_dry_run_passed": true,
+    "launcher_I_top_level_import_failure_demonstrated": true,
+    "workers_get_no_I_from_coordinator": true,
+    "snapshot_tests_passed": 4,
+    "python37_sidecar_syntax_passed": true
+  },
+  "runtime_probe_or_training_executed": false,
+  "frozen_tools_modified": false
+}

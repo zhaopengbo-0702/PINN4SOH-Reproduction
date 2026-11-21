@@ -1,0 +1,50 @@
+[
+  {
+    "status": "complete",
+    "dataset": "TJU",
+    "raw_member": "Dataset_2_NCM_battery/CY25-05_1-#1.csv",
+    "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "bef5c69a940451976eea60043b8c56eb8339bf87199fb966a1787c251c39fc9e",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a05c485df92f4af560d1d8d7f659ce1b",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 193,
+    "candidate_records": 1737,
+    "seconds": 7.139218091964722,
+    "candidate_csv_sha256": "d40bec10787cd1f34d8c0fb1982c20bab4989fc0e8b0d02fd3fde7b6eb25207d"
+  },
+  {
+    "status": "complete",
+    "dataset": "TJU",
+    "raw_member": "Dataset_2_NCM_battery/CY25-05_1-#10.csv",
+    "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#10.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "bef5c69a940451976eea60043b8c56eb8339bf87199fb966a1787c251c39fc9e",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a05c485df92f4af560d1d8d7f659ce1b",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 203,
+    "candidate_records": 1827,
+    "seconds": 11.778223276138306,
+    "candidate_csv_sha256": "588c671e177f16d5a1b973d00b6a6b064d88122ad8caf932c015e4502f361787"
+  },
+  {
+    "status": "complete",
+    "dataset": "TJU",
+    "raw_member": "Dataset_2_NCM_battery/CY25-05_1-#11.csv",
+    "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#11.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "bef5c69a940451976eea60043b8c56eb8339bf87199fb966a1787c251c39fc9e",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a05c485df92f4af560d1d8d7f659ce1b",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 203,
+    "candidate_records": 1827,
+    "seconds": 13.732557773590088,
+    "candidate_csv_sha256": "6aaf08fd2d1e322abc0894de222183872404edc19fe80ce178fc510500c13fb9"
+  }
+]

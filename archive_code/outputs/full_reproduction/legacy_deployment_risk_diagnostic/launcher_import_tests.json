@@ -1,0 +1,12 @@
+{
+  "launcher_normal": {
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\n  \"training_started\": false,\n  \"command\": [\n    \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\\\u590d\\u73b0PINN4SOH\\\\outputs\\\\full_reproduction\\\\legacy_deployment_risk_diagnostic\\\\no_runtime\\\\bin\\\\python\",\n    \"-I\",\n    \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\\\u590d\\u73b0PINN4SOH\\\\outputs\\\\full_reproduction\\\\legacy_smoke_support\\\\legacy_compat\\\\run_full_suite.py\",\n    \"--plan\",\n    \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\\\u590d\\u73b0PINN4SOH\\\\outputs\\\\full_reproduction\\\\legacy_smoke_support\\\\legacy_smoke_plan.json\",\n    \"--repo\",\n    \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\\\u590d\\u73b0PINN4SOH\\\\outputs\\\\full_reproduction\\\\cloud_emergency_recovered\\\\workspace\\\\PINN4SOH-main\",\n    \"--output\",\n    \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\\\u590d\\u73b0PINN4SOH\\\\outputs\\\\full_reproduction\\\\legacy_deployment_risk_diagnostic\\\\no_training\\\\suite\",\n    \"--gpus\",\n    \"0\",\n    \"--workers-per-gpu\",\n    \"1\",\n    \"--threads\",\n    \"2\",\n    \"--smoke\"\n  ],\n  \"cleared_pythonpath\": true,\n  \"task_count\": 12,\n  \"gpu_preflight_required\": true\n}\n"
+  },
+  "launcher_isolated": {
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Desktop\\\u590d\u73b0PINN4SOH\\reproduction\\launch_legacy_smoke.py\", line 11, in <module>\n    from install_legacy_runtime import isolated_environment\nModuleNotFoundError: No module named 'install_legacy_runtime'\n",
+    "stdout": ""
+  }
+}

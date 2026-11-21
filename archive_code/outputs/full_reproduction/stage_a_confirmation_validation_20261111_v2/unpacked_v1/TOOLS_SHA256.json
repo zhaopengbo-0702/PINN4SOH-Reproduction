@@ -1,0 +1,109 @@
+{
+  "format": "pinn4soh-stagea-fixed-confirmation-cloud-v1",
+  "files": {
+    "search_stage_a.py": {
+      "bytes": 34062,
+      "sha256": "1ea2bffee43d07253eb6e87ceae7d19642262d55307542019be40cec952bcc8d"
+    },
+    "search_replacement_grid.py": {
+      "bytes": 24146,
+      "sha256": "eaf95ad40ae224664b17340286955d3d7486b69a074be059da3d517fe4ea7ade"
+    },
+    "run_extended.py": {
+      "bytes": 33276,
+      "sha256": "24c3e482fb3a9c751c478072e04b77a238b37571d9b970ae1f69bea600fdba17"
+    },
+    "collect_stage_a.py": {
+      "bytes": 17350,
+      "sha256": "dca062aaada7ee569f2b43f6d65a5455d076119e679091e13f0bafa2ff35ae85"
+    },
+    "verify_stage_a_registration.py": {
+      "bytes": 3592,
+      "sha256": "b576b165c8889d101b413e9e9200df35a2a169b522773c60df87f546fd3cf064"
+    },
+    "restore_backup_json.py": {
+      "bytes": 14280,
+      "sha256": "4fa6289e4ac35a947ba92b83b56a7d5fd2a8fd6f3bea25c1c228003f06fccb6a"
+    },
+    "registration/hust_cnn_stage_a9.json": {
+      "bytes": 7553,
+      "sha256": "9b32e9c70db4b8b3b652f118539d360a801db9b1615177d411ab3d7a6a66483f"
+    },
+    "registration/hust_mlp_stage_a9.json": {
+      "bytes": 7553,
+      "sha256": "4d90f95e5a280ddd83ed919b47f1ee529c7fd5d176fc6e47021350a4deb0ef4c"
+    },
+    "registration/hust_physical_identity.json": {
+      "bytes": 25186,
+      "sha256": "f13cd8d942a8881ea4675f604061b7c129674ed70b3c0d3ff40e2a0d996609ec"
+    },
+    "registration/hust_pinn_stage_a9.json": {
+      "bytes": 7557,
+      "sha256": "60a36efe1a25d6865a1e56120f51f0fa71d371cb5fe179d5ec8076155f7ba456"
+    },
+    "registration/hust_split.json": {
+      "bytes": 4330,
+      "sha256": "1b630ad89654f4c6fa47aa6df37c430fdfad0cc4248432afb6e64359b5fa0f63"
+    },
+    "registration/mit_cnn_stage_a9.json": {
+      "bytes": 14271,
+      "sha256": "c1fc9bc4f734b53199839b26debfd66676de1c72679f7002a8d57d2547c50657"
+    },
+    "registration/mit_mlp_stage_a9.json": {
+      "bytes": 14271,
+      "sha256": "f8e1ebb3216d2519a05186e07c7c50e25306eb228c59f2d133ccf8526d58e852"
+    },
+    "registration/mit_physical_identity.json": {
+      "bytes": 56566,
+      "sha256": "dacf142fbda5f71d8ac8a0b781ec5656fc7d9753473bee0624599f96b03ba5a2"
+    },
+    "registration/mit_pinn_stage_a9.json": {
+      "bytes": 14275,
+      "sha256": "2b2a1826ccd79c78afc8b79b7f2ff9ef5bfed9713a1cae6dca5c6cf720c76e03"
+    },
+    "registration/mit_split.json": {
+      "bytes": 10868,
+      "sha256": "4d8e3199caffb530d073ca4d43ed41033d6742324492eed8085ca21985c47c68"
+    },
+    "registration/README.md": {
+      "bytes": 3496,
+      "sha256": "480b690abf1ef8d4c82b13affaa673ba4816b71dfbf083f6f24fb096f59118a0"
+    },
+    "registration/REGISTRATION.json": {
+      "bytes": 7505,
+      "sha256": "f62a7ce0afb6a6ee1e8a50d0978da3b74a8a4843996b4ee4edbd8805c5b5d968"
+    },
+    "STAGE_A_V3_TOOLS_SHA256.json": {
+      "bytes": 3929,
+      "sha256": "bc053ea6a03c09e4f42af29f52e8743d221027b6d34599897e79fbf4aee96f7b"
+    },
+    "run_stage_a_confirmation.py": {
+      "bytes": 13969,
+      "sha256": "235bcb2604e8b143c2511dfab466723b154a43113af337ff6853ca2baa16f126"
+    },
+    "collect_stage_a_confirmation.py": {
+      "bytes": 26211,
+      "sha256": "453266768830ec723f8df826234bb88b0ec27fc744633a9ea26012942bf56758"
+    },
+    "package_stage_a_confirmation.py": {
+      "bytes": 4135,
+      "sha256": "8e03f653e5bda59da5935f673a3c84270f7fc51ae06659ce7c587d5772570f24"
+    },
+    "test_stage_a_confirmation.py": {
+      "bytes": 6025,
+      "sha256": "6fa2f198cac79f33a54167419e9314c59b66895847ca068f2aa31beb7f22b363"
+    },
+    "STAGE_A_CONFIRMATION.md": {
+      "bytes": 4933,
+      "sha256": "e7dfee79ca44376256d4c22914bb09e03303efc2a7a6d7b0ee58baa7e3652902"
+    },
+    "LOCAL_CONFIRMATION_ACCEPTANCE.json": {
+      "bytes": 6541,
+      "sha256": "87055e19e57b911761820dfc9e28ea9a833b0cb2235eb00479986ca2d3f31ea9"
+    },
+    "EXPECTED_AUTHOR_INPUTS.json": {
+      "bytes": 3279,
+      "sha256": "62ff5c1e16eb3a4df29dab58eb849f9b967caba74f8218ab07f877a51a5aed2a"
+    }
+  }
+}

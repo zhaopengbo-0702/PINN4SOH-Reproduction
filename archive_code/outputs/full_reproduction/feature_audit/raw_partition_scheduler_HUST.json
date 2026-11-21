@@ -1,0 +1,15 @@
+{
+  "scheduler": "partition-only",
+  "datasets": [
+    "HUST"
+  ],
+  "pending": 68,
+  "already_complete": 9,
+  "total": 77,
+  "workers": 3,
+  "implementation": {
+    "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+    "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+  },
+  "scheduler_sha256": "374935ad002d5d3f3cbdd1864a22d5e7de22f2b0433c2fd5a040e9bbb63160a9"
+}

@@ -1,0 +1,148 @@
+{
+  "status": "passed_collector_synthetic_and_real_smoke",
+  "synthetic_audit": {
+    "status": "passed",
+    "candidate_runs": 1,
+    "candidates": 1,
+    "seeds": [
+      2026111101
+    ],
+    "selected": {
+      "candidate_id": "candidate_01",
+      "parameters": {
+        "lr_u": 0.001,
+        "lr_F": 0,
+        "alpha": 0,
+        "beta_mean": 0,
+        "weight_decay": 0
+      },
+      "mean_validation_battery_macro_RMSE": 0.9277164121797381,
+      "per_seed_objectives": [
+        0.9277164121797381
+      ]
+    },
+    "test_evaluations": 1,
+    "test_per_seed": [
+      {
+        "seed": 2026111101,
+        "battery_macro_RMSE": 0.9556933931857149
+      }
+    ],
+    "artifact_sha256_checks": 12,
+    "selection_recomputed_independently": true,
+    "selected_test_seed_set_and_same_seed_checkpoint_verified": true,
+    "model": "MLP",
+    "dataset": "MIT",
+    "smoke": true
+  },
+  "real_smoke_audit": {
+    "mit": {
+      "status": "passed",
+      "candidate_runs": 1,
+      "candidates": 1,
+      "seeds": [
+        2026111101
+      ],
+      "selected": {
+        "candidate_id": "candidate_01",
+        "parameters": {
+          "lr_u": 0.001,
+          "lr_F": 0.001,
+          "alpha": 0.1,
+          "beta_mean": 0.01,
+          "weight_decay": 0
+        },
+        "mean_validation_battery_macro_RMSE": 0.5091579387373685,
+        "per_seed_objectives": [
+          0.5091579387373685
+        ]
+      },
+      "test_evaluations": 0,
+      "test_per_seed": [],
+      "artifact_sha256_checks": 8,
+      "selection_recomputed_independently": true,
+      "selected_test_seed_set_and_same_seed_checkpoint_verified": null,
+      "model": "PINN",
+      "dataset": "MIT",
+      "smoke": true
+    },
+    "hust": {
+      "status": "passed",
+      "candidate_runs": 1,
+      "candidates": 1,
+      "seeds": [
+        2026111101
+      ],
+      "selected": {
+        "candidate_id": "candidate_01",
+        "parameters": {
+          "lr_u": 0.001,
+          "lr_F": 0.001,
+          "alpha": 0.1,
+          "beta_mean": 0.01,
+          "weight_decay": 0
+        },
+        "mean_validation_battery_macro_RMSE": 0.8544219004479796,
+        "per_seed_objectives": [
+          0.8544219004479796
+        ]
+      },
+      "test_evaluations": 0,
+      "test_per_seed": [],
+      "artifact_sha256_checks": 8,
+      "selection_recomputed_independently": true,
+      "selected_test_seed_set_and_same_seed_checkpoint_verified": null,
+      "model": "PINN",
+      "dataset": "HUST",
+      "smoke": true
+    }
+  },
+  "rejection_tests": [
+    "wrong_test_seed",
+    "changed_checkpoint",
+    "changed_selection_plan"
+  ],
+  "archive_members": 22,
+  "archive_sha256": "425674edb556a3b815f1da0e34a8cffb0676b20b5d9fd2f753b952c5863e2379",
+  "strict_restore": [
+    {
+      "original_zip_name": "PINN4SOH_LEGACY_STAGEA_archive_fixture.tar.gz",
+      "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\stage_a_cloud_validation_20261111_v4\\restored\\PINN4SOH_LEGACY_STAGEA_archive_fixture.tar.gz",
+      "status": "verified",
+      "bytes": 45092,
+      "sha256": "425674edb556a3b815f1da0e34a8cffb0676b20b5d9fd2f753b952c5863e2379",
+      "chunks": 1,
+      "members": 22,
+      "sha256_verified": true,
+      "crc_verified": true,
+      "cloud_manifest_checked": true,
+      "output_stat": {
+        "bytes": 45092,
+        "mtime_ns": 1794377442609367200
+      },
+      "source_fingerprints": [
+        {
+          "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\stage_a_cloud_validation_20261111_v4\\archive_fixture\\results.stagea.archive_fixture.chunk001.json",
+          "bytes": 60565,
+          "mtime_ns": 1794377442584150900
+        }
+      ],
+      "sources": [
+        {
+          "path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\stage_a_cloud_validation_20261111_v4\\archive_fixture\\results.stagea.archive_fixture.chunk001.json",
+          "bytes": 60565,
+          "mtime_ns": 1794377442584150900,
+          "wrapper_sha256": "930d64e3ed907ab01a611faed1a5675c2783e4e10e9e260d81281c305d08804c",
+          "chunk_index": 0,
+          "chunk_sha256": "425674edb556a3b815f1da0e34a8cffb0676b20b5d9fd2f753b952c5863e2379"
+        }
+      ]
+    }
+  ],
+  "formal_training_started": false,
+  "real_test_loaded": false,
+  "artifact_sha256": {
+    "reproduction\\collect_stage_a.py": "dca062aaada7ee569f2b43f6d65a5455d076119e679091e13f0bafa2ff35ae85",
+    "reproduction\\test_stage_a_cloud.py": "112255bc13ce7db4d85d741019a7324a30cbe2e7b98df36aaa28cbec56699615"
+  }
+}

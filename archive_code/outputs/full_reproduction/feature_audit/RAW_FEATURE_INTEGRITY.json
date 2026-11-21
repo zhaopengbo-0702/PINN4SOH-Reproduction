@@ -1,0 +1,3700 @@
+{
+  "verified_at_unix": 1794296301.4980817,
+  "expected_original_raw_cells": 262,
+  "observed_cells": 262,
+  "unique_observed_cells": 262,
+  "missing_cells": [],
+  "unexpected_cells": [],
+  "raw_physical_cycles": 233445,
+  "files_passed": 262,
+  "errors": [],
+  "boundary_expected_cells": 132,
+  "boundary_observed_cells": 132,
+  "boundary_files_passed": 132,
+  "boundary_cells": [
+    {
+      "processed_csv": "HUST data/1-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-10.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-11.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-12.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-13.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-14.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-15.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-9.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-1.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-2.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-3.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-4.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-5.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-6.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-7.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-8.csv",
+      "status_complete": true,
+      "frozen_implementation": true,
+      "primary_file_verified": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    }
+  ],
+  "frozen_implementation_sha256": {
+    "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+    "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+  },
+  "cells": [
+    {
+      "processed_csv": "HUST data/1-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1504,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2678,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1858,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1500,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1971,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1143,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1678,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/1-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2285,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1702,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1697,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1848,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1811,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2030,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2285,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1783,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/10-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1400,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2651,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1751,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1499,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1386,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1572,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2202,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/2-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1481,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1938,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2283,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1649,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1766,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2657,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2491,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2479,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/3-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2342,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2217,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1782,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1142,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1491,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1561,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1380,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2216,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/4-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1706,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2507,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1926,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2689,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1962,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1583,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2460,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/5-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1448,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1609,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1908,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1804,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1717,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2178,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2468,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/6-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2450,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1690,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2030,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1295,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1393,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1875,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1419,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1685,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/7-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1938,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1308,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2041,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2290,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1885,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1348,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2365,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2047,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/8-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1679,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-1.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2057,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-2.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2143,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-3.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1905,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-4.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1975,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-5.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2168,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-6.csv",
+      "dataset": "HUST",
+      "raw_cycles": 1742,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-7.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2012,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "HUST data/9-8.csv",
+      "dataset": "HUST",
+      "raw_cycles": 2308,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 488,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 235,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 313,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 345,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#5.csv",
+      "dataset": "TJU",
+      "raw_cycles": 352,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#6.csv",
+      "dataset": "TJU",
+      "raw_cycles": 255,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-025_1-#7.csv",
+      "dataset": "TJU",
+      "raw_cycles": 261,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#10.csv",
+      "dataset": "TJU",
+      "raw_cycles": 208,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#10.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#11.csv",
+      "dataset": "TJU",
+      "raw_cycles": 164,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#11.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#12.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#12.csv",
+      "dataset": "TJU",
+      "raw_cycles": 162,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#13.csv",
+      "dataset": "TJU",
+      "raw_cycles": 194,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#13.csv",
+      "dataset": "TJU",
+      "raw_cycles": 407,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#14.csv",
+      "dataset": "TJU",
+      "raw_cycles": 193,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#14.csv",
+      "dataset": "TJU",
+      "raw_cycles": 43,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#15.csv",
+      "dataset": "TJU",
+      "raw_cycles": 192,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#15.csv",
+      "dataset": "TJU",
+      "raw_cycles": 307,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#16.csv",
+      "dataset": "TJU",
+      "raw_cycles": 162,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#16.csv",
+      "dataset": "TJU",
+      "raw_cycles": 343,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#17.csv",
+      "dataset": "TJU",
+      "raw_cycles": 336,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#17.csv",
+      "dataset": "TJU",
+      "raw_cycles": 193,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#18.csv",
+      "dataset": "TJU",
+      "raw_cycles": 189,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#18.csv",
+      "dataset": "TJU",
+      "raw_cycles": 194,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#19.csv",
+      "dataset": "TJU",
+      "raw_cycles": 192,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#19.csv",
+      "dataset": "TJU",
+      "raw_cycles": 154,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 941,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 193,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 146,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#20.csv",
+      "dataset": "TJU",
+      "raw_cycles": 192,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#21.csv",
+      "dataset": "TJU",
+      "raw_cycles": 191,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#22.csv",
+      "dataset": "TJU",
+      "raw_cycles": 193,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#23.csv",
+      "dataset": "TJU",
+      "raw_cycles": 192,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 179,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 190,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 960,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 192,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 193,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 999,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 191,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 194,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#5.csv",
+      "dataset": "TJU",
+      "raw_cycles": 194,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#5.csv",
+      "dataset": "TJU",
+      "raw_cycles": 480,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#6.csv",
+      "dataset": "TJU",
+      "raw_cycles": 192,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#6.csv",
+      "dataset": "TJU",
+      "raw_cycles": 183,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#7.csv",
+      "dataset": "TJU",
+      "raw_cycles": 173,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#7.csv",
+      "dataset": "TJU",
+      "raw_cycles": 193,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#8.csv",
+      "dataset": "TJU",
+      "raw_cycles": 345,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#8.csv",
+      "dataset": "TJU",
+      "raw_cycles": 109,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY25-05_1-#9.csv",
+      "dataset": "TJU",
+      "raw_cycles": 356,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-05_1-#9.csv",
+      "dataset": "TJU",
+      "raw_cycles": 108,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 984,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 963,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 1031,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 992,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 982,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 912,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 35,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 37,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 29,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 31,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#5.csv",
+      "dataset": "TJU",
+      "raw_cycles": 33,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#6.csv",
+      "dataset": "TJU",
+      "raw_cycles": 29,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#7.csv",
+      "dataset": "TJU",
+      "raw_cycles": 34,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#8.csv",
+      "dataset": "TJU",
+      "raw_cycles": 30,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY25-1_1-#9.csv",
+      "dataset": "TJU",
+      "raw_cycles": 33,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY35-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 570,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY35-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 1124,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY35-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 554,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY35-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 1277,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY35-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 1231,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY35-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 32,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY35-05_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 1174,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#10.csv",
+      "dataset": "TJU",
+      "raw_cycles": 407,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#10.csv",
+      "dataset": "TJU",
+      "raw_cycles": 415,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#11.csv",
+      "dataset": "TJU",
+      "raw_cycles": 800,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#11.csv",
+      "dataset": "TJU",
+      "raw_cycles": 649,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#12.csv",
+      "dataset": "TJU",
+      "raw_cycles": 800,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#12.csv",
+      "dataset": "TJU",
+      "raw_cycles": 800,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#13.csv",
+      "dataset": "TJU",
+      "raw_cycles": 712,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#13.csv",
+      "dataset": "TJU",
+      "raw_cycles": 868,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#14.csv",
+      "dataset": "TJU",
+      "raw_cycles": 728,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#14.csv",
+      "dataset": "TJU",
+      "raw_cycles": 865,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#15.csv",
+      "dataset": "TJU",
+      "raw_cycles": 496,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#15.csv",
+      "dataset": "TJU",
+      "raw_cycles": 404,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#16.csv",
+      "dataset": "TJU",
+      "raw_cycles": 597,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#16.csv",
+      "dataset": "TJU",
+      "raw_cycles": 597,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#17.csv",
+      "dataset": "TJU",
+      "raw_cycles": 530,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#17.csv",
+      "dataset": "TJU",
+      "raw_cycles": 597,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#18.csv",
+      "dataset": "TJU",
+      "raw_cycles": 597,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#18.csv",
+      "dataset": "TJU",
+      "raw_cycles": 597,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#19.csv",
+      "dataset": "TJU",
+      "raw_cycles": 797,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#19.csv",
+      "dataset": "TJU",
+      "raw_cycles": 687,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 465,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#1.csv",
+      "dataset": "TJU",
+      "raw_cycles": 740,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#20.csv",
+      "dataset": "TJU",
+      "raw_cycles": 729,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#20.csv",
+      "dataset": "TJU",
+      "raw_cycles": 797,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#21.csv",
+      "dataset": "TJU",
+      "raw_cycles": 639,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#21.csv",
+      "dataset": "TJU",
+      "raw_cycles": 902,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#22.csv",
+      "dataset": "TJU",
+      "raw_cycles": 579,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#22.csv",
+      "dataset": "TJU",
+      "raw_cycles": 861,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#23.csv",
+      "dataset": "TJU",
+      "raw_cycles": 691,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#23.csv",
+      "dataset": "TJU",
+      "raw_cycles": 921,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#24.csv",
+      "dataset": "TJU",
+      "raw_cycles": 890,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#24.csv",
+      "dataset": "TJU",
+      "raw_cycles": 722,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#25.csv",
+      "dataset": "TJU",
+      "raw_cycles": 739,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#25.csv",
+      "dataset": "TJU",
+      "raw_cycles": 933,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#26.csv",
+      "dataset": "TJU",
+      "raw_cycles": 855,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#26.csv",
+      "dataset": "TJU",
+      "raw_cycles": 710,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#27.csv",
+      "dataset": "TJU",
+      "raw_cycles": 651,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#27.csv",
+      "dataset": "TJU",
+      "raw_cycles": 929,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#28.csv",
+      "dataset": "TJU",
+      "raw_cycles": 717,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#28.csv",
+      "dataset": "TJU",
+      "raw_cycles": 885,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 727,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#2.csv",
+      "dataset": "TJU",
+      "raw_cycles": 463,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 207,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#3.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 207,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#4.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#5.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#5.csv",
+      "dataset": "TJU",
+      "raw_cycles": 207,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#6.csv",
+      "dataset": "TJU",
+      "raw_cycles": 203,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#6.csv",
+      "dataset": "TJU",
+      "raw_cycles": 207,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#7.csv",
+      "dataset": "TJU",
+      "raw_cycles": 407,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#7.csv",
+      "dataset": "TJU",
+      "raw_cycles": 415,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#8.csv",
+      "dataset": "TJU",
+      "raw_cycles": 415,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#8.csv",
+      "dataset": "TJU",
+      "raw_cycles": 407,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_1_NCA_battery/CY45-05_1-#9.csv",
+      "dataset": "TJU",
+      "raw_cycles": 415,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "TJU data/Dataset_2_NCM_battery/CY45-05_1-#9.csv",
+      "dataset": "TJU",
+      "raw_cycles": 407,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-1.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 390,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-2.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 407,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-3.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 393,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-4.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 396,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-5.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 403,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-6.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 408,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-7.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 402,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/2C_battery-8.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 420,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-10.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 164,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-11.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 131,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-12.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 212,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-13.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 226,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-14.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 147,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-15.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 168,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-1.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 299,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-2.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 292,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-3.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 286,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-4.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 322,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-5.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 297,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-6.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 322,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-7.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 319,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-8.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 270,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/3C_battery-9.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 287,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-1.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 592,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-2.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 552,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-3.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 667,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-4.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 557,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-5.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 562,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-6.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 542,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-7.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 527,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R2.5_battery-8.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 617,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-1.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 799,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-2.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 673,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-3.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 673,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-4.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 727,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-5.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 739,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-6.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 715,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-7.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 601,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/R3_battery-8.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 751,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-1.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 197,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-2.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 307,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-3.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 340,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-4.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 252,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-5.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 274,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-6.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 219,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-7.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 186,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/RW_battery-8.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 208,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-1.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 949,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-2.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 1226,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-3.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 908,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-4.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 943,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-5.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 1301,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-6.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 1075,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-7.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 949,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    },
+    {
+      "processed_csv": "XJTU data/Sim_satellite_battery-8.csv",
+      "dataset": "XJTU",
+      "raw_cycles": 1053,
+      "status_complete": true,
+      "frozen_implementation": true,
+      "selected_without_csv_residual": true,
+      "saved_candidate_sha256_matches": true,
+      "passed": true
+    }
+  ],
+  "scope": "XJTU/TJU/HUST only; this does not establish the original MIT MAT chain",
+  "all_checks_passed": true
+}

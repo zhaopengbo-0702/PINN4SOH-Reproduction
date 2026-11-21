@@ -1,0 +1,13 @@
+import os,sys,json,subprocess,datetime
+from pathlib import Path
+r=Path('/workspace'); out=r/'legacy_independent_overlay_20261110'; out.mkdir(exist_ok=False); sys.path.insert(0,str(r/'legacy_single_gpu_v3/tools')); from install_legacy_runtime import isolated_environment
+legacy=isolated_environment(r/'legacy37'); modern=dict(os.environ,PYTHONPATH='/workspace/site-packages'); state=out/'pipeline_state.json'
+def run(stage,cmd,env):
+ state.write_text(json.dumps({'stage':stage,'utc':datetime.datetime.utcnow().isoformat()+'Z'})); print(stage,flush=True); p=subprocess.run(cmd,env=env); print('returncode',p.returncode,flush=True); p.check_returncode()
+plan=str(r/'legacy_single_gpu_v3/control/legacy_control_plan.json'); common=['--plan',plan,'--repo',str(r/'PINN4SOH-main')]
+run('reconstruct_legacy',[str(r/'legacy37/bin/python'),'-B','-I',str(r/'reconstruct_control_data_identity.py'),*common,'--suite',str(r/'pinn4soh_legacy_formal_control_20261110'),'--stack','legacy','--output',str(out/'legacy_data_reconstruction.json')],legacy)
+run('reconstruct_current',[sys.executable,'-B','-I',str(r/'reconstruct_control_data_identity.py'),*common,'--suite',str(r/'pinn4soh_full_paper_stage1'),'--suite',str(r/'pinn4soh_full_paper_stage2'),'--stack','current','--modern-site',str(r/'site-packages'),'--output',str(out/'current_data_reconstruction.json')],modern)
+run('overlay',[sys.executable,str(r/'audit_legacy_control_overlay.py'),*common,'--design',str(r/'legacy_single_gpu_v3/control/legacy_control_design.json'),'--compatibility',str(r/'legacy_offline_recovered_v1/payload/support/legacy_compat_manifest.json'),'--legacy-suite',str(r/'pinn4soh_legacy_formal_control_20261110'),'--current-suite',str(r/'pinn4soh_full_paper_stage1'),'--current-suite',str(r/'pinn4soh_full_paper_stage2'),'--comparison',str(r/'pinn4soh_legacy_control_comparison_20261110'),'--legacy-reconstruction',str(out/'legacy_data_reconstruction.json'),'--current-reconstruction',str(out/'current_data_reconstruction.json'),'--output',str(out/'identity_lineage_overlay.json')],modern)
+for tag,extra in [('smoke',['--smoke']),('formal',['--threads','1'])]:
+ run('cpu_'+tag,[str(r/'legacy37/bin/python'),'-B','-I',str(r/'benchmark_efficiency_legacy.py'),'--repo',str(r/'PINN4SOH-main'),'--output',str(out/('legacy_cpu_'+tag)),*extra],legacy)
+state.write_text(json.dumps({'stage':'complete','utc':datetime.datetime.utcnow().isoformat()+'Z'})); print('PIPELINE_COMPLETE',flush=True)

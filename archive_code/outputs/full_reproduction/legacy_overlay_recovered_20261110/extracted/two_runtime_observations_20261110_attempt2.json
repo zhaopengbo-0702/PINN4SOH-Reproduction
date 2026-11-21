@@ -1,0 +1,387 @@
+{
+  "format": "pinn4soh-two-runtime-observations-v2",
+  "generated_at": "2026-11-10T12:49:07.342701+00:00",
+  "host_python": "/usr/bin/python3",
+  "script_sha256": "bc3e93c78bbc77c81d250ca8220492ec87ffedeb3d713401e0ef20984b1ac7b4",
+  "snapshot_code_sha256": "124c9a80bfe211b898e5a28ca4f22e7b58f8588d475f6363bd8485ed708a4e7f",
+  "nvidia_smi": {
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=name,uuid,driver_version,pci.bus_id,memory.total",
+      "--format=csv,noheader"
+    ],
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 3090, GPU-ca3c9c70-030f-1b8e-35de-8d6caa346d66, 550.54.15, 00000000:24:00.0, 24576 MiB\n",
+    "stderr": ""
+  },
+  "training_performed": false,
+  "flags_changed": false,
+  "package_installation_performed": false,
+  "checkpoint_loaded": false,
+  "explicit_modern_site": "/workspace/site-packages",
+  "original_host_pythonpath": null,
+  "scope": "Fresh isolated child import snapshots only; existing trained worker process defaults were not measured",
+  "modern": {
+    "python": "/usr/bin/python3",
+    "python_binary_sha256": "e79278e4e4ee143abfd7edf75022f5f7f278d9bcff301a8658383bbc9a923ba1",
+    "isolated_command": [
+      "/usr/bin/python3",
+      "-B",
+      "-I",
+      "-c",
+      "<embedded snapshot code>",
+      "/workspace/site-packages"
+    ],
+    "explicit_modern_site": "/workspace/site-packages",
+    "returncode": 0,
+    "stdout": "PINN4SOH_SNAPSHOT_JSON={\"python\": \"3.10.13 (main, Aug 25 2023, 13:20:03) [GCC 9.4.0]\", \"executable\": \"/usr/bin/python3\", \"prefix\": \"/usr\", \"sys_path\": [\"/workspace/site-packages\", \"/usr/lib/python310.zip\", \"/usr/lib/python3.10\", \"/usr/lib/python3.10/lib-dynload\", \"/usr/local/lib/python3.10/dist-packages\", \"/usr/lib/python3/dist-packages\"], \"sys_path_before_explicit_dependency_injection\": [\"/usr/lib/python310.zip\", \"/usr/lib/python3.10\", \"/usr/lib/python3.10/lib-dynload\", \"/usr/local/lib/python3.10/dist-packages\", \"/usr/lib/python3/dist-packages\"], \"explicit_dependency_injection\": {\"path\": \"/workspace/site-packages\", \"parent_requested\": \"/workspace/site-packages\", \"directory_device\": 120, \"directory_inode\": 30408991240, \"immediate_entries\": [\"PIL\", \"Pillow-9.5.0.dist-info\", \"Pillow.libs\", \"SciencePlots-2.1.1.dist-info\", \"__pycache__\", \"bin\", \"contourpy\", \"contourpy-1.2.1.dist-info\", \"cycler\", \"cycler-0.12.1.dist-info\", \"dateutil\", \"et_xmlfile\", \"et_xmlfile-2.0.0.dist-info\", \"fontTools\", \"fonttools-4.55.0.dist-info\", \"joblib\", \"joblib-1.4.2.dist-info\", \"kiwisolver\", \"kiwisolver-1.4.7.dist-info\", \"matplotlib\", \"matplotlib-3.7.5-py3.10-nspkg.pth\", \"matplotlib-3.7.5.dist-info\", \"mpl_toolkits\", \"numpy\", \"numpy-1.24.4.dist-info\", \"numpy.libs\", \"openpyxl\", \"openpyxl-3.1.5.dist-info\", \"packaging\", \"packaging-24.2.dist-info\", \"pandas\", \"pandas-1.5.3.dist-info\", \"pylab.py\", \"pyparsing\", \"pyparsing-3.1.4.dist-info\", \"python_dateutil-2.9.0.post0.dist-info\", \"pytz\", \"pytz-2024.2.dist-info\", \"scienceplots\", \"scikit_learn-1.2.2.dist-info\", \"scikit_learn.libs\", \"scipy\", \"scipy-1.10.1.dist-info\", \"scipy.libs\", \"share\", \"six-1.16.0.dist-info\", \"six.py\", \"sklearn\", \"threadpoolctl-3.5.0.dist-info\", \"threadpoolctl.py\"], \"method\": \"sys.path.insert(0, explicit modern dependency directory); no site.addsitedir and no .pth execution\"}, \"isolated\": true, \"platform\": \"Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.31\", \"environment\": {\"CUDA_VISIBLE_DEVICES\": \"0\", \"CUDA_FORCE_PTX_JIT\": null, \"CUDA_DISABLE_PTX_JIT\": null, \"CUDA_LAUNCH_BLOCKING\": null, \"NVIDIA_TF32_OVERRIDE\": null, \"CUBLAS_WORKSPACE_CONFIG\": null, \"LD_LIBRARY_PATH\": null, \"PYTHONPATH\": null, \"PYTHONHOME\": null, \"OMP_NUM_THREADS\": \"2\", \"MKL_NUM_THREADS\": \"2\", \"OPENBLAS_NUM_THREADS\": \"2\", \"NUMEXPR_NUM_THREADS\": \"2\"}, \"training_performed\": false, \"flags_changed\": false, \"versions\": {\"torch\": \"1.13.1+cu116\", \"numpy\": \"1.24.4\", \"pandas\": \"1.5.3\", \"scipy\": \"1.10.1\", \"sklearn\": \"1.2.2\", \"matplotlib\": \"3.7.5\"}, \"imported_paths\": {\"torch\": \"/usr/local/lib/python3.10/dist-packages/torch/__init__.py\", \"numpy\": \"/workspace/site-packages/numpy/__init__.py\", \"pandas\": \"/workspace/site-packages/pandas/__init__.py\", \"scipy\": \"/workspace/site-packages/scipy/__init__.py\", \"sklearn\": \"/workspace/site-packages/sklearn/__init__.py\", \"matplotlib\": \"/workspace/site-packages/matplotlib/__init__.py\"}, \"module_sources\": {\"torch\": {\"path\": \"/usr/local/lib/python3.10/dist-packages/torch/__init__.py\", \"from_explicit_dependency_directory\": false}, \"numpy\": {\"path\": \"/workspace/site-packages/numpy/__init__.py\", \"from_explicit_dependency_directory\": true}, \"pandas\": {\"path\": \"/workspace/site-packages/pandas/__init__.py\", \"from_explicit_dependency_directory\": true}, \"scipy\": {\"path\": \"/workspace/site-packages/scipy/__init__.py\", \"from_explicit_dependency_directory\": true}, \"sklearn\": {\"path\": \"/workspace/site-packages/sklearn/__init__.py\", \"from_explicit_dependency_directory\": true}, \"matplotlib\": {\"path\": \"/workspace/site-packages/matplotlib/__init__.py\", \"from_explicit_dependency_directory\": true}}, \"actual_threads\": 2, \"actual_interop_threads\": 40, \"cuda_runtime\": \"11.6\", \"cuda_available\": true, \"cudnn_version\": 8302, \"cudnn_available\": true, \"cudnn_enabled\": true, \"cudnn_benchmark\": false, \"cudnn_deterministic\": false, \"matmul_allow_tf32\": false, \"cudnn_allow_tf32\": true, \"deterministic_algorithms\": false, \"torch_config\": \"PyTorch built with:\\n  - GCC 9.3\\n  - C++ Version: 201402\\n  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications\\n  - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)\\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\\n  - LAPACK is enabled (usually provided by MKL)\\n  - NNPACK is enabled\\n  - CPU capability usage: AVX2\\n  - CUDA Runtime 11.6\\n  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86\\n  - CuDNN 8.3.2  (built against CUDA 11.5)\\n  - Magma 2.6.1\\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.6, CUDNN_VERSION=8.3.2, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -fabi-version=11 -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wunused-local-typedefs -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.13.1, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, \\n\", \"arch_list\": [\"sm_37\", \"sm_50\", \"sm_60\", \"sm_70\", \"sm_75\", \"sm_80\", \"sm_86\"], \"gencode_flags\": \"-gencode compute=compute_37,code=sm_37 -gencode compute=compute_50,code=sm_50 -gencode compute=compute_60,code=sm_60 -gencode compute=compute_70,code=sm_70 -gencode compute=compute_75,code=sm_75 -gencode compute=compute_80,code=sm_80 -gencode compute=compute_86,code=sm_86\", \"gpu\": \"NVIDIA GeForce RTX 3090\", \"capability\": [8, 6], \"device_properties\": \"_CudaDeviceProperties(name='NVIDIA GeForce RTX 3090', major=8, minor=6, total_memory=24252MB, multi_processor_count=82)\", \"warnings\": []}\n",
+    "stderr": "",
+    "snapshot": {
+      "python": "3.10.13 (main, Aug 25 2023, 13:20:03) [GCC 9.4.0]",
+      "executable": "/usr/bin/python3",
+      "prefix": "/usr",
+      "sys_path": [
+        "/workspace/site-packages",
+        "/usr/lib/python310.zip",
+        "/usr/lib/python3.10",
+        "/usr/lib/python3.10/lib-dynload",
+        "/usr/local/lib/python3.10/dist-packages",
+        "/usr/lib/python3/dist-packages"
+      ],
+      "sys_path_before_explicit_dependency_injection": [
+        "/usr/lib/python310.zip",
+        "/usr/lib/python3.10",
+        "/usr/lib/python3.10/lib-dynload",
+        "/usr/local/lib/python3.10/dist-packages",
+        "/usr/lib/python3/dist-packages"
+      ],
+      "explicit_dependency_injection": {
+        "path": "/workspace/site-packages",
+        "parent_requested": "/workspace/site-packages",
+        "directory_device": 120,
+        "directory_inode": 30408991240,
+        "immediate_entries": [
+          "PIL",
+          "Pillow-9.5.0.dist-info",
+          "Pillow.libs",
+          "SciencePlots-2.1.1.dist-info",
+          "__pycache__",
+          "bin",
+          "contourpy",
+          "contourpy-1.2.1.dist-info",
+          "cycler",
+          "cycler-0.12.1.dist-info",
+          "dateutil",
+          "et_xmlfile",
+          "et_xmlfile-2.0.0.dist-info",
+          "fontTools",
+          "fonttools-4.55.0.dist-info",
+          "joblib",
+          "joblib-1.4.2.dist-info",
+          "kiwisolver",
+          "kiwisolver-1.4.7.dist-info",
+          "matplotlib",
+          "matplotlib-3.7.5-py3.10-nspkg.pth",
+          "matplotlib-3.7.5.dist-info",
+          "mpl_toolkits",
+          "numpy",
+          "numpy-1.24.4.dist-info",
+          "numpy.libs",
+          "openpyxl",
+          "openpyxl-3.1.5.dist-info",
+          "packaging",
+          "packaging-24.2.dist-info",
+          "pandas",
+          "pandas-1.5.3.dist-info",
+          "pylab.py",
+          "pyparsing",
+          "pyparsing-3.1.4.dist-info",
+          "python_dateutil-2.9.0.post0.dist-info",
+          "pytz",
+          "pytz-2024.2.dist-info",
+          "scienceplots",
+          "scikit_learn-1.2.2.dist-info",
+          "scikit_learn.libs",
+          "scipy",
+          "scipy-1.10.1.dist-info",
+          "scipy.libs",
+          "share",
+          "six-1.16.0.dist-info",
+          "six.py",
+          "sklearn",
+          "threadpoolctl-3.5.0.dist-info",
+          "threadpoolctl.py"
+        ],
+        "method": "sys.path.insert(0, explicit modern dependency directory); no site.addsitedir and no .pth execution"
+      },
+      "isolated": true,
+      "platform": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.31",
+      "environment": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "CUDA_FORCE_PTX_JIT": null,
+        "CUDA_DISABLE_PTX_JIT": null,
+        "CUDA_LAUNCH_BLOCKING": null,
+        "NVIDIA_TF32_OVERRIDE": null,
+        "CUBLAS_WORKSPACE_CONFIG": null,
+        "LD_LIBRARY_PATH": null,
+        "PYTHONPATH": null,
+        "PYTHONHOME": null,
+        "OMP_NUM_THREADS": "2",
+        "MKL_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2"
+      },
+      "training_performed": false,
+      "flags_changed": false,
+      "versions": {
+        "torch": "1.13.1+cu116",
+        "numpy": "1.24.4",
+        "pandas": "1.5.3",
+        "scipy": "1.10.1",
+        "sklearn": "1.2.2",
+        "matplotlib": "3.7.5"
+      },
+      "imported_paths": {
+        "torch": "/usr/local/lib/python3.10/dist-packages/torch/__init__.py",
+        "numpy": "/workspace/site-packages/numpy/__init__.py",
+        "pandas": "/workspace/site-packages/pandas/__init__.py",
+        "scipy": "/workspace/site-packages/scipy/__init__.py",
+        "sklearn": "/workspace/site-packages/sklearn/__init__.py",
+        "matplotlib": "/workspace/site-packages/matplotlib/__init__.py"
+      },
+      "module_sources": {
+        "torch": {
+          "path": "/usr/local/lib/python3.10/dist-packages/torch/__init__.py",
+          "from_explicit_dependency_directory": false
+        },
+        "numpy": {
+          "path": "/workspace/site-packages/numpy/__init__.py",
+          "from_explicit_dependency_directory": true
+        },
+        "pandas": {
+          "path": "/workspace/site-packages/pandas/__init__.py",
+          "from_explicit_dependency_directory": true
+        },
+        "scipy": {
+          "path": "/workspace/site-packages/scipy/__init__.py",
+          "from_explicit_dependency_directory": true
+        },
+        "sklearn": {
+          "path": "/workspace/site-packages/sklearn/__init__.py",
+          "from_explicit_dependency_directory": true
+        },
+        "matplotlib": {
+          "path": "/workspace/site-packages/matplotlib/__init__.py",
+          "from_explicit_dependency_directory": true
+        }
+      },
+      "actual_threads": 2,
+      "actual_interop_threads": 40,
+      "cuda_runtime": "11.6",
+      "cuda_available": true,
+      "cudnn_version": 8302,
+      "cudnn_available": true,
+      "cudnn_enabled": true,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": false,
+      "matmul_allow_tf32": false,
+      "cudnn_allow_tf32": true,
+      "deterministic_algorithms": false,
+      "torch_config": "PyTorch built with:\n  - GCC 9.3\n  - C++ Version: 201402\n  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX2\n  - CUDA Runtime 11.6\n  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86\n  - CuDNN 8.3.2  (built against CUDA 11.5)\n  - Magma 2.6.1\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.6, CUDNN_VERSION=8.3.2, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -fabi-version=11 -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wunused-local-typedefs -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.13.1, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, \n",
+      "arch_list": [
+        "sm_37",
+        "sm_50",
+        "sm_60",
+        "sm_70",
+        "sm_75",
+        "sm_80",
+        "sm_86"
+      ],
+      "gencode_flags": "-gencode compute=compute_37,code=sm_37 -gencode compute=compute_50,code=sm_50 -gencode compute=compute_60,code=sm_60 -gencode compute=compute_70,code=sm_70 -gencode compute=compute_75,code=sm_75 -gencode compute=compute_80,code=sm_80 -gencode compute=compute_86,code=sm_86",
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "capability": [
+        8,
+        6
+      ],
+      "device_properties": "_CudaDeviceProperties(name='NVIDIA GeForce RTX 3090', major=8, minor=6, total_memory=24252MB, multi_processor_count=82)",
+      "warnings": []
+    },
+    "passed": true,
+    "import_isolation": "-I, no inherited Python/Conda vars, no user site; explicit modern site may be inserted as recorded, without .pth; legacy uses launcher-equivalent LD_LIBRARY_PATH; modern preserves its inherited native-library path"
+  },
+  "legacy": {
+    "python": "/workspace/legacy37/bin/python",
+    "python_binary_sha256": "34ec7b62ef4cc924fa5db814953147c6ade1b157c5bcef31d3d57abe9e427cbf",
+    "isolated_command": [
+      "/workspace/legacy37/bin/python",
+      "-B",
+      "-I",
+      "-c",
+      "<embedded snapshot code>"
+    ],
+    "explicit_modern_site": null,
+    "returncode": 0,
+    "stdout": "PINN4SOH_SNAPSHOT_JSON={\"python\": \"3.7.10 (default, Jun  4 2021, 14:48:32) \\n[GCC 7.5.0]\", \"executable\": \"/workspace/legacy37/bin/python\", \"prefix\": \"/workspace/legacy37\", \"sys_path\": [\"/workspace/legacy37/lib/python37.zip\", \"/workspace/legacy37/lib/python3.7\", \"/workspace/legacy37/lib/python3.7/lib-dynload\", \"/workspace/legacy37/lib/python3.7/site-packages\"], \"sys_path_before_explicit_dependency_injection\": [\"/workspace/legacy37/lib/python37.zip\", \"/workspace/legacy37/lib/python3.7\", \"/workspace/legacy37/lib/python3.7/lib-dynload\", \"/workspace/legacy37/lib/python3.7/site-packages\"], \"explicit_dependency_injection\": null, \"isolated\": true, \"platform\": \"Linux-3.10.0-1160.el7.x86_64-x86_64-with-debian-bullseye-sid\", \"environment\": {\"CUDA_VISIBLE_DEVICES\": \"0\", \"CUDA_FORCE_PTX_JIT\": null, \"CUDA_DISABLE_PTX_JIT\": null, \"CUDA_LAUNCH_BLOCKING\": null, \"NVIDIA_TF32_OVERRIDE\": null, \"CUBLAS_WORKSPACE_CONFIG\": null, \"LD_LIBRARY_PATH\": \"/workspace/legacy37/lib:/workspace/legacy37/lib/python3.7/site-packages/torch/lib\", \"PYTHONPATH\": null, \"PYTHONHOME\": null, \"OMP_NUM_THREADS\": \"2\", \"MKL_NUM_THREADS\": \"2\", \"OPENBLAS_NUM_THREADS\": \"2\", \"NUMEXPR_NUM_THREADS\": \"2\"}, \"training_performed\": false, \"flags_changed\": false, \"versions\": {\"torch\": \"1.7.1+cu110\", \"numpy\": \"1.20.3\", \"pandas\": \"1.3.5\", \"scipy\": \"1.7.3\", \"sklearn\": \"0.24.2\", \"matplotlib\": \"3.3.4\"}, \"imported_paths\": {\"torch\": \"/workspace/legacy37/lib/python3.7/site-packages/torch/__init__.py\", \"numpy\": \"/workspace/legacy37/lib/python3.7/site-packages/numpy/__init__.py\", \"pandas\": \"/workspace/legacy37/lib/python3.7/site-packages/pandas/__init__.py\", \"scipy\": \"/workspace/legacy37/lib/python3.7/site-packages/scipy/__init__.py\", \"sklearn\": \"/workspace/legacy37/lib/python3.7/site-packages/sklearn/__init__.py\", \"matplotlib\": \"/workspace/legacy37/lib/python3.7/site-packages/matplotlib/__init__.py\"}, \"module_sources\": {\"torch\": {\"path\": \"/workspace/legacy37/lib/python3.7/site-packages/torch/__init__.py\", \"from_explicit_dependency_directory\": false}, \"numpy\": {\"path\": \"/workspace/legacy37/lib/python3.7/site-packages/numpy/__init__.py\", \"from_explicit_dependency_directory\": false}, \"pandas\": {\"path\": \"/workspace/legacy37/lib/python3.7/site-packages/pandas/__init__.py\", \"from_explicit_dependency_directory\": false}, \"scipy\": {\"path\": \"/workspace/legacy37/lib/python3.7/site-packages/scipy/__init__.py\", \"from_explicit_dependency_directory\": false}, \"sklearn\": {\"path\": \"/workspace/legacy37/lib/python3.7/site-packages/sklearn/__init__.py\", \"from_explicit_dependency_directory\": false}, \"matplotlib\": {\"path\": \"/workspace/legacy37/lib/python3.7/site-packages/matplotlib/__init__.py\", \"from_explicit_dependency_directory\": false}}, \"actual_threads\": 2, \"actual_interop_threads\": 40, \"cuda_runtime\": \"11.0\", \"cuda_available\": true, \"cudnn_version\": 8005, \"cudnn_available\": true, \"cudnn_enabled\": true, \"cudnn_benchmark\": false, \"cudnn_deterministic\": false, \"matmul_allow_tf32\": true, \"cudnn_allow_tf32\": true, \"deterministic_algorithms\": null, \"torch_config\": \"PyTorch built with:\\n  - GCC 7.3\\n  - C++ Version: 201402\\n  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications\\n  - Intel(R) MKL-DNN v1.6.0 (Git Hash 5ef631a030a6f73131c77892041042805a06064f)\\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\\n  - NNPACK is enabled\\n  - CPU capability usage: AVX2\\n  - CUDA Runtime 11.0\\n  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80\\n  - CuDNN 8.0.5\\n  - Magma 2.5.2\\n  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DUSE_VULKAN_WRAPPER -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, \\n\", \"arch_list\": [\"sm_37\", \"sm_50\", \"sm_60\", \"sm_70\", \"sm_75\", \"sm_80\"], \"gencode_flags\": \"-gencode compute=compute_37,code=sm_37 -gencode compute=compute_50,code=sm_50 -gencode compute=compute_60,code=sm_60 -gencode compute=compute_70,code=sm_70 -gencode compute=compute_75,code=sm_75 -gencode compute=compute_80,code=sm_80\", \"gpu\": \"NVIDIA GeForce RTX 3090\", \"capability\": [8, 6], \"device_properties\": \"_CudaDeviceProperties(name='NVIDIA GeForce RTX 3090', major=8, minor=6, total_memory=24252MB, multi_processor_count=82)\", \"warnings\": []}\n",
+    "stderr": "",
+    "snapshot": {
+      "python": "3.7.10 (default, Jun  4 2021, 14:48:32) \n[GCC 7.5.0]",
+      "executable": "/workspace/legacy37/bin/python",
+      "prefix": "/workspace/legacy37",
+      "sys_path": [
+        "/workspace/legacy37/lib/python37.zip",
+        "/workspace/legacy37/lib/python3.7",
+        "/workspace/legacy37/lib/python3.7/lib-dynload",
+        "/workspace/legacy37/lib/python3.7/site-packages"
+      ],
+      "sys_path_before_explicit_dependency_injection": [
+        "/workspace/legacy37/lib/python37.zip",
+        "/workspace/legacy37/lib/python3.7",
+        "/workspace/legacy37/lib/python3.7/lib-dynload",
+        "/workspace/legacy37/lib/python3.7/site-packages"
+      ],
+      "explicit_dependency_injection": null,
+      "isolated": true,
+      "platform": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-debian-bullseye-sid",
+      "environment": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "CUDA_FORCE_PTX_JIT": null,
+        "CUDA_DISABLE_PTX_JIT": null,
+        "CUDA_LAUNCH_BLOCKING": null,
+        "NVIDIA_TF32_OVERRIDE": null,
+        "CUBLAS_WORKSPACE_CONFIG": null,
+        "LD_LIBRARY_PATH": "/workspace/legacy37/lib:/workspace/legacy37/lib/python3.7/site-packages/torch/lib",
+        "PYTHONPATH": null,
+        "PYTHONHOME": null,
+        "OMP_NUM_THREADS": "2",
+        "MKL_NUM_THREADS": "2",
+        "OPENBLAS_NUM_THREADS": "2",
+        "NUMEXPR_NUM_THREADS": "2"
+      },
+      "training_performed": false,
+      "flags_changed": false,
+      "versions": {
+        "torch": "1.7.1+cu110",
+        "numpy": "1.20.3",
+        "pandas": "1.3.5",
+        "scipy": "1.7.3",
+        "sklearn": "0.24.2",
+        "matplotlib": "3.3.4"
+      },
+      "imported_paths": {
+        "torch": "/workspace/legacy37/lib/python3.7/site-packages/torch/__init__.py",
+        "numpy": "/workspace/legacy37/lib/python3.7/site-packages/numpy/__init__.py",
+        "pandas": "/workspace/legacy37/lib/python3.7/site-packages/pandas/__init__.py",
+        "scipy": "/workspace/legacy37/lib/python3.7/site-packages/scipy/__init__.py",
+        "sklearn": "/workspace/legacy37/lib/python3.7/site-packages/sklearn/__init__.py",
+        "matplotlib": "/workspace/legacy37/lib/python3.7/site-packages/matplotlib/__init__.py"
+      },
+      "module_sources": {
+        "torch": {
+          "path": "/workspace/legacy37/lib/python3.7/site-packages/torch/__init__.py",
+          "from_explicit_dependency_directory": false
+        },
+        "numpy": {
+          "path": "/workspace/legacy37/lib/python3.7/site-packages/numpy/__init__.py",
+          "from_explicit_dependency_directory": false
+        },
+        "pandas": {
+          "path": "/workspace/legacy37/lib/python3.7/site-packages/pandas/__init__.py",
+          "from_explicit_dependency_directory": false
+        },
+        "scipy": {
+          "path": "/workspace/legacy37/lib/python3.7/site-packages/scipy/__init__.py",
+          "from_explicit_dependency_directory": false
+        },
+        "sklearn": {
+          "path": "/workspace/legacy37/lib/python3.7/site-packages/sklearn/__init__.py",
+          "from_explicit_dependency_directory": false
+        },
+        "matplotlib": {
+          "path": "/workspace/legacy37/lib/python3.7/site-packages/matplotlib/__init__.py",
+          "from_explicit_dependency_directory": false
+        }
+      },
+      "actual_threads": 2,
+      "actual_interop_threads": 40,
+      "cuda_runtime": "11.0",
+      "cuda_available": true,
+      "cudnn_version": 8005,
+      "cudnn_available": true,
+      "cudnn_enabled": true,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": false,
+      "matmul_allow_tf32": true,
+      "cudnn_allow_tf32": true,
+      "deterministic_algorithms": null,
+      "torch_config": "PyTorch built with:\n  - GCC 7.3\n  - C++ Version: 201402\n  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v1.6.0 (Git Hash 5ef631a030a6f73131c77892041042805a06064f)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - NNPACK is enabled\n  - CPU capability usage: AVX2\n  - CUDA Runtime 11.0\n  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80\n  - CuDNN 8.0.5\n  - Magma 2.5.2\n  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DUSE_VULKAN_WRAPPER -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, \n",
+      "arch_list": [
+        "sm_37",
+        "sm_50",
+        "sm_60",
+        "sm_70",
+        "sm_75",
+        "sm_80"
+      ],
+      "gencode_flags": "-gencode compute=compute_37,code=sm_37 -gencode compute=compute_50,code=sm_50 -gencode compute=compute_60,code=sm_60 -gencode compute=compute_70,code=sm_70 -gencode compute=compute_75,code=sm_75 -gencode compute=compute_80,code=sm_80",
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "capability": [
+        8,
+        6
+      ],
+      "device_properties": "_CudaDeviceProperties(name='NVIDIA GeForce RTX 3090', major=8, minor=6, total_memory=24252MB, multi_processor_count=82)",
+      "warnings": []
+    },
+    "passed": true,
+    "import_isolation": "-I, no inherited Python/Conda vars, no user site; explicit modern site may be inserted as recorded, without .pth; legacy uses launcher-equivalent LD_LIBRARY_PATH; modern preserves its inherited native-library path"
+  },
+  "differences": {
+    "cuda_runtime": {
+      "modern": "11.6",
+      "legacy": "11.0"
+    },
+    "cudnn_version": {
+      "modern": 8302,
+      "legacy": 8005
+    },
+    "matmul_allow_tf32": {
+      "modern": false,
+      "legacy": true
+    },
+    "deterministic_algorithms": {
+      "modern": false,
+      "legacy": null
+    },
+    "arch_list": {
+      "modern": [
+        "sm_37",
+        "sm_50",
+        "sm_60",
+        "sm_70",
+        "sm_75",
+        "sm_80",
+        "sm_86"
+      ],
+      "legacy": [
+        "sm_37",
+        "sm_50",
+        "sm_60",
+        "sm_70",
+        "sm_75",
+        "sm_80"
+      ]
+    }
+  },
+  "same_fields": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "capability": [
+      8,
+      6
+    ],
+    "cudnn_enabled": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "cudnn_allow_tf32": true,
+    "actual_threads": 2,
+    "actual_interop_threads": 40
+  }
+}

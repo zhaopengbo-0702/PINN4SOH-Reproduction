@@ -1,0 +1,100 @@
+{
+  "commit": "cc3cc5053caf38f04e0665f7f88cb109144d035e",
+  "date": "2026-09-02T02:07:39Z",
+  "message": "fix bug",
+  "commit_api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/commits/cc3cc5053caf38f04e0665f7f88cb109144d035e",
+  "tree_sha": "67176ac81dc146cc868b7319d45ae13f39f30875",
+  "files": [
+    {
+      "path": "dataloader/dataloader.py",
+      "blob_sha1": "22ca93a8f354e287723940baef296889ea4fa246",
+      "sha256": "192169eed4e172934d39ba4773074abd37f147170c1996327d6fd0ad2a8790fc",
+      "bytes": 16808,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/22ca93a8f354e287723940baef296889ea4fa246",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/dataloader/dataloader.py"
+    },
+    {
+      "path": "fix.md",
+      "blob_sha1": "2e66b73f17c88749c748a696d769d857ce12a7e3",
+      "sha256": "32ef8f206c069f45ca1d4cb7e57106e3f4269aaa3d8f0a751e9ab53acff58604",
+      "bytes": 216,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2e66b73f17c88749c748a696d769d857ce12a7e3",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/fix.md"
+    },
+    {
+      "path": "main_adaptation - fine-tuning.py",
+      "blob_sha1": "50ae6fc38c14452d50b96316e5691a402548e97b",
+      "sha256": "7bff63b74489a2f6954d41461ee2e51c23cf4e24672cdccb8fae959f32e05b8b",
+      "bytes": 13841,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/50ae6fc38c14452d50b96316e5691a402548e97b",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/main_adaptation - fine-tuning.py"
+    },
+    {
+      "path": "main_comparision.py",
+      "blob_sha1": "8b0d9e9008e3b82b88287dca9c777725f1d929ae",
+      "sha256": "0f922845c32f867e709e4add54ac6f5216674b38e58c3502c1f16fc554d8988c",
+      "bytes": 7751,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8b0d9e9008e3b82b88287dca9c777725f1d929ae",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/main_comparision.py"
+    },
+    {
+      "path": "main_HUST.py",
+      "blob_sha1": "e187b572787019d62595ba918ea80973335d08f6",
+      "sha256": "14e80bcd5da90c3194d039bd185d030635255ff2301d3dfe9eb39e1fafdd673b",
+      "bytes": 4031,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e187b572787019d62595ba918ea80973335d08f6",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/main_HUST.py"
+    },
+    {
+      "path": "main_MIT.py",
+      "blob_sha1": "8083f4687e52d8bca4a24aa6ca3b2b30730798e3",
+      "sha256": "d15967027be2ad8f45382d30479a9f1e9eae4bd65688386a883258e67dae84d3",
+      "bytes": 4709,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8083f4687e52d8bca4a24aa6ca3b2b30730798e3",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/main_MIT.py"
+    },
+    {
+      "path": "main_TJU.py",
+      "blob_sha1": "501eca5f8a5c4f39c4f244f56baa854259c9cb10",
+      "sha256": "8179e78063d3eed98728034ba2199aaa6b936ed0e2d390880b5c3d1e079d2856",
+      "bytes": 6435,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/501eca5f8a5c4f39c4f244f56baa854259c9cb10",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/main_TJU.py"
+    },
+    {
+      "path": "main_XJTU.py",
+      "blob_sha1": "1feea979f76a4d6246d1ebc65bff5642da95ec46",
+      "sha256": "e60897aac2d14eb9477e1e84e9326ff35ebbdc54deccc29511a10db82d4c09ab",
+      "bytes": 5383,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1feea979f76a4d6246d1ebc65bff5642da95ec46",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/main_XJTU.py"
+    },
+    {
+      "path": "Model/Model.py",
+      "blob_sha1": "e838b590e580003e2a194de29146682523ed220f",
+      "sha256": "b146b179a7267a50bed231a99ad5b161b14f8c527b62c376bf286aa7995e0fca",
+      "bytes": 14193,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e838b590e580003e2a194de29146682523ed220f",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/Model/Model.py"
+    },
+    {
+      "path": "README.md",
+      "blob_sha1": "39281414981d31440b781921b1343b19f7bd5cdb",
+      "sha256": "58699a564321f6d046585e77212023e37368e00313dd8e323a5c5bf8f6375475",
+      "bytes": 4627,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/39281414981d31440b781921b1343b19f7bd5cdb",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/README.md"
+    },
+    {
+      "path": "utils/util.py",
+      "blob_sha1": "88fe07b42f834cc56be15f2f0a5f0e0cd03ab50d",
+      "sha256": "db7a7e31e785ab2a046bee2e2c20a595161e900f1dffe40c390a5084ff8dd9f2",
+      "bytes": 1892,
+      "api_url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/88fe07b42f834cc56be15f2f0a5f0e0cd03ab50d",
+      "source_url": "https://github.com/wang-fujin/PINN4SOH/blob/cc3cc5053caf38f04e0665f7f88cb109144d035e/utils/util.py"
+    }
+  ],
+  "absent_paths": [],
+  "verification": "Official GitHub HTTPS API with certificate verification; decoded bytes match Git blob SHA1",
+  "execution": "Historical source downloaded for audit only; not executed"
+}

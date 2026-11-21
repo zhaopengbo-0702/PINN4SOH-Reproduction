@@ -1,0 +1,110 @@
+[
+  {
+    "name": "cloud-delta-part-001.zip",
+    "bytes": 600520248,
+    "sha256": "087521a5bf6c5722692a5104ef07008d04f76733521e005f443a8f534e8d9bab",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-002.zip",
+    "bytes": 586982364,
+    "sha256": "1846ce62834b00f5ec1d5e437cf92a5e32d26dc951e8fda524b23f2d531e9a69",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-003.zip",
+    "bytes": 614370220,
+    "sha256": "139e04a6e1b9e2bcd070e1b6a4ffc418ffb67d4df93b8ed6a8fed4d6230a30a6",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-004.zip",
+    "bytes": 624762810,
+    "sha256": "977103e4d05aab1f1665c6eeaaad7bedf8ff1322434307f0b447d40873a289a4",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-005.zip",
+    "bytes": 597876423,
+    "sha256": "d3d078c5cd076e5b491ec50097bdb3070f2b8ac3c92a9a453e4c8cf8c8ea479b",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-006.zip",
+    "bytes": 603981742,
+    "sha256": "bc722f9b36f8f46a17122d6fb23f884ecd540feffa9f798106a6e40a81aee5af",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-007.zip",
+    "bytes": 603981742,
+    "sha256": "0fe7f6cf5069f960e55b8e9d4a17229adb7c6652ce0987907e137be74edd747d",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-008.zip",
+    "bytes": 603981742,
+    "sha256": "0f4911cb3e6b0bc94f9bdb671fe8904403979db47a61a5ca8ce9e76f5fa46736",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-009.zip",
+    "bytes": 577882998,
+    "sha256": "6e61ec2c1114ce87f2a49a392024a5a67bd43c76935ba57df45534eb7b118d8b",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-010.zip",
+    "bytes": 603983242,
+    "sha256": "e6f4d51b18f1475a68393706f759151e51d045aea40bb4e3a153c1dfb9149597",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-011.zip",
+    "bytes": 603983242,
+    "sha256": "cb6841e3d9206d4cf63cb2513e309df0b8d0c3dbfb664b36a0adf839b13ccb58",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-012.zip",
+    "bytes": 600264994,
+    "sha256": "668f02af120342b697420093ff45552d14e441afddc04697174544da0e782551",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-013.zip",
+    "bytes": 603981742,
+    "sha256": "e72e95df9e52b73af227328b3db280f9d3019f4b8bfef176c690012beb2afc6d",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-014.zip",
+    "bytes": 579635607,
+    "sha256": "a18f13636e95307ad71dfcdd7523995155e5ceea30d77e8d5e4909827237835d",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-015.zip",
+    "bytes": 603981742,
+    "sha256": "0b9282637ab24671548e40b8b46e6a7f0d56cb6f03b7bb33792ec662335a67c7",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-016.zip",
+    "bytes": 611391907,
+    "sha256": "19c0d1659bc0de29b0e1b90ba621436028b38e81559c5a47c4d9118a36402419",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-017.zip",
+    "bytes": 626828097,
+    "sha256": "335e155d8ed91576f83640f3e11df3c9eb9bec00b9dd64cb4fd03a2e58df0efe",
+    "members_verified": true
+  },
+  {
+    "name": "cloud-delta-part-018.zip",
+    "bytes": 278774523,
+    "sha256": "15a61fc54e0257789f102621f34d2f5cecde9c6325fd7074893b3c5ac7158318",
+    "members_verified": true
+  }
+]

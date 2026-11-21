@@ -1,0 +1,4179 @@
+{
+  "sha": "d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+  "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/d26bc1f40dc0cdf34405cd5e599a6f6af09742e9",
+  "tree": [
+    {
+      "path": "Model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9b233f30c143f2f95d764ff72fe9eb5abfb2184",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/c9b233f30c143f2f95d764ff72fe9eb5abfb2184"
+    },
+    {
+      "path": "Model/Compare_Models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3506d740c4e95e801dc2a686daed89d2a893a6",
+      "size": 2629,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9d3506d740c4e95e801dc2a686daed89d2a893a6"
+    },
+    {
+      "path": "Model/Model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "151b3f0df6c3cd367772292040209929a7d8faad",
+      "size": 14141,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/151b3f0df6c3cd367772292040209929a7d8faad"
+    },
+    {
+      "path": "Model/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f5a12faa99758192ecc4ed3fc22c9249232e86",
+      "size": 2,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d3f5a12faa99758192ecc4ed3fc22c9249232e86"
+    },
+    {
+      "path": "Model/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae65a4b157af30a95a630880a3277c5cd91a19f6",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/ae65a4b157af30a95a630880a3277c5cd91a19f6"
+    },
+    {
+      "path": "Model/__pycache__/Compare_Models.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d9426be5cfe3c2a8112346d134d3cd174b53dc7",
+      "size": 2982,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5d9426be5cfe3c2a8112346d134d3cd174b53dc7"
+    },
+    {
+      "path": "Model/__pycache__/Model.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235521a29e7fffc7d2aafb84d55b4fccc29d43bf",
+      "size": 11537,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/235521a29e7fffc7d2aafb84d55b4fccc29d43bf"
+    },
+    {
+      "path": "Model/__pycache__/__init__.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc6f3468f2f5e77113fc6d95233ba963935415cd",
+      "size": 153,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cc6f3468f2f5e77113fc6d95233ba963935415cd"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9864cb810a418f7e53d7ed44a2ed6d62ea2927c9",
+      "size": 3548,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9864cb810a418f7e53d7ed44a2ed6d62ea2927c9"
+    },
+    {
+      "path": "count parameters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d970626ce362b6ede86be9e41f9552c4379167f3",
+      "size": 1971,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d970626ce362b6ede86be9e41f9552c4379167f3"
+    },
+    {
+      "path": "data analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc08ac9340d3c777f7df816db727cfde9af2ef71",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/cc08ac9340d3c777f7df816db727cfde9af2ef71"
+    },
+    {
+      "path": "data analysis/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data analysis/sample count.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddca96b4d17a031d89020b4e8e767c795250fd1a",
+      "size": 901,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ddca96b4d17a031d89020b4e8e767c795250fd1a"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b3e7394e596d93df628a4c2393c0ecd58777a60",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/8b3e7394e596d93df628a4c2393c0ecd58777a60"
+    },
+    {
+      "path": "data/HUST data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01215260c08f0c5e4f05a59efe5374b550526241",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/01215260c08f0c5e4f05a59efe5374b550526241"
+    },
+    {
+      "path": "data/HUST data/1-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bd0cd147782a976e5833900ade14684e9690856",
+      "size": 449837,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1bd0cd147782a976e5833900ade14684e9690856"
+    },
+    {
+      "path": "data/HUST data/1-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09af51efd72bff32563bdaf8c5770af5e5eaf6d",
+      "size": 807266,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e09af51efd72bff32563bdaf8c5770af5e5eaf6d"
+    },
+    {
+      "path": "data/HUST data/1-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d0ab974a43b90c548e9fbb5080e29eb9f7c6fe4",
+      "size": 547723,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5d0ab974a43b90c548e9fbb5080e29eb9f7c6fe4"
+    },
+    {
+      "path": "data/HUST data/1-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ce40100dfba464e3784665c2b96588436ce60c",
+      "size": 442001,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/57ce40100dfba464e3784665c2b96588436ce60c"
+    },
+    {
+      "path": "data/HUST data/1-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3eb8554461297b07e725b9e6adb8119dda734f8",
+      "size": 577647,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c3eb8554461297b07e725b9e6adb8119dda734f8"
+    },
+    {
+      "path": "data/HUST data/1-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81a53a0b6eebfd76d8a5728aced6c43de4a62147",
+      "size": 339195,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/81a53a0b6eebfd76d8a5728aced6c43de4a62147"
+    },
+    {
+      "path": "data/HUST data/1-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba5b3facac6eaba6227de532840ef99829ce4741",
+      "size": 503775,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ba5b3facac6eaba6227de532840ef99829ce4741"
+    },
+    {
+      "path": "data/HUST data/1-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "779f1d254b191db1711dd5b3461e15f1b53c100b",
+      "size": 680192,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/779f1d254b191db1711dd5b3461e15f1b53c100b"
+    },
+    {
+      "path": "data/HUST data/10-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1217aa1894df911f993bb705a67eea23052d0ec5",
+      "size": 509075,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1217aa1894df911f993bb705a67eea23052d0ec5"
+    },
+    {
+      "path": "data/HUST data/10-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e4a113d0c0a4b4dcf082e5f71b9e410431929a0",
+      "size": 503988,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6e4a113d0c0a4b4dcf082e5f71b9e410431929a0"
+    },
+    {
+      "path": "data/HUST data/10-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0918c3efd0b454192aa0bebb8048a6b18a35fd70",
+      "size": 538618,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0918c3efd0b454192aa0bebb8048a6b18a35fd70"
+    },
+    {
+      "path": "data/HUST data/10-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60fd7ecb289afc97b31a1eb31125735aa18046fa",
+      "size": 539326,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/60fd7ecb289afc97b31a1eb31125735aa18046fa"
+    },
+    {
+      "path": "data/HUST data/10-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7f09a2116a3cd838d2e37d8a2cb643c204ab17",
+      "size": 606499,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1c7f09a2116a3cd838d2e37d8a2cb643c204ab17"
+    },
+    {
+      "path": "data/HUST data/10-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b47e76c0adb9d7fb6cf6e99a05d9ba3f5f33c086",
+      "size": 689319,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b47e76c0adb9d7fb6cf6e99a05d9ba3f5f33c086"
+    },
+    {
+      "path": "data/HUST data/10-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbef8d4c1fbb8f0d08e29cad8e789aeb13cdb094",
+      "size": 534231,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dbef8d4c1fbb8f0d08e29cad8e789aeb13cdb094"
+    },
+    {
+      "path": "data/HUST data/10-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f9c8b0fda19eaff6dc646ba7ab95666b7626d16",
+      "size": 419821,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8f9c8b0fda19eaff6dc646ba7ab95666b7626d16"
+    },
+    {
+      "path": "data/HUST data/2-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b6a2c20aeaa2608b205517f09142fd16c2c3b6",
+      "size": 790353,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/80b6a2c20aeaa2608b205517f09142fd16c2c3b6"
+    },
+    {
+      "path": "data/HUST data/2-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69b6cd7cda75ffd6d7cee41a449476e0154cea0",
+      "size": 525001,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d69b6cd7cda75ffd6d7cee41a449476e0154cea0"
+    },
+    {
+      "path": "data/HUST data/2-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a916f33cf8893cb8aa69404aecbf585d437ab3a",
+      "size": 449146,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2a916f33cf8893cb8aa69404aecbf585d437ab3a"
+    },
+    {
+      "path": "data/HUST data/2-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265dd870f042c635203d98827264e6e6520bc6a1",
+      "size": 409660,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/265dd870f042c635203d98827264e6e6520bc6a1"
+    },
+    {
+      "path": "data/HUST data/2-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26bc9f3186fdefd2ccc611b3de39dedd79b3a29",
+      "size": 465957,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b26bc9f3186fdefd2ccc611b3de39dedd79b3a29"
+    },
+    {
+      "path": "data/HUST data/2-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf013f8d3269b3958a4e323e4405d08fec58cf81",
+      "size": 644711,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cf013f8d3269b3958a4e323e4405d08fec58cf81"
+    },
+    {
+      "path": "data/HUST data/2-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c02ca41549df771c9877d2ba9e4fd7d70054bc9",
+      "size": 439408,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9c02ca41549df771c9877d2ba9e4fd7d70054bc9"
+    },
+    {
+      "path": "data/HUST data/3-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69cfaf7053e752a5a5631bbdc20805954ab51e71",
+      "size": 577244,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/69cfaf7053e752a5a5631bbdc20805954ab51e71"
+    },
+    {
+      "path": "data/HUST data/3-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42cc33b75d6314a5af2cb92bd2d622fda58763fe",
+      "size": 674801,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/42cc33b75d6314a5af2cb92bd2d622fda58763fe"
+    },
+    {
+      "path": "data/HUST data/3-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d8c2e79695720726660b4b28f9ddcb82e84cfa",
+      "size": 487605,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/64d8c2e79695720726660b4b28f9ddcb82e84cfa"
+    },
+    {
+      "path": "data/HUST data/3-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d77aae15f71205103aa44a941f9aea3f0136e769",
+      "size": 509152,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d77aae15f71205103aa44a941f9aea3f0136e769"
+    },
+    {
+      "path": "data/HUST data/3-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4c7acf7f5e365f006faf16d45beba31491fad7",
+      "size": 803334,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2b4c7acf7f5e365f006faf16d45beba31491fad7"
+    },
+    {
+      "path": "data/HUST data/3-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73783be7ef61c6b42d89bd634f7f9c0a653c06a3",
+      "size": 734795,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/73783be7ef61c6b42d89bd634f7f9c0a653c06a3"
+    },
+    {
+      "path": "data/HUST data/3-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78f1cf4d427e144b1017836b4a32b8b919d603d",
+      "size": 744353,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d78f1cf4d427e144b1017836b4a32b8b919d603d"
+    },
+    {
+      "path": "data/HUST data/3-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "076153695e9fa3cca1bd97d50835d9f2d4a0fe79",
+      "size": 690784,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/076153695e9fa3cca1bd97d50835d9f2d4a0fe79"
+    },
+    {
+      "path": "data/HUST data/4-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6663a35729fd6082b003c204849cd5577ca9be46",
+      "size": 639662,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6663a35729fd6082b003c204849cd5577ca9be46"
+    },
+    {
+      "path": "data/HUST data/4-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86772d2d03416c606bedfd0466e5a04418dcddb2",
+      "size": 531540,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/86772d2d03416c606bedfd0466e5a04418dcddb2"
+    },
+    {
+      "path": "data/HUST data/4-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed533ecdd5287f1e9ac11c1f7a0a6c07b5441df",
+      "size": 343282,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3ed533ecdd5287f1e9ac11c1f7a0a6c07b5441df"
+    },
+    {
+      "path": "data/HUST data/4-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48c54417e789948a7ad936f5a78a7ec23254826f",
+      "size": 445128,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/48c54417e789948a7ad936f5a78a7ec23254826f"
+    },
+    {
+      "path": "data/HUST data/4-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc641867a3b4e947521193575d3f09d86c0fa59",
+      "size": 467810,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5bc641867a3b4e947521193575d3f09d86c0fa59"
+    },
+    {
+      "path": "data/HUST data/4-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f080b18e14fa050dd12eb719184c2ea1a3dbe880",
+      "size": 407186,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f080b18e14fa050dd12eb719184c2ea1a3dbe880"
+    },
+    {
+      "path": "data/HUST data/4-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c27d77c7f6a38c258f9320ffbba9a1adf04dc4d",
+      "size": 668511,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0c27d77c7f6a38c258f9320ffbba9a1adf04dc4d"
+    },
+    {
+      "path": "data/HUST data/4-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b56e72fa7c6cabbc552946069266090125e65bc3",
+      "size": 509804,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b56e72fa7c6cabbc552946069266090125e65bc3"
+    },
+    {
+      "path": "data/HUST data/5-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7085c89dac9f8dff8a31e8207d0392f2b168ab42",
+      "size": 755104,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7085c89dac9f8dff8a31e8207d0392f2b168ab42"
+    },
+    {
+      "path": "data/HUST data/5-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1afbddc838261ed4c04cf9908d86564bbec41eaa",
+      "size": 571548,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1afbddc838261ed4c04cf9908d86564bbec41eaa"
+    },
+    {
+      "path": "data/HUST data/5-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e89a374289ab064ba58ad271b605509365ef6b9",
+      "size": 801377,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8e89a374289ab064ba58ad271b605509365ef6b9"
+    },
+    {
+      "path": "data/HUST data/5-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5bb24d85bb7c6d7fbb806b936bf1c860eed4c99",
+      "size": 588704,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b5bb24d85bb7c6d7fbb806b936bf1c860eed4c99"
+    },
+    {
+      "path": "data/HUST data/5-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bccf7b0f4734813355b1e9d1da6c2e3ee9fec645",
+      "size": 469366,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bccf7b0f4734813355b1e9d1da6c2e3ee9fec645"
+    },
+    {
+      "path": "data/HUST data/5-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1791fb0c8980a81cac298903f3dbd2624418c3f9",
+      "size": 742126,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1791fb0c8980a81cac298903f3dbd2624418c3f9"
+    },
+    {
+      "path": "data/HUST data/5-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492f10d2ecbe3a7ae59d0c0a16be7662b3f8938d",
+      "size": 435698,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/492f10d2ecbe3a7ae59d0c0a16be7662b3f8938d"
+    },
+    {
+      "path": "data/HUST data/6-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4296d6312c5e7adfe0e3b91fb0f419932c5e042",
+      "size": 481778,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c4296d6312c5e7adfe0e3b91fb0f419932c5e042"
+    },
+    {
+      "path": "data/HUST data/6-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46cc959a8bf407ab7cc46cee7e08c14a8df97ddc",
+      "size": 571397,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/46cc959a8bf407ab7cc46cee7e08c14a8df97ddc"
+    },
+    {
+      "path": "data/HUST data/6-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f844dfa10f6b8e46b32ca88d925065970eba2d0",
+      "size": 534378,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5f844dfa10f6b8e46b32ca88d925065970eba2d0"
+    },
+    {
+      "path": "data/HUST data/6-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195a74e9b490e9eb8654fabe9fc022b9e11ad552",
+      "size": 518524,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/195a74e9b490e9eb8654fabe9fc022b9e11ad552"
+    },
+    {
+      "path": "data/HUST data/6-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4198232ed772243bf11f5e4d7441c96a636d5d91",
+      "size": 650804,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4198232ed772243bf11f5e4d7441c96a636d5d91"
+    },
+    {
+      "path": "data/HUST data/6-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2704d4bc48abe7f63fce7cf200448b8302d3bbcd",
+      "size": 725855,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2704d4bc48abe7f63fce7cf200448b8302d3bbcd"
+    },
+    {
+      "path": "data/HUST data/6-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e214757ad14ea58975ea8bfcf7ef18c51638f44",
+      "size": 737217,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1e214757ad14ea58975ea8bfcf7ef18c51638f44"
+    },
+    {
+      "path": "data/HUST data/7-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5c2263d5766ca063e7eb9658e17843f900d9863",
+      "size": 497193,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d5c2263d5766ca063e7eb9658e17843f900d9863"
+    },
+    {
+      "path": "data/HUST data/7-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "885e7bade01ad880e25cae47ea9a8eddd1376f9f",
+      "size": 602294,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/885e7bade01ad880e25cae47ea9a8eddd1376f9f"
+    },
+    {
+      "path": "data/HUST data/7-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aba9ae993c9f731e4d3cd317fa8846ad0351431",
+      "size": 389166,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8aba9ae993c9f731e4d3cd317fa8846ad0351431"
+    },
+    {
+      "path": "data/HUST data/7-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd86da934c780571fe07d4f01b99046538450fd",
+      "size": 417190,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/edd86da934c780571fe07d4f01b99046538450fd"
+    },
+    {
+      "path": "data/HUST data/7-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7be29204c63bbebdec8b10fd7a9df4cd22516d86",
+      "size": 560460,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7be29204c63bbebdec8b10fd7a9df4cd22516d86"
+    },
+    {
+      "path": "data/HUST data/7-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad04264f37b85839becc2ac5de03d9f099d34f28",
+      "size": 425116,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ad04264f37b85839becc2ac5de03d9f099d34f28"
+    },
+    {
+      "path": "data/HUST data/7-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5f4eb6347448d6c661bfa48a30ca67ccaabe185",
+      "size": 505241,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d5f4eb6347448d6c661bfa48a30ca67ccaabe185"
+    },
+    {
+      "path": "data/HUST data/7-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd4785d16bd603ca646a93f6e3bfe7919e68ea65",
+      "size": 579449,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fd4785d16bd603ca646a93f6e3bfe7919e68ea65"
+    },
+    {
+      "path": "data/HUST data/8-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a8c68da1578001501761244fd695a664dda45e3",
+      "size": 393288,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3a8c68da1578001501761244fd695a664dda45e3"
+    },
+    {
+      "path": "data/HUST data/8-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea676527c8a530e5286de145654e54c32e378ac",
+      "size": 616830,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cea676527c8a530e5286de145654e54c32e378ac"
+    },
+    {
+      "path": "data/HUST data/8-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3300e49a38786dff743d1fac47682902af46f7cf",
+      "size": 680307,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3300e49a38786dff743d1fac47682902af46f7cf"
+    },
+    {
+      "path": "data/HUST data/8-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6979d9e27d6abfe122c3c91b4cf33820e1440832",
+      "size": 565230,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6979d9e27d6abfe122c3c91b4cf33820e1440832"
+    },
+    {
+      "path": "data/HUST data/8-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ed1beeeeefa9120ef47c2fdec170b73153b2ddb",
+      "size": 405392,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9ed1beeeeefa9120ef47c2fdec170b73153b2ddb"
+    },
+    {
+      "path": "data/HUST data/8-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e14ebfbaefe59e776da26ce48a81c7761324c45d",
+      "size": 706340,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e14ebfbaefe59e776da26ce48a81c7761324c45d"
+    },
+    {
+      "path": "data/HUST data/8-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24c1666f7017b3fc583f6fd3a92f761901663fb4",
+      "size": 609978,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/24c1666f7017b3fc583f6fd3a92f761901663fb4"
+    },
+    {
+      "path": "data/HUST data/8-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8abea93d926b8610fad1e53b95e5e32d981f391b",
+      "size": 502487,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8abea93d926b8610fad1e53b95e5e32d981f391b"
+    },
+    {
+      "path": "data/HUST data/9-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e224cdf0bb1826fa93a25729282dc9885e2acfe4",
+      "size": 610065,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e224cdf0bb1826fa93a25729282dc9885e2acfe4"
+    },
+    {
+      "path": "data/HUST data/9-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ae97541680f5b9f6f9151226161cd0e7cad4df",
+      "size": 640401,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a4ae97541680f5b9f6f9151226161cd0e7cad4df"
+    },
+    {
+      "path": "data/HUST data/9-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d67f4e247d80108c1cf50232762b948a973e2a3",
+      "size": 569928,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2d67f4e247d80108c1cf50232762b948a973e2a3"
+    },
+    {
+      "path": "data/HUST data/9-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "380461afd5dad3c8e3d9c983d36b6423f71de503",
+      "size": 587869,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/380461afd5dad3c8e3d9c983d36b6423f71de503"
+    },
+    {
+      "path": "data/HUST data/9-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93726fe865868351b008d517418aa04381a140a6",
+      "size": 638799,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/93726fe865868351b008d517418aa04381a140a6"
+    },
+    {
+      "path": "data/HUST data/9-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e4e8465f76ec4684c54aea67f1afa139e22028",
+      "size": 514241,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/47e4e8465f76ec4684c54aea67f1afa139e22028"
+    },
+    {
+      "path": "data/HUST data/9-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f76d2e777fda2e5d7dfc7410ed76def051e8b3a",
+      "size": 602016,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4f76d2e777fda2e5d7dfc7410ed76def051e8b3a"
+    },
+    {
+      "path": "data/HUST data/9-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b600f8ad9ab8ec00309e638377521c70e4e440",
+      "size": 684574,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/98b600f8ad9ab8ec00309e638377521c70e4e440"
+    },
+    {
+      "path": "data/MIT data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae169eeacbf8c8df77c430d6115d13b3bcbb1797",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/ae169eeacbf8c8df77c430d6115d13b3bcbb1797"
+    },
+    {
+      "path": "data/MIT data/2017-05-12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb729f543da8c47b6ecb95eef9d4fa29e4c18d98",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/fb729f543da8c47b6ecb95eef9d4fa29e4c18d98"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04a1b82310e0dbda575eeacb7190f27468c49d4f",
+      "size": 338036,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/04a1b82310e0dbda575eeacb7190f27468c49d4f"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ffce1c0b934fe6fed03193161c72c6224601c5",
+      "size": 319702,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/93ffce1c0b934fe6fed03193161c72c6224601c5"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d41f3f4822ee1256b08491e4f687eec97070a75",
+      "size": 275594,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4d41f3f4822ee1256b08491e4f687eec97070a75"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02a280b6e987fa5dcc0d07dfdfff51ba24247d0b",
+      "size": 236684,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/02a280b6e987fa5dcc0d07dfdfff51ba24247d0b"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e0745d2ac79ecfbe3826f5aef26f4e5d3db0f40",
+      "size": 277499,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4e0745d2ac79ecfbe3826f5aef26f4e5d3db0f40"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a6404056c191115461d4a973bede0cbcfa7910a",
+      "size": 274501,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1a6404056c191115461d4a973bede0cbcfa7910a"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada68071cb447db5f1d363d87328e088cba7b986",
+      "size": 267054,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ada68071cb447db5f1d363d87328e088cba7b986"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-16.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "577a6a7df2f9aa0ec845cb3268260db4dc022cc7",
+      "size": 215476,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/577a6a7df2f9aa0ec845cb3268260db4dc022cc7"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-17.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20634b1f6e658bc5788a902c4e3ca2f6fea7a56c",
+      "size": 261308,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/20634b1f6e658bc5788a902c4e3ca2f6fea7a56c"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a78666b750db55c57c29042f3fe0c8bcfb8e4ff",
+      "size": 259946,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0a78666b750db55c57c29042f3fe0c8bcfb8e4ff"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7304bc1dc91d728ee703c5bfe23a56fb1bdd47d",
+      "size": 207750,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d7304bc1dc91d728ee703c5bfe23a56fb1bdd47d"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0204302f94d8f89842412ca70985c701ee7b42eb",
+      "size": 392481,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0204302f94d8f89842412ca70985c701ee7b42eb"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5d19c059d6f623617cec36a8da0ec33433dd81",
+      "size": 238082,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0e5d19c059d6f623617cec36a8da0ec33433dd81"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-21.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a92a22df462446b3edaf9d3896378f821686510c",
+      "size": 160033,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a92a22df462446b3edaf9d3896378f821686510c"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-22.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2e28ed7ba4ce4b76b0a1731f8c586aa15ad2de1",
+      "size": 167019,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d2e28ed7ba4ce4b76b0a1731f8c586aa15ad2de1"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-23.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e8a5bf323e89d3bc31c41e80337539b2631109c",
+      "size": 273807,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2e8a5bf323e89d3bc31c41e80337539b2631109c"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-24.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b92bf5df41d7a9942322a3b01806be9ad2fa13ca",
+      "size": 304916,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b92bf5df41d7a9942322a3b01806be9ad2fa13ca"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-25.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a845de4edf3791c716983f88c2853a4b04d942",
+      "size": 309055,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/08a845de4edf3791c716983f88c2853a4b04d942"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-26.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91ecf0d0c6880d73f23886b30eb9a1c45b6e44a7",
+      "size": 258929,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/91ecf0d0c6880d73f23886b30eb9a1c45b6e44a7"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-27.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d61572cbd3835dae85390fcdd27d25ec20a3bc",
+      "size": 265252,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c8d61572cbd3835dae85390fcdd27d25ec20a3bc"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-28.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039916420f06bd2e1a039727a904a3eb1f294e1b",
+      "size": 256686,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/039916420f06bd2e1a039727a904a3eb1f294e1b"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-29.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bb997252f830f004c37051a490da00a33f4a69",
+      "size": 258395,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c2bb997252f830f004c37051a490da00a33f4a69"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc855fcdcc0009eec62c75ddb86890c274a21874",
+      "size": 410674,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bc855fcdcc0009eec62c75ddb86890c274a21874"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-30.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "577c493e82a6afb20bcfe897266e4da94895cf1b",
+      "size": 276799,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/577c493e82a6afb20bcfe897266e4da94895cf1b"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-31.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c3c9af24168848ce70f7272feb139fb2f400ba",
+      "size": 215934,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/64c3c9af24168848ce70f7272feb139fb2f400ba"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-32.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edcd94c91970f4359a737a4277dee115ff1286c5",
+      "size": 266693,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/edcd94c91970f4359a737a4277dee115ff1286c5"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-33.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abc7e2aa2b3d095180e22f4703935e9d517d83d8",
+      "size": 221216,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/abc7e2aa2b3d095180e22f4703935e9d517d83d8"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-34.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32c4bb5de0af4d8712fc9bb7c8ec2b29ef635906",
+      "size": 224726,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/32c4bb5de0af4d8712fc9bb7c8ec2b29ef635906"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-35.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10809a720965e2bef56d00d2f7f0a37aa1390f24",
+      "size": 225072,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/10809a720965e2bef56d00d2f7f0a37aa1390f24"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-36.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9a2f9c390a8e08157ac75ad749b6fff6de77182",
+      "size": 212650,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c9a2f9c390a8e08157ac75ad749b6fff6de77182"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-37.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e34b2eee70bc2b773dd831809660f5020e94d8",
+      "size": 212476,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/96e34b2eee70bc2b773dd831809660f5020e94d8"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-38.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb9f6cafcbd8a86913e3a3c8826f032c5b28557",
+      "size": 196806,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8bb9f6cafcbd8a86913e3a3c8826f032c5b28557"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-39.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a28750a8ffc5b4536b8211aad335122e44798ed",
+      "size": 180785,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7a28750a8ffc5b4536b8211aad335122e44798ed"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209b6a2ecc1726f4f21f616d24015eb9dffab8f6",
+      "size": 370665,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/209b6a2ecc1726f4f21f616d24015eb9dffab8f6"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-40.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07c64715b89ccd1e00868b35d62af894b4f4358",
+      "size": 184076,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a07c64715b89ccd1e00868b35d62af894b4f4358"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-41.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bafe3059cf21e58e2080b17fc97eba60ae82d743",
+      "size": 278721,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bafe3059cf21e58e2080b17fc97eba60ae82d743"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-42.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5a55181b64a7f19f940e5b7d01fca067679160",
+      "size": 308102,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5e5a55181b64a7f19f940e5b7d01fca067679160"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-43.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b101cc530c315e6b00c6a004ec6c2178d33b88b5",
+      "size": 203521,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b101cc530c315e6b00c6a004ec6c2178d33b88b5"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-44.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8eeb6ea011afca6feb8cf91cc5f3c83317df302",
+      "size": 190956,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b8eeb6ea011afca6feb8cf91cc5f3c83317df302"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-45.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7e9c851e09d232c22131c49a088bad611fa75a0",
+      "size": 133861,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e7e9c851e09d232c22131c49a088bad611fa75a0"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-46.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53017246f5e9c74fa2c5986c679b4cd3d1c67b57",
+      "size": 148901,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/53017246f5e9c74fa2c5986c679b4cd3d1c67b57"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a442af1cee43e972e00a9d55833594e9d335ec5",
+      "size": 263611,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7a442af1cee43e972e00a9d55833594e9d335ec5"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b42f17dd43d894e542d7bff79dd97d6b5fc262f3",
+      "size": 211880,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b42f17dd43d894e542d7bff79dd97d6b5fc262f3"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb24131dd81330b8c235fbf5f336eeb07a886dd7",
+      "size": 190917,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/eb24131dd81330b8c235fbf5f336eeb07a886dd7"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a11e7082188b98ebbdb08b2681eb101b7711a7",
+      "size": 263340,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/55a11e7082188b98ebbdb08b2681eb101b7711a7"
+    },
+    {
+      "path": "data/MIT data/2017-05-12/2017-05-12_battery-9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a394fba1745e9734f2dbf493be8fb61c9a5ce3e",
+      "size": 267723,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7a394fba1745e9734f2dbf493be8fb61c9a5ce3e"
+    },
+    {
+      "path": "data/MIT data/2017-06-30",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85f4c79f7949f0ddeae26e99d65d604287c98eac",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/85f4c79f7949f0ddeae26e99d65d604287c98eac"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7518a4937161d5f70e64b252c7660c5348cad0e7",
+      "size": 89167,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7518a4937161d5f70e64b252c7660c5348cad0e7"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a46c2934b3cd2a331b87cc618e32f455f3a0fb20",
+      "size": 11813,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a46c2934b3cd2a331b87cc618e32f455f3a0fb20"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65125e908d55e534ed7a2d2a547e6c353733e6c1",
+      "size": 146492,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/65125e908d55e534ed7a2d2a547e6c353733e6c1"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e39ec6b552e7b5b603e879a1fb7175c69fe3480f",
+      "size": 136600,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e39ec6b552e7b5b603e879a1fb7175c69fe3480f"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35d9efffbba2f3826b0433720f4fb706a4fa38ad",
+      "size": 85374,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/35d9efffbba2f3826b0433720f4fb706a4fa38ad"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c03dd9aba23cdc1a05eee6cc034574ea4efa2b",
+      "size": 148529,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a6c03dd9aba23cdc1a05eee6cc034574ea4efa2b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae3a4e06e7e79bf2d73fd0b386b588f5ea654d0c",
+      "size": 151939,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ae3a4e06e7e79bf2d73fd0b386b588f5ea654d0c"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fa43f10f7dc0def3ab8c976a4e6d0b0b91a2cf4",
+      "size": 148963,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2fa43f10f7dc0def3ab8c976a4e6d0b0b91a2cf4"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ee2ff60459e64e62798aa39c784b2a406407f3",
+      "size": 42375,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/94ee2ff60459e64e62798aa39c784b2a406407f3"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96a8e8cc0fb23bc94db41ac3db404a187c64767",
+      "size": 141708,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c96a8e8cc0fb23bc94db41ac3db404a187c64767"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-21.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6fcb47709cd2b7bb33e75f58eec3a88a622369f",
+      "size": 154291,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b6fcb47709cd2b7bb33e75f58eec3a88a622369f"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-22.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d497252d31a222a8599eb4221bb9cbf14c6afd17",
+      "size": 150157,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d497252d31a222a8599eb4221bb9cbf14c6afd17"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-23.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c9c9f038042950d81ec3a0aa89dba02ed79a0ee",
+      "size": 157823,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8c9c9f038042950d81ec3a0aa89dba02ed79a0ee"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-24.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "267284005dc23370f77d2bf298969e749c94e6f0",
+      "size": 160831,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/267284005dc23370f77d2bf298969e749c94e6f0"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-25.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c0c90ca18b088f894e5584e40cbcee91d1aa5ae",
+      "size": 64420,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4c0c90ca18b088f894e5584e40cbcee91d1aa5ae"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-26.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa22cdd5f80419a18350507bb1e34cd5795d172",
+      "size": 47808,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/efa22cdd5f80419a18350507bb1e34cd5795d172"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-27.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e7e95fe07f48518b7470337eb0ffa27fdd5ceec",
+      "size": 58176,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9e7e95fe07f48518b7470337eb0ffa27fdd5ceec"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-28.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b9fc99ceda9febe19d79d0f93c2f1524c5223d",
+      "size": 143511,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/15b9fc99ceda9febe19d79d0f93c2f1524c5223d"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-29.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eafef4361369837cadfc8c9278d14808fa32bd2b",
+      "size": 157365,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/eafef4361369837cadfc8c9278d14808fa32bd2b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236fe40b71b5e1a392797965f2300c36dfdc6bfe",
+      "size": 134177,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/236fe40b71b5e1a392797965f2300c36dfdc6bfe"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-30.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab88fc93cdfe27ddc5ef03c56d197c72e775d45e",
+      "size": 152436,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ab88fc93cdfe27ddc5ef03c56d197c72e775d45e"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-31.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d1974a3a9fc809a3091a84c342285e5ec15a21",
+      "size": 145471,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b0d1974a3a9fc809a3091a84c342285e5ec15a21"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-32.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c6b18c1236cd7500d0933da3b82286bc43b2f15",
+      "size": 151400,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3c6b18c1236cd7500d0933da3b82286bc43b2f15"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-33.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8058931136a609ec761c360628aecd9f94d831c5",
+      "size": 160263,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8058931136a609ec761c360628aecd9f94d831c5"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-34.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d35ccc4d418784b6fd640494c35e78650a6e786",
+      "size": 159934,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0d35ccc4d418784b6fd640494c35e78650a6e786"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-35.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5286ddafc82fa50752cceb7ae07ee028d78c5d",
+      "size": 153752,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/be5286ddafc82fa50752cceb7ae07ee028d78c5d"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-36.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a822a2f048be0cd63b135818f1928b4c402c936",
+      "size": 142783,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7a822a2f048be0cd63b135818f1928b4c402c936"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-37.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd128c09f4667988588b9fc25b7ac6a005fc88f5",
+      "size": 163632,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bd128c09f4667988588b9fc25b7ac6a005fc88f5"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-38.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee26ed92f1de63a45c164b4f1275dabc13e9ca22",
+      "size": 146760,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ee26ed92f1de63a45c164b4f1275dabc13e9ca22"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-39.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4badba5dcc0585c9a90c8b49a64874e90d0379b",
+      "size": 142769,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e4badba5dcc0585c9a90c8b49a64874e90d0379b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d263363a2d950aa9a50dc0f4116798b4dd46402",
+      "size": 97463,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8d263363a2d950aa9a50dc0f4116798b4dd46402"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-40.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2009c6af16a1f9d91e2f559eb6a53f5a72fe893",
+      "size": 141729,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a2009c6af16a1f9d91e2f559eb6a53f5a72fe893"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-41.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b203f82a0d5b7338cbf2f76dc6925efedab6e7dc",
+      "size": 150628,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b203f82a0d5b7338cbf2f76dc6925efedab6e7dc"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-42.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d491a13c675ffb57d5204ca7293b4001f47b6b73",
+      "size": 131600,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d491a13c675ffb57d5204ca7293b4001f47b6b73"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-43.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8da8fb8d94458040c613417d03d6c5ee0d9acae",
+      "size": 138393,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a8da8fb8d94458040c613417d03d6c5ee0d9acae"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-44.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01657fa94a7c62a468c166699b93d5be12f846e",
+      "size": 136999,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b01657fa94a7c62a468c166699b93d5be12f846e"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-45.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bb44e16469c6e6250e59a55607233c4d038e9fc",
+      "size": 137159,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9bb44e16469c6e6250e59a55607233c4d038e9fc"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-46.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe11e773f0d9a68c3d1dc3893c80f53b3282cd0b",
+      "size": 147404,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fe11e773f0d9a68c3d1dc3893c80f53b3282cd0b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-47.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6a5f6504329b62a2128a3a6d90cebd8b30a90b",
+      "size": 128902,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5f6a5f6504329b62a2128a3a6d90cebd8b30a90b"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-48.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a687cacd80a93a454667147bd2749cce323a654d",
+      "size": 216030,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a687cacd80a93a454667147bd2749cce323a654d"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e37b0ebd0d546add07b0b31168312438051010f",
+      "size": 136578,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2e37b0ebd0d546add07b0b31168312438051010f"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bbd8662ca1220e3bec715eb162afba88f3aedd8",
+      "size": 147514,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6bbd8662ca1220e3bec715eb162afba88f3aedd8"
+    },
+    {
+      "path": "data/MIT data/2017-06-30/2017-06-30_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f267dec95edeafc7570d60b357ee6d810186ce44",
+      "size": 153812,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f267dec95edeafc7570d60b357ee6d810186ce44"
+    },
+    {
+      "path": "data/MIT data/2018-04-12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5edcde7eb27d929931015fa2b9e5504d99fe50be",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/5edcde7eb27d929931015fa2b9e5504d99fe50be"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c66dd7aec01a5f87040faf1c8de2f267f34cac",
+      "size": 305976,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/66c66dd7aec01a5f87040faf1c8de2f267f34cac"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6eac71a2bd86d3a6991a48bcdcfb2d82610b3ed",
+      "size": 313852,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b6eac71a2bd86d3a6991a48bcdcfb2d82610b3ed"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba2832cf0b06ce68f07f1c2d3d2924bd47b29a1f",
+      "size": 40184,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ba2832cf0b06ce68f07f1c2d3d2924bd47b29a1f"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb0452e45051cbd68a486181eec0ac8796d691e",
+      "size": 246606,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/aeb0452e45051cbd68a486181eec0ac8796d691e"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49e0b2a72b19a67c1c4e24c0ee9c1c6e28c4c8ce",
+      "size": 212764,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/49e0b2a72b19a67c1c4e24c0ee9c1c6e28c4c8ce"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c54189841628c5fee5795832ca45d6c1cf0e2b3",
+      "size": 260054,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6c54189841628c5fee5795832ca45d6c1cf0e2b3"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-16.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7184ef15f7e4f537a7a421cef1886653ced87772",
+      "size": 264734,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7184ef15f7e4f537a7a421cef1886653ced87772"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28b78af256e6a7b2169051bd382c08b8ee227a35",
+      "size": 397488,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/28b78af256e6a7b2169051bd382c08b8ee227a35"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c21faa7837a90168d7a655ad042208f8282d22ef",
+      "size": 201058,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c21faa7837a90168d7a655ad042208f8282d22ef"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4079e72f6c7a0b1bdbd753e83d4262dddfb8056",
+      "size": 316781,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c4079e72f6c7a0b1bdbd753e83d4262dddfb8056"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-21.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d48bcc58667b6bbf4f47dce430cd69ed787af3c5",
+      "size": 242478,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d48bcc58667b6bbf4f47dce430cd69ed787af3c5"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-22.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f6f5098b150b382f1cd7eebba9dfb999ae1464",
+      "size": 228761,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b0f6f5098b150b382f1cd7eebba9dfb999ae1464"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-24.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a7fadf654fba7226f3cc499262860bbe8139f8",
+      "size": 642539,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/18a7fadf654fba7226f3cc499262860bbe8139f8"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-25.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "531b2b58f4d06f85f1264933846f5a451e1fe3bd",
+      "size": 248156,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/531b2b58f4d06f85f1264933846f5a451e1fe3bd"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-26.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebbe3b5e18581f4a3971bc4084f59d26821d9d1a",
+      "size": 41251,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ebbe3b5e18581f4a3971bc4084f59d26821d9d1a"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-27.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f77ba61ccd089f86e04bc46eb5f4c5a1db4a98b",
+      "size": 307331,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5f77ba61ccd089f86e04bc46eb5f4c5a1db4a98b"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-29.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518b0384636c64ab6adcda54f7c3fe8b09c3bbeb",
+      "size": 163524,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/518b0384636c64ab6adcda54f7c3fe8b09c3bbeb"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-30.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8938f49f48647c45dfdd14edc915b3af9afd3e2c",
+      "size": 259286,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8938f49f48647c45dfdd14edc915b3af9afd3e2c"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-31.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5369609ad19b10f27143dc86cc6b3a6bef918c33",
+      "size": 82146,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5369609ad19b10f27143dc86cc6b3a6bef918c33"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-33.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33bc457b57ef23811e0f0fc6d71c697304c9384a",
+      "size": 695595,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/33bc457b57ef23811e0f0fc6d71c697304c9384a"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-34.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c794ece671dab363368f82bab572d76817a0092a",
+      "size": 390674,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c794ece671dab363368f82bab572d76817a0092a"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-36.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c3ff093be258708fbfafbccf15d0dfce6647f8b",
+      "size": 324466,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9c3ff093be258708fbfafbccf15d0dfce6647f8b"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-37.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41412bbd0832521cec4b9e6cedbff16ed3cd167e",
+      "size": 261594,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/41412bbd0832521cec4b9e6cedbff16ed3cd167e"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-38.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a68c97f8a5c9b47521cc91c36f5c10d0c85e79c",
+      "size": 419599,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8a68c97f8a5c9b47521cc91c36f5c10d0c85e79c"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-39.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "367f642db02517a0d7edd25a5f5cb99242d11664",
+      "size": 29994,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/367f642db02517a0d7edd25a5f5cb99242d11664"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d56770479995f29d0b487f690ba91ef37af12acc",
+      "size": 334375,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d56770479995f29d0b487f690ba91ef37af12acc"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-40.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba9f762011eb1b6dc04ae15432282cfc972a94c7",
+      "size": 133509,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ba9f762011eb1b6dc04ae15432282cfc972a94c7"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-41.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8318a1502634859fad22b420fce4561696f7623f",
+      "size": 217325,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8318a1502634859fad22b420fce4561696f7623f"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-42.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70160a87e7bfa5c2f02fe1a380514041f07801c2",
+      "size": 87008,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/70160a87e7bfa5c2f02fe1a380514041f07801c2"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-43.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9b1617419fcf244fc94351d94ef4ac1c2f7481",
+      "size": 74857,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ca9b1617419fcf244fc94351d94ef4ac1c2f7481"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-44.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6931aef47f2d146b1ce1dedbf8df0ffa04f26fe2",
+      "size": 181022,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6931aef47f2d146b1ce1dedbf8df0ffa04f26fe2"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-45.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb2a2b1cc7324a0f7959000558d7195663a207b4",
+      "size": 116460,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cb2a2b1cc7324a0f7959000558d7195663a207b4"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-46.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704d59e995fc8477557998fac0fc82b96495290a",
+      "size": 540992,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/704d59e995fc8477557998fac0fc82b96495290a"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640fb2014044b838c0df6b78b39cc411a7c66156",
+      "size": 248575,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/640fb2014044b838c0df6b78b39cc411a7c66156"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d52c87a57e6bac7989f5cde8de258e83057074",
+      "size": 548745,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e0d52c87a57e6bac7989f5cde8de258e83057074"
+    },
+    {
+      "path": "data/MIT data/2018-04-12/2018-04-12_battery-9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ecdf8c9ab7daef2bb61e5906574b933ef20c52b",
+      "size": 32825,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5ecdf8c9ab7daef2bb61e5906574b933ef20c52b"
+    },
+    {
+      "path": "data/TJU data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9cb0bc6dc32edce423ae34e511823b4e5f7e642",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/e9cb0bc6dc32edce423ae34e511823b4e5f7e642"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f4afffaec26411148e092493272402d607940ef",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/1f4afffaec26411148e092493272402d607940ef"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa80b667b2aa120f8d8dfbf5b173df171571dd19",
+      "size": 159573,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fa80b667b2aa120f8d8dfbf5b173df171571dd19"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec29ad168c6b1602032216cf6eabf6e12e16e8d",
+      "size": 78460,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bec29ad168c6b1602032216cf6eabf6e12e16e8d"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ac6898a3400460e6c6a7c333f6af5b19ed8b09",
+      "size": 100388,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b6ac6898a3400460e6c6a7c333f6af5b19ed8b09"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ddccd021b63d87d6c2ecd66410af22a547eceb6",
+      "size": 110106,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5ddccd021b63d87d6c2ecd66410af22a547eceb6"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "565a57407895ccdb340d916ca38952c2e49a2902",
+      "size": 112788,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/565a57407895ccdb340d916ca38952c2e49a2902"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099a80623ceda80e1f51397df81cbc8c0f5b04fd",
+      "size": 79365,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/099a80623ceda80e1f51397df81cbc8c0f5b04fd"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-025_1-#7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94df92611678ed7586cbba8aa2c66c611e2da6f0",
+      "size": 81802,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/94df92611678ed7586cbba8aa2c66c611e2da6f0"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9a40026cef90d451aaec70204e8b571c684459",
+      "size": 46694,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/db9a40026cef90d451aaec70204e8b571c684459"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020338ad47dbe53e07d171f77532eb50d584a54f",
+      "size": 66018,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/020338ad47dbe53e07d171f77532eb50d584a54f"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061b4d0306c6f5edeb21d8e958ea2858f8b89633",
+      "size": 49683,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/061b4d0306c6f5edeb21d8e958ea2858f8b89633"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dffbba40c1cf56b6d5b5ec5ef92a7d231def6e1",
+      "size": 49733,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2dffbba40c1cf56b6d5b5ec5ef92a7d231def6e1"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26baba75f1ea4e1987441f1f8fbb0734c3a5875d",
+      "size": 60109,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/26baba75f1ea4e1987441f1f8fbb0734c3a5875d"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9769b1f1667822a4e2e58ee6e051b12323d2a82d",
+      "size": 60670,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9769b1f1667822a4e2e58ee6e051b12323d2a82d"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe4d57e9fde47b5d2d033400d6c32ed4e2f5d34",
+      "size": 60347,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3fe4d57e9fde47b5d2d033400d6c32ed4e2f5d34"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#16.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06d423b48e7fd51ae140018643e5f78b1b3ca792",
+      "size": 52010,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/06d423b48e7fd51ae140018643e5f78b1b3ca792"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#17.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb8d4bb55c9fc1af1f0c7bdd39e05a33d54485b2",
+      "size": 60007,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cb8d4bb55c9fc1af1f0c7bdd39e05a33d54485b2"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ddca403b92c76bb73af2a8aee499dbfbc60a3b8",
+      "size": 60373,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1ddca403b92c76bb73af2a8aee499dbfbc60a3b8"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25aac0c44c8351a48aa4612c9f881da53fe8ccd9",
+      "size": 49387,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/25aac0c44c8351a48aa4612c9f881da53fe8ccd9"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71bbf8ce17b58d1cbe1f659d1e81f7cc64443f74",
+      "size": 55375,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/71bbf8ce17b58d1cbe1f659d1e81f7cc64443f74"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6cfa590a968d0c0711cfcb6618f6335c5d7d981",
+      "size": 60365,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c6cfa590a968d0c0711cfcb6618f6335c5d7d981"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe15dea809328dd9f8c44cdb5e1d3a97e789adc",
+      "size": 60375,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7fe15dea809328dd9f8c44cdb5e1d3a97e789adc"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f1b1ad250868c579890c6f8792df72fde9d495c",
+      "size": 62034,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6f1b1ad250868c579890c6f8792df72fde9d495c"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35a6401250a493399f142855499a022a59390952",
+      "size": 56698,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/35a6401250a493399f142855499a022a59390952"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "286e5a79ed728a0ec36e5618a8c2a2f2556eddff",
+      "size": 53691,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/286e5a79ed728a0ec36e5618a8c2a2f2556eddff"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee7fc8bc3cfdb792b06978a981717b7f091f99e3",
+      "size": 36014,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ee7fc8bc3cfdb792b06978a981717b7f091f99e3"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-05_1-#9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29cc8685187f3ccde6f9f335e330e53c10cb5bc",
+      "size": 35297,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f29cc8685187f3ccde6f9f335e330e53c10cb5bc"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4642d9de99164f2e859dfd4737d455f3a7a84ea",
+      "size": 11566,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b4642d9de99164f2e859dfd4737d455f3a7a84ea"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aca9fb9c55385083872c43583745493573a235b",
+      "size": 11927,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8aca9fb9c55385083872c43583745493573a235b"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2c804ad3070a60c34b7a27a348e93b6e372f78",
+      "size": 9575,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bb2c804ad3070a60c34b7a27a348e93b6e372f78"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "351f2b39564d7befb08b49cf6db3da11e55a927c",
+      "size": 10207,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/351f2b39564d7befb08b49cf6db3da11e55a927c"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd75baa9f24bd0c5872d0ad46720bf6bd7964713",
+      "size": 10529,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bd75baa9f24bd0c5872d0ad46720bf6bd7964713"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db75ef734b659fcf1d07cca857c8810fc610de9b",
+      "size": 9568,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/db75ef734b659fcf1d07cca857c8810fc610de9b"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9910e60338dea10d938069e10adabf1dabd9f528",
+      "size": 10850,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9910e60338dea10d938069e10adabf1dabd9f528"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc909b03209e77a155dcd261a2dd8c7c17d525a",
+      "size": 9886,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8bc909b03209e77a155dcd261a2dd8c7c17d525a"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY25-1_1-#9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8379f7d941f71ed261130a2ef1bb9206f19d6362",
+      "size": 10199,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8379f7d941f71ed261130a2ef1bb9206f19d6362"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY35-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66ef7ad9cf45cf2219989c9f04c81965293d5eb7",
+      "size": 176607,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/66ef7ad9cf45cf2219989c9f04c81965293d5eb7"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY35-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ffc1177f7a1eb0480318ea718fed003ccf2e10",
+      "size": 173859,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/76ffc1177f7a1eb0480318ea718fed003ccf2e10"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY35-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64431f3e8399cb63988b1cebd2597d5c1a90ed3c",
+      "size": 9557,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/64431f3e8399cb63988b1cebd2597d5c1a90ed3c"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45da87442e2366770b9cca29e51739f40a223d0b",
+      "size": 234760,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/45da87442e2366770b9cca29e51739f40a223d0b"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b297eed62bed45eebbd001a41eceb55e0807a97",
+      "size": 129199,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0b297eed62bed45eebbd001a41eceb55e0807a97"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a166d36998fe9c1174683252af6c8b953947de11",
+      "size": 216594,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a166d36998fe9c1174683252af6c8b953947de11"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ba80362834969ee15329f8c2474a4c8325b605",
+      "size": 265303,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/61ba80362834969ee15329f8c2474a4c8325b605"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae90bd285b07a036d7cf10c60e76c379e9b1e05",
+      "size": 236103,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7ae90bd285b07a036d7cf10c60e76c379e9b1e05"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7209343f6543b5d6e902654532462fa3e65b26d8",
+      "size": 239749,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7209343f6543b5d6e902654532462fa3e65b26d8"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "010921f7fc368ed0a465b2d194837a20ed619a1f",
+      "size": 155951,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/010921f7fc368ed0a465b2d194837a20ed619a1f"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#16.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e2e6b321c5ef85a78ea3aee51ca5cdff889f041",
+      "size": 190611,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6e2e6b321c5ef85a78ea3aee51ca5cdff889f041"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#17.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d661ac075d07ae4132867211a840ef8a98fb5fe",
+      "size": 167515,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2d661ac075d07ae4132867211a840ef8a98fb5fe"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0db3ba84ba1b586c4b550e9f8ddbfc6c1cde3d9",
+      "size": 190318,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f0db3ba84ba1b586c4b550e9f8ddbfc6c1cde3d9"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1407972d1de840715273ab55a7a30a73aacdab",
+      "size": 219912,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9a1407972d1de840715273ab55a7a30a73aacdab"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "527f62184a91b69fdd2a4d6f918dda325814d626",
+      "size": 231498,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/527f62184a91b69fdd2a4d6f918dda325814d626"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f8a78c7fad908a5e713448e2f874d72dc09187",
+      "size": 234137,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/76f8a78c7fad908a5e713448e2f874d72dc09187"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#21.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe8ad9e9d032fa529417cfd86cafbedb55aecb9",
+      "size": 203407,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9fe8ad9e9d032fa529417cfd86cafbedb55aecb9"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#22.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce72e715fb80f87b060efef5b4a80bd6602b617",
+      "size": 184272,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dce72e715fb80f87b060efef5b4a80bd6602b617"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#23.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be5ee0ad659794d0ddc17ab26a82f8f75ade8da",
+      "size": 221261,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2be5ee0ad659794d0ddc17ab26a82f8f75ade8da"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#24.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af9e66839131f35e3417b574d1b381649b3ed0e9",
+      "size": 231481,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/af9e66839131f35e3417b574d1b381649b3ed0e9"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#25.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8e539b85daf14f10548e5a30dedb29a8a89005",
+      "size": 237193,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1b8e539b85daf14f10548e5a30dedb29a8a89005"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#26.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c199d1aa6af52afb5c4f24e1ce9d8a4cecca6d7",
+      "size": 227498,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4c199d1aa6af52afb5c4f24e1ce9d8a4cecca6d7"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#27.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e622639573211d464d9c586e1959aa437ed501",
+      "size": 208017,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/84e622639573211d464d9c586e1959aa437ed501"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#28.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0437ee04d0de9d5c10507a836ccfba3c68906dd7",
+      "size": 229629,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0437ee04d0de9d5c10507a836ccfba3c68906dd7"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2662007a9a6211b55b63a2d14990177bb7649470",
+      "size": 64699,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2662007a9a6211b55b63a2d14990177bb7649470"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6101671b39c95a5e0ecee29942b113b28cdf40a",
+      "size": 65238,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b6101671b39c95a5e0ecee29942b113b28cdf40a"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae237953a17298006d8e7b699262866ca6503390",
+      "size": 65366,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ae237953a17298006d8e7b699262866ca6503390"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1f45fef5c59cbc9c893371ba09eca499a4f0eeb",
+      "size": 65626,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e1f45fef5c59cbc9c893371ba09eca499a4f0eeb"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "175c84c591b2d1e79ae755baa6b85a0819288a76",
+      "size": 133288,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/175c84c591b2d1e79ae755baa6b85a0819288a76"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce92d81401fa5a1549e2a94ea7b2b5acc2c4136",
+      "size": 127147,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8ce92d81401fa5a1549e2a94ea7b2b5acc2c4136"
+    },
+    {
+      "path": "data/TJU data/Dataset_1_NCA_battery/CY45-05_1-#9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0643da8d4adf9dd53f73d3c63796b804a23916",
+      "size": 133177,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4b0643da8d4adf9dd53f73d3c63796b804a23916"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "732eb55f8baff45d78a9b98519fe791244f5a50a",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/732eb55f8baff45d78a9b98519fe791244f5a50a"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aea51c688d42bb3bff2c6b312290205c8945df8",
+      "size": 64419,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9aea51c688d42bb3bff2c6b312290205c8945df8"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a002e335cdf65c161783812406039a1d13ec93",
+      "size": 65643,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/63a002e335cdf65c161783812406039a1d13ec93"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f960e358da9ebace5f97448db41cdf804c8708f6",
+      "size": 66420,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f960e358da9ebace5f97448db41cdf804c8708f6"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f767f6705e76156787f3a63ba22527f058c4c8",
+      "size": 65754,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/47f767f6705e76156787f3a63ba22527f058c4c8"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f87884229e41f527249f076adfeef8ef937faaf",
+      "size": 131919,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0f87884229e41f527249f076adfeef8ef937faaf"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2126a370fccaff4e8f356125ae34981bbaa6040",
+      "size": 14292,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f2126a370fccaff4e8f356125ae34981bbaa6040"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968976769ed015567cfa537c7235773b867de380",
+      "size": 99451,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/968976769ed015567cfa537c7235773b867de380"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#16.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b7f1ba40e50d646b9c743a7828c5098b9471cc",
+      "size": 110436,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b6b7f1ba40e50d646b9c743a7828c5098b9471cc"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#17.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c43c3369441a7c90aa116839545071db935271d6",
+      "size": 102864,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c43c3369441a7c90aa116839545071db935271d6"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cfbee26b5475542bb14ac65a3a17b41ac79a0b",
+      "size": 63036,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/89cfbee26b5475542bb14ac65a3a17b41ac79a0b"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d7e23f2a6186cccc2235f54e536e0192cdfdd7",
+      "size": 62688,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/10d7e23f2a6186cccc2235f54e536e0192cdfdd7"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8127e3454970fed2ba5ec72e1cbf76ac6a6fbae8",
+      "size": 57690,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8127e3454970fed2ba5ec72e1cbf76ac6a6fbae8"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf004a766887737574372f6645b1e5c86144ee37",
+      "size": 63098,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cf004a766887737574372f6645b1e5c86144ee37"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#21.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5eda10be390926a9c644fa001414fe4253a5538",
+      "size": 59672,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e5eda10be390926a9c644fa001414fe4253a5538"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#22.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56937259b1283b338ea542fa0e0a60ddf2fe7cd0",
+      "size": 63738,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/56937259b1283b338ea542fa0e0a60ddf2fe7cd0"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#23.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb59365e0030e1dbcaff8f2d7959b5344f9f1027",
+      "size": 63320,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bb59365e0030e1dbcaff8f2d7959b5344f9f1027"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9094d6527a137469a738d5e4f7e25e4081c0b4e7",
+      "size": 61770,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9094d6527a137469a738d5e4f7e25e4081c0b4e7"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4214b96ec069e40d9601e7386ba857e06368693e",
+      "size": 61359,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4214b96ec069e40d9601e7386ba857e06368693e"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f31900a2ac8c36c8f636b4e3d4433135061c9d6e",
+      "size": 151227,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f31900a2ac8c36c8f636b4e3d4433135061c9d6e"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8078c207fd5331ecd64760f73331985660eda689",
+      "size": 62670,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8078c207fd5331ecd64760f73331985660eda689"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66527bd0a27de2aa745e90d4191eb51e917c4937",
+      "size": 63425,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/66527bd0a27de2aa745e90d4191eb51e917c4937"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dad98018953410fa2c2ece6e1092b0fe399360f",
+      "size": 112830,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9dad98018953410fa2c2ece6e1092b0fe399360f"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY25-05_1-#9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "032b26c0ca6f5d485089d90c33375182f098ae76",
+      "size": 115225,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/032b26c0ca6f5d485089d90c33375182f098ae76"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY35-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec96d9b410a6c0f1b98f20b89348f4d20c28c2e4",
+      "size": 367229,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ec96d9b410a6c0f1b98f20b89348f4d20c28c2e4"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY35-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "026a8e03d75f1d716e2a47ba4a74301d83d2bb28",
+      "size": 416348,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/026a8e03d75f1d716e2a47ba4a74301d83d2bb28"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY35-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3988194968ef60dff06dffbfa9f9cfea4e0a34b",
+      "size": 401305,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f3988194968ef60dff06dffbfa9f9cfea4e0a34b"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY35-05_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1238a208e5176c905cda7d4ea93ac834355b7c5",
+      "size": 382825,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c1238a208e5176c905cda7d4ea93ac834355b7c5"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97c89b1abb88d1234a8923336ee748c9da91826",
+      "size": 150388,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e97c89b1abb88d1234a8923336ee748c9da91826"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44581ab58b4207221ea93691b6e8c0126002e963",
+      "size": 132976,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/44581ab58b4207221ea93691b6e8c0126002e963"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c47858e97e61bd22c57739973cbc35b2fff8a0",
+      "size": 266904,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/29c47858e97e61bd22c57739973cbc35b2fff8a0"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70ef3e35ab844407d4274e12a4a25bc7f21c17e",
+      "size": 265717,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d70ef3e35ab844407d4274e12a4a25bc7f21c17e"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60c0d5612fdde72eb416cfcc5e69a286a03426c",
+      "size": 286731,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d60c0d5612fdde72eb416cfcc5e69a286a03426c"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359baced0a4b8285c13140123388087e779e6fc5",
+      "size": 287563,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/359baced0a4b8285c13140123388087e779e6fc5"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6636824b5305e5076919c1b47d380aad3b133c52",
+      "size": 125395,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6636824b5305e5076919c1b47d380aad3b133c52"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#16.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1072714e565de9df6afb81b7141d70a4456698f",
+      "size": 190816,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f1072714e565de9df6afb81b7141d70a4456698f"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#17.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d48f57e3f9ba5597793525312107b51cf9bdeb3",
+      "size": 190776,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2d48f57e3f9ba5597793525312107b51cf9bdeb3"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f220207b03380436af41cc24c0f9d33dead4c0ef",
+      "size": 189928,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f220207b03380436af41cc24c0f9d33dead4c0ef"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#19.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbc8ca2f80700ae5ac0cea86fc3c0c15c44d00b6",
+      "size": 257007,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fbc8ca2f80700ae5ac0cea86fc3c0c15c44d00b6"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4cdc98e070fb8bfb3f9b37765796d7b4754ed1",
+      "size": 150939,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5d4cdc98e070fb8bfb3f9b37765796d7b4754ed1"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#20.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f902c59bbfa60b15ccce5b1996069ae9f50d8beb",
+      "size": 257466,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f902c59bbfa60b15ccce5b1996069ae9f50d8beb"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#21.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f3abc27cc69632b05be5af6634de4c7fd1aca7",
+      "size": 291816,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/57f3abc27cc69632b05be5af6634de4c7fd1aca7"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#22.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5532df19442676f574a0e3d93ff8aa752e799b",
+      "size": 278319,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0c5532df19442676f574a0e3d93ff8aa752e799b"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#23.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a8a6ec81073047338df8a383ca8bc74376f8a2",
+      "size": 298235,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f2a8a6ec81073047338df8a383ca8bc74376f8a2"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#24.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c1a0bf4cec34e8f568b559a0883b84f0fe05578",
+      "size": 287830,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1c1a0bf4cec34e8f568b559a0883b84f0fe05578"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#25.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e3b8a128ea80fa336a8d850b8f410155566195",
+      "size": 302497,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b6e3b8a128ea80fa336a8d850b8f410155566195"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#26.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc93aa94794aea8fd9ec49d984e86d4eab202052",
+      "size": 276511,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cc93aa94794aea8fd9ec49d984e86d4eab202052"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#27.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95629742f55a0d392afb6d2b2f5f00d43d2afbee",
+      "size": 301303,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/95629742f55a0d392afb6d2b2f5f00d43d2afbee"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#28.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9e33eebf759110db3e24329ed3694373df97ee6",
+      "size": 287002,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b9e33eebf759110db3e24329ed3694373df97ee6"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40c889a4c450cdea4e9656f23f2bd9d0154643ac",
+      "size": 66178,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/40c889a4c450cdea4e9656f23f2bd9d0154643ac"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6824c6f38de178df68f8398b8bece78fbc496752",
+      "size": 66410,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6824c6f38de178df68f8398b8bece78fbc496752"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f888e7ea8bbd4f78a053db9e8af950dad18113a5",
+      "size": 66168,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f888e7ea8bbd4f78a053db9e8af950dad18113a5"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589ee9dae8fe6862ad8bfd0941cc1f1a968bf81e",
+      "size": 66175,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/589ee9dae8fe6862ad8bfd0941cc1f1a968bf81e"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6984156aed6cd6afacfeed327118267229ba621",
+      "size": 132639,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d6984156aed6cd6afacfeed327118267229ba621"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a706b1528f1b110063da040cb4a9943d5fb4798e",
+      "size": 132983,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a706b1528f1b110063da040cb4a9943d5fb4798e"
+    },
+    {
+      "path": "data/TJU data/Dataset_2_NCM_battery/CY45-05_1-#9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5399d98e1f399386f074994ff082fd7e8871e00a",
+      "size": 131637,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5399d98e1f399386f074994ff082fd7e8871e00a"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e836a1235020a6ec7d6469315a82dbbfbbf924f1",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/e836a1235020a6ec7d6469315a82dbbfbbf924f1"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_1-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f390b04584bd7d7a20f7a765fa988f51b992f17b",
+      "size": 302184,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f390b04584bd7d7a20f7a765fa988f51b992f17b"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_1-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e1b3344ceda4ab415d64f9e0f551322dedeec1",
+      "size": 307436,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b2e1b3344ceda4ab415d64f9e0f551322dedeec1"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_1-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1bd065a5a8872ba64f13eb4f022b2f1e4472eb4",
+      "size": 319827,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d1bd065a5a8872ba64f13eb4f022b2f1e4472eb4"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98e0da8ec3e8286504427c86582118d472208c44",
+      "size": 315565,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/98e0da8ec3e8286504427c86582118d472208c44"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9e4494a661bcb721b7a1ce8ba52bb7e6a046fa3",
+      "size": 307205,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e9e4494a661bcb721b7a1ce8ba52bb7e6a046fa3"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_2-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0380df894d9b4bff23ffba227e80c75e524a7c62",
+      "size": 329473,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0380df894d9b4bff23ffba227e80c75e524a7c62"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1fc32f06c475b3b1de31058ddbffa9a5261aa26",
+      "size": 317067,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b1fc32f06c475b3b1de31058ddbffa9a5261aa26"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27c3b1ea7d613acc8baafb9015678aa400453f0",
+      "size": 314454,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e27c3b1ea7d613acc8baafb9015678aa400453f0"
+    },
+    {
+      "path": "data/TJU data/Dataset_3_NCM_NCA_battery/CY25-05_4-#3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a407f1d3f54ae312f60d6f02aa60165a8c7f06",
+      "size": 291352,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e4a407f1d3f54ae312f60d6f02aa60165a8c7f06"
+    },
+    {
+      "path": "data/XJTU data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26f5a7c92a80f8d9a3ba2ca6bceb73025a549afb",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/26f5a7c92a80f8d9a3ba2ca6bceb73025a549afb"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c32c6d9092e21a71c9ddca2b50de77da5dfe53aa",
+      "size": 118334,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c32c6d9092e21a71c9ddca2b50de77da5dfe53aa"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f54447f9de8e0b2fd57a08ac11da87b47cc07667",
+      "size": 123252,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f54447f9de8e0b2fd57a08ac11da87b47cc07667"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246a684c202d288b34da62cc1e343e7419ccbb8d",
+      "size": 122119,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/246a684c202d288b34da62cc1e343e7419ccbb8d"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b6a30651290cf0dab203442692586ec2f175dc",
+      "size": 120207,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/60b6a30651290cf0dab203442692586ec2f175dc"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd71e7c41509557d733c46d4ce45ee2c1a0c47df",
+      "size": 123682,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dd71e7c41509557d733c46d4ce45ee2c1a0c47df"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4379f79497f684a335e6edcd4b434b6a841ee8ae",
+      "size": 123408,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4379f79497f684a335e6edcd4b434b6a841ee8ae"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "089470f9d03bea6b72db5f641a9f7a5525458463",
+      "size": 123510,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/089470f9d03bea6b72db5f641a9f7a5525458463"
+    },
+    {
+      "path": "data/XJTU data/2C_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2329ff48193d501907649434bbc82f212067bae3",
+      "size": 126536,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2329ff48193d501907649434bbc82f212067bae3"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb2cd6f0a6dddb84601032dea7f725452ce64f3d",
+      "size": 87269,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fb2cd6f0a6dddb84601032dea7f725452ce64f3d"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-10.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aa9f6b9f62e63ea57bf443fc50623f26093ea48",
+      "size": 46167,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5aa9f6b9f62e63ea57bf443fc50623f26093ea48"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-11.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9a22d7ddebcd02648a24abc9ce8f1f549fc5705",
+      "size": 38468,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f9a22d7ddebcd02648a24abc9ce8f1f549fc5705"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38f3e7e3addac459f3a78ed0e09a0ce3a9089dbf",
+      "size": 59502,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/38f3e7e3addac459f3a78ed0e09a0ce3a9089dbf"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-13.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f31b93da3d2e2604a067d8340e40571b1c66022",
+      "size": 63153,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3f31b93da3d2e2604a067d8340e40571b1c66022"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-14.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a09bdbcef7ff824b2c5d3473a0cda2de025197ca",
+      "size": 42647,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a09bdbcef7ff824b2c5d3473a0cda2de025197ca"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24fb14591d4fbab32524fc1ccd1656e08cb523f",
+      "size": 49626,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d24fb14591d4fbab32524fc1ccd1656e08cb523f"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56d8caf8e73815a5cad850f050115d25cc4e8ac5",
+      "size": 84291,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/56d8caf8e73815a5cad850f050115d25cc4e8ac5"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb540e7c67d69cba2fe60fcb35820b8ba0d3e5b",
+      "size": 82095,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8cb540e7c67d69cba2fe60fcb35820b8ba0d3e5b"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f16c95db6b3b740dd41c494fea0e4db4a85b170",
+      "size": 97237,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6f16c95db6b3b740dd41c494fea0e4db4a85b170"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68c6f886fc7f83b952cd2fab4ebf144a4b573d4",
+      "size": 86107,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d68c6f886fc7f83b952cd2fab4ebf144a4b573d4"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b238eec378ad7a54023b52307b40b5cfe1495f",
+      "size": 93996,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/21b238eec378ad7a54023b52307b40b5cfe1495f"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd042f3ef3d6b9a97abbb8fa0f758f326eddad93",
+      "size": 93720,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/cd042f3ef3d6b9a97abbb8fa0f758f326eddad93"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b227138a467e98db69e4791ce79a337fa477c1",
+      "size": 78169,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/44b227138a467e98db69e4791ce79a337fa477c1"
+    },
+    {
+      "path": "data/XJTU data/3C_battery-9.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a34c1d8a1a5d819026ca6a4de44d7b4baa67e1cf",
+      "size": 84929,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a34c1d8a1a5d819026ca6a4de44d7b4baa67e1cf"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b3689a1449cfd06d5a8f0f0c7b96ebcbc1992f",
+      "size": 180246,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/16b3689a1449cfd06d5a8f0f0c7b96ebcbc1992f"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17be58100307131ab764c5f1f0c51ccd68877ca9",
+      "size": 164290,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/17be58100307131ab764c5f1f0c51ccd68877ca9"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4eda70449d92dabf59ea79af73332805e3ad919",
+      "size": 205331,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/c4eda70449d92dabf59ea79af73332805e3ad919"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d52adc51022ef0c6ff2476f96fc62270f3711ac",
+      "size": 167591,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8d52adc51022ef0c6ff2476f96fc62270f3711ac"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef52e0aa0cb3af3a52db2858eddd9ae53bd58cda",
+      "size": 170491,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ef52e0aa0cb3af3a52db2858eddd9ae53bd58cda"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d904ce744945b7d731074f55a6c99c93adbcbdde",
+      "size": 166249,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d904ce744945b7d731074f55a6c99c93adbcbdde"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7f8bbd89cc1d0bcaf99a689c208d40d665496f",
+      "size": 158201,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4f7f8bbd89cc1d0bcaf99a689c208d40d665496f"
+    },
+    {
+      "path": "data/XJTU data/R2.5_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f30f091449102b865d2c0fe032610e48a41ba37",
+      "size": 187202,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2f30f091449102b865d2c0fe032610e48a41ba37"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8722f40b7d2e8df6bfc661d792b32bd3178ff209",
+      "size": 212653,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8722f40b7d2e8df6bfc661d792b32bd3178ff209"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a73ea598baed811d79136c4ee7aa34dd86d2fdd8",
+      "size": 175920,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a73ea598baed811d79136c4ee7aa34dd86d2fdd8"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ddbeccdb7e1ba0b6c2592fbefa887dc7436d337",
+      "size": 176056,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6ddbeccdb7e1ba0b6c2592fbefa887dc7436d337"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a135b440d309210dd8a8f2b835a9f69e18c9076",
+      "size": 194558,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6a135b440d309210dd8a8f2b835a9f69e18c9076"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1ac40d92949c40a32dccfc8cc80cf3ae2b6a1e",
+      "size": 198097,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4b1ac40d92949c40a32dccfc8cc80cf3ae2b6a1e"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a218e7886b7306ac43d7bc7f891e1d776ab279",
+      "size": 189115,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/24a218e7886b7306ac43d7bc7f891e1d776ab279"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a820b5607ef6131f7ea69ca63bd83a11fb8fcd6d",
+      "size": 154753,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a820b5607ef6131f7ea69ca63bd83a11fb8fcd6d"
+    },
+    {
+      "path": "data/XJTU data/R3_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721ca65e58e7e70114302b98ffc49c5b3a91d77b",
+      "size": 201437,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/721ca65e58e7e70114302b98ffc49c5b3a91d77b"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0532fbd013b0657c0f0c0af34629a3db8e373f86",
+      "size": 52112,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/0532fbd013b0657c0f0c0af34629a3db8e373f86"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd47f64ad0a38a355186d11896b7ab59565fdc6a",
+      "size": 78369,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dd47f64ad0a38a355186d11896b7ab59565fdc6a"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac430f575ba840d21908d0149f1541b58fb8d3d7",
+      "size": 89775,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ac430f575ba840d21908d0149f1541b58fb8d3d7"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c72101e292c2779bf9c6474711415ccc550d20",
+      "size": 59004,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/98c72101e292c2779bf9c6474711415ccc550d20"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6975abf7f68bc014ed4f73fcf71cdc429b7274c1",
+      "size": 67360,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6975abf7f68bc014ed4f73fcf71cdc429b7274c1"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80c20ff4a6acaf5bbb21c0d24dcf3c773b7840e4",
+      "size": 53524,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/80c20ff4a6acaf5bbb21c0d24dcf3c773b7840e4"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd8788ecea54dab8d16fb3d862a3afc772b46c44",
+      "size": 46063,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fd8788ecea54dab8d16fb3d862a3afc772b46c44"
+    },
+    {
+      "path": "data/XJTU data/RW_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7209c32b29d083e5dfed0cab56e30efabbe22a",
+      "size": 53007,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/be7209c32b29d083e5dfed0cab56e30efabbe22a"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48e723c4f292ace6c323ed2138bfaa132654de14",
+      "size": 227296,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/48e723c4f292ace6c323ed2138bfaa132654de14"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce362e9620051617bae29182539dcc878e5bcca8",
+      "size": 297119,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ce362e9620051617bae29182539dcc878e5bcca8"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36daf9a0ed30f146940b164b7006ac1e495d7aa",
+      "size": 219021,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a36daf9a0ed30f146940b164b7006ac1e495d7aa"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1269a5d116511a4b36bdb76c70e4d06030f2256",
+      "size": 228842,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d1269a5d116511a4b36bdb76c70e4d06030f2256"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e38d3e6e252338c4f86994e3b806e01b617b4a",
+      "size": 307802,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/37e38d3e6e252338c4f86994e3b806e01b617b4a"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1751f12c03044fd806616c4b601443202d1515a",
+      "size": 258819,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e1751f12c03044fd806616c4b601443202d1515a"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-7.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c129731851d0cd6362c4ec4c17c641f537d059c",
+      "size": 221844,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9c129731851d0cd6362c4ec4c17c641f537d059c"
+    },
+    {
+      "path": "data/XJTU data/Sim_satellite_battery-8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fef7f88b609c7a78640746eb7685e0c3d1d48c8",
+      "size": 249471,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/6fef7f88b609c7a78640746eb7685e0c3d1d48c8"
+    },
+    {
+      "path": "dataloader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0c630009e5ca34c547d93e630bff4bb3d336c7e",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/e0c630009e5ca34c547d93e630bff4bb3d336c7e"
+    },
+    {
+      "path": "dataloader/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "dataloader/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aa8f4f339feb1057db58b9d3f922300cc9bfeeb",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/0aa8f4f339feb1057db58b9d3f922300cc9bfeeb"
+    },
+    {
+      "path": "dataloader/__pycache__/__init__.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84c750bd45cf72cf6575f7f691814cfc1d9ee69f",
+      "size": 158,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/84c750bd45cf72cf6575f7f691814cfc1d9ee69f"
+    },
+    {
+      "path": "dataloader/__pycache__/dataloader.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f71686cc94842069f58f21f244fcd2aef2eeadbf",
+      "size": 10954,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f71686cc94842069f58f21f244fcd2aef2eeadbf"
+    },
+    {
+      "path": "dataloader/dataloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ca93a8f354e287723940baef296889ea4fa246",
+      "size": 16808,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/22ca93a8f354e287723940baef296889ea4fa246"
+    },
+    {
+      "path": "main_HUST.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95beeb6c6c93c883aa9a60879d4762f84eca425e",
+      "size": 4030,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/95beeb6c6c93c883aa9a60879d4762f84eca425e"
+    },
+    {
+      "path": "main_MIT.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ec110fd03881c3ac3d91522c33fcd432dc21fb",
+      "size": 4007,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/93ec110fd03881c3ac3d91522c33fcd432dc21fb"
+    },
+    {
+      "path": "main_TJU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126c4162b11ed85ba931762d287b02fc2d247d3b",
+      "size": 6434,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/126c4162b11ed85ba931762d287b02fc2d247d3b"
+    },
+    {
+      "path": "main_XJTU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "188be0c6bfe3341fcc536ac101e5e0f6f5837aa5",
+      "size": 5382,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/188be0c6bfe3341fcc536ac101e5e0f6f5837aa5"
+    },
+    {
+      "path": "main_adaptation - fine-tuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4c9be0f3df19a6d636d391d207eb92f06a39bb6",
+      "size": 13779,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e4c9be0f3df19a6d636d391d207eb92f06a39bb6"
+    },
+    {
+      "path": "main_comparision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b0d9e9008e3b82b88287dca9c777725f1d929ae",
+      "size": 7751,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8b0d9e9008e3b82b88287dca9c777725f1d929ae"
+    },
+    {
+      "path": "plotter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8633cbee74c754d57c3470650dca537aa82b7d21",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/8633cbee74c754d57c3470650dca537aa82b7d21"
+    },
+    {
+      "path": "plotter/Figure 2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "502e6f9d61e203d9844ce3a35fd5082baf770576",
+      "size": 1978,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/502e6f9d61e203d9844ce3a35fd5082baf770576"
+    },
+    {
+      "path": "plotter/Figure 4a.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ece4f75f8924f947f6689cb655d554ad6b90e8",
+      "size": 3168,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/49ece4f75f8924f947f6689cb655d554ad6b90e8"
+    },
+    {
+      "path": "plotter/Figure 4b.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79f7d58ef9bf5925d8ac78d222c737c835c3074a",
+      "size": 6050,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/79f7d58ef9bf5925d8ac78d222c737c835c3074a"
+    },
+    {
+      "path": "plotter/Figure 5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb1b724e0357ee215c44a7aa58ea423d4dc6a79",
+      "size": 5052,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dbb1b724e0357ee215c44a7aa58ea423d4dc6a79"
+    },
+    {
+      "path": "plotter/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "plotter/color.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "794b747dc0afafc692a01b9cdc1003e6439576f1",
+      "size": 1270,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/794b747dc0afafc692a01b9cdc1003e6439576f1"
+    },
+    {
+      "path": "pretrained model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd308595cf28ab901534a4971b76da7a7de43d0e",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/cd308595cf28ab901534a4971b76da7a7de43d0e"
+    },
+    {
+      "path": "pretrained model/model_HUST.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0ed960d694be033e82b9e600a28e4c558c0e86",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8f0ed960d694be033e82b9e600a28e4c558c0e86"
+    },
+    {
+      "path": "pretrained model/model_MIT.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c97c5e01d400a335303a88be261d4fd1d629f94",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2c97c5e01d400a335303a88be261d4fd1d629f94"
+    },
+    {
+      "path": "pretrained model/model_TJU_0.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aff87f60743b13da424d8fdb328dfe6743a34a4f",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/aff87f60743b13da424d8fdb328dfe6743a34a4f"
+    },
+    {
+      "path": "pretrained model/model_TJU_1.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc8de75db2486fd90a23c1f5d313e62239137e8",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dcc8de75db2486fd90a23c1f5d313e62239137e8"
+    },
+    {
+      "path": "pretrained model/model_TJU_2.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d612890639c2e252a9f9f3472c96e201d25be798",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d612890639c2e252a9f9f3472c96e201d25be798"
+    },
+    {
+      "path": "pretrained model/model_XJTU_0.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65156df07bb965bf33d617546bde73bd4fe9d95c",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/65156df07bb965bf33d617546bde73bd4fe9d95c"
+    },
+    {
+      "path": "pretrained model/model_XJTU_1.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee8996aaf4233aa79883633bc81365b26490f0fa",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ee8996aaf4233aa79883633bc81365b26490f0fa"
+    },
+    {
+      "path": "pretrained model/model_XJTU_2.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09836c18a577381bc04b569e0a88f228635d7f65",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/09836c18a577381bc04b569e0a88f228635d7f65"
+    },
+    {
+      "path": "pretrained model/model_XJTU_3.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3500fbe5b367d5bd0fb163018532686040df7da6",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3500fbe5b367d5bd0fb163018532686040df7da6"
+    },
+    {
+      "path": "pretrained model/model_XJTU_4.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6a33b2fa0d76366a20adb5092c3a0616da9cfb1",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e6a33b2fa0d76366a20adb5092c3a0616da9cfb1"
+    },
+    {
+      "path": "pretrained model/model_XJTU_5.pth",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3f832b4c62bbf68e3e3ebb1b9afa45b19cf6d56",
+      "size": 60271,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e3f832b4c62bbf68e3e3ebb1b9afa45b19cf6d56"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_HUST.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd13d185333d9ac34240e0576002fdb4850ef7c",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7bd13d185333d9ac34240e0576002fdb4850ef7c"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_MIT.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba06305639e627969eb4b080197e515bf8e4cc3b",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ba06305639e627969eb4b080197e515bf8e4cc3b"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_XJTU_0.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75394ffb84c29d1db19bf3dd749bdd8ef159f4b1",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/75394ffb84c29d1db19bf3dd749bdd8ef159f4b1"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_XJTU_1.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f542ef88a563670c78379fe4f56bf338ae765c",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d6f542ef88a563670c78379fe4f56bf338ae765c"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_XJTU_2.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f7e77205718741d6edcbdff475e7da4a8f69e30",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3f7e77205718741d6edcbdff475e7da4a8f69e30"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_XJTU_3.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc6f3b917f152d6555486d16b9854a2383eff2cd",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/fc6f3b917f152d6555486d16b9854a2383eff2cd"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_XJTU_4.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f96d14850bf87d5ccdbde1aab7aada42b30d32a",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3f96d14850bf87d5ccdbde1aab7aada42b30d32a"
+    },
+    {
+      "path": "pretrained model/mu_var_pi_XJTU_5.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc0b3e8b9c538d4ddf8cc25935c8f075da499bb",
+      "size": 1500,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8dc0b3e8b9c538d4ddf8cc25935c8f075da499bb"
+    },
+    {
+      "path": "results analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f60611762bb9311945326e95bc68c61ddb64de8",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/8f60611762bb9311945326e95bc68c61ddb64de8"
+    },
+    {
+      "path": "results analysis/Comparision results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d37cfa1219488908ed3a1eb8bfac50732aa61e0",
+      "size": 8539,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1d37cfa1219488908ed3a1eb8bfac50732aa61e0"
+    },
+    {
+      "path": "results analysis/FineTune results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df45b2951e464daa1c778b2330695d49215fe64c",
+      "size": 10700,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/df45b2951e464daa1c778b2330695d49215fe64c"
+    },
+    {
+      "path": "results analysis/HUST results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a34ca8d7e087bbfdad5d250af70ff4b25882148",
+      "size": 8888,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1a34ca8d7e087bbfdad5d250af70ff4b25882148"
+    },
+    {
+      "path": "results analysis/MIT results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016d5891aac13fdcfd86c6e0cd67901213a923e9",
+      "size": 9368,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/016d5891aac13fdcfd86c6e0cd67901213a923e9"
+    },
+    {
+      "path": "results analysis/TJU results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1717bfdacc443645928163156fce478382f99d69",
+      "size": 9829,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1717bfdacc443645928163156fce478382f99d69"
+    },
+    {
+      "path": "results analysis/XJTU results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518058c61f3836c9329076a10bd190d40ec840af",
+      "size": 8222,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/518058c61f3836c9329076a10bd190d40ec840af"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d8f91f67d3d0e6efe0afa38a4914030133b6afd",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/6d8f91f67d3d0e6efe0afa38a4914030133b6afd"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-HUST-MIT.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f192c30741d37d678dc38e74edcbcf77a6f0426a",
+      "size": 6178,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f192c30741d37d678dc38e74edcbcf77a6f0426a"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-HUST-TJU.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fe16bca8443fa015c2085edb7cf3cfcd1f55da",
+      "size": 9594,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/47fe16bca8443fa015c2085edb7cf3cfcd1f55da"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-HUST-XJTU.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e88fb3f9abffb55ce9a3e2d3411c4fb144263753",
+      "size": 14925,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e88fb3f9abffb55ce9a3e2d3411c4fb144263753"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-MIT-HUST.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f35bb0729c49de771656cb10b70a15c48bb0300",
+      "size": 6171,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7f35bb0729c49de771656cb10b70a15c48bb0300"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-MIT-TJU.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48c33ebf092717b6e8321308af2ce163092c8ab2",
+      "size": 9630,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/48c33ebf092717b6e8321308af2ce163092c8ab2"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-MIT-XJTU.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c1793987d8eeddfe641af197fd28f0b05adcb5",
+      "size": 14835,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/14c1793987d8eeddfe641af197fd28f0b05adcb5"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-TJU-HUST.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af740dbd7d8c956a7a3320a8e15162bb3a8a98e",
+      "size": 9648,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/8af740dbd7d8c956a7a3320a8e15162bb3a8a98e"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-TJU-MIT.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca8923eb703dfd63b1344d7433558fd33575ab33",
+      "size": 9624,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ca8923eb703dfd63b1344d7433558fd33575ab33"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-TJU-XJTU.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f728474dca3dc98fd1f48b30b89f3a66b7bbe7",
+      "size": 14868,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/25f728474dca3dc98fd1f48b30b89f3a66b7bbe7"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-XJTU-HUST.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a786f4b3b33a672961593284b7b0c424f2014651",
+      "size": 9627,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a786f4b3b33a672961593284b7b0c424f2014651"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-XJTU-MIT.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b81bb303fcc1f01186a031f065df6decac85f9a2",
+      "size": 9638,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b81bb303fcc1f01186a031f065df6decac85f9a2"
+    },
+    {
+      "path": "results analysis/processed results (fine tuning)/Ours-FineTune-XJTU-TJU.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5807c33a57ba56db18b0f4ee9a053edeaa3b1c5",
+      "size": 9673,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a5807c33a57ba56db18b0f4ee9a053edeaa3b1c5"
+    },
+    {
+      "path": "results analysis/processed results (small sample)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e62ff791f904a40bf987ee0b8098cc2958843d25",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/e62ff791f904a40bf987ee0b8098cc2958843d25"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-HUST-results (small sample 1).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1625f8b27300aacea39f7b5416ac3de2cecf3c3a",
+      "size": 12236,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1625f8b27300aacea39f7b5416ac3de2cecf3c3a"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-HUST-results (small sample 2).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "730153de07d8ae5f65c2fd09752cfb871fdbd82a",
+      "size": 12237,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/730153de07d8ae5f65c2fd09752cfb871fdbd82a"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-HUST-results (small sample 3).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaea1b11063296e71ead590d2a060576c172d1c5",
+      "size": 12218,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/aaea1b11063296e71ead590d2a060576c172d1c5"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-HUST-results (small sample 4).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1197aa0bfcb385f2223b82d7916c25ad8193dfa6",
+      "size": 12218,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1197aa0bfcb385f2223b82d7916c25ad8193dfa6"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-XJTU-results (small sample 1).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4bf69b9708cd848c53e6efc128e5010443bb4c4",
+      "size": 12266,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a4bf69b9708cd848c53e6efc128e5010443bb4c4"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-XJTU-results (small sample 2).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4c713023139f257c696ee5cfc667e699e0bccc7",
+      "size": 12240,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e4c713023139f257c696ee5cfc667e699e0bccc7"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-XJTU-results (small sample 3).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f35fd49d4d702126d837bc22e93bd2d0ee8e231",
+      "size": 12213,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9f35fd49d4d702126d837bc22e93bd2d0ee8e231"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/CNN-XJTU-results (small sample 4).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d84f89e2ba33ff78ef3e8ff1914ad13dd9b801",
+      "size": 12212,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f6d84f89e2ba33ff78ef3e8ff1914ad13dd9b801"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-HUST-results (small sample 1).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9983d75f2d08b73c7aa1f37fe38642fd3d07c15b",
+      "size": 12218,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/9983d75f2d08b73c7aa1f37fe38642fd3d07c15b"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-HUST-results (small sample 2).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f473ff1bbf8b656fb63808035a9e339821953b",
+      "size": 12195,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/62f473ff1bbf8b656fb63808035a9e339821953b"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-HUST-results (small sample 3).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d7ed178474a5862934c097e37c5e4b176ff0fd",
+      "size": 12140,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/49d7ed178474a5862934c097e37c5e4b176ff0fd"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-HUST-results (small sample 4).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c829d8883b4d34f40ae2d3d63200e5e54d28a6",
+      "size": 12176,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/44c829d8883b4d34f40ae2d3d63200e5e54d28a6"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-XJTU-results (small sample 1).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51cdef696a43add08c7e59ee63ea104b9143d35",
+      "size": 12245,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e51cdef696a43add08c7e59ee63ea104b9143d35"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-XJTU-results (small sample 2).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f23269f247e7bd97f826373be3af59e5d70d835",
+      "size": 12191,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7f23269f247e7bd97f826373be3af59e5d70d835"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-XJTU-results (small sample 3).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e98539f09b11f5fb25e5a1638831d716b63b2ae",
+      "size": 12194,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/3e98539f09b11f5fb25e5a1638831d716b63b2ae"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/MLP-XJTU-results (small sample 4).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb0e9fa3d8da503a213b0e784f081f113df1b09a",
+      "size": 12197,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/bb0e9fa3d8da503a213b0e784f081f113df1b09a"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-HUST_results (small sample 1).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ed8d11275214ca9b1904885a7efd27f9ad9907",
+      "size": 7399,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/71ed8d11275214ca9b1904885a7efd27f9ad9907"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-HUST_results (small sample 2).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd28ccd41b4181efc2ef1fddd3f240aed84cebde",
+      "size": 7376,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/dd28ccd41b4181efc2ef1fddd3f240aed84cebde"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-HUST_results (small sample 3).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da30cba90d2228f49ab8428c6158d73c429a702",
+      "size": 7366,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4da30cba90d2228f49ab8428c6158d73c429a702"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-HUST_results (small sample 4).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d46388470c6a573165f62a62ed3c69871ae542",
+      "size": 7369,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/92d46388470c6a573165f62a62ed3c69871ae542"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-XJTU_results (small sample 1).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5690661d690fb924c796a1c0108cbb35c51f0e17",
+      "size": 12232,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5690661d690fb924c796a1c0108cbb35c51f0e17"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-XJTU_results (small sample 2).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed2ec26ddc6897e5613d20702726a31edaf46af2",
+      "size": 12211,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ed2ec26ddc6897e5613d20702726a31edaf46af2"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-XJTU_results (small sample 3).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc6d1d63eab2f6f918c10be554d854d74606b59",
+      "size": 12197,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/7fc6d1d63eab2f6f918c10be554d854d74606b59"
+    },
+    {
+      "path": "results analysis/processed results (small sample)/Ours-XJTU_results (small sample 4).xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b48aad60f4f7a97c80133595248005653bd82ed",
+      "size": 12206,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/2b48aad60f4f7a97c80133595248005653bd82ed"
+    },
+    {
+      "path": "results analysis/processed results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55a18d085451f1611d90c7ea775f7b2e663a0da6",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/55a18d085451f1611d90c7ea775f7b2e663a0da6"
+    },
+    {
+      "path": "results analysis/processed results/CNN-HUST-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1394baff5d40e683d55e4b62d8ee5de7438e3439",
+      "size": 11476,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1394baff5d40e683d55e4b62d8ee5de7438e3439"
+    },
+    {
+      "path": "results analysis/processed results/CNN-MIT-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deccd97825d742cf57d09c69b48a1b0cb138a0f1",
+      "size": 11815,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/deccd97825d742cf57d09c69b48a1b0cb138a0f1"
+    },
+    {
+      "path": "results analysis/processed results/CNN-TJU-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bee9a873fc7b62eda284b39f21a058aabfdc673",
+      "size": 16385,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/5bee9a873fc7b62eda284b39f21a058aabfdc673"
+    },
+    {
+      "path": "results analysis/processed results/CNN-XJTU-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9ca870a8a1c50be534f4d7dc2672fe0e6533f3",
+      "size": 21860,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/4b9ca870a8a1c50be534f4d7dc2672fe0e6533f3"
+    },
+    {
+      "path": "results analysis/processed results/MLP-HUST-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117141bbc99b84f87b78e93b5b53ce4c2c5d08f1",
+      "size": 11443,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/117141bbc99b84f87b78e93b5b53ce4c2c5d08f1"
+    },
+    {
+      "path": "results analysis/processed results/MLP-MIT-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39345f9d133fef3f3a369d5996b7034cb9853d31",
+      "size": 11771,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/39345f9d133fef3f3a369d5996b7034cb9853d31"
+    },
+    {
+      "path": "results analysis/processed results/MLP-TJU-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51bd2e9a60a4594cc6b5e9a8729e7d56adccc15e",
+      "size": 16327,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/51bd2e9a60a4594cc6b5e9a8729e7d56adccc15e"
+    },
+    {
+      "path": "results analysis/processed results/MLP-XJTU-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32cd0587c09bd2c69bac0c198e252013c3f362ca",
+      "size": 21865,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/32cd0587c09bd2c69bac0c198e252013c3f362ca"
+    },
+    {
+      "path": "results analysis/processed results/Ours-HUST-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4db1a1a227f7d9765e5cc65078f65ff12a0159d",
+      "size": 7380,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/d4db1a1a227f7d9765e5cc65078f65ff12a0159d"
+    },
+    {
+      "path": "results analysis/processed results/Ours-MIT-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b886176c0fb59b3e9edb650d563d3705af07d9a",
+      "size": 11677,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/1b886176c0fb59b3e9edb650d563d3705af07d9a"
+    },
+    {
+      "path": "results analysis/processed results/Ours-TJU-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c1119300085ff510ff6999f8da31d3e176c966",
+      "size": 11217,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/a6c1119300085ff510ff6999f8da31d3e176c966"
+    },
+    {
+      "path": "results analysis/processed results/Ours-XJTU-results.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e44e3dc94885f6285eaea79e16988b5da28ead",
+      "size": 15423,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/71e44e3dc94885f6285eaea79e16988b5da28ead"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb1ccf196d692c36cfb7942445a3ea6938a3fd76",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/bb1ccf196d692c36cfb7942445a3ea6938a3fd76"
+    },
+    {
+      "path": "results/CNN",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7710543f973a36f16fd8dac106566c2f590a80d2",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/7710543f973a36f16fd8dac106566c2f590a80d2"
+    },
+    {
+      "path": "results/CNN/CNN.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b34ab85c957c703c2985c72529098ae147df7d30",
+      "size": 15203075,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/b34ab85c957c703c2985c72529098ae147df7d30"
+    },
+    {
+      "path": "results/MLP",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "884d5ba30e22a6b95768cf726fc46d9d6a4192ba",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/884d5ba30e22a6b95768cf726fc46d9d6a4192ba"
+    },
+    {
+      "path": "results/MLP/MLP.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0cada6a2439894a8b10cfbba0353fb608c65aa7",
+      "size": 17000079,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f0cada6a2439894a8b10cfbba0353fb608c65aa7"
+    },
+    {
+      "path": "results/Ours",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f321edcdcfcc31a49ce2383b06d3320785a94232",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/f321edcdcfcc31a49ce2383b06d3320785a94232"
+    },
+    {
+      "path": "results/Ours/HUST.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38bbb50a6ea44b0d10febee2e3be5243e061d2b9",
+      "size": 13904504,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/38bbb50a6ea44b0d10febee2e3be5243e061d2b9"
+    },
+    {
+      "path": "results/Ours/MIT results.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73567215471ff9d0754ac45bb216b3716bebb6fd",
+      "size": 1541752,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/73567215471ff9d0754ac45bb216b3716bebb6fd"
+    },
+    {
+      "path": "results/Ours/TJU results.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea4fcb25750e9e08fafc794b7f2da6e4706a5f38",
+      "size": 2625100,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ea4fcb25750e9e08fafc794b7f2da6e4706a5f38"
+    },
+    {
+      "path": "results/Ours/XJTU.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f97f339edf1684ec4cbf521d5044174fa76012b3",
+      "size": 19139716,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/f97f339edf1684ec4cbf521d5044174fa76012b3"
+    },
+    {
+      "path": "utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "261984a4a7d8f1e39f9c4f8bbcb33c4b66ac158e",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/261984a4a7d8f1e39f9c4f8bbcb33c4b66ac158e"
+    },
+    {
+      "path": "utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "utils/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb0b8f31da8b085c302363e5de14c300ea9bb158",
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/trees/eb0b8f31da8b085c302363e5de14c300ea9bb158"
+    },
+    {
+      "path": "utils/__pycache__/__init__.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943c989bf4409c757237c5e731f3422c2033f409",
+      "size": 153,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/943c989bf4409c757237c5e731f3422c2033f409"
+    },
+    {
+      "path": "utils/__pycache__/util.cpython-37.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae11f37ebee49039966d9648688072ad2e2f8220",
+      "size": 2250,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/ae11f37ebee49039966d9648688072ad2e2f8220"
+    },
+    {
+      "path": "utils/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88fe07b42f834cc56be15f2f0a5f0e0cd03ab50d",
+      "size": 1892,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/88fe07b42f834cc56be15f2f0a5f0e0cd03ab50d"
+    },
+    {
+      "path": "xjtu battery dataset.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947a8294733344b806d235fdf0e47bf51e02058e",
+      "size": 103088,
+      "url": "https://api.github.com/repos/wang-fujin/PINN4SOH/git/blobs/947a8294733344b806d235fdf0e47bf51e02058e"
+    }
+  ],
+  "truncated": false
+}

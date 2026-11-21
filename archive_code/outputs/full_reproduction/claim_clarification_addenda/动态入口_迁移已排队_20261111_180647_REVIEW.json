@@ -1,0 +1,322 @@
+{
+  "format": "pinn4soh-dynamic-queue-evidence-review-v1",
+  "checked_at_UTC": "2026-11-11T10:14:57.916122+00:00",
+  "status": "passed",
+  "source": "Local review of root executor UI/terminal observation; no cloud access by this audit agent",
+  "observation": {
+    "path": "outputs/full_reproduction/cloud_live_20261111/observation_180647/LOCAL_UI_OBSERVATION.json",
+    "sha256": "72ea515f41ae31aae2923cd75bd7f49390315e1d634f03ce1f450379831f89f9",
+    "is_cloud_original_status_file": false,
+    "observed_at": "2026-11-11T18:06:47.376911+08:00"
+  },
+  "snapshot": {
+    "stage_a_selection": 27,
+    "stage_a_total": 162,
+    "mit_pinn": "complete27/27",
+    "mit_mlp": "running0/27",
+    "only_observed_training_worker_PID": 19586,
+    "confirmation_waiter_PID": 18969,
+    "transfer_waiter_PID": 19580,
+    "both_waiters_no_libtorch_no_children": true,
+    "confirmation_and_transfer_formal_trainings_started": false
+  },
+  "screenshot": {
+    "path": "outputs/full_reproduction/cloud_live_20261111/stage_a27_transfer_queue_waiting_180647.jpg",
+    "bytes": 74318,
+    "sha256": "7ee1a31f2752d5c0f5adb45015aedefd5815c90f3a0dac6ae8766594ce390570"
+  },
+  "migration_v2_package": {
+    "path": "outputs/full_reproduction/transfer-robustness-cloud-20261111-v2.zip",
+    "bytes": 139771,
+    "sha256": "ce4e51c8244fd7adb26d691c0817d5e7d178b8a0a4650a2cc7fc435d9581b081",
+    "matched_root_observation": true,
+    "members": 25,
+    "TOOLS_SHA256_json_sha256": "4086e950e098f7b8ca0cfc0e920a6c23e9c2f42e3d0c16fe1d105a22103c44c5",
+    "tool_members_checked": [
+      {
+        "path": "run_transfer_robustness.py",
+        "bytes": 25930,
+        "sha256": "3f57579ba9010ea12686d6660ee4bf292b4edf091e0841bed89b82ece63af037",
+        "matched": true
+      },
+      {
+        "path": "prepare_transfer_robustness.py",
+        "bytes": 10126,
+        "sha256": "f33032652e49117c1331ffbb0d36114715cfa63c05ea3cb2ebc042345975add3",
+        "matched": true
+      },
+      {
+        "path": "run_transfer_robustness_cloud.py",
+        "bytes": 13589,
+        "sha256": "78ee8d3bc9f6c027a7b4601ed90e09a104321a4e65e61a475cedaa707d0b2eaa",
+        "matched": true
+      },
+      {
+        "path": "collect_transfer_robustness.py",
+        "bytes": 24614,
+        "sha256": "a9e42d60ca5cda75faccacf26fdb7d66bf75892e9f92c3e2d90491ce732a7c06",
+        "matched": true
+      },
+      {
+        "path": "package_transfer_robustness_cloud.py",
+        "bytes": 5088,
+        "sha256": "fd9442f0a89930a3810d6244f586d79738e33e81e621edd04216468be9b599b8",
+        "matched": true
+      },
+      {
+        "path": "search_stage_a.py",
+        "bytes": 34062,
+        "sha256": "1ea2bffee43d07253eb6e87ceae7d19642262d55307542019be40cec952bcc8d",
+        "matched": true
+      },
+      {
+        "path": "search_replacement_grid.py",
+        "bytes": 24146,
+        "sha256": "eaf95ad40ae224664b17340286955d3d7486b69a074be059da3d517fe4ea7ade",
+        "matched": true
+      },
+      {
+        "path": "run_extended.py",
+        "bytes": 33276,
+        "sha256": "24c3e482fb3a9c751c478072e04b77a238b37571d9b970ae1f69bea600fdba17",
+        "matched": true
+      },
+      {
+        "path": "run_transfer.py",
+        "bytes": 35225,
+        "sha256": "4f2f19642f74f0904511b83dbafecd211ee6e254458fb052d1bca0d4b3a8945f",
+        "matched": true
+      },
+      {
+        "path": "run_reproduction.py",
+        "bytes": 25400,
+        "sha256": "29322fff682bf66dfe08bc5715e9ddfad9188b1c85cfe7b09941d87bade5bad5",
+        "matched": true
+      },
+      {
+        "path": "verify_stage_a_registration.py",
+        "bytes": 3592,
+        "sha256": "b576b165c8889d101b413e9e9200df35a2a169b522773c60df87f546fd3cf064",
+        "matched": true
+      },
+      {
+        "path": "install_legacy_runtime.py",
+        "bytes": 10145,
+        "sha256": "74bf3e97ee4244fe38d77902f4073ca592b4a563151ea8975bb873f83494e497",
+        "matched": true
+      },
+      {
+        "path": "probe_legacy_runtime.py",
+        "bytes": 6082,
+        "sha256": "0c39ffdd5003d18453f49fd51cfe4a1bb8aff88c257410686e24949384b4591e",
+        "matched": true
+      },
+      {
+        "path": "collect_stage_a.py",
+        "bytes": 17350,
+        "sha256": "dca062aaada7ee569f2b43f6d65a5455d076119e679091e13f0bafa2ff35ae85",
+        "matched": true
+      },
+      {
+        "path": "collect_stage_a_confirmation.py",
+        "bytes": 26211,
+        "sha256": "453266768830ec723f8df826234bb88b0ec27fc744633a9ea26012942bf56758",
+        "matched": true
+      },
+      {
+        "path": "restore_backup_json.py",
+        "bytes": 14280,
+        "sha256": "4fa6289e4ac35a947ba92b83b56a7d5fd2a8fd6f3bea25c1c228003f06fccb6a",
+        "matched": true
+      },
+      {
+        "path": "TRANSFER_ROBUSTNESS_RUN.md",
+        "bytes": 6557,
+        "sha256": "95fc11b102e65f44282478979523cc2d2f715e357baa617b6dcff4164be02cc3",
+        "matched": true
+      },
+      {
+        "path": "TRANSFER_ROBUSTNESS_CLOUD.md",
+        "bytes": 4032,
+        "sha256": "73af10935ac53aac74b76eb82f295f3234ebce56a2d32ee53f6a2165b2381d23",
+        "matched": true
+      },
+      {
+        "path": "test_transfer_robustness.py",
+        "bytes": 6030,
+        "sha256": "72e908552a214118eb50c79782733b14d0eafe5b3e73d0ab5bbd24ef0c9a6275",
+        "matched": true
+      },
+      {
+        "path": "test_transfer_robustness_cloud.py",
+        "bytes": 13921,
+        "sha256": "708fa3dbd0eb81fcb4045e389a1c32443cabf11ac994ba431e2a780bd529fb14",
+        "matched": true
+      },
+      {
+        "path": "PROTOCOL.json",
+        "bytes": 347833,
+        "sha256": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23",
+        "matched": true
+      },
+      {
+        "path": "LOCAL_RUNNER_ACCEPTANCE.json",
+        "bytes": 2951,
+        "sha256": "9478d8334d1f50f55dd4236181fae93e5cdad0d2500cd81118d1d64bfa7c0ef5",
+        "matched": true
+      },
+      {
+        "path": "LOCAL_CLOUD_ACCEPTANCE.json",
+        "bytes": 3073,
+        "sha256": "57f613534a78560a0c537c20bfddabd3cf720f93e3c15cec36b0820bed72be3d",
+        "matched": true
+      },
+      {
+        "path": "EXPECTED_AUTHOR_INPUTS.json",
+        "bytes": 3631,
+        "sha256": "781763f672650a7ba7f10c1e41a75ca595b6b09c62b5fe25fa690ea5517dab86",
+        "matched": true
+      }
+    ],
+    "cloud_path": "/workspace/transfer_robustness_20261111_v2",
+    "formal_target_training_budget": 187,
+    "fixed_test_evaluation_budget": 140,
+    "actual_modern_legacy_GPU_smokes_started": false
+  },
+  "acceptances": [
+    {
+      "path": "outputs/full_reproduction/transfer_robustness_preregistered_20261111/ACCEPTANCE.json",
+      "sha256": "9478d8334d1f50f55dd4236181fae93e5cdad0d2500cd81118d1d64bfa7c0ef5",
+      "status": "passed_functional_and_real_cpu_smoke_not_formal"
+    },
+    {
+      "path": "outputs/full_reproduction/transfer_robustness_cloud_validation_20261111/ACCEPTANCE.json",
+      "sha256": "57f613534a78560a0c537c20bfddabd3cf720f93e3c15cec36b0820bed72be3d",
+      "status": "passed_local_wrapper_collector_package"
+    },
+    {
+      "path": "outputs/full_reproduction/transfer_robustness_code_review_20261111/CLOUD_WRAPPER_COLLECTOR_FINAL_REVIEW.json",
+      "sha256": "7f3acd4266c0c044630f0f24cc04b81e615c3336bc1018c346598a90bc775c39",
+      "status": "no_remaining_deployment_blocker_after_absent_wait_fix"
+    }
+  ],
+  "frozen_main_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    }
+  ],
+  "frozen_protocol_runner_checks": [
+    {
+      "path": "outputs/full_reproduction/transfer_robustness_preregistered_20261111/PROTOCOL.json",
+      "sha256": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23",
+      "unchanged": true
+    },
+    {
+      "path": "reproduction/run_transfer_robustness.py",
+      "sha256": "3f57579ba9010ea12686d6660ee4bf292b4edf091e0841bed89b82ece63af037",
+      "unchanged": true
+    }
+  ],
+  "current20_delivery_unchanged": [
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/CURRENT_DEFAULT_CONFIGS_20.json",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/INPUT_SHA256_CHECKS.json",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/LOCAL_CURRENT_DEFAULT_AUDIT.json",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_per_CSV.csv",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_per_run_20.csv",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/metrics_summary_20.csv",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/saved_metric_precision_differences.csv",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/作者当前默认20次_独立复核.md",
+      "unchanged": true
+    }
+  ],
+  "old_reviews_preserved": [
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口更新_20261111_192737_REVIEW.json",
+      "sha256": "58069a857d2fdf8a52e2476c65297bf779ebccef5c0599479b02e406d5314f5d"
+    },
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口更新_20261111_173218_时间更正_REVIEW.json",
+      "sha256": "7f7e36c05ac3ba182d08d2413ad405aa157f1793e4a03ba2c4e68d1c9b24ade5"
+    },
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口与当前默认20次_20261111_174432_REVIEW.json",
+      "sha256": "54112abbca6d69183b2cbcd6c08c958fd11f4b9419d0de4ff4da0bd13b06cff8"
+    }
+  ],
+  "document_sha256": {
+    "复现结果总入口.md": "826acecc293b9bf158fc58bea4486c38a8fe49cb5484105efa47ccb9fc292025",
+    "本日复现进展_20261111.md": "67a0ba1ff4347ab82c005bf3b31768b86501b896403fda25c0c60f69ca47f73a",
+    "outputs/full_reproduction/执行状态.md": "b5f2b0fe442caa613cd727e8117312e5f02c37f21a72f8c7aba179a9b38cf3b6",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "2ba9dfa83ce89bcccb4bfd412ad8ce5e5473538ac6bfe768786840e2326c303c",
+    "outputs/full_reproduction/claim_clarification_addenda/CODE_PROVENANCE_与微信结果技术核对_20261111.md": "cd47dbcbcdecbfd72c20ce0e09a2fef69bf5136b76bcef1e023e071f379c106a"
+  },
+  "claim_rows": 21,
+  "figure_rows": 25,
+  "missing_links": [],
+  "remaining_reproduction_scope": [
+    "No evidenced missing main-matrix training; main2120 and current-default20 complete",
+    "Original MIT MAT/units/identity records",
+    "Original feature exporter, two slopes and precise extraction conventions",
+    "Satellite program/cycle mapping",
+    "Historical grid/seeds/loss/backend/checkpoint binding",
+    "Original aggregate weighting/metric boundaries/SD convention",
+    "Original i5-10400F timing conditions",
+    "Unsupported universal conclusions retained as measured counterexamples",
+    "192 final pipeline original file remains undownloaded; observation only"
+  ],
+  "extra_research_scope": [
+    "StageA162selection+18test",
+    "Modern60future-seed training+60test",
+    "Transfer187training+140test",
+    "Optional legacyStageA60 is not a paper-mandatory gap and is not currently added"
+  ],
+  "local_update_script": {
+    "path": "outputs/full_reproduction/claim_clarification_addenda/update_dynamic_180647.py",
+    "sha256": "26098db986422deb4724d42e5645e74b9e950a3da2e11b29e1fd712f4b260a9a"
+  },
+  "document_count": 5,
+  "remaining_scope_addendum": {
+    "path": "outputs/full_reproduction/claim_clarification_addenda/原论文剩余事项_与新增改进分界_20261111.md",
+    "sha256": "d9d3d8c02191406093171aab7f865980a66d4d5098ac8bda09aa58de3c37c94f",
+    "links_checked": true,
+    "C13_n1_group_mean_lower": 20,
+    "C13_total_groups": 48,
+    "C14_n2_group_mean_lower": 7,
+    "C14_total_groups": 24,
+    "group_count_not_independent_seed_count": true
+  }
+}

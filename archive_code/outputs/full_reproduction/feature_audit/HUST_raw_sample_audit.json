@@ -1,0 +1,23 @@
+{
+  "source_url": "https://data.mendeley.com/public-files/datasets/nsc7hnsg4s/files/5ca0ac3e-d598-4d07-8dcb-879aa047e98b/file_downloaded",
+  "raw_member": "our_data/2-5.pkl",
+  "crc32": "160ea26b",
+  "compressed_bytes": 9460792,
+  "uncompressed_bytes": 36734361,
+  "scope": "All raw cycles of one HUST battery; full archive checksum not established by a ranged member",
+  "sha256": "1092a099e19424b0af54421761be8fcbbf7d8b7837710bee9bb38816a4ab4cd4",
+  "status": "passed",
+  "inspected_cycles": 1386,
+  "candidate_records": 8316,
+  "alignment": {
+    "dataset": "HUST",
+    "processed_csv": "HUST data/2-5.csv",
+    "published_rows": 1360,
+    "raw_cycles": 1386,
+    "mapped_rows": 1360,
+    "ordered_unique": true,
+    "signature": "current mean + population std + biased Fisher kurtosis + biased skewness, absolute tolerance 1e-9",
+    "signature_statistics_not_independent_validation": true
+  },
+  "seconds": 53.63825988769531
+}

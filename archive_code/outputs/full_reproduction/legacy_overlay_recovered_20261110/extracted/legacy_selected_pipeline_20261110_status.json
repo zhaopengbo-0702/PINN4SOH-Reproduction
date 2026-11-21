@@ -1,0 +1,29 @@
+{
+  "status": "running",
+  "steps": [
+    {
+      "name": "training",
+      "status": "running",
+      "command": [
+        "/usr/bin/python3",
+        "/workspace/legacy_extension_tools_v2/tools/launch_legacy_extension.py",
+        "--prefix",
+        "/workspace/legacy37",
+        "--support",
+        "/workspace/legacy_offline_recovered_v1/payload/support",
+        "--extension",
+        "/workspace/legacy_selected_support_20261110",
+        "--legacy-control-suite",
+        "/workspace/pinn4soh_legacy_formal_control_20261110",
+        "--repo",
+        "/workspace/PINN4SOH-main",
+        "--gpus",
+        "0",
+        "--workers-per-gpu",
+        "1"
+      ]
+    }
+  ],
+  "pid": 1591,
+  "updated_at": "2026-11-10T14:04:19.180780+00:00"
+}

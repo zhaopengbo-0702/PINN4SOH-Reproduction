@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "test_count": 18,
+  "tests": [
+    "verify_only_reassembles_all_files_without_output",
+    "restore_unicode_multichunk_dedup_and_empty",
+    "existing_identical_files_verified_and_skipped",
+    "existing_different_file_rejected_unchanged",
+    "path_traversal_rejected",
+    "absolute_path_rejected",
+    "windows_drive_path_rejected",
+    "backslash_path_rejected",
+    "reserved_filename_rejected",
+    "case_collision_rejected",
+    "parent_file_collision_rejected",
+    "wrong_reassembled_file_hash_rejected",
+    "wrong_chunk_size_rejected",
+    "missing_blob_rejected",
+    "external_reference_rejected",
+    "wrong_archive_hash_rejected",
+    "extra_zip_member_rejected_even_when_archive_hash_matches",
+    "zip_symlink_member_rejected"
+  ],
+  "script_sha256": "a4ef9fba4889d6ba0b823e7b4ecaf75f90af8b9d9c2db89dd6b198341e686070",
+  "limitations": [
+    "These are small local I/O fixtures, not the complete archive verification.",
+    "Filesystem symlink/junction ancestor rejection is implemented; this fixture tests malicious ZIP symlinks."
+  ]
+}

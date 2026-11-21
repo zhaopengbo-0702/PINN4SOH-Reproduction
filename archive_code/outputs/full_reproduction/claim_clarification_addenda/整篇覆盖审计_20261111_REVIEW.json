@@ -1,0 +1,44 @@
+{
+  "format": "pinn4soh-coverage-report-review-v1",
+  "checked_at_utc": "2026-11-11T05:50:12.752637+00:00",
+  "report": "整篇论文复现覆盖与未复现清单_20261111.md",
+  "claim_rows": 21,
+  "figure_rows": 25,
+  "missing_links": [],
+  "frozen_artifacts": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    }
+  ],
+  "stage_a_acceptance_artifact_count": 48,
+  "stage_a_bad_sha": [],
+  "stage_a_formal_started": false,
+  "cloud_snapshot_source": "root execution owner CUA observation, 2026-11-11 13:41:35 Asia/Shanghai; not downloaded final manifest",
+  "cloud_snapshot": {
+    "candidate_complete": 185,
+    "total": 192,
+    "pipeline_pid": 3082,
+    "status": "running",
+    "stage": "formal_search"
+  },
+  "artifacts_sha256": {
+    "整篇论文复现覆盖与未复现清单_20261111.md": "0fabd1d85689169c79cdef7d57929eac4f4c3c9ba2326031939214b52c3f7dbd",
+    "复现结果总入口.md": "d56c432c3ad6896804c9d23aabae7f101a7292f7e8bba0267497909ff9f95126",
+    "本日复现进展_20261111.md": "d7ae0ababfc0d78e3769c937898ef72709ef23ea14356ec74829e5abcb25b181",
+    "outputs/full_reproduction/执行状态.md": "6b6fb8bbf1d3fe7d4b275d657acb88c7b467f3bbe8f741245f62036b86440e33"
+  },
+  "checks_are_bounded": "Structural/link/SHA review and source-text/page-image reading, not new training or repeat raw extraction",
+  "status": "passed"
+}

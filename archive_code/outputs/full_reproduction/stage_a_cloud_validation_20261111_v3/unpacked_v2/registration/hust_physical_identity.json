@@ -1,0 +1,577 @@
+{
+  "dataset": "HUST",
+  "identities": {
+    "data/HUST data/1-1.csv": {
+      "physical_ids": [
+        "HUST:1-1"
+      ],
+      "csv_sha256": "feab7bf9a920c84d31bdf0db04da7d9808b7487d562670486931da563dbea1cd",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-2.csv": {
+      "physical_ids": [
+        "HUST:1-2"
+      ],
+      "csv_sha256": "dfe4655d142ba737b4588ea2d8a387aa0941f993519c75fbf9697c8128f895b2",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-3.csv": {
+      "physical_ids": [
+        "HUST:1-3"
+      ],
+      "csv_sha256": "dfe2f79234fa98399f4122784199741dcc25ec5becfa2576deff096090975a13",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-4.csv": {
+      "physical_ids": [
+        "HUST:1-4"
+      ],
+      "csv_sha256": "41d56b52db2bcf9e5c8bbbb2843f900b1469147f325bc050896c8abd1b23a381",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-5.csv": {
+      "physical_ids": [
+        "HUST:1-5"
+      ],
+      "csv_sha256": "afc3a0a02db3a6f95dc3844a93a959870783d8406b25752339815bc1bc1b74ff",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-6.csv": {
+      "physical_ids": [
+        "HUST:1-6"
+      ],
+      "csv_sha256": "3a9a41a0c992c3bdadf54e10c99dd40a155eb9b9a36c16a7022ec32c0d93d611",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-7.csv": {
+      "physical_ids": [
+        "HUST:1-7"
+      ],
+      "csv_sha256": "74453d137e0e89d7c1ea085fdd91187b7fde1e9167b8ee0b41eec0ddd0503bdc",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/1-8.csv": {
+      "physical_ids": [
+        "HUST:1-8"
+      ],
+      "csv_sha256": "beb504881eb6b443f5cfcbde725c750e3f8ec588ad08ae7b4375c3aff07d032b",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-2.csv": {
+      "physical_ids": [
+        "HUST:2-2"
+      ],
+      "csv_sha256": "8d27f78998830cbb6164a33ed686d0e505c2a4bc3a8531d2f4e28ef72a97dd96",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-3.csv": {
+      "physical_ids": [
+        "HUST:2-3"
+      ],
+      "csv_sha256": "218810adf028ffa507777fdec46907723fda1d2bfc0ce0aaab236ee149ce04f6",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-4.csv": {
+      "physical_ids": [
+        "HUST:2-4"
+      ],
+      "csv_sha256": "d420f71c07149fa22828bb39b7aca0a28d4baf894002dac8d87644d4f4b62e61",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-5.csv": {
+      "physical_ids": [
+        "HUST:2-5"
+      ],
+      "csv_sha256": "8d8adda8f42e40b2844bd5419d79b379574cb1c144da0c2e47b738c967eccbe4",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-6.csv": {
+      "physical_ids": [
+        "HUST:2-6"
+      ],
+      "csv_sha256": "9d08e11f4f90582c4dde95c8e840d8c6c6b68cca177aeda957821ec545721366",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-7.csv": {
+      "physical_ids": [
+        "HUST:2-7"
+      ],
+      "csv_sha256": "d372f2386b06d614f009bb45eb56c2615b509278ce41fa16654dabb9f87d42f6",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/2-8.csv": {
+      "physical_ids": [
+        "HUST:2-8"
+      ],
+      "csv_sha256": "05da4968219c0a96296bfa25b0b496700146cb5726a9201eee020640f8d2fe78",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-1.csv": {
+      "physical_ids": [
+        "HUST:3-1"
+      ],
+      "csv_sha256": "53d545ce3190ef2563db57c9a5c221d29ea3fcae5bd5cfbebc320d10b9e646eb",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-2.csv": {
+      "physical_ids": [
+        "HUST:3-2"
+      ],
+      "csv_sha256": "1038ce0fe1d82bedf230bf07b3cc029758b6ebc33e7c3a8118f92cb9ffaad9b5",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-3.csv": {
+      "physical_ids": [
+        "HUST:3-3"
+      ],
+      "csv_sha256": "0943154ddbcc3924b5b3a8503e8ec4586776e51c425a69c20272bd15724ff2de",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-4.csv": {
+      "physical_ids": [
+        "HUST:3-4"
+      ],
+      "csv_sha256": "4ec9c7e821f1b26f427b2dd44bfc5371ae3f525afe06c4ef75c71d0acd1d47b7",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-5.csv": {
+      "physical_ids": [
+        "HUST:3-5"
+      ],
+      "csv_sha256": "5779888f18f9e0756fa6a64b957be384b70b940ce2d72940fae25745261d31e1",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-6.csv": {
+      "physical_ids": [
+        "HUST:3-6"
+      ],
+      "csv_sha256": "bdb4428d6b9b5e87e3de73ec35c143ede73f4f19f5580ec9e7eea967380884b2",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-7.csv": {
+      "physical_ids": [
+        "HUST:3-7"
+      ],
+      "csv_sha256": "8aa9219a184509c393916eaa7560a339b9617e7e5ce4497fa43eafed895ba64e",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/3-8.csv": {
+      "physical_ids": [
+        "HUST:3-8"
+      ],
+      "csv_sha256": "493d8f9ce0802b15f088c5d743585784bfdd35bd5d3079cf46c3017d65a40a9d",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-1.csv": {
+      "physical_ids": [
+        "HUST:4-1"
+      ],
+      "csv_sha256": "459182b5dd6ad530401ca27c5d2d599d3553b4e322c540e7a71fbe1ae9320726",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-2.csv": {
+      "physical_ids": [
+        "HUST:4-2"
+      ],
+      "csv_sha256": "32338c32dd71a24ba88b07d8353518c07238257a9d30bb3fa674b638dea94af3",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-3.csv": {
+      "physical_ids": [
+        "HUST:4-3"
+      ],
+      "csv_sha256": "9a4910c0437ffe55802436d3c524cbde68bfdca6394f8c8028d21fa8aeb2f0d9",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-4.csv": {
+      "physical_ids": [
+        "HUST:4-4"
+      ],
+      "csv_sha256": "2d88cb95421da11a15d27c368c9b2a1bdbbffb03c9e9420f701706e8e197cfd7",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-5.csv": {
+      "physical_ids": [
+        "HUST:4-5"
+      ],
+      "csv_sha256": "989b2876a60d25b949fec5c23f02905d427fc28e765da00120aeecd5f715a65d",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-6.csv": {
+      "physical_ids": [
+        "HUST:4-6"
+      ],
+      "csv_sha256": "af26d0ba72808a70a79cb1f0dddcadbd2bbafc932e87fcc7d96921ddd8850871",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-7.csv": {
+      "physical_ids": [
+        "HUST:4-7"
+      ],
+      "csv_sha256": "ef920ec7b1fa3392539e4d8cbb6160179faef792fd9aa65c22158381ff3a49fb",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/4-8.csv": {
+      "physical_ids": [
+        "HUST:4-8"
+      ],
+      "csv_sha256": "78875143b5dc63fc38e22321159067d4fe426f84bf03ab727e502a0286cc2a80",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-1.csv": {
+      "physical_ids": [
+        "HUST:5-1"
+      ],
+      "csv_sha256": "5b3d5245743ad69553ad46d9c5701949182155aa0f8d809c9dea63a4351e37e5",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-2.csv": {
+      "physical_ids": [
+        "HUST:5-2"
+      ],
+      "csv_sha256": "b01da96db9181dcda1762e5144f88aa084ddc5c9c4d014ee61e63e19f03f3c7e",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-3.csv": {
+      "physical_ids": [
+        "HUST:5-3"
+      ],
+      "csv_sha256": "41df4617e766633aa1c226471a2949331d512bfabce2626f600c1aa1d633dc69",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-4.csv": {
+      "physical_ids": [
+        "HUST:5-4"
+      ],
+      "csv_sha256": "8d4252a6e72e8ec7c5104f1c96dc7afcb647ba75cab895c2ba46b09111542484",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-5.csv": {
+      "physical_ids": [
+        "HUST:5-5"
+      ],
+      "csv_sha256": "e25a26fdc17aa7bc876b6aa08941d39fb9fbe81d388c3170da284de954792a81",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-6.csv": {
+      "physical_ids": [
+        "HUST:5-6"
+      ],
+      "csv_sha256": "60b319ab894384afdb35f5b288f6e296cf02b01e3d6bce6e71b335f663f31b4b",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/5-7.csv": {
+      "physical_ids": [
+        "HUST:5-7"
+      ],
+      "csv_sha256": "03b04af6f2b80294ddd5014540599a4421ac6e68e03feb3a900d2def687f1b0f",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-1.csv": {
+      "physical_ids": [
+        "HUST:6-1"
+      ],
+      "csv_sha256": "1a7affac53252e0e23be072e8807a9e72acf8a9a014205825462b3f0ca81796b",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-2.csv": {
+      "physical_ids": [
+        "HUST:6-2"
+      ],
+      "csv_sha256": "2773e7cb55db7669f4c04231e7c69376ccaa42f7fcf638a023d646da69a4ae08",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-3.csv": {
+      "physical_ids": [
+        "HUST:6-3"
+      ],
+      "csv_sha256": "76bf8e3ab19b70a3eafb59ef11aa76540d327750074bac59d4fb6d926487b9d6",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-4.csv": {
+      "physical_ids": [
+        "HUST:6-4"
+      ],
+      "csv_sha256": "8bd6aa43ee4ffc00fe3fd1395350ba3ceaad0aee1c730b815087a229c8221ea7",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-5.csv": {
+      "physical_ids": [
+        "HUST:6-5"
+      ],
+      "csv_sha256": "e817ac90ec0de23bd993a6fee4d75a7274ac2f02c22b55f30de68d3bbdf9c87e",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-6.csv": {
+      "physical_ids": [
+        "HUST:6-6"
+      ],
+      "csv_sha256": "20982fb465872a698c43c954627d456ab92ecc302008bbb16cd5b0d603b9d30d",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/6-8.csv": {
+      "physical_ids": [
+        "HUST:6-8"
+      ],
+      "csv_sha256": "d2f8bf2f823afec541f9d19470ba38ecce47d33a94fa33d5269e523bdb34ae72",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-1.csv": {
+      "physical_ids": [
+        "HUST:7-1"
+      ],
+      "csv_sha256": "f4bd07e51c3a8084ddfca5d310ce8b4b626988da4ae606ededdd127fbfcae96f",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-2.csv": {
+      "physical_ids": [
+        "HUST:7-2"
+      ],
+      "csv_sha256": "db5c105d813b2258b639eb7b16581e5d5d4a58511b057eddce98f31bfd448e98",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-3.csv": {
+      "physical_ids": [
+        "HUST:7-3"
+      ],
+      "csv_sha256": "3219266ae44e1bba60532a3c339f8b5cde9cb4c17006c02d3643ba8e0ff4765b",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-4.csv": {
+      "physical_ids": [
+        "HUST:7-4"
+      ],
+      "csv_sha256": "e3910ba0e108bf0f0f64d36557815b51db331696328d60f33b1316b8b63e7cd7",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-5.csv": {
+      "physical_ids": [
+        "HUST:7-5"
+      ],
+      "csv_sha256": "3c1c3a1407b1190c87a5d6a2740e8cf0b4ae9b54858104433e9cc9fcf1e2bb94",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-6.csv": {
+      "physical_ids": [
+        "HUST:7-6"
+      ],
+      "csv_sha256": "bb62c0667afee3709a2dc1a3dfb4327d6a376b2c338a73be0a3dbd761ad27f27",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-7.csv": {
+      "physical_ids": [
+        "HUST:7-7"
+      ],
+      "csv_sha256": "3e2e7d30bf4e8121a4ad745104099d045682fa71ddf886c54a810578ddd5cef4",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/7-8.csv": {
+      "physical_ids": [
+        "HUST:7-8"
+      ],
+      "csv_sha256": "38889439b03dbb138c636442064e9b53401f2bd2858f6fbb77c05cd513b81cbc",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-1.csv": {
+      "physical_ids": [
+        "HUST:8-1"
+      ],
+      "csv_sha256": "b2f5e526c7f27beded2ea41820ad6b131d80aefe332095d3fc48deb7fd1de39d",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-2.csv": {
+      "physical_ids": [
+        "HUST:8-2"
+      ],
+      "csv_sha256": "57d88c0a51174b85ad05db0159d5a1bcc69ec70d04a6015d4439441266381e72",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-3.csv": {
+      "physical_ids": [
+        "HUST:8-3"
+      ],
+      "csv_sha256": "6f25b0a9d9e7521fdc71949f244887da32300c83361cd239a196d1e7ae8a3f89",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-4.csv": {
+      "physical_ids": [
+        "HUST:8-4"
+      ],
+      "csv_sha256": "5cff5a2ea82a919b2662a585933b6b0df66fc59d7c92bed0e927c0ce631c37d9",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-5.csv": {
+      "physical_ids": [
+        "HUST:8-5"
+      ],
+      "csv_sha256": "9673ff7fafd36ff490bcae6fbf1e437f78ab09090b817173515ddd2dd4c0e1a1",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-6.csv": {
+      "physical_ids": [
+        "HUST:8-6"
+      ],
+      "csv_sha256": "146cd6d3d66dd3bbb6bcd3841ee13bdbe28a1cb90df4977c2d766ca53a6ec02e",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-7.csv": {
+      "physical_ids": [
+        "HUST:8-7"
+      ],
+      "csv_sha256": "b39fa024febce2aed654d77a94f3ab1249e4b456fd24e0bdd409b945f538e764",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/8-8.csv": {
+      "physical_ids": [
+        "HUST:8-8"
+      ],
+      "csv_sha256": "ba3176e703013f1bbc09b278ff3e359fe57c886cfa231931c3f60dc964413335",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-1.csv": {
+      "physical_ids": [
+        "HUST:9-1"
+      ],
+      "csv_sha256": "acc31985b5639807ca97dc438b4ce907925b800467fc55298ccd940d19a93ff1",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-2.csv": {
+      "physical_ids": [
+        "HUST:9-2"
+      ],
+      "csv_sha256": "17e5e6f2e0ae2cb2465f4001519ca583a2211ba8a51e2cc18ce1eff5a50fdd75",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-3.csv": {
+      "physical_ids": [
+        "HUST:9-3"
+      ],
+      "csv_sha256": "415603ecbf0a22dab6e6de2b9e8fb951730fede3d664ecda7d1bcdc873d16b8f",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-4.csv": {
+      "physical_ids": [
+        "HUST:9-4"
+      ],
+      "csv_sha256": "bb13f160bfb370a7ca2cacfc594f5b7294ef1743979354513d30be5d683f34d4",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-5.csv": {
+      "physical_ids": [
+        "HUST:9-5"
+      ],
+      "csv_sha256": "b8628bd143d06fc84b85ce17a84497ae982d29e02add06a18fdb8d4cd2f0f524",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-6.csv": {
+      "physical_ids": [
+        "HUST:9-6"
+      ],
+      "csv_sha256": "6d6afd556018e6fa3d2ebdc4bf1e2d19303f9ce38ffe00b5b22b540956e73fc5",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-7.csv": {
+      "physical_ids": [
+        "HUST:9-7"
+      ],
+      "csv_sha256": "678b28122c08b9a7e9b2b21592991255820276e6d840fe4d8a65971723a8016f",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/9-8.csv": {
+      "physical_ids": [
+        "HUST:9-8"
+      ],
+      "csv_sha256": "a913c93dcfa308131ac92f863a882306244b67712e855c955cd389a19e1d7e34",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-1.csv": {
+      "physical_ids": [
+        "HUST:10-1"
+      ],
+      "csv_sha256": "60be20aa51dc2a82472df695baffe320e9e781bd741c5043d0141e82d337e250",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-2.csv": {
+      "physical_ids": [
+        "HUST:10-2"
+      ],
+      "csv_sha256": "076b1873c5b36b2b818e7b5c9343690bbd1165ee27e86c5d39b83046fc4fb16c",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-3.csv": {
+      "physical_ids": [
+        "HUST:10-3"
+      ],
+      "csv_sha256": "94e1cc519e92cbd88a2c5bb24967a036ffa8c5e2ff3a22f2bda2693ccf3c5a1c",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-4.csv": {
+      "physical_ids": [
+        "HUST:10-4"
+      ],
+      "csv_sha256": "443ef1cf699480e4ac7087b457ed9b08e8aff19a3275faa20e13926eef922590",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-5.csv": {
+      "physical_ids": [
+        "HUST:10-5"
+      ],
+      "csv_sha256": "f7f00ff5c6f69fdab7246cdc4abc6241d843529338de1d46f1ff35b9ecf6727d",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-6.csv": {
+      "physical_ids": [
+        "HUST:10-6"
+      ],
+      "csv_sha256": "0687da75dd998913a4bc8ea501491dcc5afa5118f1916650b5e44dbd82d4697f",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-7.csv": {
+      "physical_ids": [
+        "HUST:10-7"
+      ],
+      "csv_sha256": "8dc70a1d798574d9e76b7c62b2863b9b48bf1724c28fa1aec2a15912fd3d67a1",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    },
+    "data/HUST data/10-8.csv": {
+      "physical_ids": [
+        "HUST:10-8"
+      ],
+      "csv_sha256": "7f697154a5b1c7a708709f09cdd659c0499a5c3a3641de435126d025790c5fb1",
+      "identity_basis": "Distinct official cell key and published CSV filename; no independently measured barcode available"
+    }
+  },
+  "evidence": {
+    "excluded_files": [],
+    "split_counts": {
+      "train": {
+        "csv_count": 47,
+        "physical_id_count": 47
+      },
+      "valid": {
+        "csv_count": 10,
+        "physical_id_count": 10
+      },
+      "test": {
+        "csv_count": 20,
+        "physical_id_count": 20
+      }
+    },
+    "selection_rule": "Keep all 20 original paper test cell keys. Per group1..10 sort remaining cells by numeric cell-id, choose lowest available ID for validation; all other non-test cells train",
+    "group_validation": {
+      "1": "data/HUST data/1-1.csv",
+      "2": "data/HUST data/2-2.csv",
+      "3": "data/HUST data/3-1.csv",
+      "4": "data/HUST data/4-1.csv",
+      "5": "data/HUST data/5-1.csv",
+      "6": "data/HUST data/6-1.csv",
+      "7": "data/HUST data/7-1.csv",
+      "8": "data/HUST data/8-1.csv",
+      "9": "data/HUST data/9-1.csv",
+      "10": "data/HUST data/10-1.csv"
+    },
+    "identity_caveat": "HUST cell-key identity assumes official distinct raw keys represent distinct cells; physical barcode was not published."
+  },
+  "cross_role_physical_id_overlap": [],
+  "checksum_verified": true
+}

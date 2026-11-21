@@ -1,0 +1,32 @@
+{
+  "format": "pinn4soh-deadline-draft-delivery-receipt-v1",
+  "recorded_at_UTC": "2026-11-11T14:35:01.353372+00:00",
+  "deadline": "2026-11-12T09:00:00+08:00",
+  "status": "draft_pending_actual_cloud_stop_and_new_backup_evidence",
+  "additional_training_plan_continues": false,
+  "cloud_processes_confirmed_stopped": false,
+  "new_partial_backup_confirmed": false,
+  "report": {
+    "path": "明早9点截止_复现最终交付_20261112.md",
+    "sha256": "3e970457192d6f76a93c4df29d0779c3b70ac02e3c45e82a56ff6cab1a62af57"
+  },
+  "documents": {
+    "复现结果总入口.md": "f474d30ba4b9a90e8ba70a5c3d61fb15b50e05197a418d279bd33aee32fc48ac",
+    "本日复现进展_20261111.md": "cae6429c525407996e256d2551f2d872a2d65c508e687770a6c0ad4896819840",
+    "outputs/full_reproduction/执行状态.md": "b5c7053530a9c09bbf735c70fe13f9ef697045d7ab5a89039449dfefc5308e66",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "487513d363080c15b91cd776313be399fcf162fa3f0bd1ea2f0e3ead96d3490d",
+    "outputs/full_reproduction/claim_clarification_addenda/CODE_PROVENANCE_与微信结果技术核对_20261111.md": "f7b9a27cae6e008367fbc88af331b43fd1b6cd419fb448bf94ac132c25bf204d"
+  },
+  "missing_links": [],
+  "old_records_and_reviews_edited": false,
+  "cloud_dispatch_frozen": true,
+  "waiters_exited": [
+    18969,
+    19580
+  ],
+  "current_worker_running": 21898,
+  "stop_observation": {
+    "path": "outputs/full_reproduction/cloud_live_20261111/DEADLINE_DISPATCH_FROZEN_223024_LOCAL_OBSERVATION.json",
+    "sha256": "53a36145e3cece954c753ebba29e8639455ee49d5e5c56f8582e4e10e205d9b2"
+  }
+}

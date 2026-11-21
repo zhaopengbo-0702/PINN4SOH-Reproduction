@@ -1,0 +1,10 @@
+{
+  "cells": 262,
+  "integrity_errors": [],
+  "script_sha256": "019c4fe99d6cf2dcd4d2beafd74a718e58aa1074735715845aa649131c883d97",
+  "summary_rows": 192,
+  "full_column_match_definitions": 0,
+  "missing_finite_pairs": 4,
+  "gradient_coverage_note": "Four physical-time gradient definitions omit140XJTUcurrentrows with duplicate/nonincreasing timestamps; allotherdefinitions cover allpublishedfiniteslopes",
+  "candidate_family": "2curve scales x4axes x4fixed estimators =32definitions percurve; no rowwise fitted constants"
+}

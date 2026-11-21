@@ -1,0 +1,15 @@
+{
+  "fixture": "passed",
+  "source_hashes_unchanged": true,
+  "cross_endpoint_dedup": true,
+  "cloud_duplicate_content_dedup": true,
+  "user_discarded_indexed_not_archived": true,
+  "cache_indexed_not_archived": true,
+  "runtime_default_archived": true,
+  "runtime_index_only_explicit_tested": true,
+  "existing_output_rejected": true,
+  "delta_reassembled_full_sha_verified": true,
+  "script_bytes": 8517,
+  "script_sha256": "ff2ed91e48d106c8e5cf12434a8ab167ab855b6ce7886edd882b9a090f67a652",
+  "multipart_72MiB_fixture": "passed_two_parts_under_70MiB"
+}

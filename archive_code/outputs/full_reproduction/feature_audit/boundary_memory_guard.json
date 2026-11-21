@@ -1,0 +1,11 @@
+{
+  "started_at_unix": 1794295207.367198,
+  "primary_pid_gate": 25284,
+  "min_available_gib_before_new_mat": 4.5,
+  "calculation_implementation_changed": false,
+  "wrapper_sha256": "d712c00b8941c4146bcdd10b99176226f06bbe245caa4b622db57660cf85115c",
+  "timing_caveat": "Per-cell wall time can include RAM guard waiting; it is not pure computation time",
+  "status": "complete",
+  "resumed_at_unix": 1794295207.414763,
+  "completed_at_unix": 1794295904.2918878
+}

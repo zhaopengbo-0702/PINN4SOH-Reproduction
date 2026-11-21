@@ -1,0 +1,39 @@
+{
+  "status": "passed_local_wrapper_collector_package",
+  "formal_training_started": false,
+  "cloud_accessed": false,
+  "protocol_sha256": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23",
+  "frozen_runner_sha256": "3f57579ba9010ea12686d6660ee4bf292b4edf091e0841bed89b82ece63af037",
+  "checked": [
+    "Independent full87 selection/controls ranking and candidate seed identities",
+    "Modern+legacy50 confirmation exact expected lane/seed/source-repeat/split/config before first test",
+    "Modern+legacy70 same-seed checkpoint and source-only evaluations",
+    "Source-only initial/final u equals historical source checkpoint; checkpoint G/encoder frozen tensor equality",
+    "Rehashed wrong source-repeat rejected",
+    "Portable tar memberSHA and JSONwrapper roundtrip",
+    "Two-direction real CPU smoke arrays/G independently rechecked",
+    "Python3.7 worker import-tree AST and Python3.10 wrapper AST",
+    "ZIP all-member byte roundtrip; development package deployment rejected",
+    "All formal target and historical source CSV byte hashes verified withoutGPU",
+    "40source relocation map/hash logic exercised with Windows path mock",
+    "Absent predecessor status waits30s withoutGPU then enforces completed root identity"
+  ],
+  "native_source_alias_creation": "Skipped locally: Windows symlink privilege1314. Real Linux alias resolution and all40 evidenceSHA required by wrapper before probe.",
+  "limits": [
+    "No real modern/legacyGPU smoke yet; queued only after predecessor complete",
+    "No formal187 transfer target trainings or140test evaluations executed",
+    "Fixtures validate audit/phase logic only; do not show performance improvement",
+    "No claim of strict one-label-cell target budget:20labelled validation cells are disclosed",
+    "No nativeLinux source alias or actual full cloud pipeline executed locally"
+  ],
+  "artifact_sha256": {
+    "reproduction/run_transfer_robustness_cloud.py": "78ee8d3bc9f6c027a7b4601ed90e09a104321a4e65e61a475cedaa707d0b2eaa",
+    "reproduction/collect_transfer_robustness.py": "a9e42d60ca5cda75faccacf26fdb7d66bf75892e9f92c3e2d90491ce732a7c06",
+    "reproduction/package_transfer_robustness_cloud.py": "fd9442f0a89930a3810d6244f586d79738e33e81e621edd04216468be9b599b8",
+    "reproduction/test_transfer_robustness_cloud.py": "708fa3dbd0eb81fcb4045e389a1c32443cabf11ac994ba431e2a780bd529fb14",
+    "reproduction/TRANSFER_ROBUSTNESS_CLOUD.md": "73af10935ac53aac74b76eb82f295f3234ebce56a2d32ee53f6a2165b2381d23",
+    "outputs/full_reproduction/transfer_robustness_cloud_validation_20261111/fixture_tests_final_v2.log": "7005e814dfbe654afc852a0557825cc718edfe459afe449c2a7c655528b35555",
+    "outputs/full_reproduction/transfer_robustness_cloud_validation_20261111/REAL_SMOKE_COLLECTOR_RECHECK.json": "86b9f95102b1830eb43c91da9eab8e0d3149648eb35cb0491266ed317d462e78",
+    "outputs/full_reproduction/transfer_robustness_cloud_validation_20261111/ABSENT_PRIOR_WAIT_REVIEW.json": "1574e549532fc9cbfe4e868f6c42a96e7b333717ba1d10edea0b71a58bea2aab"
+  }
+}

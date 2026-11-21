@@ -1,0 +1,78 @@
+﻿{
+    "repository":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library",
+    "retrieved_at":  "2026-11-10T05:04:48.1691238Z",
+    "commit":  "e986a74054fb64c0f5134f2cc97f4643cd7699d2",
+    "commit_date":  "2026-07-28T03:04:09Z",
+    "files":  [
+                  {
+                      "path":  "CALCEBatteryClass.py",
+                      "bytes":  9707,
+                      "git_blob_sha1":  "520640da7833751e3f1bd82a78707b6cf0cee6fe",
+                      "sha256":  "860836d92978236e6862949522296e7c330d4198895ad8004723af2d8e4ec94f",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/CALCEBatteryClass.py"
+                  },
+                  {
+                      "path":  "CALCE_CS2.ipynb",
+                      "bytes":  394978,
+                      "git_blob_sha1":  "fa083d952b9026f0dbae12f714c8d6542c0932c0",
+                      "sha256":  "10549a6a55eac9a8d366e2f3a06456030dc0824f703db7fc97e031ed3b168a09",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/CALCE_CS2.ipynb"
+                  },
+                  {
+                      "path":  "HUSTBatteryClass.py",
+                      "bytes":  8715,
+                      "git_blob_sha1":  "3c51decdd20566eb1a9eafc4c02f1a705d214b4b",
+                      "sha256":  "496ac6a377381bde2e9c05bfb632bf39fe2d79b433977024641ddf5b50f7bd72",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/HUSTBatteryClass.py"
+                  },
+                  {
+                      "path":  "MITBatteryClass.py",
+                      "bytes":  10701,
+                      "git_blob_sha1":  "82a7114456e806e1d84b7866cdf638ff2d9d27c1",
+                      "sha256":  "5ed35e8d829796a4def32073c4cdea5425e87b0d34e90da81e658d760f698045",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/MITBatteryClass.py"
+                  },
+                  {
+                      "path":  "OxfordBatteryClass.ipynb",
+                      "bytes":  7765,
+                      "git_blob_sha1":  "dcc526b8e8c5a4a6b9bda00321c5a9ae3cf3d69f",
+                      "sha256":  "fc5122297d61c77a345daf3c4555fd61117949fb2b1fcdf6a3e230b1a7050caf",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/OxfordBatteryClass.ipynb"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  3393,
+                      "git_blob_sha1":  "7f9ab82458a0f4c99ec44edb45a06a08fee2d693",
+                      "sha256":  "e770cf5861d50764a5afff73348c6f80cab99039f5d57ea4f4d2159bbe2819fc",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/README.md"
+                  },
+                  {
+                      "path":  "RWTHBatteryClass.py",
+                      "bytes":  9766,
+                      "git_blob_sha1":  "afcada8cf07f36cd6d1ebb93d5029bbe3e6b7aca",
+                      "sha256":  "ba0aba2eceec730d345f8d46a8c26e586793a60c07a0bec942af64f56e292397",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/RWTHBatteryClass.py"
+                  },
+                  {
+                      "path":  "TongJiBatteryClass.py",
+                      "bytes":  8011,
+                      "git_blob_sha1":  "591cdead7907ad8f45927a3c8a5c2ceaa0820375",
+                      "sha256":  "7b01f2a28cb19239163dc7df51afccbc607e641fe992b87883d6b2defe8f974f",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/TongJiBatteryClass.py"
+                  },
+                  {
+                      "path":  "XJTUBatteryClass.py",
+                      "bytes":  13070,
+                      "git_blob_sha1":  "a27f7face7dcb7e69afc2c4827417412f8acacc5",
+                      "sha256":  "a731d37aeaffc40663490aa88c0903f4fb602bc2623be1ff504bd1fd448f3e8b",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/XJTUBatteryClass.py"
+                  },
+                  {
+                      "path":  "XJTU数据集分析.ipynb",
+                      "bytes":  1780705,
+                      "git_blob_sha1":  "ad1026c312a8f377e4c9eba136fc2ffb781fe3bf",
+                      "sha256":  "7b5f777e7253aafb195334f923b1617ed61a0267b39540588db2a4332d87848f",
+                      "source_url":  "https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/e986a74054fb64c0f5134f2cc97f4643cd7699d2/XJTU%E6%95%B0%E6%8D%AE%E9%9B%86%E5%88%86%E6%9E%90.ipynb"
+                  }
+              ]
+}

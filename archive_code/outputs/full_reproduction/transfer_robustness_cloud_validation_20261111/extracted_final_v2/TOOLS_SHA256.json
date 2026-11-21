@@ -1,0 +1,102 @@
+{
+  "format": "pinn4soh-transfer-robustness-cloud-v1",
+  "files": {
+    "run_transfer_robustness.py": {
+      "bytes": 25930,
+      "sha256": "3f57579ba9010ea12686d6660ee4bf292b4edf091e0841bed89b82ece63af037"
+    },
+    "prepare_transfer_robustness.py": {
+      "bytes": 10126,
+      "sha256": "f33032652e49117c1331ffbb0d36114715cfa63c05ea3cb2ebc042345975add3"
+    },
+    "run_transfer_robustness_cloud.py": {
+      "bytes": 13589,
+      "sha256": "78ee8d3bc9f6c027a7b4601ed90e09a104321a4e65e61a475cedaa707d0b2eaa"
+    },
+    "collect_transfer_robustness.py": {
+      "bytes": 24614,
+      "sha256": "a9e42d60ca5cda75faccacf26fdb7d66bf75892e9f92c3e2d90491ce732a7c06"
+    },
+    "package_transfer_robustness_cloud.py": {
+      "bytes": 5088,
+      "sha256": "fd9442f0a89930a3810d6244f586d79738e33e81e621edd04216468be9b599b8"
+    },
+    "search_stage_a.py": {
+      "bytes": 34062,
+      "sha256": "1ea2bffee43d07253eb6e87ceae7d19642262d55307542019be40cec952bcc8d"
+    },
+    "search_replacement_grid.py": {
+      "bytes": 24146,
+      "sha256": "eaf95ad40ae224664b17340286955d3d7486b69a074be059da3d517fe4ea7ade"
+    },
+    "run_extended.py": {
+      "bytes": 33276,
+      "sha256": "24c3e482fb3a9c751c478072e04b77a238b37571d9b970ae1f69bea600fdba17"
+    },
+    "run_transfer.py": {
+      "bytes": 35225,
+      "sha256": "4f2f19642f74f0904511b83dbafecd211ee6e254458fb052d1bca0d4b3a8945f"
+    },
+    "run_reproduction.py": {
+      "bytes": 25400,
+      "sha256": "29322fff682bf66dfe08bc5715e9ddfad9188b1c85cfe7b09941d87bade5bad5"
+    },
+    "verify_stage_a_registration.py": {
+      "bytes": 3592,
+      "sha256": "b576b165c8889d101b413e9e9200df35a2a169b522773c60df87f546fd3cf064"
+    },
+    "install_legacy_runtime.py": {
+      "bytes": 10145,
+      "sha256": "74bf3e97ee4244fe38d77902f4073ca592b4a563151ea8975bb873f83494e497"
+    },
+    "probe_legacy_runtime.py": {
+      "bytes": 6082,
+      "sha256": "0c39ffdd5003d18453f49fd51cfe4a1bb8aff88c257410686e24949384b4591e"
+    },
+    "collect_stage_a.py": {
+      "bytes": 17350,
+      "sha256": "dca062aaada7ee569f2b43f6d65a5455d076119e679091e13f0bafa2ff35ae85"
+    },
+    "collect_stage_a_confirmation.py": {
+      "bytes": 26211,
+      "sha256": "453266768830ec723f8df826234bb88b0ec27fc744633a9ea26012942bf56758"
+    },
+    "restore_backup_json.py": {
+      "bytes": 14280,
+      "sha256": "4fa6289e4ac35a947ba92b83b56a7d5fd2a8fd6f3bea25c1c228003f06fccb6a"
+    },
+    "TRANSFER_ROBUSTNESS_RUN.md": {
+      "bytes": 6557,
+      "sha256": "95fc11b102e65f44282478979523cc2d2f715e357baa617b6dcff4164be02cc3"
+    },
+    "TRANSFER_ROBUSTNESS_CLOUD.md": {
+      "bytes": 4032,
+      "sha256": "73af10935ac53aac74b76eb82f295f3234ebce56a2d32ee53f6a2165b2381d23"
+    },
+    "test_transfer_robustness.py": {
+      "bytes": 6030,
+      "sha256": "72e908552a214118eb50c79782733b14d0eafe5b3e73d0ab5bbd24ef0c9a6275"
+    },
+    "test_transfer_robustness_cloud.py": {
+      "bytes": 13921,
+      "sha256": "708fa3dbd0eb81fcb4045e389a1c32443cabf11ac994ba431e2a780bd529fb14"
+    },
+    "PROTOCOL.json": {
+      "bytes": 347833,
+      "sha256": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23"
+    },
+    "LOCAL_RUNNER_ACCEPTANCE.json": {
+      "bytes": 2951,
+      "sha256": "9478d8334d1f50f55dd4236181fae93e5cdad0d2500cd81118d1d64bfa7c0ef5"
+    },
+    "LOCAL_CLOUD_ACCEPTANCE.json": {
+      "bytes": 3073,
+      "sha256": "57f613534a78560a0c537c20bfddabd3cf720f93e3c15cec36b0820bed72be3d"
+    },
+    "EXPECTED_AUTHOR_INPUTS.json": {
+      "bytes": 3631,
+      "sha256": "781763f672650a7ba7f10c1e41a75ca595b6b09c62b5fe25fa690ea5517dab86"
+    }
+  },
+  "deployable": true
+}

@@ -1,0 +1,27 @@
+{
+  "updated_at_unix": 1794295986.1427734,
+  "expected_cells": {
+    "XJTU": 55,
+    "TJU": 130,
+    "HUST": 77
+  },
+  "completed_primary": {
+    "XJTU": 55,
+    "TJU": 130,
+    "HUST": 77
+  },
+  "completed_fixed_convention": {
+    "XJTU": 55,
+    "TJU": 130,
+    "HUST": 77
+  },
+  "unfinished": [],
+  "all_262_primary_complete": true,
+  "all_262_fixed_conventions_summarized": true,
+  "canonical_slopes": "Paper endpoint slopes in physical seconds; other frozen candidates retained in raw_candidate_residuals_all_cells.csv",
+  "alignment_caveat": "The four current signature statistics used for row alignment are not independent validation of alignment",
+  "source_scripts_sha256": {
+    "summarize_raw_feature_audit.py": "e3adfd751af8379a66e2c7610c3d1b887017f6f0e1bd28feb106cb589f31a5bd",
+    "summarize_raw_feature_residuals.py": "6683efd5f55a7b2928b6732e3c20ae7d3cda6bbf1f4ea8cd64bfde0f8be9fa6e"
+  }
+}

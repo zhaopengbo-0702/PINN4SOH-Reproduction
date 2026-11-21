@@ -1,0 +1,29 @@
+{
+  "started_at": 1794287715.0135705,
+  "stages": [
+    {
+      "plan": "smoke_plan.json",
+      "output": "/workspace/pinn4soh_full_paper_smoke",
+      "started_at": 1794287715.0136757,
+      "status": "complete",
+      "returncode": 0,
+      "finished_at": 1794287723.647669
+    },
+    {
+      "plan": "stage1_plan.json",
+      "output": "/workspace/pinn4soh_full_paper_stage1",
+      "started_at": 1794287723.6496627,
+      "status": "complete",
+      "returncode": 0,
+      "finished_at": 1794296610.6893919
+    },
+    {
+      "plan": "stage2_reproduced_transfer_plan.json",
+      "output": "/workspace/pinn4soh_full_paper_stage2",
+      "started_at": 1794296610.6913085,
+      "status": "complete",
+      "returncode": 0,
+      "finished_at": 1794297301.9627616
+    }
+  ]
+}

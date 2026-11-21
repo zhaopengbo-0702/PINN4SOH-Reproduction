@@ -1,0 +1,337 @@
+{
+  "schema_version": "pinn4soh-paper-protocol-v2",
+  "status": "main_and_supplement_read_complete_peer_review_protocol_sections_checked_source_data_audited",
+  "source": {
+    "title": "Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis",
+    "doi": "10.1038/s41467-024-48779-z",
+    "journal": "Nature Communications",
+    "year": 2024,
+    "volume": 15,
+    "article_number": 4332,
+    "pdf_path": "C:/Users/Administrator/Desktop/复现PINN4SOH/Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis.pdf",
+    "sha256": "08a25ad4076b92fdf6baa34d09c0ea11fbfda4490fb523fe51cf5ad0e227cfa5",
+    "pages": 12,
+    "all_pages_read": true,
+    "visual_inspection_pages": [3, 4, 5, 6, 7, 8, 10],
+    "page_numbering": "PDF page equals printed page"
+  },
+  "evidence_policy": {
+    "unknown_values_are_null": true,
+    "published_claim_is_not_reproduction_result": true,
+    "code_protocol_may_differ_from_paper": true,
+    "no_unreported_ablation_invented": true
+  },
+  "datasets": [
+    {"dataset":"XJTU","paper_batches":[1,2,3,4,5,6],"batteries":55,"batteries_per_batch":[8,15,8,8,8,8],"chemistry":"LiNi0.5Co0.2Mn0.3O2","nominal_capacity_mAh":2000,"cutoff_voltage_V":[2.5,4.2],"temperature_C":"room temperature","citation":{"page":4,"table":"Table 1","figure":"Fig. 2"}},
+    {"dataset":"TJU","paper_batch":1,"batteries":66,"chemistry":"NCA","nominal_capacity_mAh":3500,"cutoff_voltage_V":[2.65,4.2],"temperature_C":[25,35,45],"citation":{"page":4,"table":"Table 1"}},
+    {"dataset":"TJU","paper_batch":2,"batteries":55,"chemistry":"NCM","nominal_capacity_mAh":3500,"cutoff_voltage_V":[2.5,4.2],"temperature_C":[25,35,45],"citation":{"page":4,"table":"Table 1"}},
+    {"dataset":"TJU","paper_batch":3,"batteries":9,"chemistry":"NCM+NCA blend","nominal_capacity_mAh":2500,"cutoff_voltage_V":[2.5,4.2],"temperature_C":[25],"citation":{"page":4,"table":"Table 1"}},
+    {"dataset":"MIT","paper_batch":null,"batteries":125,"chemistry":"LFP","nominal_capacity_mAh":1100,"cutoff_voltage_V":[2.0,3.6],"temperature_C":[30],"citation":{"page":4,"table":"Table 1"}},
+    {"dataset":"HUST","paper_batch":null,"batteries":77,"chemistry":"LFP","nominal_capacity_mAh":1100,"cutoff_voltage_V":[2.0,3.6],"temperature_C":[30],"citation":{"page":4,"table":"Table 1"}}
+  ],
+  "data_total": {"batteries":387,"samples":310705,"sample_definition_exact":null,"citation_pages":[1,4],"warning":"CSV rows, filtered cycles and adjacent-cycle training pairs may have different counts"},
+  "features": {
+    "citation_pages":[3,5],
+    "figures":["Fig. 1b","Fig. 3"],
+    "voltage_window_V":"[V_end - 0.2, V_end]",
+    "current_window_A":[0.1,0.5],
+    "current_stage":"constant-voltage charging",
+    "input_feature_count":16,
+    "additional_input":"cycle",
+    "normalization":{"method":"min-max","range":[-1,1],"fit_scope":null,"transfer_rule":null},
+    "ordered_names":["voltage_mean","voltage_std","voltage_kurtosis","voltage_skewness","CC_accumulated_charge","CC_charge_time","voltage_slope","voltage_entropy","current_mean","current_std","current_kurtosis","current_skewness","CV_accumulated_charge","CV_charge_time","current_slope","current_entropy"],
+    "feature_definitions_source":"Supplementary PDF p6, Note 2, Eqs.1-8",
+    "feature_formulas":{"std":"sqrt(sum((x-mean)^2)/(n-1))","kurtosis":"sum((x-mean)^4)/((n-1)*std^4)","skewness":"sum((x-mean)^3)/((n-1)*std^3)","charging_time":"t_end-t_start","charge":"integral I dt","slope":"(curve_end-curve_start)/(t_end-t_start)","entropy":"-sum(p_i log(p_i)); exact normalization of p_i not stated"},
+    "kurtosis_definition_conflict":"Note2 formula is nonnegative raw kurtosis; repository CSV contains negative kurtosis values, e.g. 2C_battery-1 first row voltage=-1.2051114575797262 and current=-0.6350982164079868. Raw extraction code/data needed to resolve excess-kurtosis convention.",
+    "pearson_groups":["XJTU/1","XJTU/2","XJTU/3","XJTU/4","XJTU/5","XJTU/6","TJU/1","TJU/2","TJU/3","MIT","HUST"]
+  },
+  "method": {
+    "citations":[{"pages":[9,10],"equations":[1,2,3,4,5,6,7,8,9]},{"page":8,"figure":"Fig. 6"}],
+    "solution":"F(t,x;Phi)",
+    "dynamics":"G(t,x,u,u_t,u_x;Theta)",
+    "pde_residual":"F_t - G(t,x,u,u_t,u_x)",
+    "derivative_orders_used":[1],
+    "soh":"Q_cycle / Q_nominal",
+    "loss":"L_data + alpha * L_PDE + beta * L_mono",
+    "data_loss_paper":"sum_i (u_i - uhat_i)^2",
+    "pde_loss_paper":"sum_i |H(t_i,x_i)|^2",
+    "monotonicity_loss_paper":"sum_batteries sum_cycles ReLU(uhat_k+1 - uhat_k)",
+    "alpha":{"XJTU":0.7,"TJU":1,"MIT":1,"HUST":0.5},"beta":{"XJTU":20,"TJU":50,"MIT":50,"HUST":80},
+    "architecture":{"F_and_MLP":["Linear17->60+Sin","Linear60->60+Sin","Linear60->32","Linear32->32+Sin","Linear32->1"],"G":["Linear35->60+Sin","Linear60->60+Sin","Linear60->1"],"CNN":["BasicBlock(1,17)->(8,17)","BasicBlock(8,17)->(16,9)","BasicBlock(16,9)->(24,5)","BasicBlock(24,5)->(16,5)","BasicBlock(16,5)->(8,5)","Linear40->1"],"CNN_BasicBlock":"Conv1d, BatchNorm1d, ReLU, Conv1d, BatchNorm1d; ResNet-like"},
+    "optimizer":"Adam","baseline_scheduler":"cosine annealing; reviewer-response PDF p31","learning_rates":null,"batch_size":{"XJTU":256,"TJU":512,"MIT":512,"HUST":512},"epochs":null,"early_stopping":null,
+    "hyperparameter_search":{"method":"Grid Search","targets":["PINN layer count","neurons per layer","alpha","beta"],"grid_values":null,"search_results":null,"citation":"Supplement p14 Note3; Peer review p30"},
+    "architecture_and_training_source":"Supplementary PDF p14 Note3/TableS8; no separate small-sample or fine-tune LR/batch/epoch settings",
+    "missing_details_source":"Publication-era code is referred to for further details",
+    "terminology_conflict":"Introduction says initial capacity; Eq. 5 Methods explicitly calls Q0 nominal capacity"
+  },
+  "shared_statistics": {
+    "repeats":10,
+    "table_statistic":"mean over ten experiments",
+    "figure_statistic":"mean and standard deviation over ten experiment points",
+    "std_ddof":null,
+    "confidence_intervals":null,
+    "significance_tests":null,
+    "random_seed_values":null,
+    "seed_pairing_between_methods":null,
+    "battery_vs_sample_aggregation_formula":null,
+    "per_battery_results_referred_to":["Table S3","Table S4","Table S5","Table S6"],
+    "required_reproduction_outputs":["true-battery-boundary macro metrics","pooled-sample metrics","per-repeat metrics","ddof0 and ddof1 SD identified","legacy reversed-MAPE/slicing diagnostics separately labeled"]
+  },
+  "experiments": [
+    {
+      "id":"E_regular",
+      "citation":{"pages":[5,6,7],"figures":["Fig. 4a","Fig. 4b"],"tables":["Table 2"]},
+      "models":["PINN","MLP","CNN"],
+      "groups":["XJTU/1","XJTU/2","XJTU/3","XJTU/4","XJTU/5","XJTU/6","TJU/1","TJU/2","TJU/3","MIT","HUST"],
+      "repeats":10,"training_jobs":330,
+      "split":{"test_unit":"battery","training_validation_unit":"cycle samples within non-test batteries","approx_train_validation_test_ratio":[6,2,2],"author_response_clarification":"Peer review PDF p29-30: independent test batteries; shuffle cycle data in each remaining battery, allocate 20 percent to validation, rest to training","test_ids_source":"Supplement Tables S3-S6, exact identities recorded in supplement_protocol.test_batteries","exact_test_counts_source":"Supplement p7 TableS2","normalization_fit_scope":null},
+      "metrics_figures":["MAE","MAPE","RMSE"],"metrics_table":["MAPE","RMSE"],
+      "fairness":"PINN inference F and MLP same structure/parameter count; CNN similar parameter count",
+      "resource_class":"GPU training plus CPU statistics/plots",
+      "protocol_gaps":["publication-era learning rate/epochs and implementation details","aggregation formula","seeds and SD ddof","mapping of printed test IDs to current file paths"]
+    },
+    {
+      "id":"E_small_main",
+      "citation":{"page":7,"table":"Table 3","figure":"Fig. 5"},
+      "models":["PINN","MLP","CNN"],"groups":["XJTU/1","HUST"],"train_battery_counts":[1,2,3,4],
+      "test_split":"same as regular","repeats":10,"training_jobs":240,
+      "metrics_table":["MAPE","RMSE"],"metrics_figure":["RMSE"],
+      "resource_class":"GPU training plus CPU statistics/plots",
+      "protocol_gaps":["which training batteries","validation strategy with one battery","whether nested battery subsets","training settings for all three models"]
+    },
+    {
+      "id":"E_small_supplementary",
+      "citation":{"page":7,"referred_tables":["Table S7"],"referred_figures":["Fig. S5"]},
+      "description":"Additional XJTU small-sample results beyond batch 1",
+      "groups":["XJTU/1","XJTU/2","XJTU/3","XJTU/4","XJTU/5","XJTU/6"],"models":["PINN","MLP","CNN"],"train_battery_counts":[1,2,3,4],"repeats":10,"training_jobs":720,"additional_jobs_beyond_E_small_main":600,
+      "status":"confirmed Supplement p12 TableS7 and p13 FigS5","resource_class":"GPU training and CPU aggregation; combined XJTU/HUST small-sample jobs=840"
+    },
+    {
+      "id":"E_transfer",
+      "citation":{"pages":[8,9,10],"table":"Table 4","figure":"Fig. 6b"},
+      "domains":["XJTU/1","TJU/3","MIT","HUST"],"direction":"row is target, column is source",
+      "directed_pairs":12,"repeats":10,"fine_tune_jobs":120,"source_only_evaluations":120,
+      "source_pretraining":"PINN trained on source domain, exact checkpoint selection not given in main text",
+      "target_fine_tuning":"data from first battery in target domain",
+      "frozen":"G","trainable":"F","target_test_split":"regular target test set",
+      "comparators":["source-only direct target test","target-only with 1 battery","target-only with 2 batteries"],
+      "metric":"RMSE",
+      "resource_class":"GPU fine-tuning and inference; 40 reusable source checkpoints if protocol-compatible",
+      "protocol_gaps":["source checkpoint pairing","fine-tune optimizer/LR/epochs","normalizer transfer rule","validation strategy","mapping of paper batch to code directory order"]
+    },
+    {
+      "id":"E_target_only",
+      "citation":{"page":8,"table":"Table 4"},
+      "groups":["XJTU/1","TJU/3","MIT","HUST"],"model":"PINN","train_battery_counts":[1,2],"repeats":10,"training_jobs":80,
+      "overlap_jobs_with_E_small_main":40,"additional_jobs_beyond_E_small_main":40,
+      "resource_class":"GPU training; reuse only if identities/settings equal"
+    },
+    {
+      "id":"E_inference_efficiency",
+      "citation":{"supplement_page":14,"table":"Table S8","peer_review_pages":[31,32]},
+      "models":["PINN_F","MLP","CNN"],"batch_size":1000,"forward_repetitions":1000,
+      "execution_device":"CPU","original_CPU":"Intel Core i5-10400F @2.90GHz","original_PyTorch":"1.7.1",
+      "reported_seconds_per_1000_samples":[0.000581,0.000564,0.0129],
+      "reported_parameters":[7781,7781,8465],"resource_class":"CPU parameter count and timing",
+      "protocol_gaps":["warmup iterations","CPU thread count","timing clock and synchronization","input generation"]
+    },
+    {
+      "id":"E_feature_validation",
+      "citation":{"pages":[3,4,5],"figures":["Fig. 1b","Fig. 2","Fig. 3"],"table":"Table 1"},
+      "tasks":["population and sample inventory","XJTU full degradation trajectories","raw-data window existence","16-feature extraction","XJTU batch1 eight-cell feature scatter","eleven-group Pearson correlations"],
+      "resource_class":"CPU and raw data storage; physical aging cannot be rerun computationally",
+      "protocol_gaps":["Supplementary Notes 1 and 2","raw data availability and preprocessing","Source Data correlation values"]
+    },
+    {
+      "id":"E_ablation_hyperparameters",
+      "identified_in_main_pdf":false,"identified_as_separate_experiment_in_supplement":false,
+      "training_jobs":null,
+      "status":"No reported loss ablation or hyperparameter-sensitivity result in main or Supplement. Note3 mentions historical Grid Search but gives no search grid/results",
+      "do_not_invent":["alpha/beta grid","loss-removal ablation","derivative-order sweep","feature-window sweep","electrochemical interpretability benchmark"]
+    }
+  ],
+  "claims": [
+    {"id":"C01","statement":"387 batteries and 310705 samples cover four datasets with diverse chemistries/protocols","evidence":{"pages":[1,4],"table":"Table 1"},"experiments":["E_feature_validation"],"evidence_level":"dataset inventory","required_resources":["CPU","dataset metadata","Note 1"]},
+    {"id":"C02","statement":"55 XJTU cells have six protocol-dependent degradation trajectory groups","evidence":{"page":4,"figure":"Fig. 2"},"experiments":["E_feature_validation"],"evidence_level":"descriptive data","required_resources":["CPU","raw capacity-cycle records"]},
+    {"id":"C03","statement":"Short pre-full-charge current/voltage windows support generally applicable features","evidence":{"pages":[3,5],"figures":["Fig. 1b","Fig. 3a"]},"experiments":["E_feature_validation","E_regular"],"evidence_level":"design and cross-dataset prediction","required_resources":["raw I/V/time/capacity","Note 2","CPU"]},
+    {"id":"C04","statement":"Feature-SOH correlation pattern may depend more on chemistry than protocol","evidence":{"page":5,"figure":"Fig. 3b"},"experiments":["E_feature_validation"],"evidence_level":"author natural conjecture; not causal identification","required_resources":["features/labels","CPU","Source Data"]},
+    {"id":"C05","statement":"PINN has smallest regular estimation error in most settings","evidence":{"pages":[6,7],"figure":"Fig. 4","table":"Table 2"},"experiments":["E_regular"],"evidence_level":"ten-repeat model comparison","required_resources":["GPU","Note 3","Tables S2-S6"],"caveat":"Published HUST CNN MAPE 0.0074 is lower than PINN 0.0078"},
+    {"id":"C06","statement":"PINN is more stable across tasks and metrics","evidence":{"pages":[6,7],"figure":"Fig. 4b"},"experiments":["E_regular"],"evidence_level":"repeat-distribution comparison, no reported significance test","required_resources":["per-repeat metrics","CPU","Source Data"]},
+    {"id":"C07","statement":"PINN inference F and MLP have same structure and parameter count; CNN similar; CPU inference timing is reported","evidence":{"main_pages":[5,7],"supplement_page":14,"table":"Table S8"},"experiments":["E_regular","E_inference_efficiency"],"evidence_level":"architectural fairness and CPU runtime benchmark","required_resources":["CPU","parameter counts","1000-sample forward timing"],"caveat":"PINN training includes G; hardware and software differ from paper benchmark"},
+    {"id":"C08","statement":"PINN performs best in the tested small-sample settings","evidence":{"page":7,"table":"Table 3","figure":"Fig. 5"},"experiments":["E_small_main","E_small_supplementary"],"evidence_level":"ten-repeat small-sample comparison","required_resources":["GPU","small-sample protocol"]},
+    {"id":"C09","statement":"Performance generally improves as more training batteries are used","evidence":{"pages":[7,8],"figure":"Fig. 5"},"experiments":["E_small_main"],"evidence_level":"learning-curve trend","required_resources":["per-repeat metrics"],"caveat":"Not strictly monotonic at every published point"},
+    {"id":"C10","statement":"One-battery PINN can approach MLP/CNN using three or four batteries","evidence":{"page":8,"figure":"Fig. 5 on p7"},"experiments":["E_small_main"],"evidence_level":"empirical comparison, not statistical equivalence","required_resources":["per-repeat metrics"]},
+    {"id":"C11","statement":"All six XJTU batches have three-model small-sample results for one to four batteries, ten repeats","evidence":{"supplement_pages":[12,13],"tables":["Table S7"],"figures":["Fig. S5"]},"experiments":["E_small_supplementary"],"evidence_level":"confirmed 720 XJTU small-sample runs; 120 overlap main batch1","required_resources":["GPU","all six batch feature files"]},
+    {"id":"C12","statement":"Fine-tuning with frozen G improves on source-only target evaluation","evidence":{"page":8,"table":"Table 4","figure":"Fig. 6b"},"experiments":["E_transfer"],"evidence_level":"twelve-direction transfer comparison","required_resources":["GPU","source checkpoints","first target battery"]},
+    {"id":"C13","statement":"One target battery plus pretraining can outperform one target battery from scratch","evidence":{"page":8,"table":"Table 4"},"experiments":["E_transfer","E_target_only"],"evidence_level":"transfer versus target-only comparison","required_resources":["GPU","matched target split"]},
+    {"id":"C14","statement":"For XJTU/TJU, one-battery fine-tuning may outperform two-battery target-only training","evidence":{"page":8,"table":"Table 4"},"experiments":["E_transfer","E_target_only"],"evidence_level":"direction-specific empirical comparison","required_resources":["matched target-only baselines"],"caveat":"Report every direction; not all directions necessarily satisfy a broad paraphrase"},
+    {"id":"C15","statement":"Same-chemistry transfer directions appear more promising","evidence":{"pages":[8,9],"table":"Table 4"},"experiments":["E_transfer","E_feature_validation"],"evidence_level":"exploratory observation with confounding","required_resources":["complete transfer matrix"]},
+    {"id":"C16","statement":"Overall reported MAPE is 0.87 percent","evidence":{"pages":[1,7]},"experiments":["E_regular"],"evidence_level":"aggregate headline","required_resources":["traceable aggregation"],"caveat":"Four reported dataset percentages 0.85,1.21,0.65,0.78 average to 0.8725; exact overall weighting formula not provided"},
+    {"id":"C17","statement":"Data, PDE and monotonicity losses define the proposed PINN","evidence":{"pages":[3,10],"equations":[4,6,7,8,9]},"experiments":["E_regular"],"evidence_level":"method specification, not an ablation result","required_resources":["code audit","Note 3","loss/gradient logs"]},
+    {"id":"C18","statement":"G contains transferable degradation dynamics","evidence":{"pages":[8,10],"figure":"Fig. 6","table":"Table 4"},"experiments":["E_transfer"],"evidence_level":"transfer performance supports usefulness; does not establish physical identifiability","required_resources":["frozen G hashes","F change/gradient audit"]},
+    {"id":"C19","statement":"Feature selection and cross-battery testing are intended to avoid leakage","evidence":{"page":9,"section":"Discussion"},"experiments":["E_feature_validation","E_regular","E_transfer"],"evidence_level":"design rationale, no independent leakage control experiment","required_resources":["battery IDs","split audit","normalization scope"]},
+    {"id":"C20","statement":"First-order derivatives balance accuracy and computational complexity","evidence":{"page":10,"equations":[3,4]},"experiments":["E_ablation_hyperparameters"],"evidence_level":"implementation choice; no derivative-order comparison in main PDF","required_resources":["code audit","supplement inspection"]},
+    {"id":"C21","statement":"Physical knowledge helps models learn better and faster and may support BMS development","evidence":{"page":9,"section":"Discussion"},"experiments":["E_regular","E_small_main","E_transfer"],"evidence_level":"broad discussion; no independent wall-clock or deployed-BMS experiment in main PDF","required_resources":["comparison results"],"caveat":"Scheduler throughput is not evidence for the paper's model-learning speed claim"}
+  ],
+  "published_table_2": {
+    "citation":{"page":7,"table":"Table 2"},"units":"MAPE fraction, RMSE SOH fraction","mean_of_experiments":10,
+    "column_order":["PINN_MAPE","PINN_RMSE","MLP_MAPE","MLP_RMSE","CNN_MAPE","CNN_RMSE"],
+    "rows":{
+      "XJTU/1":[0.0070,0.0094,0.0260,0.0277,0.0270,0.0330],
+      "XJTU/2":[0.0113,0.0122,0.0275,0.0304,0.0298,0.0352],
+      "XJTU/3":[0.0086,0.0100,0.0211,0.0237,0.0177,0.0212],
+      "XJTU/4":[0.0071,0.0105,0.0200,0.0235,0.0150,0.0189],
+      "XJTU/5":[0.0105,0.0135,0.0183,0.0217,0.0350,0.0453],
+      "XJTU/6":[0.0063,0.0097,0.0204,0.0242,0.0149,0.0194],
+      "TJU/1":[0.0164,0.0158,0.0206,0.0197,0.0198,0.0208],
+      "TJU/2":[0.0119,0.0132,0.0149,0.0157,0.0143,0.0149],
+      "TJU/3":[0.0080,0.0079,0.0150,0.0144,0.0124,0.0125],
+      "MIT":[0.0065,0.0074,0.0079,0.0087,0.0065,0.0075],
+      "HUST":[0.0078,0.0087,0.0080,0.0090,0.0074,0.0087]
+    },
+    "reported_dataset_MAPE_percent":{"PINN":{"XJTU":0.85,"TJU":1.21,"MIT":0.65,"HUST":0.78},"MLP":{"XJTU":2.60,"TJU":1.72,"MIT":0.83,"HUST":0.83}},
+    "printed_MLP_dataset_summary_may_not_equal_simple_mean_of_rounded_table_rows":true
+  },
+  "published_table_3": {
+    "citation":{"page":7,"table":"Table 3"},"units":"MAPE fraction, RMSE SOH fraction","mean_of_experiments":10,
+    "column_order":["PINN_MAPE","PINN_RMSE","MLP_MAPE","MLP_RMSE","CNN_MAPE","CNN_RMSE"],
+    "rows":{
+      "XJTU/1/n1":[0.0141,0.0184,0.0343,0.0390,0.0929,0.0949],
+      "XJTU/1/n2":[0.0105,0.0134,0.0267,0.0304,0.0728,0.0826],
+      "XJTU/1/n3":[0.0069,0.0096,0.0347,0.0383,0.0548,0.0666],
+      "XJTU/1/n4":[0.0056,0.0076,0.0292,0.0327,0.0560,0.0647],
+      "HUST/n1":[0.0446,0.0485,0.0601,0.0682,0.3614,0.1550],
+      "HUST/n2":[0.0178,0.0202,0.0391,0.0461,0.0826,0.0925],
+      "HUST/n3":[0.0154,0.0181,0.0251,0.0287,0.0514,0.0618],
+      "HUST/n4":[0.0144,0.0173,0.0253,0.0288,0.0429,0.0521]
+    },
+    "visually_confirmed_unusual_value":"HUST n1 CNN MAPE printed as 0.3614; do not silently correct it"
+  },
+  "published_table_4": {
+    "citation":{"page":8,"table":"Table 4"},"metric":"RMSE SOH fraction","mean_of_experiments":10,
+    "domain_order":["XJTU/1","TJU/3","MIT","HUST"],"row_is":"target","column_is":"source",
+    "fine_tuning":[[null,0.0100,0.0145,0.0104],[0.0093,null,0.0119,0.0146],[0.0239,0.0272,null,0.0248],[0.0333,0.0343,0.0307,null]],
+    "source_only":[[null,0.0967,0.1329,0.0733],[0.1266,null,0.1674,0.1266],[0.0347,0.1277,null,0.0561],[0.1131,0.2008,0.0801,null]],
+    "target_only_n1":[0.0184,0.0121,0.0324,0.0485],
+    "target_only_n2":[0.0134,0.0202,0.0142,0.0202]
+  },
+  "resources": {
+    "known_main_training_from_scratch_jobs":610,
+    "known_main_and_supplement_training_from_scratch_jobs":1210,
+    "known_main_fine_tuning_jobs":120,
+    "known_main_source_only_inference_jobs":120,
+    "already_completed_PINN_regular_jobs":110,
+    "remaining_main_training_and_fine_tuning_if_reuse_valid":620,
+    "remaining_main_and_supplement_training_and_fine_tuning_if_reuse_valid":1220,
+    "supplementary_additional_jobs":600,
+    "wall_clock_estimate":null,
+    "gpu_requirement":"CUDA-capable GPU for training; memory and throughput require smoke measurement",
+    "cpu_tasks":["data inventory","features","Pearson correlation","statistics","figures"],
+    "raw_feature_validation":"requires original I/V/time/capacity records for all four datasets",
+    "physical_aging_replication":"requires laboratory cyclers/cells/environment; cannot be performed by cloud compute alone"
+  },
+  "supplement_inventory": [
+    {"name":"Supplementary Information","citation_page":12,"purpose":"Read all Notes, Figures and Tables including any experiments not described in main text","direct_url":null},
+    {"name":"Supplementary Note 1","citation_page":4,"purpose":"XJTU physical experiment, protocols and data processing"},
+    {"name":"Supplementary Note 2","citation_page":5,"purpose":"Exact 16-feature definitions"},
+    {"name":"Supplementary Note 3","citation_pages":[7,10],"purpose":"Architectures, parameter counts and training settings"},
+    {"name":"Table S2","citation_pages":[5,7],"purpose":"Test battery counts"},
+    {"name":"Tables S3-S6","citation_page":7,"purpose":"Per-battery identities and results"},
+    {"name":"Table S7 and Fig. S5","citation_page":7,"purpose":"Additional XJTU small-sample configurations/results"},
+    {"name":"Source Data","citation_pages":[6,7,10],"purpose":"Numerical source of main result and distribution figures","direct_url":null}
+  ],
+  "links_in_pdf": {
+    "article_and_supplement_entry":"https://doi.org/10.1038/s41467-024-48779-z",
+    "github":"https://github.com/wang-fujin/PINN4SOH",
+    "original_code_archive":"https://doi.org/10.5281/zenodo.11046967",
+    "XJTU_data":"https://doi.org/10.5281/zenodo.10963339",
+    "TJU_data":"https://zenodo.org/record/6405084",
+    "HUST_data":"https://data.mendeley.com/datasets/nsc7hnsg4s/2",
+    "MIT_data":"https://data.matr.io/1/projects/5c48dd2bc625d700019f3204"
+  },
+  "downloaded_official_materials": {
+    "publisher_page":"https://www.nature.com/articles/s41467-024-48779-z",
+    "supplement":{"file":"supplementary_information.pdf","sha256":"f6f0ee6ea624c959487ea680fefc97142cdd88135976201b6e498f780dbe0753","url":"https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-024-48779-z/MediaObjects/41467_2024_48779_MOESM1_ESM.pdf"},
+    "peer_review":{"file":"peer_review_file.pdf","sha256":"0cc343227e7b2607090eecaf6d4008d202cfa5320eaa41fb2fcf4cb4cf9bb724","url":"https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-024-48779-z/MediaObjects/41467_2024_48779_MOESM2_ESM.pdf"},
+    "source_data":{"file":"source_data.xlsx","sha256":"4ed89ee3d28b5b05c2bf7f9502ddfc2e9c1d2832173c9bbd04c261c4be8b4535","url":"https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-024-48779-z/MediaObjects/41467_2024_48779_MOESM3_ESM.xlsx"}
+  },
+  "supplement_protocol": {
+    "source":"supplementary_information.pdf",
+    "pages":15,
+    "all_text_pages_read":true,
+    "notes":["Note1 Dataset description pp3-5","Note2 Feature extraction p6","Note3 PINN p14"],
+    "tables":["S1 p4","S2 p7","S3 p8","S4 p9","S5 p10","S6 p11","S7 p12","S8 p14"],
+    "figures":["S1 p2","S2 p4","S3 p4","S4 p5","S5 p13"],
+    "test_counts":{"XJTU/1":2,"XJTU/2":3,"XJTU/3":2,"XJTU/4":2,"XJTU/5":2,"XJTU/6":2,"TJU/1":13,"TJU/2":11,"TJU/3":2,"HUST":20,"MIT":23},
+    "test_batteries":{
+      "XJTU/1":["battery-4","battery-8"],
+      "XJTU/2":["battery-4","battery-8","battery-14"],
+      "XJTU/3":["battery-4","battery-8"],"XJTU/4":["battery-4","battery-8"],"XJTU/5":["battery-4","battery-8"],"XJTU/6":["battery-4","battery-8"],
+      "TJU/1":["CY25-025_1-#5","CY25-05_1-#10","CY25-05_1-#16","CY25-05_1-#2","CY25-05_1-#8","CY25-1_1-#3","CY25-1_1-#9","CY45-05_1-#1","CY45-05_1-#15","CY45-05_1-#19","CY45-05_1-#24","CY45-05_1-#28","CY45-05_1-#8"],
+      "TJU/2":["CY25-05_1-#12","CY25-05_1-#16","CY25-05_1-#21","CY25-05_1-#4","CY35-05_1-#1","CY45-05_1-#1","CY45-05_1-#15","CY45-05_1-#19","CY45-05_1-#24","CY45-05_1-#28","CY45-05_1-#8"],
+      "TJU/3":["CY25-05_2-#2","CY25-05_4-#3"],
+      "HUST":["1-4","1-8","2-4","2-8","3-4","3-8","4-4","4-8","5-4","5-7","6-4","6-8","7-4","7-8","8-4","8-8","9-4","9-8","10-4","10-8"],
+      "MIT/2017-05-12":[5,10,15,20,25,30,35,40,45],"MIT/2017-06-30":[5,15,20,25,30,35,40,45],"MIT/2018-04-12":[10,15,25,30,40,45]
+    },
+    "test_identity_note":"TJU IDs transcribe printed source; underscore used for typographic subscript separator. Exact current filenames must be matched and audited, not inferred from directory indices.",
+    "MIT_exclusion_note":"Supplement p7: 135 batteries in three MATLAB files, 125 retained after excluding errors encountered during feature extraction; original Severson paper count 124 is not the count used here",
+    "XJTU_batch_mapping":{"1":"2C","2":"3C","3":"R2.5","4":"R3","5":"RW","6":"satellite"},
+    "XJTU_physical_protocols":{
+      "1":"CC-CV charge 2C to4.2V; discharge1C to2.5V",
+      "2":"CC-CV charge3C to4.2V; discharge1C to2.5V",
+      "3":"CC-CV charge2C; discharge xC to2.5V, x in[0.5,1,2,3,5]",
+      "4":"same as batch3 but discharge to3.0V",
+      "5":"CC-CV charge1C to4.2V; random-walk discharge to3.0V, integer current[2,8]A and duration[2,6]min",
+      "6":"GEO satellite eclipse-based variable discharge duration; see TableS1"
+    },
+    "XJTU_incomplete_discharge_capacity":"Supplement p5 FigS4: batches3-6 incompletely discharged, capacity measured every few cycles and then interpolated to obtain degradation trajectory",
+    "inference_benchmark":{
+      "citation":"Supplement p14 TableS8 and footnote; Peer review pp31-32",
+      "inference_parameter_counts":{"PINN_F":7781,"MLP":7781,"CNN":8465},
+      "CPU":"Intel Core i5-10400F @2.90GHz","pytorch":"1.7.1","GPU":false,
+      "batch_size":1000,"timed_forward_repetitions":1000,"aggregation":"mean seconds per 1000-sample forward",
+      "reported_seconds_per_1000_samples":{"PINN":0.000581,"MLP":0.000564,"CNN":0.0129},
+      "warmup_iterations":null,"thread_count":null,"input_data_generation":null,"requires_reproduction":true,
+      "hardware_mismatch_note":"Cloud CPU and software differ; report measured hardware and version, do not assert exact timing reproduction"
+    }
+  },
+  "peer_review_protocol_clarifications": {
+    "source":"peer_review_file.pdf","pages":68,"all_pages_text_extracted":true,
+    "review_scope":"keyword scan of complete extraction plus close reading of protocol/claim response passages; not a claim of independently verifying every cited external paper",
+    "split":{"pdf_pages":[29,30],"printed_response_pages":[25,26],"quote_summary":"Select independent test batteries; for remaining batteries shuffle all cycle data and allocate20percent validation, remaining training"},
+    "baseline_training":{"pdf_pages":[30,31],"optimizer":"Adam","learning_rate_scheduler":"cosine annealing","grid_values_and_final_LRs":null},
+    "physical_meaning":{"pdf_pages":[32,33],"summary":"Authors explicitly do not model internal physical/chemical changes or chemical boundary conditions; use initial capacity condition and degradation monotonicity"},
+    "feature_selection":{"pdf_page":29,"summary":"Authors explicitly refrained from feature selection; all16 retained based on generality/noise/interaction arguments, not feature-ablation evidence"},
+    "chemical_correlation":{"pdf_pages":[27,28],"summary":"Qualitative current/voltage curve explanation and conjecture; deeper chemical causes beyond study scope"},
+    "leakage":{"pdf_pages":[42,57,58,59],"summary":"Reviewer reiterated possible task/data mismatch leakage; authors supplied design reasoning and discussion, no universal leakage test or separate controlled experiment"}
+  },
+  "source_data_audit": {
+    "workbook":"source_data.xlsx","sha256":"4ed89ee3d28b5b05c2bf7f9502ddfc2e9c1d2832173c9bbd04c261c4be8b4535",
+    "normalized_json":"source_data/source_data_normalized.json",
+    "audit":"source_data/source_data_audit.json",
+    "repeat_summaries":"source_data/source_repeat_summaries.json",
+    "per_battery_tables":"source_data/paper_per_battery_tables.json",
+    "TableS7":"source_data/paper_table_s7.json",
+    "sheet_record_counts":{"Figure 4a":66751,"Figure 4b":990,"Figure 5a":120,"Figure 5b":120,"Figure S5":720},
+    "mean_comparisons_to_Table2_Table3_TableS7":162,"matches_to_4_decimal_rounding":162,
+    "battery_mean_comparisons_to_Table2":66,"compatible_with_two_stage_rounding":64,
+    "MIT_PINN_discrepancies":{"MAPE":{"S6_rounded_battery_mean":0.006673913043478261,"Table2":0.0065},"RMSE":{"S6_rounded_battery_mean":0.007508695652173913,"Table2":0.0074}},
+    "Figure5a_and_FigureS5_batch1_exact_overlap_values":120,
+    "missing_from_source_workbook":["Fig3 Pearson coefficients","Table4 per-repeat transfer metrics","raw I/V/time feature extraction"],
+    "MAPE_denominator_not_encoded_in_workbook":true
+  },
+  "figure_data_requirements": {
+    "Fig2":{"paper_page":4,"provided_plotter":"PINN4SOH/plotter/Figure 2.py","provided_columns":"capacity","provided_behavior":"Plots each XJTU CSV capacity[1:] against row index; six filename groups mapped to batch1-6","independent_raw_required":false,"limitation":"Published CSV capacity may be interpolated; does not reperform physical aging"},
+    "Fig3a":{"paper_page":5,"provided_plotter":null,"available_data":"XJTU 2C eight CSVs, all16 feature columns plus capacity","independent_raw_required_for_extraction_validation":true},
+    "Fig3b":{"paper_page":5,"provided_plotter":null,"available_data":"all four precomputed feature CSV datasets","source_data_workbook_has_coefficients":false,"required_steps":"group to eleven paper batches, derive SOH capacity/nominal, compute16 Pearson correlations; compare rounded values visually"},
+    "Fig1b_and_FigS4":{"provided_raw_curves_in_feature_CSV":false,"required":"raw charging/discharging voltage/current/time/temperature/capacity; Note1/2 extraction algorithm"}
+  },
+  "urgent_conflicts_to_resolve": [
+    "Main-text wording says training/validation/test batteries; peer-review PDF p29-30 clarifies cycle-sample validation within non-test batteries, resolving apparent validation-unit conflict",
+    "Paper transfer uses XJTU batch1 and TJU batch3 consistently; author native scripts may choose other source batches",
+    "Paper Eq.8 monotonicity formula may differ from current corrected code",
+    "Paper 2024 publication parameters differ from author September 2026 fix; do not claim exact paper-number reproduction",
+    "Original analysis scripts' heuristic battery boundaries and reversed MAPE are not ground-truth metric definitions",
+    "Paper standard deviation ddof and battery/sample aggregation are not specified in main text"
+  ]
+}

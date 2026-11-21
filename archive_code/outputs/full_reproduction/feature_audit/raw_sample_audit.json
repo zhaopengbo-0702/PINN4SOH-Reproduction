@@ -1,0 +1,14 @@
+{
+  "raw_cycles": 390,
+  "published_rows": 375,
+  "valid_voltage_windows": 389,
+  "valid_current_windows": 389,
+  "sample_scope": "One official XJTU Batch-1 cell only; not evidence for all 387 cells",
+  "voltage_window": "4.0 <= V <= 4.2 and I >= 3.9 A during charge stage",
+  "current_window": "0.1 <= I <= 0.5 A during charge stage",
+  "first_raw_cycle_candidates": {
+    "raw_cycle": 1,
+    "raw_capacity_Ah": 1.991
+  },
+  "formula_search_limit": "Diagnostic candidates are compared separately; nearest cycles do not establish a shared row mapping"
+}

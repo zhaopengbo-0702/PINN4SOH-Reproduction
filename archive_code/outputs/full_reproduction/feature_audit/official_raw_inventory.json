@@ -1,0 +1,2275 @@
+[
+  {
+    "dataset": "XJTU",
+    "name": "Battery Dataset.zip",
+    "compressed_bytes": 2438769934,
+    "checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "download_url": "https://zenodo.org/api/records/10963339/files/Battery%20Dataset.zip/content",
+    "metadata_url": "https://zenodo.org/api/records/10963339",
+    "archive_members": [
+      {
+        "name": "Battery Dataset/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 0
+      },
+      {
+        "name": "Battery Dataset/Batch-1/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 46
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-1.mat",
+        "compressed_bytes": 37280214,
+        "uncompressed_bytes": 44388077,
+        "compression": 8,
+        "crc32": "e0240944",
+        "header_offset": 100
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-2.mat",
+        "compressed_bytes": 38869665,
+        "uncompressed_bytes": 46247857,
+        "compression": 8,
+        "crc32": "e34c9a52",
+        "header_offset": 37280384
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-3.mat",
+        "compressed_bytes": 37240922,
+        "uncompressed_bytes": 44350323,
+        "compression": 8,
+        "crc32": "dc79b9e3",
+        "header_offset": 76150119
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-4.mat",
+        "compressed_bytes": 37796773,
+        "uncompressed_bytes": 45003278,
+        "compression": 8,
+        "crc32": "39f5f27c",
+        "header_offset": 113391111
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-5.mat",
+        "compressed_bytes": 38470588,
+        "uncompressed_bytes": 45819718,
+        "compression": 8,
+        "crc32": "b8055251",
+        "header_offset": 151187954
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-6.mat",
+        "compressed_bytes": 38980904,
+        "uncompressed_bytes": 46401249,
+        "compression": 8,
+        "crc32": "abfd1e47",
+        "header_offset": 189658612
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-7.mat",
+        "compressed_bytes": 38271629,
+        "uncompressed_bytes": 45614404,
+        "compression": 8,
+        "crc32": "f8cb53d9",
+        "header_offset": 228639586
+      },
+      {
+        "name": "Battery Dataset/Batch-1/2C_battery-8.mat",
+        "compressed_bytes": 40243822,
+        "uncompressed_bytes": 47859917,
+        "compression": 8,
+        "crc32": "ef6a671c",
+        "header_offset": 266911285
+      },
+      {
+        "name": "Battery Dataset/Batch-2/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 307155177
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-1.mat",
+        "compressed_bytes": 26122893,
+        "uncompressed_bytes": 30837529,
+        "compression": 8,
+        "crc32": "f78aa14f",
+        "header_offset": 307155231
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-10.mat",
+        "compressed_bytes": 14621210,
+        "uncompressed_bytes": 17345769,
+        "compression": 8,
+        "crc32": "5cb80852",
+        "header_offset": 333278194
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-11.mat",
+        "compressed_bytes": 11669812,
+        "uncompressed_bytes": 13865487,
+        "compression": 8,
+        "crc32": "0e606ece",
+        "header_offset": 347899475
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-12.mat",
+        "compressed_bytes": 18776816,
+        "uncompressed_bytes": 22237179,
+        "compression": 8,
+        "crc32": "bc28a0cf",
+        "header_offset": 359569358
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-13.mat",
+        "compressed_bytes": 20010740,
+        "uncompressed_bytes": 23735057,
+        "compression": 8,
+        "crc32": "5027c630",
+        "header_offset": 378346245
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-14.mat",
+        "compressed_bytes": 13071675,
+        "uncompressed_bytes": 15490867,
+        "compression": 8,
+        "crc32": "1c074e1c",
+        "header_offset": 398357056
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-15.mat",
+        "compressed_bytes": 14866711,
+        "uncompressed_bytes": 17584209,
+        "compression": 8,
+        "crc32": "f8aba977",
+        "header_offset": 411428802
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-2.mat",
+        "compressed_bytes": 26157252,
+        "uncompressed_bytes": 30892649,
+        "compression": 8,
+        "crc32": "9ecf2a6b",
+        "header_offset": 426295584
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-3.mat",
+        "compressed_bytes": 25295447,
+        "uncompressed_bytes": 29869736,
+        "compression": 8,
+        "crc32": "b15d8be1",
+        "header_offset": 452452906
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-4.mat",
+        "compressed_bytes": 28231488,
+        "uncompressed_bytes": 33294040,
+        "compression": 8,
+        "crc32": "eded1cce",
+        "header_offset": 477748423
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-5.mat",
+        "compressed_bytes": 26199214,
+        "uncompressed_bytes": 30902715,
+        "compression": 8,
+        "crc32": "0e6b1787",
+        "header_offset": 505979981
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-6.mat",
+        "compressed_bytes": 28564213,
+        "uncompressed_bytes": 33738699,
+        "compression": 8,
+        "crc32": "2d7d028b",
+        "header_offset": 532179265
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-7.mat",
+        "compressed_bytes": 27884983,
+        "uncompressed_bytes": 32989248,
+        "compression": 8,
+        "crc32": "4055728f",
+        "header_offset": 560743548
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-8.mat",
+        "compressed_bytes": 23988054,
+        "uncompressed_bytes": 28310628,
+        "compression": 8,
+        "crc32": "fd19850a",
+        "header_offset": 588628601
+      },
+      {
+        "name": "Battery Dataset/Batch-2/3C_battery-9.mat",
+        "compressed_bytes": 24928994,
+        "uncompressed_bytes": 29609109,
+        "compression": 8,
+        "crc32": "bc0351e6",
+        "header_offset": 612616725
+      },
+      {
+        "name": "Battery Dataset/Batch-3/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 637545789
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-1.mat",
+        "compressed_bytes": 50859887,
+        "uncompressed_bytes": 60264367,
+        "compression": 8,
+        "crc32": "a27d5a8b",
+        "header_offset": 637545843
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-2.mat",
+        "compressed_bytes": 47677856,
+        "uncompressed_bytes": 56454444,
+        "compression": 8,
+        "crc32": "1b436616",
+        "header_offset": 688405802
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-3.mat",
+        "compressed_bytes": 57892463,
+        "uncompressed_bytes": 68716109,
+        "compression": 8,
+        "crc32": "f4b18235",
+        "header_offset": 736083730
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-4.mat",
+        "compressed_bytes": 48090326,
+        "uncompressed_bytes": 56934998,
+        "compression": 8,
+        "crc32": "2381d818",
+        "header_offset": 793976265
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-5.mat",
+        "compressed_bytes": 48564628,
+        "uncompressed_bytes": 57527014,
+        "compression": 8,
+        "crc32": "4927c09d",
+        "header_offset": 842066663
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-6.mat",
+        "compressed_bytes": 46746292,
+        "uncompressed_bytes": 55358503,
+        "compression": 8,
+        "crc32": "53f134b3",
+        "header_offset": 890631363
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-7.mat",
+        "compressed_bytes": 45658377,
+        "uncompressed_bytes": 54049890,
+        "compression": 8,
+        "crc32": "ade24395",
+        "header_offset": 937377727
+      },
+      {
+        "name": "Battery Dataset/Batch-3/R2.5_battery-8.mat",
+        "compressed_bytes": 53355445,
+        "uncompressed_bytes": 63220081,
+        "compression": 8,
+        "crc32": "1204fe55",
+        "header_offset": 983036176
+      },
+      {
+        "name": "Battery Dataset/Batch-4/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 1036391693
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-1.mat",
+        "compressed_bytes": 67530211,
+        "uncompressed_bytes": 80230783,
+        "compression": 8,
+        "crc32": "75578405",
+        "header_offset": 1036391747
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-2.mat",
+        "compressed_bytes": 57479413,
+        "uncompressed_bytes": 68351110,
+        "compression": 8,
+        "crc32": "7f4ddcd2",
+        "header_offset": 1103922028
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-3.mat",
+        "compressed_bytes": 57853058,
+        "uncompressed_bytes": 68801058,
+        "compression": 8,
+        "crc32": "103500d9",
+        "header_offset": 1161401511
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-4.mat",
+        "compressed_bytes": 63055061,
+        "uncompressed_bytes": 75012217,
+        "compression": 8,
+        "crc32": "41088697",
+        "header_offset": 1219254639
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-5.mat",
+        "compressed_bytes": 62699779,
+        "uncompressed_bytes": 74560254,
+        "compression": 8,
+        "crc32": "3c8f0d26",
+        "header_offset": 1282309770
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-6.mat",
+        "compressed_bytes": 60936797,
+        "uncompressed_bytes": 72446965,
+        "compression": 8,
+        "crc32": "b721bde0",
+        "header_offset": 1345009619
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-7.mat",
+        "compressed_bytes": 51495761,
+        "uncompressed_bytes": 61033624,
+        "compression": 8,
+        "crc32": "dfb7bc94",
+        "header_offset": 1405946486
+      },
+      {
+        "name": "Battery Dataset/Batch-4/R3_battery-8.mat",
+        "compressed_bytes": 64312497,
+        "uncompressed_bytes": 76320788,
+        "compression": 8,
+        "crc32": "302f4ba8",
+        "header_offset": 1457442317
+      },
+      {
+        "name": "Battery Dataset/Batch-5/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 1521754884
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-1.mat",
+        "compressed_bytes": 15024043,
+        "uncompressed_bytes": 17476523,
+        "compression": 8,
+        "crc32": "64bb76ad",
+        "header_offset": 1521754938
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-2.mat",
+        "compressed_bytes": 23258715,
+        "uncompressed_bytes": 26773778,
+        "compression": 8,
+        "crc32": "8e0bacae",
+        "header_offset": 1536779051
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-3.mat",
+        "compressed_bytes": 25561968,
+        "uncompressed_bytes": 29424058,
+        "compression": 8,
+        "crc32": "493f3057",
+        "header_offset": 1560037836
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-4.mat",
+        "compressed_bytes": 19412509,
+        "uncompressed_bytes": 22386522,
+        "compression": 8,
+        "crc32": "5458d485",
+        "header_offset": 1585599874
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-5.mat",
+        "compressed_bytes": 20940295,
+        "uncompressed_bytes": 24113364,
+        "compression": 8,
+        "crc32": "eac80f5b",
+        "header_offset": 1605012453
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-6.mat",
+        "compressed_bytes": 17087509,
+        "uncompressed_bytes": 19701136,
+        "compression": 8,
+        "crc32": "2cb3432a",
+        "header_offset": 1625952818
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-7.mat",
+        "compressed_bytes": 14573718,
+        "uncompressed_bytes": 16867588,
+        "compression": 8,
+        "crc32": "9e8442c3",
+        "header_offset": 1643040397
+      },
+      {
+        "name": "Battery Dataset/Batch-5/RW_battery-8.mat",
+        "compressed_bytes": 16247219,
+        "uncompressed_bytes": 18759273,
+        "compression": 8,
+        "crc32": "d2f521b1",
+        "header_offset": 1657614185
+      },
+      {
+        "name": "Battery Dataset/Batch-6/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 1673861474
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-1.mat",
+        "compressed_bytes": 85626948,
+        "uncompressed_bytes": 102808911,
+        "compression": 8,
+        "crc32": "9bd2af73",
+        "header_offset": 1673861528
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-2.mat",
+        "compressed_bytes": 108566781,
+        "uncompressed_bytes": 130758107,
+        "compression": 8,
+        "crc32": "f86d7269",
+        "header_offset": 1759488557
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-3.mat",
+        "compressed_bytes": 81318588,
+        "uncompressed_bytes": 97611118,
+        "compression": 8,
+        "crc32": "30e32094",
+        "header_offset": 1868055419
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-4.mat",
+        "compressed_bytes": 84784569,
+        "uncompressed_bytes": 101591956,
+        "compression": 8,
+        "crc32": "9f6a4047",
+        "header_offset": 1949374088
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-5.mat",
+        "compressed_bytes": 115830927,
+        "uncompressed_bytes": 138876177,
+        "compression": 8,
+        "crc32": "ef710b66",
+        "header_offset": 2034158738
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-6.mat",
+        "compressed_bytes": 97791770,
+        "uncompressed_bytes": 117240589,
+        "compression": 8,
+        "crc32": "8f112740",
+        "header_offset": 2149989746
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-7.mat",
+        "compressed_bytes": 85362158,
+        "uncompressed_bytes": 102215556,
+        "compression": 8,
+        "crc32": "b45ba670",
+        "header_offset": 2247781597
+      },
+      {
+        "name": "Battery Dataset/Batch-6/Sim_satellite_battery-8.mat",
+        "compressed_bytes": 94713911,
+        "uncompressed_bytes": 113477348,
+        "compression": 8,
+        "crc32": "398a926e",
+        "header_offset": 2333143836
+      },
+      {
+        "name": "Battery Dataset/Data Introduction-Chinese.pdf",
+        "compressed_bytes": 257672,
+        "uncompressed_bytes": 289047,
+        "compression": 8,
+        "crc32": "387e64fc",
+        "header_offset": 2427857828
+      },
+      {
+        "name": "Battery Dataset/Data Introduction-English.pdf",
+        "compressed_bytes": 211294,
+        "uncompressed_bytes": 234734,
+        "compression": 8,
+        "crc32": "8861cc7a",
+        "header_offset": 2428115575
+      },
+      {
+        "name": "Battery Dataset/Temperature_Compensation_Data.mat",
+        "compressed_bytes": 10434950,
+        "uncompressed_bytes": 16727915,
+        "compression": 8,
+        "crc32": "eef88fd6",
+        "header_offset": 2428326944
+      }
+    ],
+    "uncompressed_bytes": 2903003649,
+    "member_count": 65,
+    "metadata_range_downloaded_bytes": 7981
+  },
+  {
+    "dataset": "TJU",
+    "name": "Dataset_2_NCM_battery.zip",
+    "compressed_bytes": 737047539,
+    "checksum": "md5:a05c485df92f4af560d1d8d7f659ce1b",
+    "download_url": "https://zenodo.org/api/records/6405084/files/Dataset_2_NCM_battery.zip/content",
+    "metadata_url": "https://zenodo.org/api/records/6405084",
+    "archive_members": [
+      {
+        "name": "Dataset_2_NCM_battery/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 0
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#1.csv",
+        "compressed_bytes": 5126859,
+        "uncompressed_bytes": 16450837,
+        "compression": 8,
+        "crc32": "aa1a5382",
+        "header_offset": 52
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#10.csv",
+        "compressed_bytes": 5572706,
+        "uncompressed_bytes": 17905989,
+        "compression": 8,
+        "crc32": "ef38ac29",
+        "header_offset": 5126979
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#11.csv",
+        "compressed_bytes": 5602986,
+        "uncompressed_bytes": 18108806,
+        "compression": 8,
+        "crc32": "9e982eac",
+        "header_offset": 10699754
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#12.csv",
+        "compressed_bytes": 5685681,
+        "uncompressed_bytes": 19487457,
+        "compression": 8,
+        "crc32": "f4597101",
+        "header_offset": 16302809
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#13.csv",
+        "compressed_bytes": 11169827,
+        "uncompressed_bytes": 36282440,
+        "compression": 8,
+        "crc32": "e9ebd1ec",
+        "header_offset": 21988559
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#14.csv",
+        "compressed_bytes": 1215632,
+        "uncompressed_bytes": 3828406,
+        "compression": 8,
+        "crc32": "2c44ccf3",
+        "header_offset": 33158455
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#15.csv",
+        "compressed_bytes": 8434662,
+        "uncompressed_bytes": 27237724,
+        "compression": 8,
+        "crc32": "4a723473",
+        "header_offset": 34374156
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#16.csv",
+        "compressed_bytes": 9421850,
+        "uncompressed_bytes": 30387353,
+        "compression": 8,
+        "crc32": "ea085f3e",
+        "header_offset": 42808887
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#17.csv",
+        "compressed_bytes": 8999633,
+        "uncompressed_bytes": 28856296,
+        "compression": 8,
+        "crc32": "adf28582",
+        "header_offset": 52230806
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#18.csv",
+        "compressed_bytes": 5148463,
+        "uncompressed_bytes": 16492717,
+        "compression": 8,
+        "crc32": "19f1128a",
+        "header_offset": 61230508
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#19.csv",
+        "compressed_bytes": 5124422,
+        "uncompressed_bytes": 16519095,
+        "compression": 8,
+        "crc32": "2d65d893",
+        "header_offset": 66379040
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#2.csv",
+        "compressed_bytes": 5126950,
+        "uncompressed_bytes": 16640683,
+        "compression": 8,
+        "crc32": "9b7903f2",
+        "header_offset": 71503531
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#20.csv",
+        "compressed_bytes": 5096249,
+        "uncompressed_bytes": 16470924,
+        "compression": 8,
+        "crc32": "d0578dc9",
+        "header_offset": 76630549
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#21.csv",
+        "compressed_bytes": 5101363,
+        "uncompressed_bytes": 16375349,
+        "compression": 8,
+        "crc32": "d9fe6a88",
+        "header_offset": 81726867
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#22.csv",
+        "compressed_bytes": 5082511,
+        "uncompressed_bytes": 16326132,
+        "compression": 8,
+        "crc32": "28c86724",
+        "header_offset": 86828299
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#23.csv",
+        "compressed_bytes": 5115822,
+        "uncompressed_bytes": 17242378,
+        "compression": 8,
+        "crc32": "e36d95f3",
+        "header_offset": 91910879
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#3.csv",
+        "compressed_bytes": 5127659,
+        "uncompressed_bytes": 16495375,
+        "compression": 8,
+        "crc32": "049655fc",
+        "header_offset": 97026770
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#4.csv",
+        "compressed_bytes": 5084748,
+        "uncompressed_bytes": 16305933,
+        "compression": 8,
+        "crc32": "b9d03eda",
+        "header_offset": 102154497
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#5.csv",
+        "compressed_bytes": 12986473,
+        "uncompressed_bytes": 42478199,
+        "compression": 8,
+        "crc32": "f201c6aa",
+        "header_offset": 107239313
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#6.csv",
+        "compressed_bytes": 5128406,
+        "uncompressed_bytes": 16579710,
+        "compression": 8,
+        "crc32": "d306ad24",
+        "header_offset": 120225854
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#7.csv",
+        "compressed_bytes": 5147047,
+        "uncompressed_bytes": 17466302,
+        "compression": 8,
+        "crc32": "0105d960",
+        "header_offset": 125354328
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#8.csv",
+        "compressed_bytes": 9498122,
+        "uncompressed_bytes": 30720865,
+        "compression": 8,
+        "crc32": "0ca1d002",
+        "header_offset": 130501443
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY25-05_1-#9.csv",
+        "compressed_bytes": 9670444,
+        "uncompressed_bytes": 31505852,
+        "compression": 8,
+        "crc32": "fad4f621",
+        "header_offset": 139999633
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY35-05_1-#1.csv",
+        "compressed_bytes": 29885817,
+        "uncompressed_bytes": 97192520,
+        "compression": 8,
+        "crc32": "fbb7aaf2",
+        "header_offset": 149670145
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY35-05_1-#2.csv",
+        "compressed_bytes": 34480854,
+        "uncompressed_bytes": 111472053,
+        "compression": 8,
+        "crc32": "a9d2b123",
+        "header_offset": 179556030
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY35-05_1-#3.csv",
+        "compressed_bytes": 33061231,
+        "uncompressed_bytes": 107128323,
+        "compression": 8,
+        "crc32": "96ac4438",
+        "header_offset": 214036952
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY35-05_1-#4.csv",
+        "compressed_bytes": 31478139,
+        "uncompressed_bytes": 103482544,
+        "compression": 8,
+        "crc32": "1b4bce0d",
+        "header_offset": 247098251
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#1.csv",
+        "compressed_bytes": 11912636,
+        "uncompressed_bytes": 39907283,
+        "compression": 8,
+        "crc32": "5455d18f",
+        "header_offset": 278576458
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#10.csv",
+        "compressed_bytes": 10448506,
+        "uncompressed_bytes": 33455529,
+        "compression": 8,
+        "crc32": "b39d71ba",
+        "header_offset": 290489162
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#11.csv",
+        "compressed_bytes": 20780960,
+        "uncompressed_bytes": 67509940,
+        "compression": 8,
+        "crc32": "1849d175",
+        "header_offset": 300937737
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#12.csv",
+        "compressed_bytes": 20966617,
+        "uncompressed_bytes": 68283175,
+        "compression": 8,
+        "crc32": "f6c9bfba",
+        "header_offset": 321718766
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#13.csv",
+        "compressed_bytes": 22690393,
+        "uncompressed_bytes": 76992345,
+        "compression": 8,
+        "crc32": "7017896c",
+        "header_offset": 342685452
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#14.csv",
+        "compressed_bytes": 22510476,
+        "uncompressed_bytes": 72505543,
+        "compression": 8,
+        "crc32": "c943dc72",
+        "header_offset": 365375914
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#15.csv",
+        "compressed_bytes": 10268085,
+        "uncompressed_bytes": 32981432,
+        "compression": 8,
+        "crc32": "490e427b",
+        "header_offset": 387886459
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#16.csv",
+        "compressed_bytes": 15254242,
+        "uncompressed_bytes": 49338679,
+        "compression": 8,
+        "crc32": "ae1b6728",
+        "header_offset": 398154613
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#17.csv",
+        "compressed_bytes": 15357779,
+        "uncompressed_bytes": 51531971,
+        "compression": 8,
+        "crc32": "1f68073b",
+        "header_offset": 413408924
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#18.csv",
+        "compressed_bytes": 15267405,
+        "uncompressed_bytes": 48888060,
+        "compression": 8,
+        "crc32": "d4c0a315",
+        "header_offset": 428766772
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#19.csv",
+        "compressed_bytes": 20734959,
+        "uncompressed_bytes": 70154014,
+        "compression": 8,
+        "crc32": "cde0ba7b",
+        "header_offset": 444034246
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#2.csv",
+        "compressed_bytes": 11919373,
+        "uncompressed_bytes": 38291490,
+        "compression": 8,
+        "crc32": "210d041e",
+        "header_offset": 464769274
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#20.csv",
+        "compressed_bytes": 20583579,
+        "uncompressed_bytes": 66525339,
+        "compression": 8,
+        "crc32": "517e492b",
+        "header_offset": 476688715
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#21.csv",
+        "compressed_bytes": 23538566,
+        "uncompressed_bytes": 79903853,
+        "compression": 8,
+        "crc32": "0975ac3f",
+        "header_offset": 497272363
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#22.csv",
+        "compressed_bytes": 22385213,
+        "uncompressed_bytes": 77129939,
+        "compression": 8,
+        "crc32": "c47ea796",
+        "header_offset": 520810998
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#23.csv",
+        "compressed_bytes": 23680758,
+        "uncompressed_bytes": 76466576,
+        "compression": 8,
+        "crc32": "50c0dea6",
+        "header_offset": 543196280
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#24.csv",
+        "compressed_bytes": 23103922,
+        "uncompressed_bytes": 74022276,
+        "compression": 8,
+        "crc32": "9bcd6bad",
+        "header_offset": 566877107
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#25.csv",
+        "compressed_bytes": 24502335,
+        "uncompressed_bytes": 78840587,
+        "compression": 8,
+        "crc32": "16340f47",
+        "header_offset": 589981098
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#26.csv",
+        "compressed_bytes": 22254742,
+        "uncompressed_bytes": 71666192,
+        "compression": 8,
+        "crc32": "bd78a6be",
+        "header_offset": 614483502
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#27.csv",
+        "compressed_bytes": 24525272,
+        "uncompressed_bytes": 80135357,
+        "compression": 8,
+        "crc32": "5fbe8dd9",
+        "header_offset": 636738313
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#28.csv",
+        "compressed_bytes": 23109861,
+        "uncompressed_bytes": 75237420,
+        "compression": 8,
+        "crc32": "fc4afa92",
+        "header_offset": 661263654
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#3.csv",
+        "compressed_bytes": 5347085,
+        "uncompressed_bytes": 17791047,
+        "compression": 8,
+        "crc32": "8a9e232b",
+        "header_offset": 684373584
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#4.csv",
+        "compressed_bytes": 5295103,
+        "uncompressed_bytes": 17874173,
+        "compression": 8,
+        "crc32": "d2decf1e",
+        "header_offset": 689720737
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#5.csv",
+        "compressed_bytes": 5284510,
+        "uncompressed_bytes": 16972559,
+        "compression": 8,
+        "crc32": "4e997bd0",
+        "header_offset": 695015908
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#6.csv",
+        "compressed_bytes": 5237390,
+        "uncompressed_bytes": 17320480,
+        "compression": 8,
+        "crc32": "8160039f",
+        "header_offset": 700300486
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#7.csv",
+        "compressed_bytes": 10538741,
+        "uncompressed_bytes": 33626087,
+        "compression": 8,
+        "crc32": "3131f0be",
+        "header_offset": 705537944
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#8.csv",
+        "compressed_bytes": 10462189,
+        "uncompressed_bytes": 33262453,
+        "compression": 8,
+        "crc32": "02c07bee",
+        "header_offset": 716076753
+      },
+      {
+        "name": "Dataset_2_NCM_battery/CY45-05_1-#9.csv",
+        "compressed_bytes": 10501702,
+        "uncompressed_bytes": 33340338,
+        "compression": 8,
+        "crc32": "a5925936",
+        "header_offset": 726539010
+      }
+    ],
+    "uncompressed_bytes": 2405394399,
+    "member_count": 56,
+    "metadata_range_downloaded_bytes": 6779
+  },
+  {
+    "dataset": "TJU",
+    "name": "Dataset_1_NCA_battery.zip",
+    "compressed_bytes": 579629324,
+    "checksum": "md5:cbd6d7eab2a296b52385e025e8d0f42a",
+    "download_url": "https://zenodo.org/api/records/6405084/files/Dataset_1_NCA_battery.zip/content",
+    "metadata_url": "https://zenodo.org/api/records/6405084",
+    "archive_members": [
+      {
+        "name": "Dataset_1_NCA_battery/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 0
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#1.csv",
+        "compressed_bytes": 18841594,
+        "uncompressed_bytes": 77438138,
+        "compression": 8,
+        "crc32": "a3b519de",
+        "header_offset": 52
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#2.csv",
+        "compressed_bytes": 9145243,
+        "uncompressed_bytes": 38021274,
+        "compression": 8,
+        "crc32": "0538d2d6",
+        "header_offset": 18841715
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#3.csv",
+        "compressed_bytes": 8842601,
+        "uncompressed_bytes": 28574339,
+        "compression": 8,
+        "crc32": "d5058ed1",
+        "header_offset": 27987027
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#4.csv",
+        "compressed_bytes": 9756102,
+        "uncompressed_bytes": 30541410,
+        "compression": 8,
+        "crc32": "013f105e",
+        "header_offset": 36829697
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#5.csv",
+        "compressed_bytes": 10021954,
+        "uncompressed_bytes": 31601268,
+        "compression": 8,
+        "crc32": "20b506c8",
+        "header_offset": 46585868
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#6.csv",
+        "compressed_bytes": 7476762,
+        "uncompressed_bytes": 23377901,
+        "compression": 8,
+        "crc32": "9bcf2983",
+        "header_offset": 56607891
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-025_1-#7.csv",
+        "compressed_bytes": 7669375,
+        "uncompressed_bytes": 24979118,
+        "compression": 8,
+        "crc32": "e2ad57b4",
+        "header_offset": 64084722
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#1.csv",
+        "compressed_bytes": 3782804,
+        "uncompressed_bytes": 13031728,
+        "compression": 8,
+        "crc32": "00e411a1",
+        "header_offset": 71754166
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#10.csv",
+        "compressed_bytes": 5697515,
+        "uncompressed_bytes": 18320850,
+        "compression": 8,
+        "crc32": "3c1ec4bd",
+        "header_offset": 75537038
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#11.csv",
+        "compressed_bytes": 4415265,
+        "uncompressed_bytes": 14396296,
+        "compression": 8,
+        "crc32": "ad03a78f",
+        "header_offset": 81234622
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#12.csv",
+        "compressed_bytes": 4357935,
+        "uncompressed_bytes": 14110494,
+        "compression": 8,
+        "crc32": "c77f3a20",
+        "header_offset": 85649956
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#13.csv",
+        "compressed_bytes": 5055567,
+        "uncompressed_bytes": 16373236,
+        "compression": 8,
+        "crc32": "7c2b1f03",
+        "header_offset": 90007960
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#14.csv",
+        "compressed_bytes": 5028640,
+        "uncompressed_bytes": 16148145,
+        "compression": 8,
+        "crc32": "9c3c845a",
+        "header_offset": 95063596
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#15.csv",
+        "compressed_bytes": 5050560,
+        "uncompressed_bytes": 16356728,
+        "compression": 8,
+        "crc32": "8d83b092",
+        "header_offset": 100092305
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#16.csv",
+        "compressed_bytes": 4263968,
+        "uncompressed_bytes": 14508905,
+        "compression": 8,
+        "crc32": "00b4b8b6",
+        "header_offset": 105142934
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#17.csv",
+        "compressed_bytes": 5040567,
+        "uncompressed_bytes": 16252162,
+        "compression": 8,
+        "crc32": "cb5f5e0d",
+        "header_offset": 109406971
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#18.csv",
+        "compressed_bytes": 4924526,
+        "uncompressed_bytes": 16761742,
+        "compression": 8,
+        "crc32": "8d0f574c",
+        "header_offset": 114447607
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#19.csv",
+        "compressed_bytes": 4005464,
+        "uncompressed_bytes": 13534792,
+        "compression": 8,
+        "crc32": "a82de472",
+        "header_offset": 119372202
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#2.csv",
+        "compressed_bytes": 4609370,
+        "uncompressed_bytes": 14886912,
+        "compression": 8,
+        "crc32": "84d94edc",
+        "header_offset": 123377735
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#3.csv",
+        "compressed_bytes": 5038716,
+        "uncompressed_bytes": 16298892,
+        "compression": 8,
+        "crc32": "6811ea07",
+        "header_offset": 127987173
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#4.csv",
+        "compressed_bytes": 5053238,
+        "uncompressed_bytes": 16171310,
+        "compression": 8,
+        "crc32": "9d44a4e9",
+        "header_offset": 133025957
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#5.csv",
+        "compressed_bytes": 5062633,
+        "uncompressed_bytes": 16436683,
+        "compression": 8,
+        "crc32": "095e9c66",
+        "header_offset": 138079263
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#6.csv",
+        "compressed_bytes": 4774674,
+        "uncompressed_bytes": 15394752,
+        "compression": 8,
+        "crc32": "f60cd6fd",
+        "header_offset": 143141964
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#7.csv",
+        "compressed_bytes": 4518498,
+        "uncompressed_bytes": 15237781,
+        "compression": 8,
+        "crc32": "2794e887",
+        "header_offset": 147916706
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#8.csv",
+        "compressed_bytes": 2992224,
+        "uncompressed_bytes": 9571982,
+        "compression": 8,
+        "crc32": "16273479",
+        "header_offset": 152435272
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-05_1-#9.csv",
+        "compressed_bytes": 2987824,
+        "uncompressed_bytes": 9639659,
+        "compression": 8,
+        "crc32": "fac006a9",
+        "header_offset": 155427564
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#1.csv",
+        "compressed_bytes": 1013241,
+        "uncompressed_bytes": 3508566,
+        "compression": 8,
+        "crc32": "1f0ae10d",
+        "header_offset": 158415456
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#2.csv",
+        "compressed_bytes": 1061537,
+        "uncompressed_bytes": 3686791,
+        "compression": 8,
+        "crc32": "7b2ab2a4",
+        "header_offset": 159428764
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#3.csv",
+        "compressed_bytes": 800140,
+        "uncompressed_bytes": 2559914,
+        "compression": 8,
+        "crc32": "113a17cf",
+        "header_offset": 160490368
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#4.csv",
+        "compressed_bytes": 880168,
+        "uncompressed_bytes": 2810659,
+        "compression": 8,
+        "crc32": "c17ab671",
+        "header_offset": 161290575
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#5.csv",
+        "compressed_bytes": 935192,
+        "uncompressed_bytes": 3193344,
+        "compression": 8,
+        "crc32": "4b4992e0",
+        "header_offset": 162170810
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#6.csv",
+        "compressed_bytes": 802822,
+        "uncompressed_bytes": 2552620,
+        "compression": 8,
+        "crc32": "7639471e",
+        "header_offset": 163106069
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#7.csv",
+        "compressed_bytes": 964637,
+        "uncompressed_bytes": 3085814,
+        "compression": 8,
+        "crc32": "680950b6",
+        "header_offset": 163908958
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#8.csv",
+        "compressed_bytes": 849838,
+        "uncompressed_bytes": 2729385,
+        "compression": 8,
+        "crc32": "ca35c1a7",
+        "header_offset": 164873662
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY25-1_1-#9.csv",
+        "compressed_bytes": 944120,
+        "uncompressed_bytes": 3022139,
+        "compression": 8,
+        "crc32": "2862d6f8",
+        "header_offset": 165723567
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY35-05_1-#1.csv",
+        "compressed_bytes": 14414100,
+        "uncompressed_bytes": 46176164,
+        "compression": 8,
+        "crc32": "ff000d02",
+        "header_offset": 166667754
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY35-05_1-#2.csv",
+        "compressed_bytes": 13866821,
+        "uncompressed_bytes": 44425016,
+        "compression": 8,
+        "crc32": "dc4ecc5a",
+        "header_offset": 181081922
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY35-05_1-#3.csv",
+        "compressed_bytes": 835757,
+        "uncompressed_bytes": 2770565,
+        "compression": 8,
+        "crc32": "8d0b7c10",
+        "header_offset": 194948811
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#1.csv",
+        "compressed_bytes": 17979989,
+        "uncompressed_bytes": 57799918,
+        "compression": 8,
+        "crc32": "9dba46f5",
+        "header_offset": 195784636
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#10.csv",
+        "compressed_bytes": 9952968,
+        "uncompressed_bytes": 33467064,
+        "compression": 8,
+        "crc32": "4ed3cc00",
+        "header_offset": 213764693
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#11.csv",
+        "compressed_bytes": 15749771,
+        "uncompressed_bytes": 53255007,
+        "compression": 8,
+        "crc32": "46292435",
+        "header_offset": 223717730
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#12.csv",
+        "compressed_bytes": 19524399,
+        "uncompressed_bytes": 63105753,
+        "compression": 8,
+        "crc32": "ddcfdef5",
+        "header_offset": 239467570
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#13.csv",
+        "compressed_bytes": 17453228,
+        "uncompressed_bytes": 59351754,
+        "compression": 8,
+        "crc32": "915643da",
+        "header_offset": 258992038
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#14.csv",
+        "compressed_bytes": 17970334,
+        "uncompressed_bytes": 60418607,
+        "compression": 8,
+        "crc32": "b8378267",
+        "header_offset": 276445335
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#15.csv",
+        "compressed_bytes": 11807523,
+        "uncompressed_bytes": 39892273,
+        "compression": 8,
+        "crc32": "32d0152b",
+        "header_offset": 294415738
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#16.csv",
+        "compressed_bytes": 14137370,
+        "uncompressed_bytes": 45668762,
+        "compression": 8,
+        "crc32": "3f021568",
+        "header_offset": 306223330
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#17.csv",
+        "compressed_bytes": 12652323,
+        "uncompressed_bytes": 43134005,
+        "compression": 8,
+        "crc32": "361651ba",
+        "header_offset": 320360769
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#18.csv",
+        "compressed_bytes": 14365917,
+        "uncompressed_bytes": 48102617,
+        "compression": 8,
+        "crc32": "621eae71",
+        "header_offset": 333013161
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#19.csv",
+        "compressed_bytes": 16357154,
+        "uncompressed_bytes": 52446161,
+        "compression": 8,
+        "crc32": "670b5ea6",
+        "header_offset": 347379147
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#2.csv",
+        "compressed_bytes": 17585495,
+        "uncompressed_bytes": 59491975,
+        "compression": 8,
+        "crc32": "f2c43853",
+        "header_offset": 363736370
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#20.csv",
+        "compressed_bytes": 17620804,
+        "uncompressed_bytes": 59267550,
+        "compression": 8,
+        "crc32": "22a3271d",
+        "header_offset": 381321933
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#21.csv",
+        "compressed_bytes": 15195433,
+        "uncompressed_bytes": 49041201,
+        "compression": 8,
+        "crc32": "9c55eaff",
+        "header_offset": 398942806
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#22.csv",
+        "compressed_bytes": 13695221,
+        "uncompressed_bytes": 45931810,
+        "compression": 8,
+        "crc32": "2247d125",
+        "header_offset": 414138308
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#23.csv",
+        "compressed_bytes": 16785825,
+        "uncompressed_bytes": 56754611,
+        "compression": 8,
+        "crc32": "e6cd8d15",
+        "header_offset": 427833598
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#24.csv",
+        "compressed_bytes": 17382972,
+        "uncompressed_bytes": 59273222,
+        "compression": 8,
+        "crc32": "79169555",
+        "header_offset": 444619492
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#25.csv",
+        "compressed_bytes": 18023828,
+        "uncompressed_bytes": 57755502,
+        "compression": 8,
+        "crc32": "f597bf6f",
+        "header_offset": 462002533
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#26.csv",
+        "compressed_bytes": 16933695,
+        "uncompressed_bytes": 53945116,
+        "compression": 8,
+        "crc32": "177a0a39",
+        "header_offset": 480026430
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#27.csv",
+        "compressed_bytes": 15573317,
+        "uncompressed_bytes": 50230709,
+        "compression": 8,
+        "crc32": "294316b1",
+        "header_offset": 496960194
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#28.csv",
+        "compressed_bytes": 17327530,
+        "uncompressed_bytes": 55920429,
+        "compression": 8,
+        "crc32": "e3877781",
+        "header_offset": 512533580
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#3.csv",
+        "compressed_bytes": 5009520,
+        "uncompressed_bytes": 15985120,
+        "compression": 8,
+        "crc32": "91e64165",
+        "header_offset": 529861179
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#4.csv",
+        "compressed_bytes": 5011406,
+        "uncompressed_bytes": 15986018,
+        "compression": 8,
+        "crc32": "36ebeb38",
+        "header_offset": 534870767
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#5.csv",
+        "compressed_bytes": 4988157,
+        "uncompressed_bytes": 15918985,
+        "compression": 8,
+        "crc32": "0ffaab50",
+        "header_offset": 539882241
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#6.csv",
+        "compressed_bytes": 4953885,
+        "uncompressed_bytes": 15840827,
+        "compression": 8,
+        "crc32": "86e89fd6",
+        "header_offset": 544870466
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#7.csv",
+        "compressed_bytes": 9973758,
+        "uncompressed_bytes": 31586786,
+        "compression": 8,
+        "crc32": "75231824",
+        "header_offset": 549824419
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#8.csv",
+        "compressed_bytes": 9800874,
+        "uncompressed_bytes": 31316453,
+        "compression": 8,
+        "crc32": "cbea1141",
+        "header_offset": 559798245
+      },
+      {
+        "name": "Dataset_1_NCA_battery/CY45-05_1-#9.csv",
+        "compressed_bytes": 10021996,
+        "uncompressed_bytes": 33693589,
+        "compression": 8,
+        "crc32": "36b0a049",
+        "header_offset": 569599187
+      }
+    ],
+    "uncompressed_bytes": 1923069298,
+    "member_count": 67,
+    "metadata_range_downloaded_bytes": 8093
+  },
+  {
+    "dataset": "TJU",
+    "name": "Dataset_3_NCM_NCA_battery.zip",
+    "compressed_bytes": 356066478,
+    "checksum": "md5:d11e68e410a638058906af5e2f5f60f3",
+    "download_url": "https://zenodo.org/api/records/6405084/files/Dataset_3_NCM_NCA_battery.zip/content",
+    "metadata_url": "https://zenodo.org/api/records/6405084",
+    "archive_members": [
+      {
+        "name": "Dataset_3_NCM_NCA_battery/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 0
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_1-#1.csv",
+        "compressed_bytes": 42036043,
+        "uncompressed_bytes": 154123654,
+        "compression": 8,
+        "crc32": "63933947",
+        "header_offset": 56
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_1-#2.csv",
+        "compressed_bytes": 42387545,
+        "uncompressed_bytes": 144504692,
+        "compression": 8,
+        "crc32": "5e3b431d",
+        "header_offset": 42036171
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_1-#3.csv",
+        "compressed_bytes": 43923674,
+        "uncompressed_bytes": 149890896,
+        "compression": 8,
+        "crc32": "440fb347",
+        "header_offset": 84423788
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_2-#1.csv",
+        "compressed_bytes": 39123397,
+        "uncompressed_bytes": 145971800,
+        "compression": 8,
+        "crc32": "70b173dd",
+        "header_offset": 128347534
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_2-#2.csv",
+        "compressed_bytes": 37985542,
+        "uncompressed_bytes": 133893440,
+        "compression": 8,
+        "crc32": "3cb76928",
+        "header_offset": 167471003
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_2-#3.csv",
+        "compressed_bytes": 41311608,
+        "uncompressed_bytes": 155706621,
+        "compression": 8,
+        "crc32": "b1a711af",
+        "header_offset": 205456617
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_4-#1.csv",
+        "compressed_bytes": 37818532,
+        "uncompressed_bytes": 134263298,
+        "compression": 8,
+        "crc32": "2b465b5b",
+        "header_offset": 246768297
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_4-#2.csv",
+        "compressed_bytes": 36868856,
+        "uncompressed_bytes": 131334725,
+        "compression": 8,
+        "crc32": "452d8662",
+        "header_offset": 284586901
+      },
+      {
+        "name": "Dataset_3_NCM_NCA_battery/CY25-05_4-#3.csv",
+        "compressed_bytes": 34609331,
+        "uncompressed_bytes": 131127465,
+        "compression": 8,
+        "crc32": "3baafae6",
+        "header_offset": 321455829
+      }
+    ],
+    "uncompressed_bytes": 1280816591,
+    "member_count": 10,
+    "metadata_range_downloaded_bytes": 1266
+  },
+  {
+    "dataset": "HUST",
+    "name": "our_data.zip",
+    "compressed_bytes": 1188136932,
+    "checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "download_url": "https://data.mendeley.com/public-files/datasets/nsc7hnsg4s/files/5ca0ac3e-d598-4d07-8dcb-879aa047e98b/file_downloaded",
+    "metadata_url": "https://data.mendeley.com/public-api/datasets/nsc7hnsg4s/files?folder_id=root&version=2&%24start=0&%24limit=1000",
+    "archive_members": [
+      {
+        "name": "our_data/",
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "compression": 0,
+        "crc32": "00000000",
+        "header_offset": 0
+      },
+      {
+        "name": "our_data/1-1.pkl",
+        "compressed_bytes": 17309189,
+        "uncompressed_bytes": 53553885,
+        "compression": 8,
+        "crc32": "1141ccc3",
+        "header_offset": 71
+      },
+      {
+        "name": "our_data/1-2.pkl",
+        "compressed_bytes": 26465614,
+        "uncompressed_bytes": 88277079,
+        "compression": 8,
+        "crc32": "1f96c5e8",
+        "header_offset": 17309354
+      },
+      {
+        "name": "our_data/1-3.pkl",
+        "compressed_bytes": 16584872,
+        "uncompressed_bytes": 57386031,
+        "compression": 8,
+        "crc32": "0063baa6",
+        "header_offset": 43775062
+      },
+      {
+        "name": "our_data/1-4.pkl",
+        "compressed_bytes": 12851046,
+        "uncompressed_bytes": 45359349,
+        "compression": 8,
+        "crc32": "4fbd73b3",
+        "header_offset": 60360028
+      },
+      {
+        "name": "our_data/1-5.pkl",
+        "compressed_bytes": 15708660,
+        "uncompressed_bytes": 58293447,
+        "compression": 8,
+        "crc32": "f845ea6a",
+        "header_offset": 73211168
+      },
+      {
+        "name": "our_data/1-6.pkl",
+        "compressed_bytes": 11531117,
+        "uncompressed_bytes": 37837770,
+        "compression": 8,
+        "crc32": "2d141e56",
+        "header_offset": 88919922
+      },
+      {
+        "name": "our_data/1-7.pkl",
+        "compressed_bytes": 12643743,
+        "uncompressed_bytes": 48766119,
+        "compression": 8,
+        "crc32": "8ea0f430",
+        "header_offset": 100451133
+      },
+      {
+        "name": "our_data/1-8.pkl",
+        "compressed_bytes": 16534420,
+        "uncompressed_bytes": 64277382,
+        "compression": 8,
+        "crc32": "2cc073d1",
+        "header_offset": 113094970
+      },
+      {
+        "name": "our_data/2-2.pkl",
+        "compressed_bytes": 17725536,
+        "uncompressed_bytes": 72468021,
+        "compression": 8,
+        "crc32": "1f431936",
+        "header_offset": 129629484
+      },
+      {
+        "name": "our_data/2-3.pkl",
+        "compressed_bytes": 15800798,
+        "uncompressed_bytes": 54662280,
+        "compression": 8,
+        "crc32": "9e9dd337",
+        "header_offset": 147355114
+      },
+      {
+        "name": "our_data/2-4.pkl",
+        "compressed_bytes": 10719526,
+        "uncompressed_bytes": 41683974,
+        "compression": 8,
+        "crc32": "63666c85",
+        "header_offset": 163156006
+      },
+      {
+        "name": "our_data/2-5.pkl",
+        "compressed_bytes": 9460792,
+        "uncompressed_bytes": 36734361,
+        "compression": 8,
+        "crc32": "160ea26b",
+        "header_offset": 173875626
+      },
+      {
+        "name": "our_data/2-6.pkl",
+        "compressed_bytes": 10228166,
+        "uncompressed_bytes": 40868952,
+        "compression": 8,
+        "crc32": "a74de71a",
+        "header_offset": 183336512
+      },
+      {
+        "name": "our_data/2-7.pkl",
+        "compressed_bytes": 14492515,
+        "uncompressed_bytes": 55935489,
+        "compression": 8,
+        "crc32": "06397b66",
+        "header_offset": 193564772
+      },
+      {
+        "name": "our_data/2-8.pkl",
+        "compressed_bytes": 11821956,
+        "uncompressed_bytes": 44391066,
+        "compression": 8,
+        "crc32": "dcde1125",
+        "header_offset": 208057381
+      },
+      {
+        "name": "our_data/3-1.pkl",
+        "compressed_bytes": 13086974,
+        "uncompressed_bytes": 52017495,
+        "compression": 8,
+        "crc32": "6ab6cce8",
+        "header_offset": 219879431
+      },
+      {
+        "name": "our_data/3-2.pkl",
+        "compressed_bytes": 14740068,
+        "uncompressed_bytes": 57696618,
+        "compression": 8,
+        "crc32": "ef7c8e7a",
+        "header_offset": 232966499
+      },
+      {
+        "name": "our_data/3-3.pkl",
+        "compressed_bytes": 10182588,
+        "uncompressed_bytes": 40708923,
+        "compression": 8,
+        "crc32": "8b0a73f9",
+        "header_offset": 247706661
+      },
+      {
+        "name": "our_data/3-4.pkl",
+        "compressed_bytes": 10792425,
+        "uncompressed_bytes": 41969958,
+        "compression": 8,
+        "crc32": "2d614b0c",
+        "header_offset": 257889343
+      },
+      {
+        "name": "our_data/3-5.pkl",
+        "compressed_bytes": 22848248,
+        "uncompressed_bytes": 81214392,
+        "compression": 8,
+        "crc32": "fb7a5510",
+        "header_offset": 268681862
+      },
+      {
+        "name": "our_data/3-6.pkl",
+        "compressed_bytes": 16366899,
+        "uncompressed_bytes": 64989705,
+        "compression": 8,
+        "crc32": "ac0e8ece",
+        "header_offset": 291530204
+      },
+      {
+        "name": "our_data/3-7.pkl",
+        "compressed_bytes": 14990870,
+        "uncompressed_bytes": 59580543,
+        "compression": 8,
+        "crc32": "7a532069",
+        "header_offset": 307897197
+      },
+      {
+        "name": "our_data/3-8.pkl",
+        "compressed_bytes": 14354902,
+        "uncompressed_bytes": 57806004,
+        "compression": 8,
+        "crc32": "abc6fc56",
+        "header_offset": 322888161
+      },
+      {
+        "name": "our_data/4-1.pkl",
+        "compressed_bytes": 13893145,
+        "uncompressed_bytes": 50474919,
+        "compression": 8,
+        "crc32": "9309e4b6",
+        "header_offset": 337243157
+      },
+      {
+        "name": "our_data/4-2.pkl",
+        "compressed_bytes": 21372674,
+        "uncompressed_bytes": 65063571,
+        "compression": 8,
+        "crc32": "33c4a08b",
+        "header_offset": 351136396
+      },
+      {
+        "name": "our_data/4-3.pkl",
+        "compressed_bytes": 11620745,
+        "uncompressed_bytes": 37450896,
+        "compression": 8,
+        "crc32": "ac123af3",
+        "header_offset": 372509164
+      },
+      {
+        "name": "our_data/4-4.pkl",
+        "compressed_bytes": 13698148,
+        "uncompressed_bytes": 46627386,
+        "compression": 8,
+        "crc32": "b0ac9943",
+        "header_offset": 384130003
+      },
+      {
+        "name": "our_data/4-5.pkl",
+        "compressed_bytes": 14374516,
+        "uncompressed_bytes": 48530985,
+        "compression": 8,
+        "crc32": "4c9fe761",
+        "header_offset": 397828245
+      },
+      {
+        "name": "our_data/4-6.pkl",
+        "compressed_bytes": 11082561,
+        "uncompressed_bytes": 40867386,
+        "compression": 8,
+        "crc32": "da556fec",
+        "header_offset": 412202855
+      },
+      {
+        "name": "our_data/4-7.pkl",
+        "compressed_bytes": 24215699,
+        "uncompressed_bytes": 76911825,
+        "compression": 8,
+        "crc32": "5835ffda",
+        "header_offset": 423285510
+      },
+      {
+        "name": "our_data/4-8.pkl",
+        "compressed_bytes": 15243583,
+        "uncompressed_bytes": 51455175,
+        "compression": 8,
+        "crc32": "c2c51b7a",
+        "header_offset": 447501303
+      },
+      {
+        "name": "our_data/5-1.pkl",
+        "compressed_bytes": 19320518,
+        "uncompressed_bytes": 73220160,
+        "compression": 8,
+        "crc32": "e1711e50",
+        "header_offset": 462744980
+      },
+      {
+        "name": "our_data/5-2.pkl",
+        "compressed_bytes": 13779326,
+        "uncompressed_bytes": 53568717,
+        "compression": 8,
+        "crc32": "df788cad",
+        "header_offset": 482065592
+      },
+      {
+        "name": "our_data/5-3.pkl",
+        "compressed_bytes": 19547855,
+        "uncompressed_bytes": 74911800,
+        "compression": 8,
+        "crc32": "4faeacfb",
+        "header_offset": 495845012
+      },
+      {
+        "name": "our_data/5-4.pkl",
+        "compressed_bytes": 19148092,
+        "uncompressed_bytes": 63971799,
+        "compression": 8,
+        "crc32": "b4dd9c3c",
+        "header_offset": 515392961
+      },
+      {
+        "name": "our_data/5-5.pkl",
+        "compressed_bytes": 12143693,
+        "uncompressed_bytes": 45844557,
+        "compression": 8,
+        "crc32": "a4584b07",
+        "header_offset": 534541147
+      },
+      {
+        "name": "our_data/5-6.pkl",
+        "compressed_bytes": 18146075,
+        "uncompressed_bytes": 68835702,
+        "compression": 8,
+        "crc32": "d2d696a6",
+        "header_offset": 546684934
+      },
+      {
+        "name": "our_data/5-7.pkl",
+        "compressed_bytes": 9920497,
+        "uncompressed_bytes": 38467284,
+        "compression": 8,
+        "crc32": "79053546",
+        "header_offset": 564831103
+      },
+      {
+        "name": "our_data/6-1.pkl",
+        "compressed_bytes": 14141610,
+        "uncompressed_bytes": 50344629,
+        "compression": 8,
+        "crc32": "76e8c51f",
+        "header_offset": 574751694
+      },
+      {
+        "name": "our_data/6-2.pkl",
+        "compressed_bytes": 14606962,
+        "uncompressed_bytes": 54479589,
+        "compression": 8,
+        "crc32": "55c969b9",
+        "header_offset": 588893398
+      },
+      {
+        "name": "our_data/6-3.pkl",
+        "compressed_bytes": 12419226,
+        "uncompressed_bytes": 48102036,
+        "compression": 8,
+        "crc32": "c3d89f3e",
+        "header_offset": 603500454
+      },
+      {
+        "name": "our_data/6-4.pkl",
+        "compressed_bytes": 11494022,
+        "uncompressed_bytes": 44066805,
+        "compression": 8,
+        "crc32": "0b0f911d",
+        "header_offset": 615919774
+      },
+      {
+        "name": "our_data/6-5.pkl",
+        "compressed_bytes": 15033387,
+        "uncompressed_bytes": 56906166,
+        "compression": 8,
+        "crc32": "627e9507",
+        "header_offset": 627413890
+      },
+      {
+        "name": "our_data/6-6.pkl",
+        "compressed_bytes": 22473088,
+        "uncompressed_bytes": 77280321,
+        "compression": 8,
+        "crc32": "429ed48a",
+        "header_offset": 642447371
+      },
+      {
+        "name": "our_data/6-8.pkl",
+        "compressed_bytes": 16513167,
+        "uncompressed_bytes": 63120513,
+        "compression": 8,
+        "crc32": "41b311b0",
+        "header_offset": 664920553
+      },
+      {
+        "name": "our_data/7-1.pkl",
+        "compressed_bytes": 11296042,
+        "uncompressed_bytes": 41364123,
+        "compression": 8,
+        "crc32": "2cc575bf",
+        "header_offset": 681433814
+      },
+      {
+        "name": "our_data/7-2.pkl",
+        "compressed_bytes": 13247620,
+        "uncompressed_bytes": 48782073,
+        "compression": 8,
+        "crc32": "60a754c5",
+        "header_offset": 692729950
+      },
+      {
+        "name": "our_data/7-3.pkl",
+        "compressed_bytes": 16237307,
+        "uncompressed_bytes": 48516531,
+        "compression": 8,
+        "crc32": "dd7c6334",
+        "header_offset": 705977664
+      },
+      {
+        "name": "our_data/7-4.pkl",
+        "compressed_bytes": 15398403,
+        "uncompressed_bytes": 47513121,
+        "compression": 8,
+        "crc32": "8fe9108d",
+        "header_offset": 722215065
+      },
+      {
+        "name": "our_data/7-5.pkl",
+        "compressed_bytes": 19265997,
+        "uncompressed_bytes": 61699796,
+        "compression": 8,
+        "crc32": "dcaf00b9",
+        "header_offset": 737613562
+      },
+      {
+        "name": "our_data/7-6.pkl",
+        "compressed_bytes": 13730668,
+        "uncompressed_bytes": 45263040,
+        "compression": 8,
+        "crc32": "84f622d3",
+        "header_offset": 756879653
+      },
+      {
+        "name": "our_data/7-7.pkl",
+        "compressed_bytes": 15617166,
+        "uncompressed_bytes": 52483866,
+        "compression": 8,
+        "crc32": "8dacdcdd",
+        "header_offset": 770610415
+      },
+      {
+        "name": "our_data/7-8.pkl",
+        "compressed_bytes": 21009547,
+        "uncompressed_bytes": 67371639,
+        "compression": 8,
+        "crc32": "2bf94f96",
+        "header_offset": 786227675
+      },
+      {
+        "name": "our_data/8-1.pkl",
+        "compressed_bytes": 10927073,
+        "uncompressed_bytes": 40259643,
+        "compression": 8,
+        "crc32": "46b15d93",
+        "header_offset": 807237316
+      },
+      {
+        "name": "our_data/8-2.pkl",
+        "compressed_bytes": 16966299,
+        "uncompressed_bytes": 61224753,
+        "compression": 8,
+        "crc32": "835f0813",
+        "header_offset": 818164483
+      },
+      {
+        "name": "our_data/8-3.pkl",
+        "compressed_bytes": 18076606,
+        "uncompressed_bytes": 65918109,
+        "compression": 8,
+        "crc32": "6cf4eddd",
+        "header_offset": 835130876
+      },
+      {
+        "name": "our_data/8-4.pkl",
+        "compressed_bytes": 14073188,
+        "uncompressed_bytes": 53140182,
+        "compression": 8,
+        "crc32": "102bbc96",
+        "header_offset": 853207576
+      },
+      {
+        "name": "our_data/8-5.pkl",
+        "compressed_bytes": 14039347,
+        "uncompressed_bytes": 44632635,
+        "compression": 8,
+        "crc32": "71072774",
+        "header_offset": 867280858
+      },
+      {
+        "name": "our_data/8-6.pkl",
+        "compressed_bytes": 21810747,
+        "uncompressed_bytes": 73123986,
+        "compression": 8,
+        "crc32": "19a721ad",
+        "header_offset": 881320299
+      },
+      {
+        "name": "our_data/8-7.pkl",
+        "compressed_bytes": 16008911,
+        "uncompressed_bytes": 58962243,
+        "compression": 8,
+        "crc32": "fd08987e",
+        "header_offset": 903131140
+      },
+      {
+        "name": "our_data/8-8.pkl",
+        "compressed_bytes": 12944722,
+        "uncompressed_bytes": 46962816,
+        "compression": 8,
+        "crc32": "e91f827c",
+        "header_offset": 919140145
+      },
+      {
+        "name": "our_data/9-1.pkl",
+        "compressed_bytes": 14996534,
+        "uncompressed_bytes": 55345818,
+        "compression": 8,
+        "crc32": "3641157c",
+        "header_offset": 932084961
+      },
+      {
+        "name": "our_data/9-2.pkl",
+        "compressed_bytes": 21468410,
+        "uncompressed_bytes": 69547044,
+        "compression": 8,
+        "crc32": "66f49e74",
+        "header_offset": 947081589
+      },
+      {
+        "name": "our_data/9-3.pkl",
+        "compressed_bytes": 15624244,
+        "uncompressed_bytes": 55241304,
+        "compression": 8,
+        "crc32": "5288b995",
+        "header_offset": 968550093
+      },
+      {
+        "name": "our_data/9-4.pkl",
+        "compressed_bytes": 14748214,
+        "uncompressed_bytes": 54523230,
+        "compression": 8,
+        "crc32": "dae7dbcd",
+        "header_offset": 984174431
+      },
+      {
+        "name": "our_data/9-5.pkl",
+        "compressed_bytes": 15495269,
+        "uncompressed_bytes": 57581328,
+        "compression": 8,
+        "crc32": "602017c4",
+        "header_offset": 998922739
+      },
+      {
+        "name": "our_data/9-6.pkl",
+        "compressed_bytes": 12362062,
+        "uncompressed_bytes": 45219687,
+        "compression": 8,
+        "crc32": "acee06cf",
+        "header_offset": 1014418102
+      },
+      {
+        "name": "our_data/9-7.pkl",
+        "compressed_bytes": 19278685,
+        "uncompressed_bytes": 63506208,
+        "compression": 8,
+        "crc32": "ab3cc22d",
+        "header_offset": 1026780258
+      },
+      {
+        "name": "our_data/9-8.pkl",
+        "compressed_bytes": 17598483,
+        "uncompressed_bytes": 64729587,
+        "compression": 8,
+        "crc32": "ac45cb37",
+        "header_offset": 1046059037
+      },
+      {
+        "name": "our_data/10-1.pkl",
+        "compressed_bytes": 11364923,
+        "uncompressed_bytes": 45067561,
+        "compression": 8,
+        "crc32": "e678575f",
+        "header_offset": 1063657614
+      },
+      {
+        "name": "our_data/10-2.pkl",
+        "compressed_bytes": 11379347,
+        "uncompressed_bytes": 44034424,
+        "compression": 8,
+        "crc32": "34b475a4",
+        "header_offset": 1075022632
+      },
+      {
+        "name": "our_data/10-3.pkl",
+        "compressed_bytes": 12229784,
+        "uncompressed_bytes": 46403656,
+        "compression": 8,
+        "crc32": "e4da2230",
+        "header_offset": 1086402074
+      },
+      {
+        "name": "our_data/10-4.pkl",
+        "compressed_bytes": 19415071,
+        "uncompressed_bytes": 62687977,
+        "compression": 8,
+        "crc32": "a9c58627",
+        "header_offset": 1098631953
+      },
+      {
+        "name": "our_data/10-5.pkl",
+        "compressed_bytes": 17979714,
+        "uncompressed_bytes": 62100715,
+        "compression": 8,
+        "crc32": "0c2ef308",
+        "header_offset": 1118047119
+      },
+      {
+        "name": "our_data/10-6.pkl",
+        "compressed_bytes": 21869447,
+        "uncompressed_bytes": 72938470,
+        "compression": 8,
+        "crc32": "c5bdd4ea",
+        "header_offset": 1136026928
+      },
+      {
+        "name": "our_data/10-7.pkl",
+        "compressed_bytes": 16153489,
+        "uncompressed_bytes": 55462822,
+        "compression": 8,
+        "crc32": "6d661f10",
+        "header_offset": 1157896470
+      },
+      {
+        "name": "our_data/10-8.pkl",
+        "compressed_bytes": 14079428,
+        "uncompressed_bytes": 47141296,
+        "compression": 8,
+        "crc32": "974c63b2",
+        "header_offset": 1174050054
+      }
+    ],
+    "uncompressed_bytes": 4245730747,
+    "member_count": 78,
+    "metadata_range_downloaded_bytes": 7375
+  }
+]

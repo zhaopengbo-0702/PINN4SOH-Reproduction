@@ -1,0 +1,26 @@
+{
+  "format": "pinn4soh-eta-addendum-document-receipt-v1",
+  "recorded_at_UTC": "2026-11-11T14:15:08.998432+00:00",
+  "scope": "ETA note and five mutable entrances only; old57snapshot/review and frozen scientific artifacts not edited",
+  "previous_review_preserved": {
+    "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口_实时快照_20261111_220239_REVIEW.json",
+    "sha256": "e305aae83a751288dc6ee31b711ae5e75fb698db0685cf87a82d52d8bc7430a8"
+  },
+  "note": {
+    "path": "outputs/full_reproduction/claim_clarification_addenda/新增实验ETA与作业时限_20261111_2212.md",
+    "sha256": "808b6d6ca90b5bfbc1a4953fb18fa590d9350647c7fc00252753f2381ce01cb4"
+  },
+  "record": {
+    "path": "outputs/full_reproduction/claim_clarification_addenda/新增实验ETA与作业时限_20261111_2212_LOCAL_RECORD.json",
+    "sha256": "34d8d84e1fd00b6e5646eae2081d5aa67134ed9425f55849bca1c7ddf437e757"
+  },
+  "documents": {
+    "复现结果总入口.md": "bffbe5cc03c6c8e1ac03418dde93641f32e334580738beaf305c5e2103ad5a90",
+    "本日复现进展_20261111.md": "a1ecc84bd657d1e5ed39c1d724b6a5346bb007b9b15eab04f07935440418d274",
+    "outputs/full_reproduction/执行状态.md": "6b5a13c2253bd9f32d7cb0ba727816a4faff8d3c52c83feffc8254ae6e426709",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "7fdb36379aeb4b200500dd95ad7474beb3eeee46c0ba2ef1ffd9dd6c606f589c",
+    "outputs/full_reproduction/claim_clarification_addenda/CODE_PROVENANCE_与微信结果技术核对_20261111.md": "3533e19ab57b18f89dfbb10407483c3bdd4b74a20b0bf407a0fe4e75eab6a1e6"
+  },
+  "missing_links": [],
+  "status": "passed"
+}

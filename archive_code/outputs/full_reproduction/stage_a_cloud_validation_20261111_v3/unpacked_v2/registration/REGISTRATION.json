@@ -1,0 +1,177 @@
+{
+  "schema": "pinn4soh-exploratory-stage-a9-scientific-protocol-v1",
+  "status": "frozen_before_new_candidate_training",
+  "created_at_utc": "2026-11-11T05:36:54.395732+00:00",
+  "implementation_sha256": "5d90fc7f906e18dd5aa22524dc0f5f226510cdf6985ddf8ead3aaf2915b30e36",
+  "historical_test_observed": true,
+  "label": "exploratory_improvement_not_paper_reproduction",
+  "selection_seeds": [
+    2026111101,
+    2026111102,
+    2026111103
+  ],
+  "future_confirmation_seeds": [
+    2026111111,
+    2026111112,
+    2026111113,
+    2026111114,
+    2026111115,
+    2026111116,
+    2026111117,
+    2026111118,
+    2026111119,
+    2026111120
+  ],
+  "datasets": {
+    "MIT": {
+      "split_path": "mit_split.json",
+      "split_sha256": "4d8e3199caffb530d073ca4d43ed41033d6742324492eed8085ca21985c47c68",
+      "identity_path": "mit_physical_identity.json",
+      "identity_sha256": "dacf142fbda5f71d8ac8a0b781ec5656fc7d9753473bee0624599f96b03ba5a2",
+      "evidence": {
+        "excluded_files": [
+          "data/MIT data/2017-05-12/2017-05-12_battery-5.csv",
+          "data/MIT data/2017-05-12/2017-05-12_battery-6.csv"
+        ],
+        "split_counts": {
+          "train": {
+            "csv_count": 81,
+            "physical_id_count": 81
+          },
+          "valid": {
+            "csv_count": 20,
+            "physical_id_count": 20
+          },
+          "test": {
+            "csv_count": 22,
+            "physical_id_count": 22
+          }
+        },
+        "selection_rule": "Exclude both mixed May CSV5/6; retain 22 historical numeric-id%5 test CSVs; for remaining pool by original batch ascending numeric battery-id select every fifth (positions 5,10,...) UID for validation; others train",
+        "batch_validation_counts": {
+          "2017-05-12": 7,
+          "2017-06-30": 7,
+          "2018-04-12": 6
+        },
+        "input_sha256": {
+          "outputs\\full_reproduction\\feature_audit\\MIT_mirror_audit\\MIT_mirror_mapping_audit.json": "cea2390ad3cb796c079cc5fff6d01d19791bbf5e0a289c964612c859cce24cba",
+          "outputs\\full_reproduction\\feature_audit\\MIT_mirror_audit\\PINN_CSV_to_mirror_cycles.csv": "67683d2d002f985192da177ad4c43f30ed2166679b33c93878891f4b04a6da88"
+        },
+        "identity_caveat": "Third-party derived MIT identity/capacity index, not original MAT byte provenance or proof of all 16 features."
+      },
+      "specs": [
+        {
+          "model": "PINN",
+          "path": "mit_pinn_stage_a9.json",
+          "sha256": "2b2a1826ccd79c78afc8b79b7f2ff9ef5bfed9713a1cae6dca5c6cf720c76e03",
+          "candidates": 9,
+          "seeds": 3,
+          "runs": 27
+        },
+        {
+          "model": "MLP",
+          "path": "mit_mlp_stage_a9.json",
+          "sha256": "f8e1ebb3216d2519a05186e07c7c50e25306eb228c59f2d133ccf8526d58e852",
+          "candidates": 9,
+          "seeds": 3,
+          "runs": 27
+        },
+        {
+          "model": "CNN",
+          "path": "mit_cnn_stage_a9.json",
+          "sha256": "c1fc9bc4f734b53199839b26debfd66676de1c72679f7002a8d57d2547c50657",
+          "candidates": 9,
+          "seeds": 3,
+          "runs": 27
+        }
+      ]
+    },
+    "HUST": {
+      "split_path": "hust_split.json",
+      "split_sha256": "1b630ad89654f4c6fa47aa6df37c430fdfad0cc4248432afb6e64359b5fa0f63",
+      "identity_path": "hust_physical_identity.json",
+      "identity_sha256": "f13cd8d942a8881ea4675f604061b7c129674ed70b3c0d3ff40e2a0d996609ec",
+      "evidence": {
+        "excluded_files": [],
+        "split_counts": {
+          "train": {
+            "csv_count": 47,
+            "physical_id_count": 47
+          },
+          "valid": {
+            "csv_count": 10,
+            "physical_id_count": 10
+          },
+          "test": {
+            "csv_count": 20,
+            "physical_id_count": 20
+          }
+        },
+        "selection_rule": "Keep all 20 original paper test cell keys. Per group1..10 sort remaining cells by numeric cell-id, choose lowest available ID for validation; all other non-test cells train",
+        "group_validation": {
+          "1": "data/HUST data/1-1.csv",
+          "2": "data/HUST data/2-2.csv",
+          "3": "data/HUST data/3-1.csv",
+          "4": "data/HUST data/4-1.csv",
+          "5": "data/HUST data/5-1.csv",
+          "6": "data/HUST data/6-1.csv",
+          "7": "data/HUST data/7-1.csv",
+          "8": "data/HUST data/8-1.csv",
+          "9": "data/HUST data/9-1.csv",
+          "10": "data/HUST data/10-1.csv"
+        },
+        "identity_caveat": "HUST cell-key identity assumes official distinct raw keys represent distinct cells; physical barcode was not published."
+      },
+      "specs": [
+        {
+          "model": "PINN",
+          "path": "hust_pinn_stage_a9.json",
+          "sha256": "60a36efe1a25d6865a1e56120f51f0fa71d371cb5fe179d5ec8076155f7ba456",
+          "candidates": 9,
+          "seeds": 3,
+          "runs": 27
+        },
+        {
+          "model": "MLP",
+          "path": "hust_mlp_stage_a9.json",
+          "sha256": "4d90f95e5a280ddd83ed919b47f1ee529c7fd5d176fc6e47021350a4deb0ef4c",
+          "candidates": 9,
+          "seeds": 3,
+          "runs": 27
+        },
+        {
+          "model": "CNN",
+          "path": "hust_cnn_stage_a9.json",
+          "sha256": "9b32e9c70db4b8b3b652f118539d360a801db9b1615177d411ab3d7a6a66483f",
+          "candidates": 9,
+          "seeds": 3,
+          "runs": 27
+        }
+      ]
+    }
+  },
+  "total_selection_runs": 162,
+  "total_candidates": 54,
+  "training_launched": false,
+  "score_access_for_split_selection": "None: filenames, row identity mappings and checksums only",
+  "stop_rule": "Run all prespecified candidates and seeds; choose validation macro-RMSE only; do not expand grid after viewing test to guarantee a win",
+  "confirmation_policy": "Freeze selected configuration per model/dataset before all 10 confirmation seeds; evaluate historical test only after selection and mark exploratory; cross-runtime confirmation preserves paired source/input SHA",
+  "preprocessing_limits": [
+    "3-sigma union removes rows using all columns including capacity",
+    "Per-battery full-lifetime feature/cycle minmax uses held-out covariates; transductive",
+    "Historical test is not pristine confirmatory holdout",
+    "Dataset grouping not equivalent to unseen laboratory/chemistry generalization"
+  ],
+  "artifacts_sha256": {
+    "hust_cnn_stage_a9.json": "9b32e9c70db4b8b3b652f118539d360a801db9b1615177d411ab3d7a6a66483f",
+    "hust_mlp_stage_a9.json": "4d90f95e5a280ddd83ed919b47f1ee529c7fd5d176fc6e47021350a4deb0ef4c",
+    "hust_physical_identity.json": "f13cd8d942a8881ea4675f604061b7c129674ed70b3c0d3ff40e2a0d996609ec",
+    "hust_pinn_stage_a9.json": "60a36efe1a25d6865a1e56120f51f0fa71d371cb5fe179d5ec8076155f7ba456",
+    "hust_split.json": "1b630ad89654f4c6fa47aa6df37c430fdfad0cc4248432afb6e64359b5fa0f63",
+    "mit_cnn_stage_a9.json": "c1fc9bc4f734b53199839b26debfd66676de1c72679f7002a8d57d2547c50657",
+    "mit_mlp_stage_a9.json": "f8e1ebb3216d2519a05186e07c7c50e25306eb228c59f2d133ccf8526d58e852",
+    "mit_physical_identity.json": "dacf142fbda5f71d8ac8a0b781ec5656fc7d9753473bee0624599f96b03ba5a2",
+    "mit_pinn_stage_a9.json": "2b2a1826ccd79c78afc8b79b7f2ff9ef5bfed9713a1cae6dca5c6cf720c76e03",
+    "mit_split.json": "4d8e3199caffb530d073ca4d43ed41033d6742324492eed8085ca21985c47c68"
+  }
+}

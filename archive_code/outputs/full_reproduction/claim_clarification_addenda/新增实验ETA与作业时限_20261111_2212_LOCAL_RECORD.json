@@ -1,0 +1,75 @@
+{
+  "format": "pinn4soh-eta-job-budget-local-record-v1",
+  "recorded_at_UTC": "2026-11-11T14:15:08.989425+00:00",
+  "source": "Root execution owner cloud UI terminal and refreshed job list; screenshots visually checked by local audit agent",
+  "is_original_cloud_status_file": false,
+  "timing_observation_Asia_Shanghai": "2026-11-11T22:09:19.638249+08:00",
+  "refreshed_job_list_recorded_local_time": "2026-11-11 22:12 Asia/Shanghai",
+  "exact_job_list_refresh_time_recorded": false,
+  "measured_completed_runs": {
+    "MIT_PINN": {
+      "n": 27,
+      "mean_seconds": 309.24,
+      "mean_epochs": 141.11,
+      "seconds_per_epoch": 2.191
+    },
+    "MIT_MLP": {
+      "n": 27,
+      "mean_seconds": 204.15,
+      "mean_epochs": 128.3,
+      "seconds_per_epoch": 1.591
+    },
+    "MIT_CNN": {
+      "n": 3,
+      "mean_seconds": 2279.5,
+      "mean_epochs": 191.67,
+      "seconds_per_epoch": 11.893
+    }
+  },
+  "active_fourth_MIT_CNN_epoch": 160,
+  "estimates": {
+    "estimator": "search_runner group-wise projection using measured completed-model timing, remaining model matrix and dataset scaling; conditional planning range, not guaranteed completion",
+    "remaining_StageA_hours": [
+      37.5,
+      53.1
+    ],
+    "remaining_StageA_calendar_approx": "2026-11-13 midday to 2026-11-14 early morning Asia/Shanghai",
+    "future_60_confirmation_additional_hours": [
+      16.1,
+      22.0
+    ],
+    "transfer_187_formal_GPU_benchmark_available": false,
+    "overall_remaining_planning_days": [
+      3,
+      5
+    ],
+    "overall_calendar_approx": "2026-11-14 to 2026-11-16 Asia/Shanghai",
+    "planning_depends_on": [
+      "job extension or resume after expiry",
+      "continued GPU availability",
+      "no worker errors",
+      "validation-selected epochs and dataset runtime similarity"
+    ]
+  },
+  "job_budget": {
+    "start_Asia_Shanghai": "2026-11-10T20:20:37+08:00",
+    "remaining_after_list_refresh": "22h7m54s",
+    "approx_expiry_Asia_Shanghai": "2026-11-12 around20:20",
+    "current_remaining_insufficient_for_estimated_queue": true,
+    "action_needed": "Extend job runtime, or preserve results and resume unfinished work after expiry using existing recovery mechanisms",
+    "automatic_unattended_completion_guaranteed": false
+  },
+  "screenshots": [
+    {
+      "path": "outputs/full_reproduction/cloud_live_20261111/stage_a_runtime_eta_220919.jpg",
+      "bytes": 345596,
+      "sha256": "5f0dcde94e49e702d1300ed2dbe9237b35fcb520e9891faf9e4ac5e9a8716652"
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_live_20261111/job_remaining_time_eta_2212.jpg",
+      "bytes": 53744,
+      "sha256": "342edd083e236ec275cbd4fc95ff5e659bd00ce8331979077d6027be305e1336"
+    }
+  ],
+  "preserved_snapshot": "22:02:39 remains the last exact full progress snapshot57/162; this ETA supplement does not invent a later completion count"
+}

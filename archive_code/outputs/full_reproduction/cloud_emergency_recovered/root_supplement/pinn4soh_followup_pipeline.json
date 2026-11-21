@@ -1,0 +1,143 @@
+{
+  "started_at": "2026-11-10T07:38:48.745304+00:00",
+  "status": "failed",
+  "stages": [
+    {
+      "name": "pinn4soh_mit_physical_purity_smoke_20261110",
+      "command": [
+        "/usr/bin/python",
+        "-u",
+        "/workspace/full_tools_v1/run_full_suite.py",
+        "--plan",
+        "/workspace/full_supplement_tools_v1/MIT_physical_purity_sensitivity/mit_physical_purity_smoke_plan.json",
+        "--repo",
+        "/workspace/PINN4SOH-main",
+        "--output",
+        "/workspace/pinn4soh_mit_physical_purity_smoke_20261110",
+        "--gpus",
+        "0",
+        "1",
+        "--workers-per-gpu",
+        "3",
+        "--threads",
+        "2",
+        "--resume",
+        "--smoke"
+      ],
+      "status": "complete",
+      "started_at": "2026-11-10T07:55:09.919889+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-10T07:55:36.948982+00:00"
+    },
+    {
+      "name": "pinn4soh_mit_physical_purity_sensitivity_20261110",
+      "command": [
+        "/usr/bin/python",
+        "-u",
+        "/workspace/full_tools_v1/run_full_suite.py",
+        "--plan",
+        "/workspace/full_supplement_tools_v1/MIT_physical_purity_sensitivity/mit_physical_purity_plan.json",
+        "--repo",
+        "/workspace/PINN4SOH-main",
+        "--output",
+        "/workspace/pinn4soh_mit_physical_purity_sensitivity_20261110",
+        "--gpus",
+        "0",
+        "1",
+        "--workers-per-gpu",
+        "3",
+        "--threads",
+        "2",
+        "--resume"
+      ],
+      "status": "complete",
+      "started_at": "2026-11-10T07:55:36.951028+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-10T08:12:48.006378+00:00"
+    },
+    {
+      "name": "formal_cpu_efficiency",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/full_report_tools/benchmark_efficiency.py",
+        "--repo",
+        "/workspace/PINN4SOH-main",
+        "--output",
+        "/workspace/efficiency_formal_20261110",
+        "--threads",
+        "1",
+        "2",
+        "--batch-size",
+        "1000",
+        "--forwards",
+        "1000",
+        "--warmup",
+        "50",
+        "--repeats",
+        "5"
+      ],
+      "status": "complete",
+      "started_at": "2026-11-10T08:12:48.008910+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-10T08:14:59.109026+00:00"
+    },
+    {
+      "name": "independent_main_report",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/full_report_tools/build_suite_report.py",
+        "--suite",
+        "/workspace/pinn4soh_full_paper_stage1",
+        "--suite",
+        "/workspace/pinn4soh_full_paper_stage2",
+        "--plan",
+        "/workspace/full_report_tools/stage1_plan.json",
+        "--plan",
+        "/workspace/full_report_tools/stage2_reproduced_transfer_plan.json",
+        "--protocol",
+        "/workspace/full_report_tools/paper_protocol.json",
+        "--output",
+        "/workspace/pinn4soh_full_report_20261110"
+      ],
+      "status": "complete",
+      "started_at": "2026-11-10T08:14:59.111804+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-10T08:15:40.366681+00:00"
+    },
+    {
+      "name": "main_evidence_export",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/full_report_tools/export_suite_evidence.py",
+        "--report",
+        "/workspace/pinn4soh_full_report_20261110",
+        "--output",
+        "/workspace/pinn4soh_full_evidence_20261110"
+      ],
+      "status": "complete",
+      "started_at": "2026-11-10T08:15:40.369015+00:00",
+      "returncode": 0,
+      "finished_at": "2026-11-10T08:16:34.741548+00:00"
+    },
+    {
+      "name": "main_text_evidence_pack",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/full_supplement_tools_v1/collect_suite_evidence.py",
+        "pack",
+        "--source",
+        "/workspace/pinn4soh_full_evidence_20261110",
+        "--output",
+        "/workspace/pinn4soh_full_text_evidence_20261110",
+        "--max-mb",
+        "28"
+      ],
+      "status": "failed",
+      "started_at": "2026-11-10T08:16:34.743744+00:00",
+      "returncode": 1,
+      "finished_at": "2026-11-10T08:16:37.632204+00:00"
+    }
+  ],
+  "error": "RuntimeError('Follow-up failed: main_text_evidence_pack')",
+  "finished_at": "2026-11-10T08:16:37.634953+00:00"
+}

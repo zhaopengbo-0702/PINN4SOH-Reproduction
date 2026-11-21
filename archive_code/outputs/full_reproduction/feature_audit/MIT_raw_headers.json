@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "MIT",
+    "name": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "url": "https://data.matr.io/1/data/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "http_status": 200,
+    "bytes": 5095,
+    "content_type": "text/html",
+    "final_url": "https://data.matr.io/1/#data/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "etag": "\"9de530780f7a95b0340f0127c86041b5\"",
+    "accept_ranges": null
+  },
+  {
+    "dataset": "MIT",
+    "name": "2017-06-30_batchdata_updated_struct_errorcorrect.mat",
+    "url": "https://data.matr.io/1/data/2017-06-30_batchdata_updated_struct_errorcorrect.mat",
+    "http_status": 200,
+    "bytes": 5095,
+    "content_type": "text/html",
+    "final_url": "https://data.matr.io/1/#data/2017-06-30_batchdata_updated_struct_errorcorrect.mat",
+    "etag": "\"9de530780f7a95b0340f0127c86041b5\"",
+    "accept_ranges": null
+  },
+  {
+    "dataset": "MIT",
+    "name": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "url": "https://data.matr.io/1/data/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "http_status": 200,
+    "bytes": 5095,
+    "content_type": "text/html",
+    "final_url": "https://data.matr.io/1/#data/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "etag": "\"9de530780f7a95b0340f0127c86041b5\"",
+    "accept_ranges": null
+  }
+]

@@ -1,0 +1,191 @@
+{
+  "status": "passed_functional_and_real_smoke",
+  "formal_confirmation_started": false,
+  "real_test_loaded": false,
+  "synthetic_audit": {
+    "status": "passed",
+    "dataset": "MIT",
+    "model": "MLP",
+    "seeds": [
+      2026111111,
+      2026111112
+    ],
+    "selected": {
+      "candidate_id": "candidate_01",
+      "parameters": {
+        "lr_u": 0.001,
+        "lr_F": 0,
+        "alpha": 0,
+        "beta_mean": 0,
+        "weight_decay": 0
+      },
+      "mean_validation_battery_macro_RMSE": 0.9277164121797381,
+      "per_seed_objectives": [
+        0.9277164121797381
+      ]
+    },
+    "training_runs": 2,
+    "fixed_test_evaluations": 2,
+    "training_per_seed": [
+      {
+        "seed": 2026111111,
+        "validation_battery_macro_RMSE": 1.0323581726277022,
+        "best_epoch": 2,
+        "epochs_completed": 2,
+        "result_sha256": "170a4581b08e4d054933e1cf12ba8cd1667d57a566d5e61c05617d8a342db13a"
+      },
+      {
+        "seed": 2026111112,
+        "validation_battery_macro_RMSE": 0.9242535761658739,
+        "best_epoch": 2,
+        "epochs_completed": 2,
+        "result_sha256": "a1b0998e66fee154c1b5fd6f58e4335d399830cbdba71d7de2ac0b68030f0a96"
+      }
+    ],
+    "test_per_seed": [
+      {
+        "seed": 2026111111,
+        "battery_macro_RMSE": 1.055848250581395,
+        "battery_macro_MAE": 1.00871258514116,
+        "battery_macro_MAPE_pct": 103.57113534844333,
+        "result_sha256": "4a0c217e345a983294ea8a273d8a505d17971e732a60b480e12587d891b38862"
+      },
+      {
+        "seed": 2026111112,
+        "battery_macro_RMSE": 0.957844669471851,
+        "battery_macro_MAE": 0.8310489005656266,
+        "battery_macro_MAPE_pct": 84.88227993847096,
+        "result_sha256": "9154f28f63e35e186380bafb1aeac5fd72f51fd997d21a51c495008aa70e2080"
+      }
+    ],
+    "test_summary": {
+      "n": 2,
+      "mean": 1.006846460026623,
+      "sample_std": 0.06929899678312446,
+      "standard_error": 0.049001790554772044,
+      "mean_t95_interval": [
+        0.38421967678592484,
+        1.629473243267321
+      ],
+      "t_degrees_freedom": 1,
+      "uncertainty_unit": "training seed with fixed historical test batteries",
+      "unit": "SOH fraction RMSE"
+    },
+    "artifact_sha256_checks": 24,
+    "config_selected_from_confirmation": false,
+    "seed_selected_from_confirmation": false,
+    "stage_a_selection_sha256": "33971fa3d3432ae0ad9a2fa5566be53113954b5562990d8d99c6d9312ebcf3e8",
+    "same_seed_checkpoint_verified": true,
+    "training_data_identity_sha256": "04c94a5399316276bb51884352298096754da8dd3f95198fa9be580aae0d5ed1",
+    "test_data_identity_sha256": "e38ca03d39db83ec0440762e234663be19bd2a16b182e07cc2e61939d586c7ea",
+    "formal": false,
+    "historical_test_observed": true
+  },
+  "real_smoke": {
+    "mit": {
+      "status": "passed",
+      "dataset": "MIT",
+      "model": "PINN",
+      "seeds": [
+        2026111111
+      ],
+      "selected": {
+        "candidate_id": "candidate_01",
+        "parameters": {
+          "lr_u": 0.001,
+          "lr_F": 0.001,
+          "alpha": 0.1,
+          "beta_mean": 0.01,
+          "weight_decay": 0
+        },
+        "mean_validation_battery_macro_RMSE": 0.5091579387373685,
+        "per_seed_objectives": [
+          0.5091579387373685
+        ]
+      },
+      "training_runs": 1,
+      "fixed_test_evaluations": 0,
+      "training_per_seed": [
+        {
+          "seed": 2026111111,
+          "validation_battery_macro_RMSE": 0.5477823879772838,
+          "best_epoch": 2,
+          "epochs_completed": 2,
+          "result_sha256": "e42cf273967c0ce355ad2be389693f6c7fa9da84bfd04e22d5dbd1709a55eb13"
+        }
+      ],
+      "test_per_seed": [],
+      "test_summary": null,
+      "artifact_sha256_checks": 8,
+      "config_selected_from_confirmation": false,
+      "seed_selected_from_confirmation": false,
+      "stage_a_selection_sha256": "75fd1a2dbd0b688eab70b2d3da69d178c1f864e226f0eab3827fac83c35aec74",
+      "same_seed_checkpoint_verified": null,
+      "training_data_identity_sha256": "a653e4f186585cd7d5f1c41ec9d9f5e69621426dfa265dd1f43d3de57d5f25ce",
+      "test_data_identity_sha256": null,
+      "formal": false,
+      "historical_test_observed": true
+    },
+    "hust": {
+      "status": "passed",
+      "dataset": "HUST",
+      "model": "PINN",
+      "seeds": [
+        2026111111
+      ],
+      "selected": {
+        "candidate_id": "candidate_01",
+        "parameters": {
+          "lr_u": 0.001,
+          "lr_F": 0.001,
+          "alpha": 0.1,
+          "beta_mean": 0.01,
+          "weight_decay": 0
+        },
+        "mean_validation_battery_macro_RMSE": 0.8544219004479796,
+        "per_seed_objectives": [
+          0.8544219004479796
+        ]
+      },
+      "training_runs": 1,
+      "fixed_test_evaluations": 0,
+      "training_per_seed": [
+        {
+          "seed": 2026111111,
+          "validation_battery_macro_RMSE": 0.7543508628019671,
+          "best_epoch": 2,
+          "epochs_completed": 2,
+          "result_sha256": "7ea656231b411fe9c1899bcbc53004b79827d1db327e1de6c68eba10b9655a2f"
+        }
+      ],
+      "test_per_seed": [],
+      "test_summary": null,
+      "artifact_sha256_checks": 8,
+      "config_selected_from_confirmation": false,
+      "seed_selected_from_confirmation": false,
+      "stage_a_selection_sha256": "e89fee63200fc79a57c4cdb94b81b2107ddeca5f95df1326bc0ab134cd43d4d3",
+      "same_seed_checkpoint_verified": null,
+      "training_data_identity_sha256": "56099a037876184c453a3d95b33d60c4f7a17abc1a51ea8d07414158b339a742",
+      "test_data_identity_sha256": null,
+      "formal": false,
+      "historical_test_observed": true
+    }
+  },
+  "archive_members": 39,
+  "checked": [
+    "unchanged StageA worker",
+    "two fixed new seeds no re-selection",
+    "same-seed checkpoint",
+    "immutable resume",
+    "cross-seed checkpoint rejected",
+    "seed edits rejected",
+    "smoke cannot pass formal scope",
+    "all ten-seed paired t95 statistics",
+    "archive member SHA and strict restore"
+  ],
+  "artifact_sha256": {
+    "reproduction/run_stage_a_confirmation.py": "235bcb2604e8b143c2511dfab466723b154a43113af337ff6853ca2baa16f126",
+    "reproduction/collect_stage_a_confirmation.py": "453266768830ec723f8df826234bb88b0ec27fc744633a9ea26012942bf56758",
+    "reproduction/test_stage_a_confirmation.py": "6fa2f198cac79f33a54167419e9314c59b66895847ca068f2aa31beb7f22b363"
+  }
+}

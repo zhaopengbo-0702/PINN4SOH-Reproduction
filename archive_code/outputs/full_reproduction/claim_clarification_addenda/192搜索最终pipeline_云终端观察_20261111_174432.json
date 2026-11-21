@@ -1,0 +1,18 @@
+{
+  "format": "pinn4soh-final-pipeline-terminal-observation-v1",
+  "recorded_at_utc": "2026-11-11T09:49:06.618564+00:00",
+  "source": "root executor read through cloud UI terminal; screenshot visually checked locally",
+  "observed_at": "2026-11-11 17:44:32 Asia/Shanghai",
+  "status_observed": "complete",
+  "finished_at_UTC": "2026-11-11T05:43:44.338364+00:00",
+  "cloud_original_bytes": 4823,
+  "cloud_original_sha256": "922ba519081f636238a426d9d51ce21e09f979204c8e35af51f7e53eb1e83860",
+  "cloud_copy": "/workspace/replacement_search_192_FINAL_STATUS_20261111.json",
+  "original_file_downloaded": false,
+  "limitation": "Platform download response rejected access; terminal and directory access work. This is an observation, not a local copy of the original final JSON. Archived at-collection pipeline remains unchanged.",
+  "screenshot": {
+    "path": "outputs/full_reproduction/cloud_live_20261111/stage_a22_confirmation_waiting_search_complete_174432.jpg",
+    "bytes": 307549,
+    "sha256": "a039a94b6b46c4e95caa71b141fca68f94ffe6f083508eec0b7b18516a356fba"
+  }
+}

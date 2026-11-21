@@ -1,0 +1,14 @@
+{
+  "state": "packed_pending_independent_verification",
+  "source_files": 53409,
+  "source_bytes": 19505807629,
+  "unique_blob_bytes": 15617390367,
+  "parts": 24,
+  "index_sha256": "859a0f3e3802cf1e8693e8879e886e8da82dd9d3e2550f53590c5bd1099d75c2",
+  "sensitive_text_scan": {
+    "matched": [],
+    "file_count": 27445,
+    "public_network_metadata_preserved": true,
+    "passed": true
+  }
+}

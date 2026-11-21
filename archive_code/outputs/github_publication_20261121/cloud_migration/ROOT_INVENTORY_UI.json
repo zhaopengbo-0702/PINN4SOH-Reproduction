@@ -1,0 +1,253 @@
+{
+  "source": "read-only UI listing",
+  "root": "/zhaopengbo",
+  "expected_entries": 161,
+  "pages": [
+    {
+      "page": 1,
+      "rows": [
+        "PINN4SOH-main",
+        "offline",
+        "pinn4soh_smoke_20261109",
+        "site-packages",
+        "CLOUD_RUN.md 3KB",
+        "PINN4SOH-main.zip 102.0MB",
+        "offline-wheels-cp310-linux.zip 95.0MB",
+        "requirements-cloud.txt 178B",
+        "run_reproduction.py 22KB",
+        "verify_checkpoint.py 5KB"
+      ]
+    },
+    {
+      "page": 2,
+      "rows": [
+        "__pycache__",
+        "parallel_tools",
+        "pinn4soh_main_20261109",
+        "check_HUST.log 1KB",
+        "parallel-tools-20261110.zip 12KB",
+        "pinn4soh_XJTU_results.zip 3.0MB",
+        "pinn4soh_main_20261109.log 28KB",
+        "pinn4soh_parallel_20261110.log 8KB",
+        "status_cloud.py 2KB",
+        "verify_main_XJTU.log 1KB"
+      ]
+    },
+    {
+      "page": 3,
+      "rows": [
+        "full_tools_v1",
+        "README_运行说明.md 7KB",
+        "check_TJU.log 1KB",
+        "export_final_evidence.py 12KB",
+        "full-tools-20261110-v1.zip 97KB",
+        "full_paper_smoke.log 1KB",
+        "legacy_archive.part011.zip 96.0MB",
+        "legacy_archive.part013.zip 96.0MB",
+        "pinn4soh_completed_110_results.zip 22.0MB",
+        "pinn4soh_final_evidence.json 286KB"
+      ]
+    },
+    {
+      "page": "4",
+      "rows": [
+        "full_evidence_partial_20261110",
+        "full_report_partial_20261110",
+        "full_report_tools",
+        "pinn4soh_full_paper_smoke",
+        "pinn4soh_full_paper_stage1",
+        "full-report-tools-20261110-v1.zip 86KB",
+        "full_evidence_partial.log 275B",
+        "full_paper_pipeline.log 293KB",
+        "full_report_partial.log 145B",
+        "pinn4soh_full_paper_pipeline.json 778B"
+      ]
+    },
+    {
+      "page": "5",
+      "rows": [
+        "efficiency_formal_20261110",
+        "full_report_partial_regular_complete_20261110",
+        "full_supplement_tools_v1",
+        "pinn4soh_full_paper_stage2",
+        "pinn4soh_mit_physical_purity_sensitivity_20261110",
+        "pinn4soh_mit_physical_purity_smoke_20261110",
+        "full-supplement-tools-20261110-v1.zip 31KB",
+        "full_followup_pipeline.log 13KB",
+        "legacy_archive.part012.zip 96.0MB",
+        "pinn4soh_followup_pipeline.json 4KB"
+      ]
+    },
+    {
+      "page": "6",
+      "rows": [
+        "pinn4soh_full_evidence_20261110",
+        "pinn4soh_full_report_20261110",
+        "pinn4soh_full_text_evidence_20261110",
+        "pinn4soh_mit_physical_purity_report_20261110",
+        "PINN4SOH_NO_NEW_TRAINING_20261110 0B",
+        "emergency_backup_20261110.log 0B",
+        "emergency_backup_20261110.py 8KB",
+        "full_suite_report_2120_20261110.json 7.0MB",
+        "legacy_archive.part001.zip 96.0MB",
+        "mit_purity_report.log 141B"
+      ]
+    },
+    {
+      "page": "7",
+      "rows": [
+        "EMERGENCY_FULL_20261110_1827.tar.gz_transfer",
+        "backup_PINN4SOH_20261110T101835Z",
+        "EMERGENCY_FULL_20261110_1827.log 0B",
+        "EMERGENCY_FULL_20261110_1827.sha256 113B",
+        "EMERGENCY_FULL_20261110_1827.tar.gz 480.0MB",
+        "EMERGENCY_ROOT_FILES_20261110_1845.json 1.0MB",
+        "EMERGENCY_ROOT_FILES_20261110_1845.zip 1.0MB",
+        "NOTEBOOK_SCAN_20261110.json 129B",
+        "finalize_emergency_archive.log 5KB",
+        "finalize_emergency_archive.py 4KB"
+      ]
+    },
+    {
+      "page": "8",
+      "rows": [
+        "legacy_archive.part002.zip 96.0MB",
+        "legacy_archive.part003.zip 96.0MB",
+        "legacy_archive.part004.zip 96.0MB",
+        "legacy_archive.part005.zip 96.0MB",
+        "legacy_archive.part006.zip 96.0MB",
+        "legacy_archive.part007.zip 96.0MB",
+        "legacy_archive.part008.zip 96.0MB",
+        "legacy_archive.part009.zip 96.0MB",
+        "legacy_archive.part010.zip 96.0MB",
+        "legacy_archive.part014.zip 28.0MB"
+      ]
+    },
+    {
+      "page": "9",
+      "rows": [
+        "legacy37",
+        "legacy_offline_recovered_v1",
+        "legacy_parts",
+        "legacy_single_gpu_v3",
+        "legacy-single-gpu-tools-20261110-v3.zip 52KB",
+        "legacy_archive_parts.json 4KB",
+        "legacy_install_20261110.log 2KB",
+        "legacy_reassembly_20261110.log 695B",
+        "legacy_smoke_20261110.log 3KB",
+        "restart_verification_20261110.json 1KB"
+      ]
+    },
+    {
+      "page": "10",
+      "rows": [
+        "pinn4soh_legacy_formal_control_20261110",
+        "pinn4soh_legacy_smoke_20261110",
+        "collect_legacy_results.py 13KB",
+        "compare_runtime_observations.py 10KB",
+        "legacy_control_20261110.log 8KB",
+        "legacy_followup_20261110.py 1KB",
+        "legacy_runtime_observations_20261110.log 132B",
+        "legacy_runtime_observations_attempt2_20261110.log 516B",
+        "two_runtime_observations_20261110.json 10KB",
+        "two_runtime_observations_20261110_attempt2.json 29KB"
+      ]
+    },
+    {
+      "page": "11",
+      "rows": [
+        "legacy_results_20261110",
+        "pinn4soh_legacy_control_comparison_20261110",
+        "pinn4soh_legacy_control_partial_8_20261110",
+        "audit_legacy_control_overlay.py 22KB",
+        "legacy_followup_20261110.log 1KB",
+        "legacy_followup_state_20261110.json 95B",
+        "legacy_independent_pipeline_20261110.log 11KB",
+        "legacy_independent_pipeline_20261110.py 2KB",
+        "legacy_partial_compare_20261110.log 168B",
+        "reconstruct_control_data_identity.py 8KB"
+      ]
+    },
+    {
+      "page": "12",
+      "rows": [
+        "legacy_independent_overlay_20261110",
+        "benchmark_efficiency_legacy.py 20KB",
+        "build_suite_report.py 40KB",
+        "compare_legacy_control.py 17KB",
+        "legacy-selected-extension-tools-20261110-v1.zip 99KB",
+        "legacy-selected-extension-tools-20261110-v2.zip 102KB",
+        "legacy_cpu_pipeline_20261110.log 888B",
+        "legacy_cpu_pipeline_20261110.py 571B",
+        "legacy_cpu_pipeline_20261110_attempt2.log 4KB",
+        "legacy_overlay_retry_20261110.log 62B"
+      ]
+    },
+    {
+      "page": "13",
+      "rows": [
+        "legacy_extension_tools_v2",
+        "legacy_results_overlay_now_20261110",
+        "legacy_selected_comparison_20261110",
+        "legacy_selected_support_20261110",
+        "pinn4soh_legacy_selected_extension_20261110",
+        "legacy_results_overlay_now_20261110.log 951B",
+        "legacy_selected_pipeline_20261110.log 100KB",
+        "legacy_selected_pipeline_20261110_status.json 3KB",
+        "legacy_selected_prepare_20261110.log 4KB",
+        "run_selected_extension_cloud_20261110.py 4KB"
+      ]
+    },
+    {
+      "page": "14",
+      "rows": [
+        "legacy_results_with_overlay_20261110",
+        "legacy_selected_backup_20261110",
+        "pinn4soh_replacement_grid_20261111",
+        "pinn4soh_replacement_grid_20261111_gpu_smoke",
+        "replacement_search_cloud_20261111_v1",
+        ".pinn4soh_replacement_grid_20261111.pipeline.lock 0B",
+        "pinn4soh_replacement_grid_20261111_pipeline_status.json 4KB",
+        "pinn4soh_replacement_grid_20261111_smoke_spec.json 1KB",
+        "replacement-search-cloud-20261111-v1.zip 54KB",
+        "replacement_search_pipeline_20261111.log 3KB"
+      ]
+    },
+    {
+      "page": "15",
+      "rows": [
+        "pinn4soh_replacement_grid_20261111_backup",
+        "pinn4soh_stage_a_20261111",
+        "stage_a_cloud_20261111_v3",
+        "stage_a_confirmation_20261111_v1",
+        ".pinn4soh_stage_a_20261111.pipeline.lock 0B",
+        "pinn4soh_stage_a_20261111_pipeline_status.json 3KB",
+        "stage-a-cloud-20261111-v3.zip 87KB",
+        "stage-a-confirmation-cloud-20261111-v1.zip 92KB",
+        "stage_a_confirmation_20261111.log 30KB",
+        "stage_a_pipeline_20261111.log 1KB"
+      ]
+    },
+    {
+      "page": "16",
+      "rows": [
+        "deadline_closeout_20261111",
+        "pinn4soh_deadline_partial_20261111_backup",
+        "pinn4soh_deadline_partial_20261111_mirror",
+        "transfer_robustness_20261111_v2",
+        "collect_deadline_partial_20261111.py 25KB",
+        "deadline_partial_collect_20261111.log 506B",
+        "replacement_search_192_FINAL_STATUS_20261111.json 4KB",
+        "transfer-robustness-cloud-20261111-v2.zip 136KB",
+        "transfer_robustness_20261111.log 37KB",
+        "verify_deadline_existing_backup_20261111.py 7KB"
+      ]
+    },
+    {
+      "page": "17",
+      "rows": [
+        "deadline_existing_verify_20261111.log 447B"
+      ]
+    }
+  ]
+}

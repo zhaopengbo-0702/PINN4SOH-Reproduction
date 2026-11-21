@@ -1,0 +1,1039 @@
+{
+  "status": "read_only_plan_not_deletion_authorization",
+  "workspace": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH",
+  "excluding_publication": true,
+  "total_bytes": 19592398267,
+  "total_files": 56087,
+  "groups": {
+    "outputs/full_reproduction/raw_data": {
+      "files": 12,
+      "bytes": 5299883781
+    },
+    "outputs/full_reproduction/feature_audit": {
+      "files": 2670,
+      "bytes": 3957907277
+    },
+    "outputs/full_reproduction/legacy_reassembly_verified_20261110": {
+      "files": 47,
+      "bytes": 2676648984
+    },
+    "outputs/full_reproduction/cloud_emergency_recovered": {
+      "files": 39069,
+      "bytes": 1663854595
+    },
+    "outputs/full_reproduction/legacy_upload_parts": {
+      "files": 15,
+      "bytes": 1338326333
+    },
+    "outputs/full_reproduction/legacy-offline-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 1338319780
+    },
+    "outputs/full_reproduction/legacy_runtime": {
+      "files": 33,
+      "bytes": 1338135446
+    },
+    "outputs/full_reproduction/legacy_extension_recovered_20261111": {
+      "files": 3234,
+      "bytes": 282627508
+    },
+    "reproduction": {
+      "files": 334,
+      "bytes": 201139324
+    },
+    "outputs/full_reproduction/legacy_source_restore_validation": {
+      "files": 854,
+      "bytes": 194395900
+    },
+    "PINN4SOH": {
+      "files": 522,
+      "bytes": 168181339
+    },
+    "outputs/full_reproduction/legacy_results_recovered_20261110": {
+      "files": 1670,
+      "bytes": 138386665
+    },
+    "outputs/full_reproduction/legacy_overlay_recovered_20261110": {
+      "files": 1691,
+      "bytes": 135406160
+    },
+    "outputs/validation_overlap_43_20261110": {
+      "files": 90,
+      "bytes": 115921014
+    },
+    "PINN4SOH-main.zip": {
+      "files": 1,
+      "bytes": 107578857
+    },
+    "outputs/full_reproduction/legacy_single_gpu_package_validation": {
+      "files": 442,
+      "bytes": 97450748
+    },
+    "outputs/emergency_local_backup": {
+      "files": 3,
+      "bytes": 90391442
+    },
+    "outputs/full_reproduction/legacy-source-reference-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 39235820
+    },
+    "outputs/full_reproduction/plot_final2120_complete_v4": {
+      "files": 172,
+      "bytes": 36841512
+    },
+    "outputs/full_reproduction/plot_final2120_complete_v3": {
+      "files": 171,
+      "bytes": 35505236
+    },
+    "outputs/full_reproduction/replacement_search_recovered_20261111": {
+      "files": 1803,
+      "bytes": 32212083
+    },
+    "outputs/full_reproduction/regular_per_CSV_curves_repeat1_v4": {
+      "files": 168,
+      "bytes": 28679777
+    },
+    "outputs/full_reproduction/source_data": {
+      "files": 14,
+      "bytes": 24074517
+    },
+    "outputs/full_reproduction/plot_layout_fixture_final": {
+      "files": 190,
+      "bytes": 23640818
+    },
+    "outputs/full_reproduction/plot_layout_fixture_v2": {
+      "files": 187,
+      "bytes": 23564862
+    },
+    "outputs/full_reproduction/plot_layout_fixture": {
+      "files": 181,
+      "bytes": 23420250
+    },
+    "outputs/full_reproduction/plot_final2120_v3_report_only": {
+      "files": 172,
+      "bytes": 14521341
+    },
+    "outputs/full_reproduction/plot_final2120_report_only": {
+      "files": 171,
+      "bytes": 14353041
+    },
+    "outputs/full_reproduction/peer_review": {
+      "files": 70,
+      "bytes": 13644921
+    },
+    "outputs/full_reproduction/plot_partial1324_verified": {
+      "files": 172,
+      "bytes": 13551679
+    },
+    "outputs/full_reproduction/plot_partial1324_v1_archived_caption": {
+      "files": 171,
+      "bytes": 13449909
+    },
+    "outputs/full_reproduction/environment_schema_supplement_final": {
+      "files": 7,
+      "bytes": 11006742
+    },
+    "outputs/full_reproduction/final_results_2120": {
+      "files": 37,
+      "bytes": 8073696
+    },
+    "outputs/full_reproduction/peer_review_file.pdf": {
+      "files": 1,
+      "bytes": 7236046
+    },
+    "outputs/full_reproduction/environment_schema_supplement_v2": {
+      "files": 7,
+      "bytes": 6188575
+    },
+    "outputs/full_reproduction/plot_partial270_schema_check": {
+      "files": 94,
+      "bytes": 5912376
+    },
+    "outputs/full_reproduction/plot_partial270_verified": {
+      "files": 94,
+      "bytes": 5910118
+    },
+    "outputs/full_reproduction/current_repo_defaults_cpu_reload_20261111": {
+      "files": 102,
+      "bytes": 5409790
+    },
+    "outputs/full_reproduction/upload": {
+      "files": 23,
+      "bytes": 5395934
+    },
+    "outputs/full_reproduction/partial_results_1324": {
+      "files": 9,
+      "bytes": 4639856
+    },
+    "outputs/full_reproduction/paper_pages": {
+      "files": 12,
+      "bytes": 4197274
+    },
+    "outputs/full_reproduction/source_data.xlsx": {
+      "files": 1,
+      "bytes": 3996697
+    },
+    "outputs/full_reproduction/legacy_extension_stability_fixture_v1": {
+      "files": 39,
+      "bytes": 3093458
+    },
+    "outputs/full_reproduction/supplementary_information.pdf": {
+      "files": 1,
+      "bytes": 2974460
+    },
+    "outputs/full_reproduction/environment_schema_supplement": {
+      "files": 7,
+      "bytes": 2879350
+    },
+    "outputs/full_reproduction/plans": {
+      "files": 4,
+      "bytes": 2555134
+    },
+    "outputs/full_reproduction/cloud_live_20261111": {
+      "files": 19,
+      "bytes": 2475736
+    },
+    "outputs/full_reproduction/supplementary": {
+      "files": 17,
+      "bytes": 1999072
+    },
+    "outputs/full_reproduction/transfer_robustness_cloud_validation_20261111": {
+      "files": 56,
+      "bytes": 1405052
+    },
+    "outputs/full_reproduction/partial_results_270": {
+      "files": 1,
+      "bytes": 1350083
+    },
+    "outputs/full_reproduction/satellite_protocol_supplement_20261110_final": {
+      "files": 21,
+      "bytes": 1217098
+    },
+    "outputs/full_reproduction/satellite_protocol_supplement_20261110_v2": {
+      "files": 17,
+      "bytes": 1186742
+    },
+    "outputs/full_reproduction/stage_a_confirmation_validation_20261111_v2": {
+      "files": 113,
+      "bytes": 1183896
+    },
+    "outputs/full_reproduction/replacement_search_cloud_validation_20261111": {
+      "files": 11,
+      "bytes": 1101462
+    },
+    "outputs/full_reproduction/legacy_control_support": {
+      "files": 12,
+      "bytes": 1065523
+    },
+    "outputs/full_reproduction/report_scaffold": {
+      "files": 12,
+      "bytes": 945319
+    },
+    "outputs/full_reproduction/transfer_robustness_preregistered_20261111": {
+      "files": 24,
+      "bytes": 917642
+    },
+    "outputs/full_reproduction/replacement_search_restore_validation_20261111": {
+      "files": 95,
+      "bytes": 888913
+    },
+    "outputs/validation_overlap_local_20261110_final": {
+      "files": 6,
+      "bytes": 822263
+    },
+    "outputs/validation_overlap_local_20261110_verified": {
+      "files": 6,
+      "bytes": 822263
+    },
+    "outputs/validation_overlap_local_20261110": {
+      "files": 6,
+      "bytes": 821869
+    },
+    "outputs/full_reproduction/stage_a_cloud_validation_20261111_v4": {
+      "files": 69,
+      "bytes": 723367
+    },
+    "outputs/full_reproduction/stage_a_cloud_validation_20261111_v3": {
+      "files": 69,
+      "bytes": 722203
+    },
+    "outputs/full_reproduction/transfer_robustness_draft_20261111": {
+      "files": 2,
+      "bytes": 704648
+    },
+    "outputs/full_reproduction/stage_a_validation_20261111": {
+      "files": 47,
+      "bytes": 570020
+    },
+    "outputs/full_reproduction/legacy_deployment_risk_diagnostic": {
+      "files": 9,
+      "bytes": 552239
+    },
+    "outputs/full_reproduction/deadline_partial_validation_20261111_v3": {
+      "files": 137,
+      "bytes": 527315
+    },
+    "outputs/final_results": {
+      "files": 10,
+      "bytes": 488622
+    },
+    "outputs/full_reproduction/replacement_feature_validation_20261111": {
+      "files": 84,
+      "bytes": 477367
+    },
+    "outputs/final_report": {
+      "files": 9,
+      "bytes": 466021
+    },
+    "outputs/full_reproduction/publisher_article.html": {
+      "files": 1,
+      "bytes": 454582
+    },
+    "outputs/full_reproduction/replacement_search_validation_20261111": {
+      "files": 63,
+      "bytes": 412291
+    },
+    "outputs/full_reproduction/satellite_protocol_supplement_20261110": {
+      "files": 7,
+      "bytes": 337915
+    },
+    "outputs/full_reproduction/upstream_versions": {
+      "files": 24,
+      "bytes": 332706
+    },
+    "outputs/full_reproduction/stage_a_cloud_validation_20261111_v2": {
+      "files": 35,
+      "bytes": 321537
+    },
+    "outputs/full_reproduction/stage_a_cloud_validation_20261111": {
+      "files": 34,
+      "bytes": 316196
+    },
+    "outputs/partial_preview": {
+      "files": 5,
+      "bytes": 309733
+    },
+    "outputs/full_reproduction/cloud_extension_complete_20261111_1145.png": {
+      "files": 1,
+      "bytes": 298663
+    },
+    "outputs/full_reproduction/cloud_extension_running_20261110_2232.jpg": {
+      "files": 1,
+      "bytes": 249370
+    },
+    "outputs/full_reproduction/supplement_note3-14.png": {
+      "files": 1,
+      "bytes": 248830
+    },
+    "outputs/full_reproduction/stage_a_confirmation_validation_20261111": {
+      "files": 32,
+      "bytes": 239896
+    },
+    "outputs/full_reproduction/cloud_formal_started.jpg": {
+      "files": 1,
+      "bytes": 234932
+    },
+    "outputs/full_reproduction/current_repo_defaults_reaudited_20261111": {
+      "files": 9,
+      "bytes": 233807
+    },
+    "outputs/full_reproduction/legacy_single_gpu_package_validation_v3": {
+      "files": 16,
+      "bytes": 227303
+    },
+    "outputs/full_reproduction/cloud_shutdown_handoff_20261110_2347.png": {
+      "files": 1,
+      "bytes": 204913
+    },
+    "outputs/full_reproduction/stage_a9_preregistered_20261111": {
+      "files": 12,
+      "bytes": 173431
+    },
+    "outputs/full_reproduction/torch_legacy_official_index.html": {
+      "files": 1,
+      "bytes": 154988
+    },
+    "outputs/full_reproduction/legacy_smoke_support": {
+      "files": 7,
+      "bytes": 146739
+    },
+    "outputs/full_reproduction/deadline_partial_validation_20261111_v2": {
+      "files": 36,
+      "bytes": 143028
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-v2.zip": {
+      "files": 1,
+      "bytes": 139771
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-v1.zip": {
+      "files": 1,
+      "bytes": 139439
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-dev2.zip": {
+      "files": 1,
+      "bytes": 137792
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-dev1.zip": {
+      "files": 1,
+      "bytes": 136387
+    },
+    "outputs/full_reproduction/claim_clarification_addenda": {
+      "files": 19,
+      "bytes": 124521
+    },
+    "outputs/full_reproduction/legacy_runtime_static_audit.json": {
+      "files": 1,
+      "bytes": 122301
+    },
+    "outputs/full_reproduction/legacy-selected-extension-tools-20261110-v2.zip": {
+      "files": 1,
+      "bytes": 105101
+    },
+    "outputs/full_reproduction/legacy-selected-extension-tools-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 101582
+    },
+    "outputs/full_reproduction/full-tools-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 99360
+    },
+    "outputs/full_reproduction/MIT_physical_purity_sensitivity": {
+      "files": 5,
+      "bytes": 95733
+    },
+    "outputs/full_reproduction/stage-a-confirmation-cloud-20261111-v1.zip": {
+      "files": 1,
+      "bytes": 95020
+    },
+    "outputs/full_reproduction/tuning_diagnosis_20261111": {
+      "files": 4,
+      "bytes": 94699
+    },
+    "outputs/full_reproduction/data_csv_history_identity.json": {
+      "files": 1,
+      "bytes": 93688
+    },
+    "outputs/full_reproduction/stage-a-cloud-20261111-v3.zip": {
+      "files": 1,
+      "bytes": 89178
+    },
+    "outputs/full_reproduction/full-report-tools-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 88987
+    },
+    "outputs/full_reproduction/stage-a-cloud-20261111-v2.zip": {
+      "files": 1,
+      "bytes": 88881
+    },
+    "outputs/full_reproduction/final2120_complete_v4_analysis_manifest.json": {
+      "files": 1,
+      "bytes": 87893
+    },
+    "outputs/full_reproduction/legacy_single_gpu_package_manifest_v3.json": {
+      "files": 1,
+      "bytes": 84394
+    },
+    "outputs/full_reproduction/legacy_single_gpu_package_manifest.json": {
+      "files": 1,
+      "bytes": 84221
+    },
+    "outputs/full_reproduction/stage-a-cloud-20261111-v1.zip": {
+      "files": 1,
+      "bytes": 80255
+    },
+    "outputs/full_reproduction/deadline_partial_validation_20261111": {
+      "files": 17,
+      "bytes": 78208
+    },
+    "outputs/full_reproduction/paper_text.txt": {
+      "files": 1,
+      "bytes": 77103
+    },
+    "outputs/full_reproduction/replacement-search-cloud-20261111-v1.zip": {
+      "files": 1,
+      "bytes": 56319
+    },
+    "outputs/full_reproduction/legacy-single-gpu-tools-20261110-v3.zip": {
+      "files": 1,
+      "bytes": 54184
+    },
+    "outputs/full_reproduction/legacy-single-gpu-tools-20261110-v2.zip": {
+      "files": 1,
+      "bytes": 52032
+    },
+    "outputs/efficiency_smoke_local_20261110": {
+      "files": 12,
+      "bytes": 48448
+    },
+    "outputs/full_reproduction/final2120_report_analysis_plot_v3_manifest.json": {
+      "files": 1,
+      "bytes": 47099
+    },
+    "outputs/full_reproduction/paper_source.json": {
+      "files": 1,
+      "bytes": 42444
+    },
+    "outputs/full_reproduction/final2120_saved_files_manifest.json": {
+      "files": 1,
+      "bytes": 40500
+    },
+    "整篇论文复现覆盖与未复现清单_20261111.md": {
+      "files": 1,
+      "bytes": 39790
+    },
+    "outputs/full_reproduction/delivery_acceptance_20261111_final": {
+      "files": 2,
+      "bytes": 36598
+    },
+    "outputs/full_reproduction/delivery_acceptance_20261111_tools_v2": {
+      "files": 2,
+      "bytes": 36276
+    },
+    "outputs/full_reproduction/delivery_acceptance_20261111_tools_v3": {
+      "files": 2,
+      "bytes": 36276
+    },
+    "outputs/full_reproduction/delivery_acceptance_20261111_tools": {
+      "files": 2,
+      "bytes": 36201
+    },
+    "outputs/full_reproduction/legacy-control-tools-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 35369
+    },
+    "outputs/full_reproduction/conda_pack-0.8.1-py2.py3-none-any.whl": {
+      "files": 1,
+      "bytes": 34228
+    },
+    "outputs/full_reproduction/paper_protocol.json": {
+      "files": 1,
+      "bytes": 32915
+    },
+    "outputs/full_reproduction/full-supplement-tools-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 31972
+    },
+    "outputs/full_reproduction/torch_legacy_package_index.html": {
+      "files": 1,
+      "bytes": 30420
+    },
+    "outputs/full_reproduction/执行状态.md": {
+      "files": 1,
+      "bytes": 25511
+    },
+    "outputs/full_reproduction/deadline_partial_return_repair_20261111": {
+      "files": 19,
+      "bytes": 23128
+    },
+    "复现结果总入口.md": {
+      "files": 1,
+      "bytes": 22744
+    },
+    "outputs/full_reproduction/论文实验与结论清单.md": {
+      "files": 1,
+      "bytes": 20588
+    },
+    "outputs/full_reproduction/deadline_partial_independent_review_20261111": {
+      "files": 5,
+      "bytes": 15597
+    },
+    "outputs/full_reproduction/transfer_robustness_code_review_20261111": {
+      "files": 6,
+      "bytes": 15208
+    },
+    "outputs/full_reproduction/legacy-extension-stability-tools-20261110-v1.zip": {
+      "files": 1,
+      "bytes": 14153
+    },
+    "本日复现进展_20261111.md": {
+      "files": 1,
+      "bytes": 12344
+    },
+    "明早9点截止_复现最终交付_20261112.md": {
+      "files": 1,
+      "bytes": 10353
+    },
+    "outputs/full_reproduction/legacy_single_gpu_local_validation": {
+      "files": 9,
+      "bytes": 7901
+    },
+    "outputs/full_reproduction/stage_a_legacy_feasibility_20261111.md": {
+      "files": 1,
+      "bytes": 7447
+    },
+    "outputs/full_reproduction/plotter_terminology_v2_audit": {
+      "files": 2,
+      "bytes": 6852
+    },
+    "outputs/full_reproduction/PDE_identifiability_analysis.md": {
+      "files": 1,
+      "bytes": 5639
+    },
+    "outputs/full_reproduction/stage-a-confirmation-cloud-20261111-v1.manifest.json": {
+      "files": 1,
+      "bytes": 4513
+    },
+    "outputs/full_reproduction/VALIDATION_OVERLAP_FINDINGS.md": {
+      "files": 1,
+      "bytes": 4409
+    },
+    "outputs/full_reproduction/stage-a-cloud-20261111-v2.manifest.json": {
+      "files": 1,
+      "bytes": 4340
+    },
+    "outputs/full_reproduction/stage-a-cloud-20261111-v3.manifest.json": {
+      "files": 1,
+      "bytes": 4340
+    },
+    "outputs/full_reproduction/BACKUP_CLOUD_COMMAND.txt": {
+      "files": 1,
+      "bytes": 4221
+    },
+    "outputs/full_reproduction/current_repo_defaults_cpu_reload_independent_review_20261111": {
+      "files": 1,
+      "bytes": 4176
+    },
+    "备份已完成_重启恢复说明.md": {
+      "files": 1,
+      "bytes": 4141
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-v1.manifest.json": {
+      "files": 1,
+      "bytes": 4060
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-v2.manifest.json": {
+      "files": 1,
+      "bytes": 4060
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-dev1.manifest.json": {
+      "files": 1,
+      "bytes": 3911
+    },
+    "outputs/full_reproduction/transfer-robustness-cloud-20261111-dev2.manifest.json": {
+      "files": 1,
+      "bytes": 3911
+    },
+    "outputs/full_reproduction/stage-a-cloud-20261111-v1.manifest.json": {
+      "files": 1,
+      "bytes": 3884
+    },
+    "outputs/full_reproduction/legacy-selected-extension-tools-20261110-v2.manifest.json": {
+      "files": 1,
+      "bytes": 3609
+    },
+    "outputs/full_reproduction/legacy-selected-extension-tools-20261110-v1.manifest.json": {
+      "files": 1,
+      "bytes": 3268
+    },
+    "关机交接_20261110_2347.md": {
+      "files": 1,
+      "bytes": 3137
+    },
+    "outputs/partial_20261110": {
+      "files": 2,
+      "bytes": 2901
+    },
+    "outputs/full_reproduction/replacement-search-cloud-20261111-v1.manifest.json": {
+      "files": 1,
+      "bytes": 2212
+    },
+    "outputs/full_reproduction/plotter_transfer_v3_audit": {
+      "files": 2,
+      "bytes": 2113
+    },
+    "outputs/full_reproduction/robustness_tuning_validation_20261111": {
+      "files": 2,
+      "bytes": 1918
+    },
+    "outputs/full_reproduction/legacy_extension_selection_20261110.json": {
+      "files": 1,
+      "bytes": 1665
+    },
+    "outputs/full_reproduction/snapshot_legacy_extension_20261110_223229.json": {
+      "files": 1,
+      "bytes": 1608
+    },
+    "outputs/full_reproduction/plotter_file_matching_v4_audit": {
+      "files": 2,
+      "bytes": 1439
+    },
+    "outputs/full_reproduction/legacy_extension_local_validation_v1": {
+      "files": 1,
+      "bytes": 1277
+    },
+    "outputs/full_reproduction/legacy-extension-stability-tools-20261110-v1.manifest.json": {
+      "files": 1,
+      "bytes": 1262
+    },
+    "outputs/full_reproduction/legacy_control_package_manifest.json": {
+      "files": 1,
+      "bytes": 1250
+    },
+    "outputs/full_reproduction/legacy_extension_local_validation_v2": {
+      "files": 1,
+      "bytes": 832
+    },
+    "outputs/full_reproduction/coordinator_dag_check.json": {
+      "files": 1,
+      "bytes": 596
+    },
+    "outputs/full_reproduction/legacy_download.log": {
+      "files": 1,
+      "bytes": 94
+    },
+    "outputs/full_reproduction/legacy_torch_download.log": {
+      "files": 1,
+      "bytes": 50
+    },
+    "outputs/full_reproduction/legacy_download_error.log": {
+      "files": 1,
+      "bytes": 0
+    },
+    "outputs/full_reproduction/legacy_torch_download_error.log": {
+      "files": 1,
+      "bytes": 0
+    }
+  },
+  "large_files": [
+    {
+      "path": "outputs/full_reproduction/raw_data/XJTU/Battery Dataset.zip",
+      "bytes": 2438769934
+    },
+    {
+      "path": "outputs/full_reproduction/legacy-offline-20261110-v1.zip",
+      "bytes": 1338319780
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/legacy-offline-20261110-v1.zip",
+      "bytes": 1338319780
+    },
+    {
+      "path": "outputs/full_reproduction/raw_data/HUST/our_data.zip",
+      "bytes": 1188136932
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/torch-1.7.1+cu110-cp37-cp37m-linux_x86_64.whl",
+      "bytes": 1156750317
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/torch-1.7.1+cu110-cp37-cp37m-linux_x86_64.whl",
+      "bytes": 1156750317
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/MIT_mirror_audit/within_cycle_2018-04-12.h5",
+      "bytes": 823392641
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/MIT_mirror_audit/within_cycle_2017-05-12.h5",
+      "bytes": 797659714
+    },
+    {
+      "path": "outputs/full_reproduction/raw_data/TJU/Dataset_2_NCM_battery.zip",
+      "bytes": 737047539
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/MIT_mirror_audit/within_cycle_2017-06-30.h5",
+      "bytes": 581592476
+    },
+    {
+      "path": "outputs/full_reproduction/raw_data/TJU/Dataset_1_NCA_battery.zip",
+      "bytes": 579629324
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/EMERGENCY_FULL_20261110_1827.tar.gz",
+      "bytes": 503481904
+    },
+    {
+      "path": "outputs/full_reproduction/raw_data/TJU/Dataset_3_NCM_NCA_battery.zip",
+      "bytes": 356066478
+    },
+    {
+      "path": "PINN4SOH-main.zip",
+      "bytes": 107578857
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part001.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part002.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part003.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part004.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part005.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part006.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part007.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part008.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part009.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part010.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part011.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part012.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part013.zip",
+      "bytes": 100663438
+    },
+    {
+      "path": "reproduction/offline-wheels-cp310-linux.zip",
+      "bytes": 100620287
+    },
+    {
+      "path": "outputs/emergency_local_backup/20261110-181639/PINN4SOH_critical_local_evidence.zip",
+      "bytes": 89973508
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_extension_recovered_20261111/transfer/results.extension.legacy_selected_backup_20261110.chunk001.json",
+      "bytes": 77732933
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/MIT_mirror_audit/within_cycle_index.csv",
+      "bytes": 72846386
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/MIT_mirror_audit/within_cycle_index.csv.part",
+      "bytes": 71303168
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_extension_recovered_20261111/restored/archives/PINN4SOH_LEGACY_EXTENSION_legacy_selected_backup_20261110.tar.gz",
+      "bytes": 58299349
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/python-3.7.10-h12debd9_4.tar.bz2",
+      "bytes": 53761441
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/python-3.7.10-h12debd9_4.tar.bz2",
+      "bytes": 53761441
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/per_battery.csv",
+      "bytes": 50370406
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_report_20261110/per_battery.csv",
+      "bytes": 50370406
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/raw_sample/2C_battery-1.mat",
+      "bytes": 44388077
+    },
+    {
+      "path": "outputs/full_reproduction/legacy-source-reference-20261110-v1.zip",
+      "bytes": 39235820
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+      "bytes": 38121069
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+      "bytes": 38121069
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/raw_sample/HUST_2-5.pkl",
+      "bytes": 36734361
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_overlay_recovered_20261110/transfer/results.legacy.legacy_results_overlay_now_20261110.chunk001.json",
+      "bytes": 36236495
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_results_recovered_20261110/transfer/results.legacy.legacy_results_20261110.chunk001.json",
+      "bytes": 36013183
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_report_20261110/task_evidence.json",
+      "bytes": 35996707
+    },
+    {
+      "path": "reproduction/wheels/scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 34422544
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_upload_parts/legacy_archive.part014.zip",
+      "bytes": 29697074
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_overlay_recovered_20261110/archives/PINN4SOH_LEGACY_legacy_results_overlay_now_20261110.tar.gz",
+      "bytes": 27177027
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_results_recovered_20261110/archives/PINN4SOH_LEGACY_legacy_results_20261110.tar.gz",
+      "bytes": 27009552
+    },
+    {
+      "path": "outputs/validation_overlap_43_20261110/HUST/all/nall/trace.json",
+      "bytes": 20960381
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/scikit_learn-0.24.2-cp37-cp37m-manylinux1_x86_64.whl",
+      "bytes": 19959937
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/scikit_learn-0.24.2-cp37-cp37m-manylinux1_x86_64.whl",
+      "bytes": 19959937
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_paper_stage1/manifest.json",
+      "bytes": 19467525
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_extension_recovered_20261111/restored/extracted/pinn4soh_full_paper_stage1/manifest.json",
+      "bytes": 19467525
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_overlay_recovered_20261110/extracted/pinn4soh_full_paper_stage1/manifest.json",
+      "bytes": 19467525
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_results_recovered_20261110/extracted/pinn4soh_full_paper_stage1/manifest.json",
+      "bytes": 19467525
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/PINN4SOH-main/results/Ours/XJTU.zip",
+      "bytes": 19139716
+    },
+    {
+      "path": "PINN4SOH/results/Ours/XJTU.zip",
+      "bytes": 19139716
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/table_per_battery.part001.json",
+      "bytes": 18873999
+    },
+    {
+      "path": "outputs/full_reproduction/plot_final2120_complete_v3/repeat1_display_curves.csv",
+      "bytes": 18323873
+    },
+    {
+      "path": "outputs/full_reproduction/plot_final2120_complete_v4/repeat1_display_curves.csv",
+      "bytes": 18323873
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/json_nodes.part001.json",
+      "bytes": 18108294
+    },
+    {
+      "path": "outputs/full_reproduction/source_data/source_data_normalized.json",
+      "bytes": 18010558
+    },
+    {
+      "path": "reproduction/wheels/numpy-1.24.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 17282357
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/PINN4SOH-main/results/MLP/MLP.zip",
+      "bytes": 17000079
+    },
+    {
+      "path": "PINN4SOH/results/MLP/MLP.zip",
+      "bytes": 17000079
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/numpy-1.20.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+      "bytes": 15307196
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/numpy-1.20.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+      "bytes": 15307196
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/PINN4SOH-main/results/CNN/CNN.zip",
+      "bytes": 15203075
+    },
+    {
+      "path": "PINN4SOH/results/CNN/CNN.zip",
+      "bytes": 15203075
+    },
+    {
+      "path": "outputs/validation_overlap_43_20261110/MIT/all/nall/trace.json",
+      "bytes": 14167342
+    },
+    {
+      "path": "outputs/full_reproduction/feature_audit/MIT_mirror_audit/PINN_CSV_to_mirror_cycles.csv",
+      "bytes": 13946047
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/PINN4SOH-main/results/Ours/HUST.zip",
+      "bytes": 13904504
+    },
+    {
+      "path": "PINN4SOH/results/Ours/HUST.zip",
+      "bytes": 13904504
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/training_histories.part001.json",
+      "bytes": 13218235
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/tasks.part001.json",
+      "bytes": 13128512
+    },
+    {
+      "path": "reproduction/wheels/pandas-1.5.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 12062104
+    },
+    {
+      "path": "reproduction/wheels/matplotlib-3.7.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 11580088
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl",
+      "bytes": 11540975
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl",
+      "bytes": 11540975
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/pandas-1.3.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 11285953
+    },
+    {
+      "path": "outputs/full_reproduction/legacy_runtime/pandas-1.3.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 11285953
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/per_repeat.csv",
+      "bytes": 11027705
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_report_20261110/per_repeat.csv",
+      "bytes": 11027705
+    },
+    {
+      "path": "outputs/full_reproduction/replacement_search_recovered_20261111/transfer/results.search.pinn4soh_replacement_grid_20261111_backup.chunk001.json",
+      "bytes": 10939214
+    }
+  ]
+}

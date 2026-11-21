@@ -1,0 +1,66 @@
+{
+  "status": "passed_functional_and_real_cpu_smoke_not_formal",
+  "formal_training_started": false,
+  "protocol_sha256": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23",
+  "source_checkpoint_records_verified": 40,
+  "source_evidence_files_bound": 320,
+  "target_split_counts": {
+    "train": 1,
+    "valid": 20,
+    "test": 22
+  },
+  "registered_budget": {
+    "modern_selection_training": 81,
+    "modern_original_control_training": 6,
+    "future_training_per_stack": 50,
+    "future_source_only_evaluations_per_stack": 20,
+    "target_only_shared_between_directions": true,
+    "total_formal_target_training_two_stacks": 187
+  },
+  "real_smokes": [
+    {
+      "direction": "HUST-to-MIT",
+      "epochs": 2,
+      "test_loaded": false,
+      "G_frozen_unchanged": true,
+      "validation_physical_batteries": 2,
+      "objective_execution_only": 0.025760869184954474,
+      "artifact_sha_checks": 6
+    },
+    {
+      "direction": "XJTU-to-MIT",
+      "epochs": 2,
+      "test_loaded": false,
+      "G_frozen_unchanged": true,
+      "validation_physical_batteries": 2,
+      "objective_execution_only": 0.030936412726833597,
+      "artifact_sha_checks": 6
+    }
+  ],
+  "checks": [
+    "4 synthetic two-epoch training lanes",
+    "head-only encoder frozen and G frozen",
+    "source-only and trained-checkpoint test-only fixtures",
+    "checkpoint predictions bitwise reload",
+    "all candidate seed matrix complete before selection",
+    "full formal protocol dryrun",
+    "40source checkpoint/evidence bindings",
+    "no test in real smoke workers"
+  ],
+  "limits": [
+    "Modern CPU smoke does not prove modern/legacy GPU support",
+    "No formal selection, ten future target seeds or cross-runtime confirmation trained",
+    "Global phase orchestration not executed at full87+50+50budget locally",
+    "Cloud packaging and independent collector/paired-effect plots not implemented",
+    "Twenty labeled validation batteries are extra target-label budget, not strict one-label-cell Table4",
+    "Historical test observed; exploratory only"
+  ],
+  "artifact_sha256": {
+    "outputs/full_reproduction/transfer_robustness_preregistered_20261111/PROTOCOL.json": "721880a611d865a4c65f7a716ea233e53851787f8ca522668e98c192a5f5ab23",
+    "outputs/full_reproduction/transfer_robustness_preregistered_20261111/functional_tests.log": "0f601e57f00e22cf9140755979e609c990f47096ba754ca356423a24a87059b9",
+    "reproduction/run_transfer_robustness.py": "3f57579ba9010ea12686d6660ee4bf292b4edf091e0841bed89b82ece63af037",
+    "reproduction/prepare_transfer_robustness.py": "f33032652e49117c1331ffbb0d36114715cfa63c05ea3cb2ebc042345975add3",
+    "reproduction/test_transfer_robustness.py": "72e908552a214118eb50c79782733b14d0eafe5b3e73d0ab5bbd24ef0c9a6275",
+    "reproduction/TRANSFER_ROBUSTNESS_RUN.md": "95fc11b102e65f44282478979523cc2d2f715e357baa617b6dcff4164be02cc3"
+  }
+}

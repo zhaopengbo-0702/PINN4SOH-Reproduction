@@ -1,0 +1,111 @@
+{
+  "release": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/tag/v1.0.0",
+  "tag": "v1.0.0",
+  "assets": [
+    {
+      "name": "EXPERIMENT_COMPLETION_COUNTS.json",
+      "bytes": 1243,
+      "sha256": "5495b2a96d7996b392cc16dad1cbe328e21b718a46a7992b51a1ab4de7b4392c",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/EXPERIMENT_COMPLETION_COUNTS.json",
+      "github_digest": "sha256:5495b2a96d7996b392cc16dad1cbe328e21b718a46a7992b51a1ab4de7b4392c"
+    },
+    {
+      "name": "pinn4soh-current-defaults110-and-mit40.members.sha256.json",
+      "bytes": 437934,
+      "sha256": "e5573eea9b4e171983f2685a4197f9b5767e7da4450f3196f34716c710d394c3",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-current-defaults110-and-mit40.members.sha256.json",
+      "github_digest": "sha256:e5573eea9b4e171983f2685a4197f9b5767e7da4450f3196f34716c710d394c3"
+    },
+    {
+      "name": "pinn4soh-current-defaults110-and-mit40.tar.gz",
+      "bytes": 30415559,
+      "sha256": "f23e01b3d9c01c462d99e85f87e1498af58f1475b18ab6c245e3d2b11d106bb3",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-current-defaults110-and-mit40.tar.gz",
+      "github_digest": "sha256:f23e01b3d9c01c462d99e85f87e1498af58f1475b18ab6c245e3d2b11d106bb3"
+    },
+    {
+      "name": "pinn4soh-current-defaults110-and-mit40.verification.json",
+      "bytes": 1234,
+      "sha256": "b5412275716996b57ec74d7cd42219a0406cdb57aeb1afc4b719a0cd4c37492d",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-current-defaults110-and-mit40.verification.json",
+      "github_digest": "sha256:b5412275716996b57ec74d7cd42219a0406cdb57aeb1afc4b719a0cd4c37492d"
+    },
+    {
+      "name": "pinn4soh-legacy-controls-and-seed110.members.sha256.json",
+      "bytes": 1040907,
+      "sha256": "f24d64951eeb1de0864a2528bbe0fa39db9897aa4f7638469c4cbf161ecdaed2",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-legacy-controls-and-seed110.members.sha256.json",
+      "github_digest": "sha256:f24d64951eeb1de0864a2528bbe0fa39db9897aa4f7638469c4cbf161ecdaed2"
+    },
+    {
+      "name": "pinn4soh-legacy-controls-and-seed110.tar.gz",
+      "bytes": 66087735,
+      "sha256": "6dc9e13224c4e66a816b24b2045b9cf2d16678475f2e6d5cc5105172cf939a9c",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-legacy-controls-and-seed110.tar.gz",
+      "github_digest": "sha256:6dc9e13224c4e66a816b24b2045b9cf2d16678475f2e6d5cc5105172cf939a9c"
+    },
+    {
+      "name": "pinn4soh-legacy-controls-and-seed110.verification.json",
+      "bytes": 1248,
+      "sha256": "a18633337492e7347dfee9bd0f9a8e0a2bb948a51dbe304c5b9d0c3d89d21287",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-legacy-controls-and-seed110.verification.json",
+      "github_digest": "sha256:a18633337492e7347dfee9bd0f9a8e0a2bb948a51dbe304c5b9d0c3d89d21287"
+    },
+    {
+      "name": "pinn4soh-main-2120.members.sha256.json",
+      "bytes": 9029603,
+      "sha256": "a68abfcf8f58aaa9e94d98443c78fda128e48844f8e3a2d914e2969dfeb46c88",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-main-2120.members.sha256.json",
+      "github_digest": "sha256:a68abfcf8f58aaa9e94d98443c78fda128e48844f8e3a2d914e2969dfeb46c88"
+    },
+    {
+      "name": "pinn4soh-main-2120.tar.gz",
+      "bytes": 336526800,
+      "sha256": "b5c6f1fcdac47a7f172bafb3f7015e0f76d0afd63b502a2c462d24f083168d05",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-main-2120.tar.gz",
+      "github_digest": "sha256:b5c6f1fcdac47a7f172bafb3f7015e0f76d0afd63b502a2c462d24f083168d05"
+    },
+    {
+      "name": "pinn4soh-main-2120.verification.json",
+      "bytes": 1330,
+      "sha256": "0400b0196e5895a5075598a8af89ea829dafc0a3111954972ab9adc4fcdd9e69",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-main-2120.verification.json",
+      "github_digest": "sha256:0400b0196e5895a5075598a8af89ea829dafc0a3111954972ab9adc4fcdd9e69"
+    },
+    {
+      "name": "pinn4soh-replacement-search192.members.sha256.json",
+      "bytes": 365382,
+      "sha256": "bc24bdec90ea91324e95e6db6ad9cd91e2c61fa88e0cfce859b502efaa20ffad",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-replacement-search192.members.sha256.json",
+      "github_digest": "sha256:bc24bdec90ea91324e95e6db6ad9cd91e2c61fa88e0cfce859b502efaa20ffad"
+    },
+    {
+      "name": "pinn4soh-replacement-search192.tar.gz",
+      "bytes": 8056143,
+      "sha256": "397e5c94528c5997e9793960e3736fc2e44f3bbd450b2ef15be9a0073853ef38",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-replacement-search192.tar.gz",
+      "github_digest": "sha256:397e5c94528c5997e9793960e3736fc2e44f3bbd450b2ef15be9a0073853ef38"
+    },
+    {
+      "name": "pinn4soh-replacement-search192.verification.json",
+      "bytes": 760,
+      "sha256": "d13742db08e6a48264e8f4f3b4f210598886180f9a4f60dcc5e35b2c5992fc08",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/pinn4soh-replacement-search192.verification.json",
+      "github_digest": "sha256:d13742db08e6a48264e8f4f3b4f210598886180f9a4f60dcc5e35b2c5992fc08"
+    },
+    {
+      "name": "RELEASE_ASSETS_CATALOG.json",
+      "bytes": 5339,
+      "sha256": "0c9531cf02de129e818ba9deac41efd954ac6830b0c0065c791bbe0eb576bb1a",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/RELEASE_ASSETS_CATALOG.json",
+      "github_digest": "sha256:0c9531cf02de129e818ba9deac41efd954ac6830b0c0065c791bbe0eb576bb1a"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 422,
+      "sha256": "ed0928824964885f55c213528ef847a423519ca01b1eec2d183040ac6993c00d",
+      "url": "https://github.com/zhaopengbo-0702/PINN4SOH-Reproduction/releases/download/v1.0.0/SHA256SUMS.txt",
+      "github_digest": "sha256:ed0928824964885f55c213528ef847a423519ca01b1eec2d183040ac6993c00d"
+    }
+  ]
+}

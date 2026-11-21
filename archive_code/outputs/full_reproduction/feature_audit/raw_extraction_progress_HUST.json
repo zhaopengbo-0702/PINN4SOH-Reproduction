@@ -1,0 +1,146 @@
+[
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-1.pkl",
+    "processed_csv": "HUST data/1-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1504,
+    "candidate_records": 9024,
+    "seconds": 65.07206177711487,
+    "candidate_csv_sha256": "28b48768c566ec9a7cd056a0e2f02a4f54fb8aa2d321692f966d9990d422128f"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-2.pkl",
+    "processed_csv": "HUST data/1-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 2678,
+    "candidate_records": 16068,
+    "seconds": 109.61433482170105,
+    "candidate_csv_sha256": "4bd465afe2af815059704b65f89794f44e167a3fce9a006f1dfc3ba36f553aaf"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-3.pkl",
+    "processed_csv": "HUST data/1-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1858,
+    "candidate_records": 11148,
+    "seconds": 65.69412183761597,
+    "candidate_csv_sha256": "c7994e5d2d533cde187023aa75960b18465370c99f0e32a0f486db9e0884441f"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-4.pkl",
+    "processed_csv": "HUST data/1-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1500,
+    "candidate_records": 9000,
+    "seconds": 45.11255073547363,
+    "candidate_csv_sha256": "97db99bab68aeb50b000431c7fedc0fdfa91e04136d6471ad5d9069afdfebf61"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-5.pkl",
+    "processed_csv": "HUST data/1-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1971,
+    "candidate_records": 11826,
+    "seconds": 89.14034867286682,
+    "candidate_csv_sha256": "f3cabf3b787922f4d4209c7e394d9839129897199fe4fb1e8578848f2e5da9ec"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-6.pkl",
+    "processed_csv": "HUST data/1-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1143,
+    "candidate_records": 6858,
+    "seconds": 53.80270504951477,
+    "candidate_csv_sha256": "b9132a293b2d80754802a48146a25bb33d697250b9a2617308a3f34d4bb35876"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-7.pkl",
+    "processed_csv": "HUST data/1-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1678,
+    "candidate_records": 10068,
+    "seconds": 62.450780630111694,
+    "candidate_csv_sha256": "c296e1958705c2479d6322476e10a899a5399c12683f5b1b35e8a7d83ac03542"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/1-8.pkl",
+    "processed_csv": "HUST data/1-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 2285,
+    "candidate_records": 13710,
+    "seconds": 100.35005760192871,
+    "candidate_csv_sha256": "6546bfb644b1ad8b79bbe98453dd15483ccf8b89e93310ec92c918bd0c1e33ba"
+  },
+  {
+    "status": "complete",
+    "dataset": "HUST",
+    "raw_member": "our_data/10-1.pkl",
+    "processed_csv": "HUST data/10-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1702,
+    "candidate_records": 10212,
+    "seconds": 68.77021431922913,
+    "candidate_csv_sha256": "1f60c5ca6054a305a77aa4afa54bfb4ce36ba2f8467e48ce5ee358bba3f8e0d6"
+  }
+]

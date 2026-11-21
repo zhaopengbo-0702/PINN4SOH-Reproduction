@@ -1,0 +1,882 @@
+[
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-1.mat",
+    "processed_csv": "XJTU data/2C_battery-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 390,
+    "candidate_records": 3501,
+    "seconds": 53.57633686065674,
+    "candidate_csv_sha256": "5d2ee474067916ce7b062b19f04b9f6c8177570d584126c1ca1ab6037bc3b870"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-2.mat",
+    "processed_csv": "XJTU data/2C_battery-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 407,
+    "candidate_records": 3654,
+    "seconds": 33.90956497192383,
+    "candidate_csv_sha256": "af26db3a59b19f8f177e4a70fac0a9f26b788b9055d0de91a8453022c0ed89c5"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-3.mat",
+    "processed_csv": "XJTU data/2C_battery-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 393,
+    "candidate_records": 3528,
+    "seconds": 45.032870292663574,
+    "candidate_csv_sha256": "215278aba75ebebfad3c6b6ee8a00c7a1e1c2e0a52eb71799050c103178f5447"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-4.mat",
+    "processed_csv": "XJTU data/2C_battery-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 396,
+    "candidate_records": 3555,
+    "seconds": 61.595744371414185,
+    "candidate_csv_sha256": "7d9ab37e3f951d232209567773b59e4d8184bd9374e3d38ce60db19070da62c1"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-5.mat",
+    "processed_csv": "XJTU data/2C_battery-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 403,
+    "candidate_records": 3618,
+    "seconds": 39.59992957115173,
+    "candidate_csv_sha256": "a955f2563d5876f52c8f550097c742d2fa8ded641589404837d65aef291b19a5"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-6.mat",
+    "processed_csv": "XJTU data/2C_battery-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 408,
+    "candidate_records": 3663,
+    "seconds": 52.69310712814331,
+    "candidate_csv_sha256": "f3e0f3c32524cdd2511616cdf843b0b8b6338cc28b8eb4bd411076eceb966e15"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-7.mat",
+    "processed_csv": "XJTU data/2C_battery-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 402,
+    "candidate_records": 3609,
+    "seconds": 52.48557686805725,
+    "candidate_csv_sha256": "6b42d9cfa19632ccd9eb07ecb6622410f7ef8d8245c5b8f606d07d6ed2b4c655"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-1/2C_battery-8.mat",
+    "processed_csv": "XJTU data/2C_battery-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 420,
+    "candidate_records": 3772,
+    "seconds": 49.04322028160095,
+    "candidate_csv_sha256": "62178368a69e359a64e2e0720d71d160e39b517b855b4df5c93f39e4de54c238"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-1.mat",
+    "processed_csv": "XJTU data/3C_battery-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 299,
+    "candidate_records": 2682,
+    "seconds": 27.584914684295654,
+    "candidate_csv_sha256": "276ec8d9f3f0880507fb73b9fbf954e2cca12648a119344acb355f8d6ab36684"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-10.mat",
+    "processed_csv": "XJTU data/3C_battery-10.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 164,
+    "candidate_records": 1467,
+    "seconds": 13.845050573348999,
+    "candidate_csv_sha256": "9c72e86f627a8bb793415af4224b5b219948c78fc2af523f15f126565b448d43"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-11.mat",
+    "processed_csv": "XJTU data/3C_battery-11.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 131,
+    "candidate_records": 1170,
+    "seconds": 11.865883350372314,
+    "candidate_csv_sha256": "fb286995e2b131548be304d17e2b175d56c0d3b9bf0bc109f8dc3caa435965ee"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-12.mat",
+    "processed_csv": "XJTU data/3C_battery-12.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 212,
+    "candidate_records": 1899,
+    "seconds": 20.047231197357178,
+    "candidate_csv_sha256": "18331f0190f267d9fc40222d23ad2854bc5ee9fb04b422217c0c5a02c1426e03"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-13.mat",
+    "processed_csv": "XJTU data/3C_battery-13.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 226,
+    "candidate_records": 2025,
+    "seconds": 25.769901037216187,
+    "candidate_csv_sha256": "d3ad6882e5535228d9c9003fede14940cc6a306eca3edcc3bc0533030d2f0c61"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-14.mat",
+    "processed_csv": "XJTU data/3C_battery-14.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 147,
+    "candidate_records": 1314,
+    "seconds": 19.408713817596436,
+    "candidate_csv_sha256": "ce7c55fbd24a75486d12ab68a112aece6167c0a7e0efb222c1ff879d3fcf5882"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-15.mat",
+    "processed_csv": "XJTU data/3C_battery-15.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 168,
+    "candidate_records": 1503,
+    "seconds": 16.733562231063843,
+    "candidate_csv_sha256": "4ffba93ef30f9d2ea5537bb8a70c67b71ee8c0b05271d1542d5d939a29c203b2"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-2.mat",
+    "processed_csv": "XJTU data/3C_battery-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 292,
+    "candidate_records": 2619,
+    "seconds": 31.326896905899048,
+    "candidate_csv_sha256": "428d92497da663cfcbca2c9a402ac776b77198fef3869547ebf415648298e1e2"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-3.mat",
+    "processed_csv": "XJTU data/3C_battery-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 286,
+    "candidate_records": 2565,
+    "seconds": 37.68238091468811,
+    "candidate_csv_sha256": "74cce3a60a82c16b4c575c9daf6fec034508ae1c44dbd31039df209b413f0289"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-4.mat",
+    "processed_csv": "XJTU data/3C_battery-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 322,
+    "candidate_records": 2889,
+    "seconds": 26.728046894073486,
+    "candidate_csv_sha256": "18c5e8819b13695304d8c1a52d43c629dac36ac3e9b5e999307d731624116e9e"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-5.mat",
+    "processed_csv": "XJTU data/3C_battery-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 297,
+    "candidate_records": 2664,
+    "seconds": 24.3322913646698,
+    "candidate_csv_sha256": "44bb26696848a4249e1d21b23bdf4b89ec927fa9a36fd017eb5c7274c1c7ccb6"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-6.mat",
+    "processed_csv": "XJTU data/3C_battery-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 322,
+    "candidate_records": 2889,
+    "seconds": 32.46948552131653,
+    "candidate_csv_sha256": "437eda7f516c9f896700291da41ad3f7d0e91b3d72642ba5d4f2852e0a79805e"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-7.mat",
+    "processed_csv": "XJTU data/3C_battery-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 319,
+    "candidate_records": 2862,
+    "seconds": 34.77488994598389,
+    "candidate_csv_sha256": "6d08cdc4fc3afc899036eb10f785ab09a71f26e85534762294b9aebeccee0a6d"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-8.mat",
+    "processed_csv": "XJTU data/3C_battery-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 270,
+    "candidate_records": 2421,
+    "seconds": 33.89274454116821,
+    "candidate_csv_sha256": "73ef872f37875d200f88e9d9ac51ad139a5ba4708e1340cc9ed27a742d127bff"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-2/3C_battery-9.mat",
+    "processed_csv": "XJTU data/3C_battery-9.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 287,
+    "candidate_records": 2574,
+    "seconds": 40.6840295791626,
+    "candidate_csv_sha256": "d3870160038c1f485e77dc3b56c0af1e760f95200d4c9c4ee52351b7818fa616"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-1.mat",
+    "processed_csv": "XJTU data/R2.5_battery-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 592,
+    "candidate_records": 5319,
+    "seconds": 54.62352252006531,
+    "candidate_csv_sha256": "704182290638e7f7d84d3d9e8ad9988fe87c025ab9cf51cf0fbeb96a4a2cc198"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-2.mat",
+    "processed_csv": "XJTU data/R2.5_battery-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 552,
+    "candidate_records": 4959,
+    "seconds": 47.562843322753906,
+    "candidate_csv_sha256": "2a0c954351c1628d787230019ba55e08248c3c7e43368e09d40dd2b0fdf69a91"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-3.mat",
+    "processed_csv": "XJTU data/R2.5_battery-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 667,
+    "candidate_records": 5994,
+    "seconds": 70.28350234031677,
+    "candidate_csv_sha256": "47e4033381379458932a6ee032d6a425038d167f0b85bb83b81599867f150e62"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-4.mat",
+    "processed_csv": "XJTU data/R2.5_battery-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 557,
+    "candidate_records": 5004,
+    "seconds": 65.4646508693695,
+    "candidate_csv_sha256": "cc6b5dab03f66442269884a724b1f280f05d6418c544316530604e41c5a622c3"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-5.mat",
+    "processed_csv": "XJTU data/R2.5_battery-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 562,
+    "candidate_records": 5049,
+    "seconds": 67.19537854194641,
+    "candidate_csv_sha256": "3a93e277ba2ad1f77558f149cd7b28b60a25669e626eb06e11c54f2fb6098664"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-6.mat",
+    "processed_csv": "XJTU data/R2.5_battery-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 542,
+    "candidate_records": 4869,
+    "seconds": 53.6425621509552,
+    "candidate_csv_sha256": "62f7c5ff1ff44346a5d221996e87dbf79b56ac2bf6ad60d115c7478547e38996"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-7.mat",
+    "processed_csv": "XJTU data/R2.5_battery-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 527,
+    "candidate_records": 4734,
+    "seconds": 48.772361755371094,
+    "candidate_csv_sha256": "5a066ef107ad0b1fe92b8f04db1d8837fcaf648ee4067bdd476ee15915b39703"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-3/R2.5_battery-8.mat",
+    "processed_csv": "XJTU data/R2.5_battery-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 617,
+    "candidate_records": 5544,
+    "seconds": 67.75650262832642,
+    "candidate_csv_sha256": "84afb7ca6c54568e9f52a3346687e35eb4da78d36ec61284762019b80f3d3e4c"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-1.mat",
+    "processed_csv": "XJTU data/R3_battery-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 799,
+    "candidate_records": 7182,
+    "seconds": 99.5786521434784,
+    "candidate_csv_sha256": "c8a1577b0ad47dd3c276d3081a3031dc3044684a6d5ab4ff465b64191d83abba"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-2.mat",
+    "processed_csv": "XJTU data/R3_battery-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 673,
+    "candidate_records": 6048,
+    "seconds": 79.79313707351685,
+    "candidate_csv_sha256": "b5347a3b1503ed18d8553ec726356a19a45448a448594f62b8c2aa5e12387aab"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-3.mat",
+    "processed_csv": "XJTU data/R3_battery-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 673,
+    "candidate_records": 6048,
+    "seconds": 93.35197472572327,
+    "candidate_csv_sha256": "5619f53e77f7956715dc13a9311769e7f92c963b21af45cf587603279ed24542"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-4.mat",
+    "processed_csv": "XJTU data/R3_battery-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 727,
+    "candidate_records": 6534,
+    "seconds": 170.75307512283325,
+    "candidate_csv_sha256": "7b37537be6b5259ff61454c00893edcce3107e9d4babedef90a10e367909eafa"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-5.mat",
+    "processed_csv": "XJTU data/R3_battery-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 739,
+    "candidate_records": 6642,
+    "seconds": 81.80666613578796,
+    "candidate_csv_sha256": "cec765e011e08ab08877c76c9ed2d9b00439d3686e52b60c44493fb917298ffa"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-6.mat",
+    "processed_csv": "XJTU data/R3_battery-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 715,
+    "candidate_records": 6426,
+    "seconds": 94.58789777755737,
+    "candidate_csv_sha256": "dc30f6a1be8721cb4fc94017f234fcb13715efa94254c9bb8f4e8b03f88f1d6f"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-7.mat",
+    "processed_csv": "XJTU data/R3_battery-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 601,
+    "candidate_records": 5400,
+    "seconds": 93.81903648376465,
+    "candidate_csv_sha256": "e5308cff66a3dd63043bfecb736922a534aa3c8d7ceef8b9a2f35c6b35b7e528"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-4/R3_battery-8.mat",
+    "processed_csv": "XJTU data/R3_battery-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 751,
+    "candidate_records": 6750,
+    "seconds": 112.54025363922119,
+    "candidate_csv_sha256": "ade079a11739bba425ebe0d50262a32d6fd255f17f2143a997115f0a4246ee8b"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-1.mat",
+    "processed_csv": "XJTU data/RW_battery-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 197,
+    "candidate_records": 1551,
+    "seconds": 22.76349139213562,
+    "candidate_csv_sha256": "0f9d6691731c94050402520273cf535d530f25c6e8a9fd5bd8802c64e6e0c5dd"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-2.mat",
+    "processed_csv": "XJTU data/RW_battery-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 307,
+    "candidate_records": 2481,
+    "seconds": 34.72593641281128,
+    "candidate_csv_sha256": "69278a4d67918044d728e7bdf037d6b08202fa4c89228dd19cec507c2cf3fcd8"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-3.mat",
+    "processed_csv": "XJTU data/RW_battery-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 340,
+    "candidate_records": 2760,
+    "seconds": 37.58375883102417,
+    "candidate_csv_sha256": "5292205c0a3a89753496a9d22cdadd5cb8e94e55c2d9aba254a12239cdfdd826"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-4.mat",
+    "processed_csv": "XJTU data/RW_battery-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 252,
+    "candidate_records": 2016,
+    "seconds": 36.08390188217163,
+    "candidate_csv_sha256": "9b5d503a257a57ff118ba052cc687e7570407e27976eeff70d1c9a470ed20257"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-5.mat",
+    "processed_csv": "XJTU data/RW_battery-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 274,
+    "candidate_records": 2202,
+    "seconds": 39.77661609649658,
+    "candidate_csv_sha256": "7531bb08920983474d62e4f2889c37842d21e3a3d73555f7c6381e0239bc87d1"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-6.mat",
+    "processed_csv": "XJTU data/RW_battery-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 219,
+    "candidate_records": 1737,
+    "seconds": 28.369724988937378,
+    "candidate_csv_sha256": "c1b5dc5c5b45f9e4eece0602b5cdd7707c45a72670ac4d434aeaf711083fed02"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-7.mat",
+    "processed_csv": "XJTU data/RW_battery-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 186,
+    "candidate_records": 1458,
+    "seconds": 30.036618947982788,
+    "candidate_csv_sha256": "63153bb8bbb25a2d1061ce553658aa9f3e2d6acf03d47009dc4d73aa16eead13"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-5/RW_battery-8.mat",
+    "processed_csv": "XJTU data/RW_battery-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 208,
+    "candidate_records": 1644,
+    "seconds": 24.058852195739746,
+    "candidate_csv_sha256": "16cb5325a62fe68ecb4a33843f100700a1cb18dcb16e0d02e528ea98357363af"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-1.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-1.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 949,
+    "candidate_records": 7434,
+    "seconds": 134.77928709983826,
+    "candidate_csv_sha256": "c04068e9e86d0d369b4ef0facf6edb4061160cc481f6a94a7ea2c43eb76f3e18"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-2.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-2.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1226,
+    "candidate_records": 9609,
+    "seconds": 164.37055325508118,
+    "candidate_csv_sha256": "be227be2bd3ca1b27a276df5051b8ff90c91d87769f06c77af47cd1a54dcd0f4"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-3.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-3.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 908,
+    "candidate_records": 7096,
+    "seconds": 142.1253936290741,
+    "candidate_csv_sha256": "0882ee4a353bb164dff0e9921b856420c71bbc0f72159de9ba671e00ca72c36d"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-4.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-4.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 943,
+    "candidate_records": 7358,
+    "seconds": 268.687885761261,
+    "candidate_csv_sha256": "737e55c4a0087f3a885b7166b099784ab405aab3df95828cacd8084a43001180"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-5.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-5.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1301,
+    "candidate_records": 10079,
+    "seconds": 469.3825876712799,
+    "candidate_csv_sha256": "48060f5072a03d731261729655b4a7766aaee385719e4a5e8b37d2bf382679ff"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-6.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-6.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1075,
+    "candidate_records": 8334,
+    "seconds": 307.747150182724,
+    "candidate_csv_sha256": "edeb860dd3ce7326b556c5a87c82d7238fe1e336a907194371915ce154b14469"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-7.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-7.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 949,
+    "candidate_records": 7313,
+    "seconds": 133.58272790908813,
+    "candidate_csv_sha256": "a506d6d2309533d6579312db6cee6f38c3534f0f37f0ff17a18a8203b144e537"
+  },
+  {
+    "status": "complete",
+    "dataset": "XJTU",
+    "raw_member": "Battery Dataset/Batch-6/Sim_satellite_battery-8.mat",
+    "processed_csv": "XJTU data/Sim_satellite_battery-8.csv",
+    "implementation_sha256": {
+      "extract_raw_feature_candidates.py": "a970a8eb941f1c665cd6a9ee1f0169386b109ad5e7ff574d5cb02156ee372d74",
+      "audit_xjtu_feature_sample.py": "d856ab93d9b5e89d5db189dcb5b2c0fc0fec941cf59305ec4ba208bb68413d2a"
+    },
+    "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+    "selected_by_csv_residual": false,
+    "raw_cycles": 1053,
+    "candidate_records": 8166,
+    "seconds": 169.44459414482117,
+    "candidate_csv_sha256": "aecbccc6e2801341fff26d112feb3a5e211d01482ba52d3e32b10a7ff98a88c6"
+  }
+]

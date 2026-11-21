@@ -1,0 +1,9 @@
+{
+  "source_url": "https://zenodo.org/api/records/10963339/files/Battery%20Dataset.zip/content",
+  "member": "Battery Dataset/Batch-1/2C_battery-1.mat",
+  "member_crc32": "e0240944",
+  "compressed_bytes": 37280214,
+  "uncompressed_bytes": 44388077,
+  "sha256": "336a0c25c9d6e4c18a231c0b4004edfb44fbd7808533490cddf4d073ce854dbb",
+  "downloaded_this_run_bytes": 0
+}

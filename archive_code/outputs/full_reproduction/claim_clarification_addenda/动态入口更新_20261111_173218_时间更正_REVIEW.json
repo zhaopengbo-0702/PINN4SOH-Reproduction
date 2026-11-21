@@ -1,0 +1,67 @@
+{
+  "format": "pinn4soh-dynamic-document-time-correction-review-v1",
+  "checked_at_utc": "2026-11-11T09:35:41.154997+00:00",
+  "time_correction": {
+    "previous_document_hour": "19:27:37 Asia/Shanghai",
+    "correct_previous_observation": "2026-11-11 17:27:37 Asia/Shanghai",
+    "previous_observation_UTC": "2026-11-11T09:27:37Z",
+    "reason": "root execution owner corrected misread hour using UTC clock and terminal OBSERVED timestamp",
+    "old_review_preserved_path": "outputs\\full_reproduction\\claim_clarification_addenda\\动态入口更新_20261111_192737_REVIEW.json",
+    "old_review_preserved_sha256": "58069a857d2fdf8a52e2476c65297bf779ebccef5c0599479b02e406d5314f5d"
+  },
+  "source": "root executor UI/terminal observation, not downloaded original manifest",
+  "latest_snapshot": {
+    "observed_at": "2026-11-11 17:32:18 Asia/Shanghai",
+    "pipeline_pid": 17414,
+    "status": "running",
+    "selection_complete": 18,
+    "total": 162,
+    "active_group": "mit_pinn_selection",
+    "group_complete": 18,
+    "group_total": 27,
+    "gpu_smokes": "both complete one candidate two epochs no test",
+    "confirmation": {
+      "package_bytes": 95020,
+      "sha256": "2dc989f6655754eb0477d0eaa355a4a3a9894920e90d6de835d2a34f1372d7b8",
+      "unpacked": "/workspace/stage_a_confirmation_20261111_v1",
+      "waiter_pid": 18969,
+      "stdin": "/dev/null",
+      "last_log": "WAITING_FOR_STAGE_A 09:32:11Z",
+      "formal_training_started": false
+    },
+    "gpu_observation": {
+      "process_count": 1,
+      "memory_MiB": 1172,
+      "host_pid": 116335,
+      "container_pid_mapping_performed": false
+    }
+  },
+  "screenshots": "Pending file save/link by root execution owner; no fabricated link",
+  "frozen_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    }
+  ],
+  "document_sha256": {
+    "复现结果总入口.md": "8a7d9c3dc482f6973dbe0b4dacd91313b505794687f836c1e75b4cd00576bd25",
+    "本日复现进展_20261111.md": "5437b3f61953085c78982651dc10d3d34e4e29f7783a25df8d7cda6b18a8cb48",
+    "outputs/full_reproduction/执行状态.md": "b2417ad74f94564ae0254c7015ca9e46a88e8afc14c9b3a795436aaa47944afd",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "8bb393dec0b028ff9adde9599b6cc30c5031ee080a36d3ad4c611c022c2b6dcf"
+  },
+  "missing_links": [],
+  "claim_rows": 21,
+  "figure_rows": 25,
+  "status": "passed"
+}

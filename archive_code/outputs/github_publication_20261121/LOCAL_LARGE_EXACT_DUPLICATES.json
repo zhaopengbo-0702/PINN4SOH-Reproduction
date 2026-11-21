@@ -1,0 +1,54 @@
+{
+  "format": "local-large-exact-duplicates-v1",
+  "read_only": true,
+  "minimum_compared_bytes": 20971520,
+  "groups": [
+    {
+      "bytes_each": 1338319780,
+      "sha256": "e422cc82b6b95062809bf72cea8727beb4cb2a360ab09244dcd00f633948e87f",
+      "paths": [
+        "outputs/full_reproduction/legacy-offline-20261110-v1.zip",
+        "outputs/full_reproduction/legacy_reassembly_verified_20261110/legacy-offline-20261110-v1.zip"
+      ],
+      "duplicate_bytes_beyond_one": 1338319780
+    },
+    {
+      "bytes_each": 50370406,
+      "sha256": "0e256e83be1066b9806b30810d9f72d0a65bd67581bc087aeb275764712a9eef",
+      "paths": [
+        "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_evidence_20261110/per_battery.csv",
+        "outputs/full_reproduction/cloud_emergency_recovered/workspace/pinn4soh_full_report_20261110/per_battery.csv"
+      ],
+      "duplicate_bytes_beyond_one": 50370406
+    },
+    {
+      "bytes_each": 53761441,
+      "sha256": "a9fab32d57e4581c9c5937c104e8abac4b43dd1919d4f9632fbc0a6bbbae164b",
+      "paths": [
+        "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/python-3.7.10-h12debd9_4.tar.bz2",
+        "outputs/full_reproduction/legacy_runtime/python-3.7.10-h12debd9_4.tar.bz2"
+      ],
+      "duplicate_bytes_beyond_one": 53761441
+    },
+    {
+      "bytes_each": 38121069,
+      "sha256": "8499d9dd1459dc0d0fe68db0832c3d5fc1361ae8e13d05e6849b358dc3f2c279",
+      "paths": [
+        "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+        "outputs/full_reproduction/legacy_runtime/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      ],
+      "duplicate_bytes_beyond_one": 38121069
+    },
+    {
+      "bytes_each": 1156750317,
+      "sha256": "fe553195c62ce2f3f861ae03295c5dc126c7467e005b3cb9dae6c3be84697ab0",
+      "paths": [
+        "outputs/full_reproduction/legacy_reassembly_verified_20261110/payload/assets/torch-1.7.1+cu110-cp37-cp37m-linux_x86_64.whl",
+        "outputs/full_reproduction/legacy_runtime/torch-1.7.1+cu110-cp37-cp37m-linux_x86_64.whl"
+      ],
+      "duplicate_bytes_beyond_one": 1156750317
+    }
+  ],
+  "duplicate_bytes_beyond_one": 2637323013,
+  "note": "仅同大小且SHA256相同为逐字节副本。目录名相近或旧版本不算重复；不执行删除。"
+}

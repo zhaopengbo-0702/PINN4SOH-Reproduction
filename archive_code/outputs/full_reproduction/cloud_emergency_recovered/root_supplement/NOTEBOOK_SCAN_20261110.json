@@ -1,0 +1,8 @@
+{
+  "roots": [
+    "/workspace",
+    "/root"
+  ],
+  "notebooks": [],
+  "note": "Training executed through saved Python scripts"
+}

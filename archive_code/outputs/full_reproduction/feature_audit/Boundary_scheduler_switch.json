@@ -1,0 +1,17 @@
+{
+  "stopped_at_utc": "2026-11-10T06:45:54.2313622Z",
+  "stopped_pid": 10116,
+  "stopped_process_created_at": "2026-11-10T06:01:45.4319900Z",
+  "stopped_command_line": "\"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\python.exe\" -X utf8 reproduction/supplement_voltage_boundaries.py --watch",
+  "complete_cells_before_boundary": 51,
+  "complete_cells_at_boundary": 52,
+  "running_cells_to_recompute": [
+    {
+      "Path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\feature_audit\\boundary_extraction\\XJTU\\RW_battery-6_53740901573d\\manifest.json",
+      "Status": "running",
+      "ProcessedCsv": "XJTU data/RW_battery-6.csv"
+    }
+  ],
+  "calculation_implementation_changed": false,
+  "stopping_method": "After observing natural completion, terminate the identified raw-data worker; any next-cell partial is recomputed exclusively"
+}

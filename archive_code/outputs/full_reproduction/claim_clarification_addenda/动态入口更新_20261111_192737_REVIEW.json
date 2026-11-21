@@ -1,0 +1,46 @@
+{
+  "format": "pinn4soh-dynamic-document-update-review-v1",
+  "checked_at_utc": "2026-11-11T09:31:48.068141+00:00",
+  "source": "root executor CUA UI/terminal observation 2026-11-11 19:27:37 Asia/Shanghai, not downloaded manifest",
+  "snapshot": {
+    "stage_a_status": "running",
+    "pipeline_pid": 17414,
+    "selection_complete": 17,
+    "selection_total": 162,
+    "active_group": "mit_pinn_selection",
+    "active_group_complete": 17,
+    "active_group_total": 27,
+    "gpu_smokes": "both complete; each one candidate two epochs, no test",
+    "formal_selected_tests_started": false,
+    "confirmation60": "code/package validated; not uploaded or queued",
+    "transfer_robustness": "local validation in progress; not started"
+  },
+  "xjtu192": "192 candidates plus3 selected tests and independent local audit passed",
+  "claim_rows": 21,
+  "figure_rows": 25,
+  "missing_links": [],
+  "frozen_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    }
+  ],
+  "document_sha256": {
+    "复现结果总入口.md": "db948bbb52859621d2fcafae9cf1caf829e32f846aa269da15cfe402bfd0de21",
+    "本日复现进展_20261111.md": "206cc2ca8574cfd1e6798723b9b780974caf2af23637356e51a2c3e1d472ccac",
+    "outputs/full_reproduction/执行状态.md": "ad616bd12566e5377ff702aaa12e796e77f9b66c9c8b939518e1085f5f8b7ee1",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "e17f3d94c68a32e1b536cd8f8be77e6dab4f83db25776de7073bec5ac0b33e0c"
+  },
+  "status": "passed"
+}

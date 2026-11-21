@@ -1,0 +1,40 @@
+{
+  "job": "pinn4soh-legacy-single-20261110",
+  "container": "d04e1d80a254d9559505c9650c424515944df1c7a0460c5619b1bdf04eaa00bf",
+  "verified_at_utc": "2026-11-10T12:40:39.337357Z",
+  "allocated_gpus": 1,
+  "suites": [
+    {
+      "name": "pinn4soh_full_paper_stage1",
+      "tasks": 1880,
+      "counts": {
+        "complete": 1880
+      },
+      "manifest_sha256": "e9a09b847951be1fcc8e9cddf2b954170b312a98872db1bcf32f4630ac766a99",
+      "passed": true
+    },
+    {
+      "name": "pinn4soh_full_paper_stage2",
+      "tasks": 240,
+      "counts": {
+        "complete": 240
+      },
+      "manifest_sha256": "f4ed3cae3010bd398efc23eb7312439f5f300b50ccea7ae52402a37a20d795f0",
+      "passed": true
+    },
+    {
+      "name": "pinn4soh_mit_physical_purity_sensitivity_20261110",
+      "tasks": 40,
+      "counts": {
+        "complete": 40
+      },
+      "manifest_sha256": "8c00896bd8be6573f43b1409c4b11e7b3b34ab9c16a372429d5bd4567540ca1d",
+      "passed": true
+    }
+  ],
+  "report_sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+  "report_sha_match": true,
+  "reference_present": true,
+  "gpu": "0, NVIDIA GeForce RTX 3090, GPU-ca3c9c70-030f-1b8e-35de-8d6caa346d66, 550.54.15, 24576 MiB\n",
+  "limit": "Post-restart manifest/report integrity check; earlier local full artifact hashes retained separately"
+}

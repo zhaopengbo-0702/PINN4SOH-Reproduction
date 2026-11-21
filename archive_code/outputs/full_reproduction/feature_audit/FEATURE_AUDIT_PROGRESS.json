@@ -1,0 +1,153 @@
+{
+  "updated_at_unix": 1794296694.3159661,
+  "raw_datasets": {
+    "XJTU": {
+      "expected_batteries": 55,
+      "complete": 55,
+      "failed": 0,
+      "running": 0,
+      "completed_raw_cycles": 27642,
+      "measured_completed_seconds": 4130.133470535278
+    },
+    "TJU": {
+      "expected_batteries": 130,
+      "complete": 130,
+      "failed": 0,
+      "running": 0,
+      "completed_raw_cycles": 59681,
+      "measured_completed_seconds": 3286.6655695438385
+    },
+    "HUST": {
+      "expected_batteries": 77,
+      "complete": 77,
+      "failed": 0,
+      "running": 0,
+      "completed_raw_cycles": 146122,
+      "measured_completed_seconds": 6898.876313209534
+    }
+  },
+  "total_raw_extraction_complete": 262,
+  "total_raw_extraction_expected": 262,
+  "official_archives": [
+    {
+      "dataset": "HUST",
+      "name": "our_data.zip",
+      "expected_bytes": 1188136932,
+      "official_checksum": "sha256:071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+      "source_url": "https://data.mendeley.com/public-files/datasets/nsc7hnsg4s/files/5ca0ac3e-d598-4d07-8dcb-879aa047e98b/file_downloaded",
+      "status": "verified",
+      "started_at_unix": 1794288053.1080675,
+      "attempt": 1,
+      "downloaded_bytes": 1188136932,
+      "elapsed_seconds": 3107.2994346618652,
+      "average_bytes_per_second": 384542.39598379063,
+      "sha256": "071d24617153693b0d29059568525e620f6af6512acc9d00c98c7adcf15125db",
+      "official_checksum_passed": true
+    },
+    {
+      "dataset": "TJU",
+      "name": "Dataset_1_NCA_battery.zip",
+      "expected_bytes": 579629324,
+      "official_checksum": "md5:cbd6d7eab2a296b52385e025e8d0f42a",
+      "source_url": "https://zenodo.org/api/records/6405084/files/Dataset_1_NCA_battery.zip/content",
+      "status": "verified",
+      "started_at_unix": 1794288538.8136663,
+      "attempt": 1,
+      "downloaded_bytes": 579629324,
+      "elapsed_seconds": 377.0326716899872,
+      "average_bytes_per_second": 1481712.250081485,
+      "sha256": "0d58f6f09f4ada76c2c3ab038ce98926ebdba7d18aaa31a9d7bebdccc9a834ac",
+      "official_checksum_passed": true
+    },
+    {
+      "dataset": "TJU",
+      "name": "Dataset_2_NCM_battery.zip",
+      "expected_bytes": 737047539,
+      "official_checksum": "md5:a05c485df92f4af560d1d8d7f659ce1b",
+      "source_url": "https://zenodo.org/api/records/6405084/files/Dataset_2_NCM_battery.zip/content",
+      "status": "verified",
+      "started_at_unix": 1794288053.105941,
+      "attempt": 6,
+      "downloaded_bytes": 737047539,
+      "last_error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'zenodo.org\\', port=443): Max retries exceeded with url: /api/records/6405084/files/Dataset_2_NCM_battery.zip/content (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001AE6827AC70>: Failed to resolve \\'zenodo.org\\' ([Errno 11004] getaddrinfo failed)\"))'))",
+      "elapsed_seconds": 485.7037265300751,
+      "average_bytes_per_second": 1534352.044398453,
+      "sha256": "942e1dc6cdaf900be350dd36dcb2b310cc49872775f1650e7b3306667e439d0f",
+      "official_checksum_passed": true
+    },
+    {
+      "dataset": "TJU",
+      "name": "Dataset_3_NCM_NCA_battery.zip",
+      "expected_bytes": 356066478,
+      "official_checksum": "md5:d11e68e410a638058906af5e2f5f60f3",
+      "source_url": "https://zenodo.org/api/records/6405084/files/Dataset_3_NCM_NCA_battery.zip/content",
+      "status": "verified",
+      "started_at_unix": 1794288915.8507843,
+      "attempt": 1,
+      "downloaded_bytes": 356066478,
+      "elapsed_seconds": 2419.0585918426514,
+      "average_bytes_per_second": 147443.15311063913,
+      "sha256": "a82e33ada100f91ab6cf99a654bb9f0572ce48ee7edbc5dad9d0665e7eccfe3a",
+      "official_checksum_passed": true
+    },
+    {
+      "dataset": "XJTU",
+      "name": "Battery Dataset.zip",
+      "expected_bytes": 2438769934,
+      "official_checksum": "md5:a635cef9678e0de21f9d5c1f78a4342c",
+      "source_url": "https://zenodo.org/api/records/10963339/files/Battery%20Dataset.zip/content",
+      "status": "verified",
+      "started_at_unix": 1794288053.1049268,
+      "attempt": 6,
+      "downloaded_bytes": 2438769934,
+      "last_error": "ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\\'zenodo.org\\', port=443): Max retries exceeded with url: /api/records/10963339/files/Battery%20Dataset.zip/content (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001AE6827E8B0>: Failed to resolve \\'zenodo.org\\' ([Errno 11004] getaddrinfo failed)\"))'))",
+      "elapsed_seconds": 897.9161279201508,
+      "average_bytes_per_second": 2770802.2864757306,
+      "sha256": "009deeda5ca935bf7b6230497aa492db12af120b6fc5211a9af05352affe55b1",
+      "official_checksum_passed": true
+    }
+  ],
+  "all_262_raw_extractions_complete": true,
+  "supplemental_boundary_expected": 132,
+  "supplemental_boundary_complete": 132,
+  "supplemental_boundary_failed": 0,
+  "local_raw_download_storage_bytes": 5299883781,
+  "local_feature_audit_storage_bytes": 3521796175,
+  "combined_raw_and_feature_storage_bytes": 8821679956,
+  "processed_csv_audit": {
+    "schema": "pinn4soh-feature-csv-audit-v1",
+    "batteries": 387,
+    "paper_claim_batteries": 387,
+    "raw_rows": 310705,
+    "paper_claim_samples": 310705,
+    "raw_row_difference_from_paper": 0,
+    "finite_rows": 310554,
+    "author_cleaned_rows": 303952,
+    "author_adjacent_pairs": 303565,
+    "negative_voltage_kurtosis": 164862,
+    "negative_current_kurtosis": 286509,
+    "constant_columns": [],
+    "sources_unchanged": true,
+    "pearson_aggregation": "Cycles pooled within each paper group; alternative per-battery minmax and equal-battery coefficient mean exported separately",
+    "figure3a_normalization": "Author-cleaned features separately scaled to [-1,1] within each of 8 XJTU Batch-1 cells",
+    "author_preprocessing": "Insert cycle index; drop NaN/Inf; union 3-sigma row exclusion across all features, capacity and cycle index; scale each whole battery including held-out test battery",
+    "interpretation": "Descriptive repeated-cycle correlations; no independent-cycle inference or causal conclusion; no raw extraction claim",
+    "versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.2",
+      "matplotlib": "3.9.1"
+    },
+    "printed_fig3b_reference": {
+      "source": "Manually transcribed displayed two-decimal values from paper PDF p5 Fig3b",
+      "sha256": "7d86d505d3bd6317bd8e5e599ac7af425b336a7ccfac67f2d8e1ede6e39565ea",
+      "independent_transcription_review": "Independent agent visually checked all 176 entries against the original PDF image without viewing computed coefficients; all matched"
+    },
+    "script_sha256": "6fbcb458042671cce8ae94cc775b964d8e3b8b769604169f21475a9d8aadecbc",
+    "figure_style_sha256": "5f6550d8cfbaf8cf7ac080dfa130c426e61117c8cb4d9bf72ae7b5511aed7a5d"
+  },
+  "limitations": [
+    "Raw feature candidates are not silently substituted for released training CSVs",
+    "All slope candidates and entropy definitions remain separately labelled",
+    "MIT derived mirror is audited separately; it is not original-MAT byte identity"
+  ]
+}

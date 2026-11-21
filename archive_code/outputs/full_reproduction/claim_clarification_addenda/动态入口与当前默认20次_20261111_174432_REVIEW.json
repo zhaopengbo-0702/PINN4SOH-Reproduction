@@ -1,0 +1,91 @@
+{
+  "format": "pinn4soh-dynamic-current-defaults-review-v1",
+  "checked_at_utc": "2026-11-11T09:50:44.594886+00:00",
+  "status": "passed",
+  "latest_snapshot": {
+    "observed_at": "2026-11-11 17:44:32 Asia/Shanghai",
+    "source": "root cloud UI terminal, screenshot visually checked locally; original manifests not newly downloaded",
+    "stage_a_status": "running",
+    "selection_complete": 22,
+    "selection_total": 162,
+    "mit_pinn_complete": 22,
+    "mit_pinn_total": 27,
+    "selected_tests_executed": false,
+    "confirmation": "WAITING_FOR_STAGE_A, no60trainingstarted",
+    "last_waiter_log_UTC": "2026-11-11T09:44:12.298344+00:00"
+  },
+  "current_default_audit": {
+    "status": "passed_20",
+    "source_files": 417,
+    "original_evidence_sha_checks": 89,
+    "recovery_artifact_sha_checks": 202,
+    "per_CSV_rows": 430,
+    "additional_training_started": false,
+    "index": "outputs/full_reproduction/current_repo_defaults_reaudited_20261111/LOCAL_CURRENT_DEFAULT_DELIVERY_INDEX.json",
+    "index_sha256": "272052e12ccd365a0f3037b1bbe4a5ec2d816b41017a9db4af48d37a35de73aa"
+  },
+  "screenshots": [
+    {
+      "path": "outputs/full_reproduction/cloud_live_20261111/stage_a18_confirmation_waiting_173218.jpg",
+      "bytes": 310553,
+      "sha256": "5378b84ae5c5fd027e0489f76db2ebc154abf1abf9f2b99961234a85004a2537"
+    },
+    {
+      "path": "outputs/full_reproduction/cloud_live_20261111/stage_a22_confirmation_waiting_search_complete_174432.jpg",
+      "bytes": 307549,
+      "sha256": "a039a94b6b46c4e95caa71b141fca68f94ffe6f083508eec0b7b18516a356fba"
+    }
+  ],
+  "prior_reviews_preserved": [
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口更新_20261111_192737_REVIEW.json",
+      "sha256": "58069a857d2fdf8a52e2476c65297bf779ebccef5c0599479b02e406d5314f5d"
+    },
+    {
+      "path": "outputs/full_reproduction/claim_clarification_addenda/动态入口更新_20261111_173218_时间更正_REVIEW.json",
+      "sha256": "7f7e36c05ac3ba182d08d2413ad405aa157f1793e4a03ba2c4e68d1c9b24ade5"
+    }
+  ],
+  "replacement_final_pipeline": {
+    "observed_status": "complete",
+    "original_downloaded": false,
+    "observation_path": "outputs/full_reproduction/claim_clarification_addenda/192搜索最终pipeline_云终端观察_20261111_174432.json"
+  },
+  "transfer_local_acceptance": {
+    "path": "outputs/full_reproduction/transfer_robustness_preregistered_20261111/ACCEPTANCE.json",
+    "sha256": "9478d8334d1f50f55dd4236181fae93e5cdad0d2500cd81118d1d64bfa7c0ef5",
+    "total_target_training": 187,
+    "cloud_deployed": false,
+    "target_labeled_train_cells": 1,
+    "extra_labeled_validation_cells": 20,
+    "test_cells": 22
+  },
+  "frozen_checks": [
+    {
+      "path": "outputs/full_reproduction/final_results_2120/suite_report.json",
+      "sha256": "ebdc9f8a7ddeef608ee93a4b4aa6215b8ad06ac4b26e75d744233419f76d9738",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/claim_decisions_21.csv",
+      "sha256": "01e16e72ddcf8c28f55d7c57773cc8c42a412e8cb92c26744de2fae05ee63428",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/full_reproduction/final_results_2120/independent_review_complete/figure_table_evidence_map_25.csv",
+      "sha256": "106ada4af838f80b533c2e7a99bc2cb6874142786110ae6276cede6f550dcf96",
+      "unchanged": true
+    }
+  ],
+  "document_sha256": {
+    "复现结果总入口.md": "e0ddd7dbb04ca439eb096497d8d5bf64e5ee4fd578859233b822378bbd2d4245",
+    "本日复现进展_20261111.md": "269aa334126f6ca3286f506f7a8610958c21335aadc7fae0e448c68c2be29cbf",
+    "outputs/full_reproduction/执行状态.md": "42f3873ea5811967d6b6c3c029455f6c61b696d7a996316826d78e0e02a8623f",
+    "整篇论文复现覆盖与未复现清单_20261111.md": "8acb3a774ce0f141f716ebbb5d7f77594110703715fed9eca0535c775e88a375"
+  },
+  "code_provenance_sha256": "cf792900d18cb29adc81fe5603b279648bfff865ccf2d2ed847ae77e2f6cfdfb",
+  "claim_rows": 21,
+  "figure_rows": 25,
+  "missing_links": [],
+  "self_link_check_note": "Review self-link checked after file creation using resolved absolute paths; all links now exist."
+}

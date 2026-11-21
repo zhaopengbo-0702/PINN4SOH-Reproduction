@@ -1,0 +1,16 @@
+{
+  "stopped_at_utc": "2026-11-10T06:24:08.9918893Z",
+  "stopped_pid": 24064,
+  "stopped_command_line": "\"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\python.exe\" -X utf8 reproduction/extract_raw_feature_candidates.py --datasets HUST --watch",
+  "complete_cells_before_boundary": 8,
+  "complete_cells_at_boundary": 9,
+  "running_cells_to_recompute": [
+    {
+      "Path": "C:\\Users\\Administrator\\Desktop\\复现PINN4SOH\\outputs\\full_reproduction\\feature_audit\\raw_extraction\\HUST\\10-2_c71cd7d9ba1d\\manifest.json",
+      "Status": "running",
+      "ProcessedCsv": "HUST data/10-2.csv"
+    }
+  ],
+  "calculation_implementation_changed": false,
+  "stopping_method": "After observing natural completion, terminate HUST-only watcher; any next-cell partial is recomputed exclusively"
+}

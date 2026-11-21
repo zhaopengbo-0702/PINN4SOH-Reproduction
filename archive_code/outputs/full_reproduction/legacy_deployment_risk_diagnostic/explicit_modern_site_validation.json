@@ -1,0 +1,30 @@
+{
+  "format": "pinn4soh-explicit-modern-site-sidecar-validation-v1",
+  "files": {
+    "compare_runtime_observations.py": {
+      "sha256": "bc3e93c78bbc77c81d250ca8220492ec87ffedeb3d713401e0ef20984b1ac7b4",
+      "bytes": 11058
+    },
+    "test_compare_runtime_observations.py": {
+      "sha256": "cbcca1ff02f8e075815d3144ee87667f2e0f360c777a1a194739cb31a1ef365a",
+      "bytes": 4921
+    },
+    "collect_legacy_results.py": {
+      "sha256": "5c59322d6c02fb39cbe9e11814728f5d035169496bde97d6df4e10992cd270b9",
+      "bytes": 14313
+    },
+    "test_collect_legacy_results.py": {
+      "sha256": "e63c3e44ce28e1298406c76f72574d16b1ecb634e5cbcae4faca53cc6e425020",
+      "bytes": 6087
+    }
+  },
+  "observation_tests_passed": 7,
+  "collector_tests_passed": 3,
+  "python37_syntax_passed": true,
+  "legacy_injection_forbidden": true,
+  "pth_not_processed": true,
+  "training_performed": false,
+  "frozen_runtime_tools_modified": false,
+  "cloud_attempt1_preserved_by_new_output_name": true,
+  "collector_includes_both_attempt_jsons": true
+}
